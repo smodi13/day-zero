@@ -1,0 +1,43 @@
+# --- Secrets: never commit ---
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+credentials.json
+config/secrets.yaml
+
+# --- Caches / build ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+node_modules/
+.next/
+dist/
+build/
+*.egg-info/
+
+# --- Local data: regenerable or raw third-party payloads ---
+data/cache/
+data/raw/
+data/state/
+*.db
+*.sqlite
+*.sqlite3
+raw_dumps/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# --- Browser profiles / automation artifacts ---
+.playwright-mcp/
+browser-profiles/
