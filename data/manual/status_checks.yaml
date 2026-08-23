@@ -1,0 +1,27 @@
+# Public status checks for candidate projects/teams.
+#
+# `status` answers: how visible and how financed is this, publicly, at the research
+# date? It is used ONLY as a disqualifier (a heavily financed, publicly announced
+# company is not a Day 0 discovery) — never as a positive ranking input.
+#
+# Allowed: project_only | forming | launched | seed_or_pre_seed_public |
+#          institutional_round_public | acquired | public_company | unknown
+#
+# Data collection continues after the rule freeze. The RULES are frozen; the DATA is
+# not, and must not be — a sourcing engine that stops looking is not a sourcing engine.
+records:
+  - subject: "qpoint-io/qtap"
+    status: launched
+    as_of: "2026-08-22"
+    source: "https://qpoint.io/products/qtap"
+    notes: "Commercial product page; existing company."
+  - subject: "future-agi/future-agi"
+    status: launched
+    as_of: "2026-08-22"
+    source: "https://futureagi.com"
+    notes: "Commercial platform with a hosted offering."
+  - subject: "vectorize-io/hindsight"
+    status: launched
+    as_of: "2026-08-22"
+    source: "https://hindsight.vectorize.io/"
+    notes: "GitHub org created 2021-04-03; established company."

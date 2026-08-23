@@ -1,0 +1,34 @@
+[
+  {
+    "error": "gh api repos/secureagentics/Adrian/contributors?per_page=10 failed: Get \"https://api.github.com/repos/secureagentics/Adrian/contributors?per_page=10\": read tcp 10.2.216.32:64213->140.82.116.6:443: rea",
+    "repo": "secureagentics/Adrian"
+  },
+  {
+    "error": "gh api repos/agentcontrol/agent-control failed: Get \"https://api.github.com/repos/agentcontrol/agent-control\": read tcp 10.2.216.32:64298->140.82.116.5:443: read: connection reset by peer",
+    "repo": "agentcontrol/agent-control"
+  },
+  {
+    "error": "gh api repos/ascending-llc/jarvis-registry/releases?per_page=30 failed: Get \"https://api.github.com/repos/ascending-llc/jarvis-registry/releases?per_page=30\": read tcp 10.2.216.32:64493->140.82.116.6:",
+    "repo": "ascending-llc/jarvis-registry"
+  },
+  {
+    "error": "gh api users/zkevinbai failed: Get \"https://api.github.com/users/zkevinbai\": read tcp 10.2.216.32:64991->140.82.116.5:443: read: connection reset by peer",
+    "user": "zkevinbai"
+  },
+  {
+    "error": "gh api orgs/OpenIntegrationEngine failed: Get \"https://api.github.com/orgs/OpenIntegrationEngine\": dial tcp 140.82.116.6:443: i/o timeout",
+    "org": "OpenIntegrationEngine"
+  },
+  {
+    "error": "gh api users/Copilot failed: gh: Not Found (HTTP 404)",
+    "user": "Copilot"
+  },
+  {
+    "error": "gh api orgs/7df-lab failed: Get \"https://api.github.com/orgs/7df-lab\": read tcp 10.2.216.32:65349->140.82.116.5:443: read: connection reset by peer",
+    "org": "7df-lab"
+  },
+  {
+    "error": "gh api repos/multikernel/multikernel failed: gh: Not Found (HTTP 404)",
+    "repo": "multikernel/multikernel"
+  }
+]

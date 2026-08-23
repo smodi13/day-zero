@@ -1,0 +1,25 @@
+version: 1
+evidence_status:
+  OBSERVED: {label: "Directly present in a cited source", may_support_state: true}
+  INFERRED: {label: "Analyst or rule-derived reading of sources", may_support_state: false}
+  UNKNOWN:  {label: "Not established", may_support_state: false}
+
+# AI-produced values are NEVER evidence. They live in ai_classifications.
+ai_policy:
+  storage_table: ai_classifications
+  may_write_evidence: false
+  promotion_requires: human_verification_against_source
+
+required_evidence_fields:
+  - evidence_id
+  - entity_id
+  - entity_type
+  - claim_type
+  - claim_class
+  - observed_claim
+  - source_id
+  - evidence_date        # when the underlying fact existed (drives cutoffs)
+  - source_accessed_at   # when we retrieved it
+  - quality_tier
+  - authority_for_claim  # tier resolved via source_quality.yaml authority_rules
+  - evidence_status

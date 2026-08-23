@@ -1,0 +1,25 @@
+version: 1
+# NINE independent dimensions. There is NO total. Enforced by tests.
+dimensions:
+  technical_difficulty:          {values: [L0, L1, L2, L3, L4, UNKNOWN]}
+  originality:                   {values: [novel_mechanism, novel_application, competent_reimplementation, assembly, reupload, UNKNOWN]}
+  systems_depth:                 {values: [high, medium, low, none, UNKNOWN]}
+  research_depth:                {values: [peer_reviewed, preprint, none_found, UNKNOWN]}
+  reproducibility:               {values: [fully, partially, claim_only, unfalsifiable, UNKNOWN]}
+  performance_evidence:          {values: [specific_claim_with_baseline, specific_claim_no_baseline, vague_claim, none, UNKNOWN]}
+  usage_evidence:                {values: [third_party_named, downstream_dependents, community_only, none, UNKNOWN]}
+  architecture_clarity:          {values: [documented, partial, undocumented, UNKNOWN]}
+  defensibility_question_quality: {values: [specific, generic, none, UNKNOWN]}
+forbidden_fields:
+  - total
+  - score
+  - founder_score
+  - startup_score
+  - quality_score
+  - investment_score
+  - probability_of_founding
+  - probability_of_success
+  - unicorn_probability
+each_value_requires:
+  - evidence_status   # OBSERVED / INFERRED / UNKNOWN
+  - basis             # free text pointing at what was looked at

@@ -1,0 +1,60 @@
+# Source authority is a property of the (source, claim_type) PAIR, not of the domain.
+# Phase 1: research/source_quality.md
+version: 1
+tiers:
+  1: {label: "Primary artifact / first-party record"}
+  2: {label: "Strong independent source"}
+  3: {label: "Discovery pointer"}
+
+# Default tier by source type when the source is NOT the subject of the claim.
+default_tier:
+  github_repo: 1
+  github_user: 1
+  github_org: 1
+  github_commits: 1
+  github_releases: 1
+  arxiv_paper: 1
+  package_registry: 1
+  project_site: 1
+  company_site: 1
+  mailing_list: 1
+  filing: 1
+  access_policy: 1
+  hackathon_official: 1
+  press: 2
+  press_release: 2
+  event_listing: 2
+  aggregator: 3
+  x_post: 3
+
+# THE CORE RULE.
+# A first-party statement (the builder's own post/site) is Tier 1 authority for the
+# claim "this person publicly stated X" and Tier 3 authority for the claim itself.
+authority_rules:
+  - id: AR-1
+    when: {first_party: true, claim_class: statement}
+    authority: 1
+    note: "Authoritative that the statement was made, at that time, by that account."
+  - id: AR-2
+    when: {first_party: true, claim_class: technical_performance}
+    authority: 3
+    note: "A builder's own performance claim is not evidence the claim is true."
+  - id: AR-3
+    when: {first_party: true, claim_class: commercial}
+    authority: 3
+    note: "Self-reported customers/usage require a non-subject source."
+  - id: AR-4
+    when: {first_party: true, claim_class: formation}
+    authority: 1
+    note: "An explicit first-person founder statement is authoritative that they said it."
+  - id: AR-5
+    when: {source_type: github_repo, claim_class: construction}
+    authority: 1
+    note: "Commit/release/creation metadata is machine-verifiable."
+  - id: AR-6
+    when: {source_type: x_post, claim_class: construction}
+    authority: 3
+    note: "A post about a repo is a pointer to the repo, not a second witness."
+
+# claim_class values used above
+claim_classes: [statement, construction, technical_depth, technical_performance, formation, commercial, identity, status, career]

@@ -1,0 +1,7 @@
+# SF ecosystem events — MANUAL RESEARCH SOURCE.
+#
+# attendance_status is NEVER set by the system. It defaults to NOT_ATTENDED and only
+# a human may change it. DAY ZERO does not represent the operator as having attended
+# anything.
+availability: MANUAL_ONLY
+records: []

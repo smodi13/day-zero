@@ -1,0 +1,2672 @@
+[
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:73fbee534a738ba6",
+    "channel": "github",
+    "display_name": "0xSero",
+    "handle": "0xSero",
+    "identity_confidence": "high",
+    "person_id": "person:6c683d05263560c5",
+    "profile_url": "https://github.com/0xSero"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Nik",
+    "handle": "0xghost42",
+    "identity_confidence": "medium",
+    "person_id": "person:ea164c05f80f22fc",
+    "profile_url": "https://github.com/0xghost42"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Anderson Lin",
+    "handle": "4ndersonLin",
+    "identity_confidence": "medium",
+    "person_id": "person:b7e46e560f50397b",
+    "profile_url": "https://github.com/4ndersonLin"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:446a0bae8becaa97",
+    "channel": "github",
+    "display_name": null,
+    "handle": "ADD-SP",
+    "identity_confidence": "medium",
+    "person_id": "person:3106444beb78d27e",
+    "profile_url": "https://github.com/ADD-SP"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Aaron Aspinwall",
+    "handle": "AaronAspinwall123",
+    "identity_confidence": "medium",
+    "person_id": "person:edbe3a343524b0b8",
+    "profile_url": "https://github.com/AaronAspinwall123"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Adarsh Tiwari",
+    "handle": "Adarsh9977",
+    "identity_confidence": "medium",
+    "person_id": "person:95144dbce05b50e2",
+    "profile_url": "https://github.com/Adarsh9977"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Alan Buscaglia",
+    "handle": "Alan-TheGentleman",
+    "identity_confidence": "high",
+    "person_id": "person:640b5bcc5ac9e115",
+    "profile_url": "https://github.com/Alan-TheGentleman"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Hanglong Lv",
+    "handle": "Albus2002",
+    "identity_confidence": "medium",
+    "person_id": "person:3c6b5b37e2f6a0cc",
+    "profile_url": "https://github.com/Albus2002"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Arnav",
+    "handle": "Ar9av",
+    "identity_confidence": "high",
+    "person_id": "person:afe64936423a4dfd",
+    "profile_url": "https://github.com/Ar9av"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:3b8dd00a9037c805",
+    "channel": "github",
+    "display_name": "cr-ArielSilver",
+    "handle": "ArielSilver99",
+    "identity_confidence": "medium",
+    "person_id": "person:9112af3c54a59978",
+    "profile_url": "https://github.com/ArielSilver99"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Beni Hakak",
+    "handle": "Benihakak",
+    "identity_confidence": "medium",
+    "person_id": "person:34353c161d5a2e83",
+    "profile_url": "https://github.com/Benihakak"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:e3a4983c725020e6",
+    "channel": "github",
+    "display_name": "Bobur Umurzokov",
+    "handle": "Boburmirzo",
+    "identity_confidence": "high",
+    "person_id": "person:0551e1669a031448",
+    "profile_url": "https://github.com/Boburmirzo"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:691d67ea1a26436c",
+    "channel": "github",
+    "display_name": "CAICAII",
+    "handle": "CAICAIIs",
+    "identity_confidence": "medium",
+    "person_id": "person:ce3eb849f8a5f1f1",
+    "profile_url": "https://github.com/CAICAIIs"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "CR-OleksiiZapryvoda",
+    "identity_confidence": "low",
+    "person_id": "person:c203f0c6a1e3eba6",
+    "profile_url": "https://github.com/CR-OleksiiZapryvoda"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "CaralHsi",
+    "identity_confidence": "low",
+    "person_id": "person:3897c3b1bb4730bb",
+    "profile_url": "https://github.com/CaralHsi"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Chang Su",
+    "handle": "CatherineSue",
+    "identity_confidence": "medium",
+    "person_id": "person:a2bb3b7521dcf7d9",
+    "profile_url": "https://github.com/CatherineSue"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "Cheerego7",
+    "identity_confidence": "medium",
+    "person_id": "person:980d9ec64b26502a",
+    "profile_url": "https://github.com/Cheerego7"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Chirag Honnyal",
+    "handle": "Chirag6722",
+    "identity_confidence": "high",
+    "person_id": "person:1b3e43aa71cb1c9a",
+    "profile_url": "https://github.com/Chirag6722"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "Cyb3rb1ade",
+    "identity_confidence": "low",
+    "person_id": "person:13d16010a377cb89",
+    "profile_url": "https://github.com/Cyb3rb1ade"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "yulin.deng",
+    "handle": "DYL521",
+    "identity_confidence": "high",
+    "person_id": "person:7b99f5df32f1c750",
+    "profile_url": "https://github.com/DYL521"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Devin Bernosky",
+    "handle": "Devin-qpoint",
+    "identity_confidence": "medium",
+    "person_id": "person:d018a2591bb5d992",
+    "profile_url": "https://github.com/Devin-qpoint"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "dorianzheng",
+    "handle": "DorianZheng",
+    "identity_confidence": "high",
+    "person_id": "person:f02c31d89d66b87f",
+    "profile_url": "https://github.com/DorianZheng"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Xi Lin",
+    "handle": "Erix025",
+    "identity_confidence": "medium",
+    "person_id": "person:5f2c62b04c4e9de7",
+    "profile_url": "https://github.com/Erix025"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Bo-Jun (Ray) Huang",
+    "handle": "ExplorerRay",
+    "identity_confidence": "medium",
+    "person_id": "person:ab1b1bd23859928d",
+    "profile_url": "https://github.com/ExplorerRay"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "FZ2000",
+    "identity_confidence": "low",
+    "person_id": "person:93185c93b3bf92fa",
+    "profile_url": "https://github.com/FZ2000"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Fareed Khan",
+    "handle": "FareedKhan-dev",
+    "identity_confidence": "medium",
+    "person_id": "person:caba441105bc6858",
+    "profile_url": "https://github.com/FareedKhan-dev"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:b60e5f59075d41dd",
+    "channel": "github",
+    "display_name": "Salt Sato",
+    "handle": "FeathBow",
+    "identity_confidence": "medium",
+    "person_id": "person:9b9cac3cf4feba1b",
+    "profile_url": "https://github.com/FeathBow"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:7da8ec62e832929f",
+    "channel": "github",
+    "display_name": "Florian BRUNIAUX",
+    "handle": "FlorianBruniaux",
+    "identity_confidence": "high",
+    "person_id": "person:fac4e26c5b902538",
+    "profile_url": "https://github.com/FlorianBruniaux"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "G4614",
+    "identity_confidence": "low",
+    "person_id": "person:af4fe55acaf13b30",
+    "profile_url": "https://github.com/G4614"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Jai Pandey",
+    "handle": "JaiCodes77",
+    "identity_confidence": "medium",
+    "person_id": "person:2429494a371d4c42",
+    "profile_url": "https://github.com/JaiCodes77"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Jason Zhou",
+    "handle": "JayZeeDesign",
+    "identity_confidence": "medium",
+    "person_id": "person:9fd9ef53370d3548",
+    "profile_url": "https://github.com/JayZeeDesign"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "JD Davis",
+    "handle": "JerrettDavis",
+    "identity_confidence": "high",
+    "person_id": "person:c7d2a4d7edf54004",
+    "profile_url": "https://github.com/JerrettDavis"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Johnna Liu",
+    "handle": "JohnnaJLiu",
+    "identity_confidence": "medium",
+    "person_id": "person:1fdb35b687170398",
+    "profile_url": "https://github.com/JohnnaJLiu"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "Karib0u",
+    "identity_confidence": "low",
+    "person_id": "person:4157aa39ed166f91",
+    "profile_url": "https://github.com/Karib0u"
+  },
+  {
+    "career_signal_class": "YOUNG_BUILDER",
+    "career_signal_evidence_id": "ev:9aa4c4e620ed3d2e",
+    "channel": "github",
+    "display_name": "Hideaki Takahashi",
+    "handle": "Koukyosyumei",
+    "identity_confidence": "high",
+    "person_id": "person:1cc9ac18d4f54ee6",
+    "profile_url": "https://github.com/Koukyosyumei"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "littlefisher",
+    "handle": "Littlefisher619",
+    "identity_confidence": "medium",
+    "person_id": "person:80c47c8ee18292b4",
+    "profile_url": "https://github.com/Littlefisher619"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Mochammad Fadhlan Al-Ghiffari",
+    "handle": "MFA-G",
+    "identity_confidence": "medium",
+    "person_id": "person:878f5542db145578",
+    "profile_url": "https://github.com/MFA-G"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Yossi Elkrief",
+    "handle": "MaTriXy",
+    "identity_confidence": "medium",
+    "person_id": "person:bf494e7a92ced639",
+    "profile_url": "https://github.com/MaTriXy"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Madhusudhanan G",
+    "handle": "Madhumasa84",
+    "identity_confidence": "medium",
+    "person_id": "person:4cba25391b0babc3",
+    "profile_url": "https://github.com/Madhumasa84"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:8518ecf300b969af",
+    "channel": "github",
+    "display_name": "Mao Popovich",
+    "handle": "MaoPopovich",
+    "identity_confidence": "medium",
+    "person_id": "person:dc9e3018b7ad5218",
+    "profile_url": "https://github.com/MaoPopovich"
+  },
+  {
+    "career_signal_class": "YOUNG_BUILDER",
+    "career_signal_evidence_id": "ev:19e1f6eb2ab87ac3",
+    "channel": "github",
+    "display_name": "Ziming Mao",
+    "handle": "MaoZiming",
+    "identity_confidence": "high",
+    "person_id": "person:199387d914c3e8e1",
+    "profile_url": "https://github.com/MaoZiming"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "menashi.dev",
+    "handle": "Menashi-Admin",
+    "identity_confidence": "medium",
+    "person_id": "person:fcd9d67eca488af4",
+    "profile_url": "https://github.com/Menashi-Admin"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "N V J K Kartik",
+    "handle": "NVJKKartik",
+    "identity_confidence": "medium",
+    "person_id": "person:1c4293030b99d386",
+    "profile_url": "https://github.com/NVJKKartik"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:eb689346a9e41272",
+    "channel": "github",
+    "display_name": "Nir Diamant",
+    "handle": "NirDiamant",
+    "identity_confidence": "high",
+    "person_id": "person:ae8f8c2077b252e5",
+    "profile_url": "https://github.com/NirDiamant"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Nitish Gourishetty",
+    "handle": "NitishGourishetty",
+    "identity_confidence": "high",
+    "person_id": "person:b0e9db910f487402",
+    "profile_url": "https://github.com/NitishGourishetty"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:a759996eef20c78f",
+    "channel": "github",
+    "display_name": "Nivedit Jain",
+    "handle": "NiveditJain",
+    "identity_confidence": "high",
+    "person_id": "person:2054ed942488f0ca",
+    "profile_url": "https://github.com/NiveditJain"
+  },
+  {
+    "career_signal_class": "YOUNG_BUILDER",
+    "career_signal_evidence_id": "ev:cf9423c68b71154f",
+    "channel": "github",
+    "display_name": "Ahmad Othman Ammar Adi",
+    "handle": "OthmanAdi",
+    "identity_confidence": "high",
+    "person_id": "person:3f43f2b94d8b1ed3",
+    "profile_url": "https://github.com/OthmanAdi"
+  },
+  {
+    "career_signal_class": "OPERATOR_TO_FOUNDER",
+    "career_signal_evidence_id": "ev:aa3e65dfefef8e7b",
+    "channel": "github",
+    "display_name": "Oussama Gabouj",
+    "handle": "Ousso11",
+    "identity_confidence": "high",
+    "person_id": "person:0ce1a219e438b8e6",
+    "profile_url": "https://github.com/Ousso11"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:b87af8d537b5edd6",
+    "channel": "github",
+    "display_name": "epha",
+    "handle": "Pangjiping",
+    "identity_confidence": "high",
+    "person_id": "person:6ba1979f377fe6de",
+    "profile_url": "https://github.com/Pangjiping"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Prathit",
+    "handle": "Prat011",
+    "identity_confidence": "medium",
+    "person_id": "person:3f113f50de0bbca0",
+    "profile_url": "https://github.com/Prat011"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "QingyuLiu",
+    "identity_confidence": "low",
+    "person_id": "person:ac84ae1db7829d8c",
+    "profile_url": "https://github.com/QingyuLiu"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Ryan Codrai",
+    "handle": "RyanCodrai",
+    "identity_confidence": "medium",
+    "person_id": "person:6bbde08d6a45e231",
+    "profile_url": "https://github.com/RyanCodrai"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:251265bf916e308e",
+    "channel": "github",
+    "display_name": "Shao Shuai",
+    "handle": "ShaoShuai0605",
+    "identity_confidence": "high",
+    "person_id": "person:9deb51c4545e0ac2",
+    "profile_url": "https://github.com/ShaoShuai0605"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:56bc79e17a2730c5",
+    "channel": "github",
+    "display_name": "Siddartha Aralakuppe Yogesha",
+    "handle": "SiddarthAA",
+    "identity_confidence": "high",
+    "person_id": "person:d404750574d87a6f",
+    "profile_url": "https://github.com/SiddarthAA"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Wanderlust",
+    "handle": "SiyuanSun0736",
+    "identity_confidence": "medium",
+    "person_id": "person:8306579c6c3536f7",
+    "profile_url": "https://github.com/SiyuanSun0736"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "SleuthCo.AI",
+    "handle": "SleuthCo",
+    "identity_confidence": "medium",
+    "person_id": "person:216aa122f024a4a4",
+    "profile_url": "https://github.com/SleuthCo"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Mohammed Ateeq",
+    "handle": "TPAteeq",
+    "identity_confidence": "high",
+    "person_id": "person:0f003bc3176e6429",
+    "profile_url": "https://github.com/TPAteeq"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Tanmay Shirbhayye",
+    "handle": "Tanmay-008",
+    "identity_confidence": "medium",
+    "person_id": "person:e34b98e6a77d40d2",
+    "profile_url": "https://github.com/Tanmay-008"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:56ec31da17a714bb",
+    "channel": "github",
+    "display_name": "Thamindu Dilshan Jayawickrama",
+    "handle": "ThaminduDilshan",
+    "identity_confidence": "medium",
+    "person_id": "person:c2c9daadf40cb315",
+    "profile_url": "https://github.com/ThaminduDilshan"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Matheus Henrique",
+    "handle": "TheusHen",
+    "identity_confidence": "high",
+    "person_id": "person:7030fcf9b3a80bbd",
+    "profile_url": "https://github.com/TheusHen"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "Travis-Turner",
+    "identity_confidence": "low",
+    "person_id": "person:0857b3e30bbd853b",
+    "profile_url": "https://github.com/Travis-Turner"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:dda6816e35a390f6",
+    "channel": "github",
+    "display_name": "Vaibhav Upreti",
+    "handle": "VaibhavUpreti",
+    "identity_confidence": "medium",
+    "person_id": "person:6ca1654019648554",
+    "profile_url": "https://github.com/VaibhavUpreti"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Victor Evogor",
+    "handle": "Victor-Evogor",
+    "identity_confidence": "high",
+    "person_id": "person:018c413cfefb7a1e",
+    "profile_url": "https://github.com/Victor-Evogor"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:a9cdc7b91ac7e2d5",
+    "channel": "github",
+    "display_name": "Vimukthi Rajapaksha",
+    "handle": "VimukthiRajapaksha",
+    "identity_confidence": "high",
+    "person_id": "person:861bcc12ce828847",
+    "profile_url": "https://github.com/VimukthiRajapaksha"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:750750ad665541c2",
+    "channel": "github",
+    "display_name": "WaylandYang",
+    "handle": "WaylandYang",
+    "identity_confidence": "medium",
+    "person_id": "person:469f577f4a961cc3",
+    "profile_url": "https://github.com/WaylandYang"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "WeianMao",
+    "handle": "WeianMao",
+    "identity_confidence": "medium",
+    "person_id": "person:c4888a145aa1bda1",
+    "profile_url": "https://github.com/WeianMao"
+  },
+  {
+    "career_signal_class": "YOUNG_BUILDER",
+    "career_signal_evidence_id": "ev:5231f2ba91c1461f",
+    "channel": "github",
+    "display_name": "Yang Zhou",
+    "handle": "YangZhou1997",
+    "identity_confidence": "high",
+    "person_id": "person:140386dfdf7dfec9",
+    "profile_url": "https://github.com/YangZhou1997"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:f77aaf240e8315b5",
+    "channel": "github",
+    "display_name": "Aaron Lippold",
+    "handle": "aaronlippold",
+    "identity_confidence": "medium",
+    "person_id": "person:7933e63a3074ea43",
+    "profile_url": "https://github.com/aaronlippold"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Amit Arora",
+    "handle": "aarora79",
+    "identity_confidence": "medium",
+    "person_id": "person:831f218939cf50e8",
+    "profile_url": "https://github.com/aarora79"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Abhay Singh",
+    "handle": "abhay-codes07",
+    "identity_confidence": "medium",
+    "person_id": "person:1d41b04fb8be85f5",
+    "profile_url": "https://github.com/abhay-codes07"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Abhinav Gupta",
+    "handle": "abhinav-galileo",
+    "identity_confidence": "medium",
+    "person_id": "person:29fadc3084d1ab35",
+    "profile_url": "https://github.com/abhinav-galileo"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:fdfee0666cab5ed6",
+    "channel": "github",
+    "display_name": "Abhinav Mahajan",
+    "handle": "abhinav-m22",
+    "identity_confidence": "high",
+    "person_id": "person:ebeaa0c1beaada58",
+    "profile_url": "https://github.com/abhinav-m22"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "abigfatstone",
+    "identity_confidence": "low",
+    "person_id": "person:dcf20c3e32f0207c",
+    "profile_url": "https://github.com/abigfatstone"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "actions-user",
+    "identity_confidence": "medium",
+    "person_id": "person:c4a782eaffec203e",
+    "profile_url": "https://github.com/actions-user"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Adam Miribyan",
+    "handle": "adammiribyan",
+    "identity_confidence": "medium",
+    "person_id": "person:acf51f621cbba723",
+    "profile_url": "https://github.com/adammiribyan"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "adarsh-fiber",
+    "identity_confidence": "low",
+    "person_id": "person:db6161e07b4d966d",
+    "profile_url": "https://github.com/adarsh-fiber"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "ADITYA",
+    "handle": "adity982",
+    "identity_confidence": "medium",
+    "person_id": "person:5474d0996593c5ad",
+    "profile_url": "https://github.com/adity982"
+  },
+  {
+    "career_signal_class": "YOUNG_BUILDER",
+    "career_signal_evidence_id": "ev:42fc5f9578ce414a",
+    "channel": "github",
+    "display_name": "aesoft",
+    "handle": "aeppling",
+    "identity_confidence": "high",
+    "person_id": "person:c56e5bad63e8313a",
+    "profile_url": "https://github.com/aeppling"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "akbash",
+    "handle": "akbash-bot",
+    "identity_confidence": "high",
+    "person_id": "person:bd3a3e6167df8f66",
+    "profile_url": "https://github.com/akbash-bot"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Guillermo Robles Jr.",
+    "handle": "ambushalgorithm",
+    "identity_confidence": "high",
+    "person_id": "person:c71d273f96a8633e",
+    "profile_url": "https://github.com/ambushalgorithm"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Ananjan Nandi",
+    "handle": "ananjan-nandi-9",
+    "identity_confidence": "medium",
+    "person_id": "person:693906b206df06a0",
+    "profile_url": "https://github.com/ananjan-nandi-9"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:17caceb3c2beb41f",
+    "channel": "github",
+    "display_name": "Andrew Boldi",
+    "handle": "andrewboldi",
+    "identity_confidence": "medium",
+    "person_id": "person:b1a4a867554a7272",
+    "profile_url": "https://github.com/andrewboldi"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Aditya Vikram Singh",
+    "handle": "avs-io",
+    "identity_confidence": "medium",
+    "person_id": "person:64a94457114a793e",
+    "profile_url": "https://github.com/avs-io"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Ben Cochran",
+    "handle": "azurewraith",
+    "identity_confidence": "medium",
+    "person_id": "person:825a7ee78777e919",
+    "profile_url": "https://github.com/azurewraith"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Ben",
+    "handle": "benfrank241",
+    "identity_confidence": "high",
+    "person_id": "person:17e29b785ed59e11",
+    "profile_url": "https://github.com/benfrank241"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Ben Sigman",
+    "handle": "bensig",
+    "identity_confidence": "high",
+    "person_id": "person:1c169ff1fadbe62e",
+    "profile_url": "https://github.com/bensig"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Bob Lee",
+    "handle": "bobleer",
+    "identity_confidence": "high",
+    "person_id": "person:d73524d9b0d6e092",
+    "profile_url": "https://github.com/bobleer"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Brent Moen",
+    "handle": "brentmoen",
+    "identity_confidence": "medium",
+    "person_id": "person:80ce309e716bb56c",
+    "profile_url": "https://github.com/brentmoen"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:5883b977edef7220",
+    "channel": "github",
+    "display_name": "Brion Mario",
+    "handle": "brionmario",
+    "identity_confidence": "high",
+    "person_id": "person:4c82a801b053ff83",
+    "profile_url": "https://github.com/brionmario"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Brontoguana",
+    "handle": "brontoguana",
+    "identity_confidence": "medium",
+    "person_id": "person:38eda22ecec71a9a",
+    "profile_url": "https://github.com/brontoguana"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Camphora",
+    "handle": "camphora",
+    "identity_confidence": "medium",
+    "person_id": "person:b9ad03df6640803e",
+    "profile_url": "https://github.com/camphora"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Carlos Mario Mora Restrepo",
+    "handle": "carlosmoradev",
+    "identity_confidence": "high",
+    "person_id": "person:a3c829b4bb296439",
+    "profile_url": "https://github.com/carlosmoradev"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Chang Liu",
+    "handle": "changliu2",
+    "identity_confidence": "medium",
+    "person_id": "person:1c2bd891b0044587",
+    "profile_url": "https://github.com/changliu2"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:c1865b83fc90a4cc",
+    "channel": "github",
+    "display_name": "Shuyi Cheng",
+    "handle": "chengshuyi",
+    "identity_confidence": "high",
+    "person_id": "person:66974104e275791e",
+    "profile_url": "https://github.com/chengshuyi"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:522136bb7a314ba4",
+    "channel": "github",
+    "display_name": "Alex Chernysh",
+    "handle": "chernistry",
+    "identity_confidence": "high",
+    "person_id": "person:f4a57462b87430c6",
+    "profile_url": "https://github.com/chernistry"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Chetan Raghuvanshi",
+    "handle": "chhhee10",
+    "identity_confidence": "medium",
+    "person_id": "person:2948ce9c86f314af",
+    "profile_url": "https://github.com/chhhee10"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:fd5318bc31391a61",
+    "channel": "github",
+    "display_name": "Tejas Chopra",
+    "handle": "chopratejas",
+    "identity_confidence": "medium",
+    "person_id": "person:4beda79b0c4abc64",
+    "profile_url": "https://github.com/chopratejas"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Claude",
+    "handle": "claude",
+    "identity_confidence": "high",
+    "person_id": "person:9b50cfee0d47a8ed",
+    "profile_url": "https://github.com/claude"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Clay Good",
+    "handle": "clay-good",
+    "identity_confidence": "high",
+    "person_id": "person:d8b274ed235b9c80",
+    "profile_url": "https://github.com/clay-good"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:41d6320d607afefa",
+    "channel": "github",
+    "display_name": "Dustin Brown",
+    "handle": "coffeegoddd",
+    "identity_confidence": "medium",
+    "person_id": "person:0060b69cdba635cb",
+    "profile_url": "https://github.com/coffeegoddd"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:25ae0fb6f9bb31e9",
+    "channel": "github",
+    "display_name": "Colin Ho",
+    "handle": "colin-ho",
+    "identity_confidence": "medium",
+    "person_id": "person:4df47a8776f5603b",
+    "profile_url": "https://github.com/colin-ho"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "commitPirate",
+    "identity_confidence": "low",
+    "person_id": "person:ec3c9efe0b69bad1",
+    "profile_url": "https://github.com/commitPirate"
+  },
+  {
+    "career_signal_class": "OPERATOR_TO_FOUNDER",
+    "career_signal_evidence_id": "ev:cc43fff880c6aee7",
+    "channel": "github",
+    "display_name": "Cong Wang",
+    "handle": "congwang-mk",
+    "identity_confidence": "medium",
+    "person_id": "person:3340e2124a7eb67b",
+    "profile_url": "https://github.com/congwang-mk"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "John Costa",
+    "handle": "costajohnt",
+    "identity_confidence": "high",
+    "person_id": "person:2d1ba4970d17bf38",
+    "profile_url": "https://github.com/costajohnt"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Viktor Kartashov",
+    "handle": "cr-ViktorKartashov",
+    "identity_confidence": "high",
+    "person_id": "person:051561203162a645",
+    "profile_url": "https://github.com/cr-ViktorKartashov"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Cristina Poncela Cubeiro",
+    "handle": "cristinaponcela",
+    "identity_confidence": "medium",
+    "person_id": "person:4b96fe4a4f44e213",
+    "profile_url": "https://github.com/cristinaponcela"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Chris Mitchelmore",
+    "handle": "crmitchelmore",
+    "identity_confidence": "medium",
+    "person_id": "person:0844101a1f78f396",
+    "profile_url": "https://github.com/crmitchelmore"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "cui36",
+    "identity_confidence": "low",
+    "person_id": "person:a5a304ea54fee32b",
+    "profile_url": "https://github.com/cui36"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Darshana Gunawardana",
+    "handle": "darshanasbg",
+    "identity_confidence": "medium",
+    "person_id": "person:02155f1f9729331f",
+    "profile_url": "https://github.com/darshanasbg"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:f743794fedefeb14",
+    "channel": "github",
+    "display_name": "databufflabs",
+    "handle": "databufflabs",
+    "identity_confidence": "high",
+    "person_id": "person:540a8396b38f4bd0",
+    "profile_url": "https://github.com/databufflabs"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:92367d2da3ad2ee0",
+    "channel": "github",
+    "display_name": "David Foster",
+    "handle": "davidfstr",
+    "identity_confidence": "high",
+    "person_id": "person:4ec17cc65caa423c",
+    "profile_url": "https://github.com/davidfstr"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "David Tai",
+    "handle": "davidtai",
+    "identity_confidence": "medium",
+    "person_id": "person:b205f21f25c37c37",
+    "profile_url": "https://github.com/davidtai"
+  },
+  {
+    "career_signal_class": "OPERATOR_TO_FOUNDER",
+    "career_signal_evidence_id": "ev:c50e927a07e0520c",
+    "channel": "github",
+    "display_name": "Vincent Hus",
+    "handle": "davincios",
+    "identity_confidence": "high",
+    "person_id": "person:2518278afc3e44d3",
+    "profile_url": "https://github.com/davincios"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Derek Chong",
+    "handle": "dcx",
+    "identity_confidence": "high",
+    "person_id": "person:a96528517275901a",
+    "profile_url": "https://github.com/dcx"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "deepakpjose",
+    "identity_confidence": "low",
+    "person_id": "person:21a8de890323ea28",
+    "profile_url": "https://github.com/deepakpjose"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Devo",
+    "handle": "devo7dfai",
+    "identity_confidence": "medium",
+    "person_id": "person:b69e8e908f06e9f5",
+    "profile_url": "https://github.com/devo7dfai"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Dave Heritage",
+    "handle": "devwdave",
+    "identity_confidence": "high",
+    "person_id": "person:120c5586c349fee5",
+    "profile_url": "https://github.com/devwdave"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Dhia Ayachi",
+    "handle": "dhiaayachi",
+    "identity_confidence": "medium",
+    "person_id": "person:1cc63bbea529a336",
+    "profile_url": "https://github.com/dhiaayachi"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "dipam paul",
+    "handle": "dipampaul17",
+    "identity_confidence": "high",
+    "person_id": "person:066b860313ec98a8",
+    "profile_url": "https://github.com/dipampaul17"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Marco Cadetg",
+    "handle": "domcyrus",
+    "identity_confidence": "high",
+    "person_id": "person:a494bd1ca6bc8692",
+    "profile_url": "https://github.com/domcyrus"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Donald Della Pietra",
+    "handle": "donalddellapietra",
+    "identity_confidence": "medium",
+    "person_id": "person:a1e0802635429624",
+    "profile_url": "https://github.com/donalddellapietra"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Donglin Zhuang",
+    "handle": "donglinz",
+    "identity_confidence": "medium",
+    "person_id": "person:b0be0efba8d00c72",
+    "profile_url": "https://github.com/donglinz"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Denis Redozubov",
+    "handle": "dredozubov",
+    "identity_confidence": "high",
+    "person_id": "person:00c0debf275f8fc1",
+    "profile_url": "https://github.com/dredozubov"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "scain",
+    "handle": "dscain",
+    "identity_confidence": "medium",
+    "person_id": "person:3d670d1fbf58ace7",
+    "profile_url": "https://github.com/dscain"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Sidharth Rajmohan",
+    "handle": "dumko2001",
+    "identity_confidence": "medium",
+    "person_id": "person:278b32f38ef00c49",
+    "profile_url": "https://github.com/dumko2001"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Dylan Pulver",
+    "handle": "dylanpulver",
+    "identity_confidence": "high",
+    "person_id": "person:d39d55d6829410a3",
+    "profile_url": "https://github.com/dylanpulver"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "dzerik",
+    "handle": "dzerik",
+    "identity_confidence": "medium",
+    "person_id": "person:6543066cc7a05b09",
+    "profile_url": "https://github.com/dzerik"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Enrique Gomez",
+    "handle": "egdev6",
+    "identity_confidence": "medium",
+    "person_id": "person:c1abf4ea0ddf04e7",
+    "profile_url": "https://github.com/egdev6"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:beecf83da79386b2",
+    "channel": "github",
+    "display_name": "二丫讲梵",
+    "handle": "eryajf",
+    "identity_confidence": "high",
+    "person_id": "person:4db325e4e7771eeb",
+    "profile_url": "https://github.com/eryajf"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "sara",
+    "handle": "esaradev",
+    "identity_confidence": "medium",
+    "person_id": "person:024b25d2311991b0",
+    "profile_url": "https://github.com/esaradev"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:92eea559b93b6664",
+    "channel": "github",
+    "display_name": "Adam Hlaváček",
+    "handle": "esoadamo",
+    "identity_confidence": "high",
+    "person_id": "person:9bb884f51e615f11",
+    "profile_url": "https://github.com/esoadamo"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Eugene",
+    "handle": "eugene1g",
+    "identity_confidence": "medium",
+    "person_id": "person:d0c58dd31aee96e6",
+    "profile_url": "https://github.com/eugene1g"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Ken Tannenbaum",
+    "handle": "finnoybu",
+    "identity_confidence": "high",
+    "person_id": "person:4ccb10fcc79783d1",
+    "profile_url": "https://github.com/finnoybu"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "chunyu li",
+    "handle": "fridayL",
+    "identity_confidence": "medium",
+    "person_id": "person:958c72ea4c3ebfc6",
+    "profile_url": "https://github.com/fridayL"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "galileo-automation",
+    "identity_confidence": "low",
+    "person_id": "person:06aa7bb7de4ea301",
+    "profile_url": "https://github.com/galileo-automation"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "ghazariann",
+    "identity_confidence": "low",
+    "person_id": "person:8c94690a6ad46927",
+    "profile_url": "https://github.com/ghazariann"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:c3071bfd2bb8ffe2",
+    "channel": "github",
+    "display_name": "Ghislain Bourgeois",
+    "handle": "ghislainbourgeois",
+    "identity_confidence": "medium",
+    "person_id": "person:217f44551c1e9fe8",
+    "profile_url": "https://github.com/ghislainbourgeois"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Guanlan D.",
+    "handle": "guanlan",
+    "identity_confidence": "high",
+    "person_id": "person:0954ec8cb5b4d70b",
+    "profile_url": "https://github.com/guanlan"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Harold Ship",
+    "handle": "haroldship",
+    "identity_confidence": "medium",
+    "person_id": "person:b639b5d63b837f84",
+    "profile_url": "https://github.com/haroldship"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "harshalmore31",
+    "identity_confidence": "low",
+    "person_id": "person:418b4d274542db41",
+    "profile_url": "https://github.com/harshalmore31"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Shannon Skipper",
+    "handle": "havenwood",
+    "identity_confidence": "medium",
+    "person_id": "person:b54a0238581a7877",
+    "profile_url": "https://github.com/havenwood"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Kenny Olawuwo",
+    "handle": "heavykenny",
+    "identity_confidence": "high",
+    "person_id": "person:ad81900d201024bf",
+    "profile_url": "https://github.com/heavykenny"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Sky",
+    "handle": "hittyt",
+    "identity_confidence": "medium",
+    "person_id": "person:2f7b4a3341fdb7db",
+    "profile_url": "https://github.com/hittyt"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "이민재",
+    "handle": "honor2030",
+    "identity_confidence": "medium",
+    "person_id": "person:064d4d9a0240a008",
+    "profile_url": "https://github.com/honor2030"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "hsinatfootprintai",
+    "identity_confidence": "low",
+    "person_id": "person:eb1fa95028f91696",
+    "profile_url": "https://github.com/hsinatfootprintai"
+  },
+  {
+    "career_signal_class": "OPERATOR_TO_FOUNDER",
+    "career_signal_evidence_id": "ev:9aceafaf3a35f67f",
+    "channel": "github",
+    "display_name": null,
+    "handle": "hsinhoyeh",
+    "identity_confidence": "medium",
+    "person_id": "person:0431227183175f2f",
+    "profile_url": "https://github.com/hsinhoyeh"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:b20ef1fd78a31b4c",
+    "channel": "github",
+    "display_name": "hyrious",
+    "handle": "hyrious",
+    "identity_confidence": "high",
+    "person_id": "person:4a856ea12822c273",
+    "profile_url": "https://github.com/hyrious"
+  },
+  {
+    "career_signal_class": "OPERATOR_TO_FOUNDER",
+    "career_signal_evidence_id": "ev:65805f362be1f1e8",
+    "channel": "github",
+    "display_name": "Resham Joshi",
+    "handle": "iamtoruk",
+    "identity_confidence": "high",
+    "person_id": "person:c91c4784f07fe849",
+    "profile_url": "https://github.com/iamtoruk"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:30d8861b411334a1",
+    "channel": "github",
+    "display_name": "Igor Lins e Silva",
+    "handle": "igorls",
+    "identity_confidence": "high",
+    "person_id": "person:12822d0df644f2a5",
+    "profile_url": "https://github.com/igorls"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "ikunkun-sys",
+    "identity_confidence": "low",
+    "person_id": "person:f0dd7fe879f47770",
+    "profile_url": "https://github.com/ikunkun-sys"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:afd877b64d4689d5",
+    "channel": "github",
+    "display_name": "Imran Siddique",
+    "handle": "imran-siddique",
+    "identity_confidence": "high",
+    "person_id": "person:1eac30e05715112e",
+    "profile_url": "https://github.com/imran-siddique"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:4c278f41625c03b6",
+    "channel": "github",
+    "display_name": "Pedro Almeida",
+    "handle": "ipedro",
+    "identity_confidence": "high",
+    "person_id": "person:934130a32e35c68d",
+    "profile_url": "https://github.com/ipedro"
+  },
+  {
+    "career_signal_class": "YOUNG_BUILDER",
+    "career_signal_evidence_id": "ev:e59393d2448e0316",
+    "channel": "github",
+    "display_name": "Yifan Qiao",
+    "handle": "ivanium",
+    "identity_confidence": "high",
+    "person_id": "person:93804678a9a8e56a",
+    "profile_url": "https://github.com/ivanium"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:5a28e08a5baa92ca",
+    "channel": "github",
+    "display_name": "Maxim Brashenko",
+    "handle": "j2h4u",
+    "identity_confidence": "medium",
+    "person_id": "person:4df47f9e720d851d",
+    "profile_url": "https://github.com/j2h4u"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Jack Batzner",
+    "handle": "jackbatzner",
+    "identity_confidence": "high",
+    "person_id": "person:edef57756dfab2fe",
+    "profile_url": "https://github.com/jackbatzner"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:c7c98be48df11ee0",
+    "channel": "github",
+    "display_name": "Janet Kuo",
+    "handle": "janetkuo",
+    "identity_confidence": "high",
+    "person_id": "person:ef1341d3c69c225a",
+    "profile_url": "https://github.com/janetkuo"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Jay Chia",
+    "handle": "jaychia",
+    "identity_confidence": "high",
+    "person_id": "person:e6de045eccb476a6",
+    "profile_url": "https://github.com/jaychia"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:8376e2615d53a126",
+    "channel": "github",
+    "display_name": "Jesse Brandeburg",
+    "handle": "jbrandeb",
+    "identity_confidence": "medium",
+    "person_id": "person:3d73f5fc99fc5a56",
+    "profile_url": "https://github.com/jbrandeb"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Jeremy Cowgar",
+    "handle": "jcowgar",
+    "identity_confidence": "high",
+    "person_id": "person:9ee79935e1eeb0f1",
+    "profile_url": "https://github.com/jcowgar"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Johnny Dunn",
+    "handle": "jddunn",
+    "identity_confidence": "high",
+    "person_id": "person:4f347913859acdae",
+    "profile_url": "https://github.com/jddunn"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Julien Desgats",
+    "handle": "jdesgats",
+    "identity_confidence": "medium",
+    "person_id": "person:dd3708e2b06bc21c",
+    "profile_url": "https://github.com/jdesgats"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Jiarong Xing",
+    "handle": "jiarong0907",
+    "identity_confidence": "high",
+    "person_id": "person:d5cbb96cc4aaa370",
+    "profile_url": "https://github.com/jiarong0907"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:a4bd9bc5db068899",
+    "channel": "github",
+    "display_name": "Joel Sathiyendra Thiyaheswaran",
+    "handle": "joelsathi",
+    "identity_confidence": "medium",
+    "person_id": "person:fc8dc0973d06c1dd",
+    "profile_url": "https://github.com/joelsathi"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "John D. Pope",
+    "handle": "johndpope",
+    "identity_confidence": "high",
+    "person_id": "person:73b7c011c1a80c06",
+    "profile_url": "https://github.com/johndpope"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Jon Friesen",
+    "handle": "jonfriesen",
+    "identity_confidence": "high",
+    "person_id": "person:b1ef6feff3340bbb",
+    "profile_url": "https://github.com/jonfriesen"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:183375ced4439969",
+    "channel": "github",
+    "display_name": "Jason Rimmer",
+    "handle": "jrimmer",
+    "identity_confidence": "high",
+    "person_id": "person:da6ebec90e7f4580",
+    "profile_url": "https://github.com/jrimmer"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Justin Santa Barbara",
+    "handle": "justinsb",
+    "identity_confidence": "medium",
+    "person_id": "person:103b01884f7bf3ad",
+    "profile_url": "https://github.com/justinsb"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Kubernetes Prow Robot",
+    "handle": "k8s-ci-robot",
+    "identity_confidence": "high",
+    "person_id": "person:acdb2255430678be",
+    "profile_url": "https://github.com/k8s-ci-robot"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:1e8d33e69267795a",
+    "channel": "github",
+    "display_name": "Kai",
+    "handle": "kaichen",
+    "identity_confidence": "high",
+    "person_id": "person:e5d4bc55e57c88a6",
+    "profile_url": "https://github.com/kaichen"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Kamal Nasser",
+    "handle": "kamaln7",
+    "identity_confidence": "high",
+    "person_id": "person:b2c82c1a6b811769",
+    "profile_url": "https://github.com/kamaln7"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "kangal-bot",
+    "identity_confidence": "medium",
+    "person_id": "person:81c895e406486ff6",
+    "profile_url": "https://github.com/kangal-bot"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "J Liew",
+    "handle": "kenryu42",
+    "identity_confidence": "medium",
+    "person_id": "person:882e8121e8f3fef1",
+    "profile_url": "https://github.com/kenryu42"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Keyang Ru",
+    "handle": "key4ng",
+    "identity_confidence": "medium",
+    "person_id": "person:5b140afbd81ddf14",
+    "profile_url": "https://github.com/key4ng"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Brio Griondy Dahlinar",
+    "handle": "kiddo90-N",
+    "identity_confidence": "medium",
+    "person_id": "person:e9933051d4ada3c6",
+    "profile_url": "https://github.com/kiddo90-N"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "kongche-jbw",
+    "identity_confidence": "low",
+    "person_id": "person:5715fdaa4a1a598b",
+    "profile_url": "https://github.com/kongche-jbw"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "l1shen",
+    "identity_confidence": "low",
+    "person_id": "person:077e7b718936c73a",
+    "profile_url": "https://github.com/l1shen"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "lajosdeme",
+    "identity_confidence": "medium",
+    "person_id": "person:bf0a3185647764e3",
+    "profile_url": "https://github.com/lajosdeme"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Lev Neiman",
+    "handle": "lan17",
+    "identity_confidence": "high",
+    "person_id": "person:79b123550378c842",
+    "profile_url": "https://github.com/lan17"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Laurent",
+    "handle": "laurentftech",
+    "identity_confidence": "medium",
+    "person_id": "person:888558482920ef72",
+    "profile_url": "https://github.com/laurentftech"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Brian Luo",
+    "handle": "law-chain-hot",
+    "identity_confidence": "medium",
+    "person_id": "person:50c7db0797aba0d4",
+    "profile_url": "https://github.com/law-chain-hot"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "limityan",
+    "identity_confidence": "low",
+    "person_id": "person:dc95285292a48794",
+    "profile_url": "https://github.com/limityan"
+  },
+  {
+    "career_signal_class": "YOUNG_BUILDER",
+    "career_signal_evidence_id": "ev:f1968869dcbc86dc",
+    "channel": "github",
+    "display_name": "Rang Li",
+    "handle": "lirang04",
+    "identity_confidence": "high",
+    "person_id": "person:62714ac88366dc69",
+    "profile_url": "https://github.com/lirang04"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "lmillergithub",
+    "identity_confidence": "low",
+    "person_id": "person:567891c8bad2c52a",
+    "profile_url": "https://github.com/lmillergithub"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:79e2e7c38acf7265",
+    "channel": "github",
+    "display_name": null,
+    "handle": "lunar-me",
+    "identity_confidence": "medium",
+    "person_id": "person:34f9e863d763b070",
+    "profile_url": "https://github.com/lunar-me"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "matt wilkie",
+    "handle": "maphew",
+    "identity_confidence": "high",
+    "person_id": "person:0deca6327d4ca1bf",
+    "profile_url": "https://github.com/maphew"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Tomáš Markacz",
+    "handle": "markatom",
+    "identity_confidence": "high",
+    "person_id": "person:7c98fa934850abbd",
+    "profile_url": "https://github.com/markatom"
+  },
+  {
+    "career_signal_class": "OPERATOR_TO_FOUNDER",
+    "career_signal_evidence_id": "ev:9c4f23b96b080b3a",
+    "channel": "github",
+    "display_name": "Marco Vito Moscaritolo",
+    "handle": "mavimo",
+    "identity_confidence": "high",
+    "person_id": "person:a156d16daa562432",
+    "profile_url": "https://github.com/mavimo"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Mike Ellis",
+    "handle": "mikee-gwu",
+    "identity_confidence": "medium",
+    "person_id": "person:9d7f9366a0e54d7d",
+    "profile_url": "https://github.com/mikee-gwu"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "mikehasa",
+    "identity_confidence": "low",
+    "person_id": "person:39d1cc9cf86343bd",
+    "profile_url": "https://github.com/mikehasa"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:189cb53453c46599",
+    "channel": "github",
+    "display_name": "Yuri Mikhin",
+    "handle": "mikhin",
+    "identity_confidence": "medium",
+    "person_id": "person:ff24e93f1529ade6",
+    "profile_url": "https://github.com/mikhin"
+  },
+  {
+    "career_signal_class": "OPERATOR_TO_FOUNDER",
+    "career_signal_evidence_id": "ev:2a880e1b59d41e57",
+    "channel": "github",
+    "display_name": "Armin Ronacher",
+    "handle": "mitsuhiko",
+    "identity_confidence": "high",
+    "person_id": "person:d76c5ca5ea58d75e",
+    "profile_url": "https://github.com/mitsuhiko"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Mert Köseoğlu",
+    "handle": "mksglu",
+    "identity_confidence": "high",
+    "person_id": "person:c5277a2d0a686a79",
+    "profile_url": "https://github.com/mksglu"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:cf8845a30f5abb72",
+    "channel": "github",
+    "display_name": "Mostafa Moradian",
+    "handle": "mostafa",
+    "identity_confidence": "high",
+    "person_id": "person:f4f6fb5a95a3b0b6",
+    "profile_url": "https://github.com/mostafa"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Matt Schoen",
+    "handle": "mtschoen",
+    "identity_confidence": "high",
+    "person_id": "person:727bb97dd4a18e06",
+    "profile_url": "https://github.com/mtschoen"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:87a3897c2bb5d857",
+    "channel": "github",
+    "display_name": "Anwesh",
+    "handle": "muddlebee",
+    "identity_confidence": "medium",
+    "person_id": "person:7e31593a1726c103",
+    "profile_url": "https://github.com/muddlebee"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:92978db9466f2b49",
+    "channel": "github",
+    "display_name": "Mikhail Valentsev",
+    "handle": "mvalentsev",
+    "identity_confidence": "high",
+    "person_id": "person:522692ab696eddd0",
+    "profile_url": "https://github.com/mvalentsev"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "narupley",
+    "identity_confidence": "low",
+    "person_id": "person:56c891e99af423c1",
+    "profile_url": "https://github.com/narupley"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Navdeep Gill",
+    "handle": "navdeep-G",
+    "identity_confidence": "high",
+    "person_id": "person:6bbe5f045e5e894a",
+    "profile_url": "https://github.com/navdeep-G"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:ab742d6b8c93c8e4",
+    "channel": "github",
+    "display_name": "Nicola Alessi",
+    "handle": "nicolalessi",
+    "identity_confidence": "high",
+    "person_id": "person:3a4b107abff9101e",
+    "profile_url": "https://github.com/nicolalessi"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Nicolas",
+    "handle": "nicolas-geysse",
+    "identity_confidence": "medium",
+    "person_id": "person:35c3c8d323db8b8f",
+    "profile_url": "https://github.com/nicolas-geysse"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:e514ce25117d1580",
+    "channel": "github",
+    "display_name": "Nicolò Boschi",
+    "handle": "nicoloboschi",
+    "identity_confidence": "high",
+    "person_id": "person:a2166e74dfd5eac1",
+    "profile_url": "https://github.com/nicoloboschi"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Nikhil Pareek",
+    "handle": "nik13",
+    "identity_confidence": "medium",
+    "person_id": "person:eedbc6fb9010fe87",
+    "profile_url": "https://github.com/nik13"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "ninan-nn",
+    "identity_confidence": "low",
+    "person_id": "person:931be00f17e3e954",
+    "profile_url": "https://github.com/ninan-nn"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Nitin Kesarwani",
+    "handle": "nitin966",
+    "identity_confidence": "medium",
+    "person_id": "person:28b07a305668d8bc",
+    "profile_url": "https://github.com/nitin966"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "offerakrabi",
+    "identity_confidence": "low",
+    "person_id": "person:e7abfd452b495e78",
+    "profile_url": "https://github.com/offerakrabi"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Can Celik",
+    "handle": "ogulcancelik",
+    "identity_confidence": "high",
+    "person_id": "person:c3615413f7a438f7",
+    "profile_url": "https://github.com/ogulcancelik"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Alex Tumanov",
+    "handle": "oleksii-tumanov",
+    "identity_confidence": "medium",
+    "person_id": "person:ba2a53b7524f742c",
+    "profile_url": "https://github.com/oleksii-tumanov"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "oroxenberg",
+    "identity_confidence": "low",
+    "person_id": "person:9f77bad104b79107",
+    "profile_url": "https://github.com/oroxenberg"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:dda3a876990f36bd",
+    "channel": "github",
+    "display_name": "Ben Younes",
+    "handle": "ousamabenyounes",
+    "identity_confidence": "high",
+    "person_id": "person:2b795ccad93837ff",
+    "profile_url": "https://github.com/ousamabenyounes"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "ozymandiashh",
+    "identity_confidence": "low",
+    "person_id": "person:d5f24f49bae841ee",
+    "profile_url": "https://github.com/ozymandiashh"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "parth-rs",
+    "identity_confidence": "low",
+    "person_id": "person:b95b1514484e45ac",
+    "profile_url": "https://github.com/parth-rs"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Parth Shah",
+    "handle": "parth21shah",
+    "identity_confidence": "high",
+    "person_id": "person:d964791488c4bc00",
+    "profile_url": "https://github.com/parth21shah"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Paul Gross",
+    "handle": "pgr0ss",
+    "identity_confidence": "high",
+    "person_id": "person:63cd99ed31753106",
+    "profile_url": "https://github.com/pgr0ss"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "pkuYmiracle",
+    "identity_confidence": "low",
+    "person_id": "person:d27bf281602bfe47",
+    "profile_url": "https://github.com/pkuYmiracle"
+  },
+  {
+    "career_signal_class": "OPERATOR_TO_FOUNDER",
+    "career_signal_evidence_id": "ev:9a14e32bdcbe7a24",
+    "channel": "github",
+    "display_name": "patrick szymkowiak",
+    "handle": "pszymkowiak",
+    "identity_confidence": "high",
+    "person_id": "person:51b3a63b6d0f46e5",
+    "profile_url": "https://github.com/pszymkowiak"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Evo",
+    "handle": "r266-tech",
+    "identity_confidence": "medium",
+    "person_id": "person:1fccc64970b1764a",
+    "profile_url": "https://github.com/r266-tech"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Raju Dandigam",
+    "handle": "rajudandigam",
+    "identity_confidence": "high",
+    "person_id": "person:d12b75b57f503096",
+    "profile_url": "https://github.com/rajudandigam"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "henry",
+    "handle": "redphosphorus7562",
+    "identity_confidence": "medium",
+    "person_id": "person:5fad31bd1d7c9829",
+    "profile_url": "https://github.com/redphosphorus7562"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Rob Cohen",
+    "handle": "robcohen",
+    "identity_confidence": "high",
+    "person_id": "person:0383cf4f245afe80",
+    "profile_url": "https://github.com/robcohen"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:243b98987314cdb9",
+    "channel": "github",
+    "display_name": "Rohit Ghumare",
+    "handle": "rohitg00",
+    "identity_confidence": "medium",
+    "person_id": "person:1be5db517a13b321",
+    "profile_url": "https://github.com/rohitg00"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:41633bdd365b6f28",
+    "channel": "github",
+    "display_name": "Hiroki Suezawa",
+    "handle": "rung",
+    "identity_confidence": "high",
+    "person_id": "person:0f2182e0457b3a33",
+    "profile_url": "https://github.com/rung"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "ryo",
+    "handle": "ryohang",
+    "identity_confidence": "medium",
+    "person_id": "person:cde5243048e43295",
+    "profile_url": "https://github.com/ryohang"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Sachintha Lakmin",
+    "handle": "sachintha-lk",
+    "identity_confidence": "medium",
+    "person_id": "person:54a308c52ca9c459",
+    "profile_url": "https://github.com/sachintha-lk"
+  },
+  {
+    "career_signal_class": "OPERATOR_TO_FOUNDER",
+    "career_signal_evidence_id": "ev:77a72db990cfa20c",
+    "channel": "github",
+    "display_name": "Safi",
+    "handle": "safishamsi",
+    "identity_confidence": "high",
+    "person_id": "person:fdc59ef62c21a13f",
+    "profile_url": "https://github.com/safishamsi"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Sami Marreed",
+    "handle": "sami-marreed",
+    "identity_confidence": "medium",
+    "person_id": "person:34fa606a090ab744",
+    "profile_url": "https://github.com/sami-marreed"
+  },
+  {
+    "career_signal_class": "OPERATOR_TO_FOUNDER",
+    "career_signal_evidence_id": "ev:b30d75440eee38cf",
+    "channel": "github",
+    "display_name": "Sammy Sidhu",
+    "handle": "samster25",
+    "identity_confidence": "high",
+    "person_id": "person:7adce80044d8b6a9",
+    "profile_url": "https://github.com/samster25"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Sanjay Ramadugu",
+    "handle": "sanjay3290",
+    "identity_confidence": "medium",
+    "person_id": "person:74450db586545bad",
+    "profile_url": "https://github.com/sanjay3290"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:a6515df2004a00ed",
+    "channel": "github",
+    "display_name": "Semantic Release Bot",
+    "handle": "semantic-release-bot",
+    "identity_confidence": "high",
+    "person_id": "person:ab58762ec5a5d29f",
+    "profile_url": "https://github.com/semantic-release-bot"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:716db170d73561a6",
+    "channel": "github",
+    "display_name": "Simon Kim",
+    "handle": "seojoonkim",
+    "identity_confidence": "medium",
+    "person_id": "person:161d4f0ed984c604",
+    "profile_url": "https://github.com/seojoonkim"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:6b3b5fe0ee12c3f3",
+    "channel": "github",
+    "display_name": "Shahtaj Khalid",
+    "handle": "shahtajkhalid",
+    "identity_confidence": "medium",
+    "person_id": "person:052cda9d74623dac",
+    "profile_url": "https://github.com/shahtajkhalid"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Shane Mattner",
+    "handle": "shanemmattner",
+    "identity_confidence": "high",
+    "person_id": "person:e62445ab43e511c9",
+    "profile_url": "https://github.com/shanemmattner"
+  },
+  {
+    "career_signal_class": "OPERATOR_TO_FOUNDER",
+    "career_signal_evidence_id": "ev:0334e55d4341a41b",
+    "channel": "github",
+    "display_name": "Min Pyo Hong",
+    "handle": "silverdel",
+    "identity_confidence": "high",
+    "person_id": "person:3742ed6c665395b1",
+    "profile_url": "https://github.com/silverdel"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Simon Yu",
+    "handle": "simonucl",
+    "identity_confidence": "high",
+    "person_id": "person:bc2c8856341724e7",
+    "profile_url": "https://github.com/simonucl"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "K. Saito",
+    "handle": "site0801",
+    "identity_confidence": "medium",
+    "person_id": "person:41796aa112dde81f",
+    "profile_url": "https://github.com/site0801"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Simo Lin",
+    "handle": "slin1237",
+    "identity_confidence": "medium",
+    "person_id": "person:b07123fc4e48b2ba",
+    "profile_url": "https://github.com/slin1237"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:e2c60dc724583972",
+    "channel": "github",
+    "display_name": "Soham",
+    "handle": "sohamganatra",
+    "identity_confidence": "high",
+    "person_id": "person:3305224ad3f90fb3",
+    "profile_url": "https://github.com/sohamganatra"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Souvik Banerjee",
+    "handle": "souvik1997",
+    "identity_confidence": "high",
+    "person_id": "person:371596cc7c2224b9",
+    "profile_url": "https://github.com/souvik1997"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Steve Yegge",
+    "handle": "steveyegge",
+    "identity_confidence": "medium",
+    "person_id": "person:008ba237b9f8d481",
+    "profile_url": "https://github.com/steveyegge"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:725121f50ef247ba",
+    "channel": "github",
+    "display_name": "skyler",
+    "handle": "t8y2",
+    "identity_confidence": "medium",
+    "person_id": "person:89f406c8e1a0e487",
+    "profile_url": "https://github.com/t8y2"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:fb51eb51480b9a52",
+    "channel": "github",
+    "display_name": "Travis Tang",
+    "handle": "tangg555",
+    "identity_confidence": "high",
+    "person_id": "person:289f6cbe6ff7363d",
+    "profile_url": "https://github.com/tangg555"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "tangym",
+    "identity_confidence": "low",
+    "person_id": "person:698e210dd836e65b",
+    "profile_url": "https://github.com/tangym"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:2b7173e8bafa5efa",
+    "channel": "github",
+    "display_name": "There Is No TIme",
+    "handle": "thereisnotime",
+    "identity_confidence": "high",
+    "person_id": "person:d3049882366b0463",
+    "profile_url": "https://github.com/thereisnotime"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "thetaie",
+    "identity_confidence": "low",
+    "person_id": "person:cf759d494fb4701e",
+    "profile_url": "https://github.com/thetaie"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Tal Muskal",
+    "handle": "tmuskal",
+    "identity_confidence": "medium",
+    "person_id": "person:21fd764f2eac3c17",
+    "profile_url": "https://github.com/tmuskal"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Tom Croucher",
+    "handle": "tomc-goodrx",
+    "identity_confidence": "medium",
+    "person_id": "person:ee52cd8067f09bbf",
+    "profile_url": "https://github.com/tomc-goodrx"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "unamedkr",
+    "handle": "unamedkr",
+    "identity_confidence": "high",
+    "person_id": "person:f82722013f35eef5",
+    "profile_url": "https://github.com/unamedkr"
+  },
+  {
+    "career_signal_class": "OPERATOR_TO_FOUNDER",
+    "career_signal_evidence_id": "ev:bf3a560646a3cb0b",
+    "channel": "github",
+    "display_name": "UncleCode",
+    "handle": "unclecode",
+    "identity_confidence": "high",
+    "person_id": "person:0b8ef474104aafdf",
+    "profile_url": "https://github.com/unclecode"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Sabowsla",
+    "handle": "user-23xyz",
+    "identity_confidence": "medium",
+    "person_id": "person:aa95a27c0a2b60a4",
+    "profile_url": "https://github.com/user-23xyz"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:e7bc504c058f5377",
+    "channel": "github",
+    "display_name": "Vegard Stikbakke",
+    "handle": "vegarsti",
+    "identity_confidence": "high",
+    "person_id": "person:1ece86c64cc2bbe6",
+    "profile_url": "https://github.com/vegarsti"
+  },
+  {
+    "career_signal_class": "YOUNG_BUILDER",
+    "career_signal_evidence_id": "ev:4ddda1fe716fdc03",
+    "channel": "github",
+    "display_name": "Yiwei Yang",
+    "handle": "vickiegpt",
+    "identity_confidence": "high",
+    "person_id": "person:eaf8c8fd5e044c3d",
+    "profile_url": "https://github.com/vickiegpt"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:924fe55a71dfa51f",
+    "channel": "github",
+    "display_name": "Vivek Chand",
+    "handle": "vivekchand",
+    "identity_confidence": "high",
+    "person_id": "person:6b17edc3f64af64a",
+    "profile_url": "https://github.com/vivekchand"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "w3lld1",
+    "identity_confidence": "low",
+    "person_id": "person:2911608f67a37744",
+    "profile_url": "https://github.com/w3lld1"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "wangtsiao",
+    "identity_confidence": "low",
+    "person_id": "person:e656060c110cc00d",
+    "profile_url": "https://github.com/wangtsiao"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Ivan Eltsov",
+    "handle": "whanou",
+    "identity_confidence": "medium",
+    "person_id": "person:918babe21053b1b5",
+    "profile_url": "https://github.com/whanou"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Shaun",
+    "handle": "williamsonshaun-alt",
+    "identity_confidence": "medium",
+    "person_id": "person:609f94e2df94b52b",
+    "profile_url": "https://github.com/williamsonshaun-alt"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "wsp",
+    "handle": "wsp1911",
+    "identity_confidence": "medium",
+    "person_id": "person:3ace246ea60cb525",
+    "profile_url": "https://github.com/wsp1911"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "JinYan Su",
+    "handle": "xiaguan",
+    "identity_confidence": "medium",
+    "person_id": "person:ec1e9d86f72138b5",
+    "profile_url": "https://github.com/xiaguan"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "xwuShirley",
+    "identity_confidence": "low",
+    "person_id": "person:0bb668b4f97d42c2",
+    "profile_url": "https://github.com/xwuShirley"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "yanny-sec",
+    "identity_confidence": "low",
+    "person_id": "person:7ca4e854f08cc72b",
+    "profile_url": "https://github.com/yanny-sec"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:7bf4274f1067aca0",
+    "channel": "github",
+    "display_name": "Yashas Gunderia",
+    "handle": "ychampion",
+    "identity_confidence": "medium",
+    "person_id": "person:b22effd5d4fb954b",
+    "profile_url": "https://github.com/ychampion"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:060a1382ba0969dc",
+    "channel": "github",
+    "display_name": "Ethan Xiao",
+    "handle": "yfxiao16",
+    "identity_confidence": "medium",
+    "person_id": "person:a096643a502ace0f",
+    "profile_url": "https://github.com/yfxiao16"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "Youssof Altoukhi",
+    "handle": "youssofal",
+    "identity_confidence": "medium",
+    "person_id": "person:a400fb0f9d453af6",
+    "profile_url": "https://github.com/youssofal"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:c759c19540602bc0",
+    "channel": "github",
+    "display_name": "云微",
+    "handle": "yunwei37",
+    "identity_confidence": "high",
+    "person_id": "person:4fa8b389ee437299",
+    "profile_url": "https://github.com/yunwei37"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": "zerone0x",
+    "handle": "zerone0x",
+    "identity_confidence": "high",
+    "person_id": "person:5d8026670097109c",
+    "profile_url": "https://github.com/zerone0x"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:043001936c03ea55",
+    "channel": "github",
+    "display_name": "Zhongjie Chen",
+    "handle": "zhongjiechen",
+    "identity_confidence": "medium",
+    "person_id": "person:0e542b12fd6b7130",
+    "profile_url": "https://github.com/zhongjiechen"
+  },
+  {
+    "career_signal_class": "UNCLASSIFIED",
+    "career_signal_evidence_id": null,
+    "channel": "github",
+    "display_name": null,
+    "handle": "zipg",
+    "identity_confidence": "low",
+    "person_id": "person:8d2ee8840593b84a",
+    "profile_url": "https://github.com/zipg"
+  },
+  {
+    "career_signal_class": "OTHER_EXPLICIT",
+    "career_signal_evidence_id": "ev:c9cd0c7ae90fbe08",
+    "channel": "github",
+    "display_name": "Zhongzhu Zhou",
+    "handle": "zzz0906",
+    "identity_confidence": "high",
+    "person_id": "person:ba279e7d289bf8e5",
+    "profile_url": "https://github.com/zzz0906"
+  }
+]

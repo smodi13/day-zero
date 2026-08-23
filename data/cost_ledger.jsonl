@@ -1,0 +1,4 @@
+{"actual_cost_usd": "UNKNOWN", "api": "rest", "at": "2026-08-23T07:27:29.946937Z", "estimated_cost_usd": "0.000000", "requests": 618, "run_id": "collect-phase2", "source": "github", "unit_label": "api_request", "units": 618}
+{"actual_cost_usd": "UNKNOWN", "api": "rest", "at": "2026-08-23T07:27:37.160513Z", "estimated_cost_usd": "0.000000", "requests": 598, "run_id": "collect-phase2", "source": "github", "unit_label": "api_request", "units": 598}
+{"actual_cost_usd": "UNKNOWN", "api": "rest", "at": "2026-08-23T14:26:29.732114Z", "estimated_cost_usd": "0.000000", "requests": 43, "run_id": "collect-phase2b", "source": "github", "unit_label": "api_request", "units": 43}
+{"actual_cost_usd": "UNKNOWN", "api": "export_api", "at": "2026-08-23T14:27:56.760925Z", "estimated_cost_usd": "0.000000", "requests": 12, "run_id": "collect-arxiv", "source": "arxiv", "unit_label": "api_query", "units": 12}

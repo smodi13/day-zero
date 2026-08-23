@@ -1,0 +1,9 @@
+# Analyst-authored technical dimensions and review questions.
+#
+# These are HUMAN judgements. They supersede rule-derived values for the same
+# dimension and are labelled assessed_by: analyst. An LLM may never write here.
+#
+# Populated during the Phase 2B analyst review (after the rule freeze). Empty at
+# freeze time by design: analyst judgement is an input to selection, never to the
+# eligibility rules themselves.
+records: []

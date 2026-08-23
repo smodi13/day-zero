@@ -1,0 +1,13 @@
+# POST-CUTOFF OUTCOMES. The evaluator NEVER reads this file.
+# Referenced only when writing the report, after verdicts are recorded.
+outcomes:
+  B1:  "Array participated in a $7.5M seed announced 2024-10-01 (CRV-led). $20M Series A 2025-06-24 (Felicis)."
+  B2:  "Array led the pre-seed. $15M seed 2026-02-05 (Accel). $35M Series A 2026-08 (Dragonfly)."
+  B3:  "Array wrote the first round. $15.6M Series A 2024-12-04 (a16z); $44M Series B 2025-09; $150M Series C."
+  B4:  "Launched from stealth 2025-10-28 with a $2.2M pre-seed co-led by Focal VC and Array VC."
+  B5:  "$7M announced 2025-05-28."
+  B6:  "$6.9M seed announced 2023-09-05."
+  B7:  "$4M seed announced 2020-11-11."
+  B8:  "Acquired by Jamf, announced 2022-11-17."
+  B9:  "Acquired by ServiceNow, announced 2022-10-05."
+  B10: "$4M announced 2024-10-09."

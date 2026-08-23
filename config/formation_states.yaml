@@ -1,0 +1,19 @@
+version: 1
+states:
+  BUILDING:      {order: 1, requires: {BUILD: 1, TECHNICAL_DEPTH: 1, author_resolved: true}}
+  COLLABORATING: {order: 2, requires: {inherits: BUILDING, COLLABORATION: 1}}
+  FORMING:       {order: 3, requires: {FORMATION: 2, formation_independent_channels: 2}}
+  LAUNCHED:      {order: 4, requires: {signal_any: [F-07]}}
+  FUNDED:        {order: 5, requires: {signal_any: [F-08]}}
+  UNKNOWN:       {order: 0, requires: {}}
+# History is preserved: a builder has a chronological list of formation_signals and a
+# state computed at each observation date. States are never collapsed to "current only".
+preserve_history: true
+forbidden_inferences:
+  - departure_from_silence
+  - departure_from_inactivity
+  - departure_from_deleted_content
+  - departure_from_bio_edit
+  - founding_probability
+  - career_stage_from_account_age
+  - career_stage_from_repo_topic

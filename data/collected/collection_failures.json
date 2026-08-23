@@ -1,0 +1,9 @@
+[
+  {
+    "reason": "gh api repos/multikernel/linux/contributors?per_page=10 failed: gh: The history or contributor list is too large to list contributors for this repository via th",
+    "retry_count": 3,
+    "source": "repos/multikernel/linux/contributors",
+    "status": "COLLECTION_FAILED",
+    "timestamp": "2026-08-23T14:26:19.396738Z"
+  }
+]

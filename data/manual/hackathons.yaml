@@ -1,0 +1,11 @@
+# Hackathon evidence — MANUAL ONLY, BY POLICY.
+#
+# Devpost's robots.txt disallows anthropic-ai, GPTBot, ChatGPT-User, CCBot,
+# Google-Extended, BLEXBot and Omgilibot (verified 2026-08-22). DAY ZERO has no
+# automated hackathon adapter and will not acquire one.
+#
+# Records may only be entered by a human, citing an official result page, and a
+# hackathon signal cannot contribute to the Intro Queue until a BUILD signal is
+# observed at least 90 days AFTER the event (Phase 1 negative control NC-8).
+availability: MANUAL_ONLY_BY_ROBOTS_POLICY
+records: []

@@ -1,0 +1,2858 @@
+[
+  {
+    "attention": {
+      "forks": 194,
+      "open_issues": 12,
+      "stars": 1735,
+      "watchers": 1735
+    },
+    "construction": {
+      "active_window_ratio": 0.013,
+      "age_days": 151,
+      "days_since_push": 149,
+      "human_contributors": 1,
+      "longevity_days": 2,
+      "release_count": 0,
+      "top_contributions": 2,
+      "total_contributions": 2
+    },
+    "created_at": "2026-03-25",
+    "description": "TurboQuant: Near-optimal KV cache quantization for LLM inference (3-bit keys, 2-bit values) with Triton kernels + vLLM integration",
+    "full_name": "0xSero/turboquant",
+    "homepage": null,
+    "language": "Python",
+    "license": "GPL-3.0",
+    "owner_login": "0xSero",
+    "owner_type": "User",
+    "pushed_at": "2026-03-27",
+    "repo_id": "repo:ace5baeee0d48c61"
+  },
+  {
+    "attention": {
+      "forks": 133,
+      "open_issues": 21,
+      "stars": 316,
+      "watchers": 316
+    },
+    "construction": {
+      "active_window_ratio": 0.993,
+      "age_days": 145,
+      "days_since_push": 1,
+      "human_contributors": 10,
+      "longevity_days": 144,
+      "release_count": 30,
+      "top_contributions": 873,
+      "total_contributions": 893
+    },
+    "created_at": "2026-03-31",
+    "description": "Model-neutral agent desktop/runtime for private, enterprise, and OpenAI-compatible / Anthropic-compatible model API. Tested on DeepSeek, Qwen, Kimi, GLM models. Supports MCP,  Skills,and local code search.",
+    "full_name": "7df-lab/devo",
+    "homepage": "https://devo.7df.ai/",
+    "language": "Rust",
+    "license": "MIT",
+    "owner_login": "7df-lab",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:e429fad53c5dff91"
+  },
+  {
+    "attention": {
+      "forks": 33,
+      "open_issues": 2,
+      "stars": 684,
+      "watchers": 684
+    },
+    "construction": {
+      "active_window_ratio": 0.665,
+      "age_days": 227,
+      "days_since_push": 76,
+      "human_contributors": 10,
+      "longevity_days": 151,
+      "release_count": 0,
+      "top_contributions": 27,
+      "total_contributions": 93
+    },
+    "created_at": "2026-01-08",
+    "description": "A Diagnostic Guardrail Framework for AI Agent Safety and Security",
+    "full_name": "AI45Lab/AgentDoG",
+    "homepage": null,
+    "language": "Python",
+    "license": "none",
+    "owner_login": "AI45Lab",
+    "owner_type": "Organization",
+    "pushed_at": "2026-06-08",
+    "repo_id": "repo:19703be082ef2e97"
+  },
+  {
+    "attention": {
+      "forks": 15,
+      "open_issues": 0,
+      "stars": 367,
+      "watchers": 367
+    },
+    "construction": {
+      "active_window_ratio": 0.327,
+      "age_days": 52,
+      "days_since_push": 35,
+      "human_contributors": 1,
+      "longevity_days": 17,
+      "release_count": 1,
+      "top_contributions": 3,
+      "total_contributions": 3
+    },
+    "created_at": "2026-07-02",
+    "description": "The black box for AI-written code. Passive decision graph linking every commit to the agent prompts behind it: drift detection, DLP audit of what agents read, evidence-driven risk, MCP memory for coding agents, signed provenance attestations. One command, offline by default.",
+    "full_name": "Brain0-ai/brain0",
+    "homepage": null,
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "owner_login": "Brain0-ai",
+    "owner_type": "Organization",
+    "pushed_at": "2026-07-19",
+    "repo_id": "repo:1dedeec2c8b00637"
+  },
+  {
+    "attention": {
+      "forks": 8372,
+      "open_issues": 1309,
+      "stars": 73056,
+      "watchers": 73056
+    },
+    "construction": {
+      "active_window_ratio": 0.958,
+      "age_days": 310,
+      "days_since_push": 13,
+      "human_contributors": 10,
+      "longevity_days": 297,
+      "release_count": 0,
+      "top_contributions": 38,
+      "total_contributions": 58
+    },
+    "created_at": "2025-10-17",
+    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+    "full_name": "ComposioHQ/awesome-claude-skills",
+    "homepage": null,
+    "language": "Python",
+    "license": "none",
+    "owner_login": "ComposioHQ",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-10",
+    "repo_id": "repo:d263b68e6a8bf4b1"
+  },
+  {
+    "attention": {
+      "forks": 50,
+      "open_issues": 9,
+      "stars": 635,
+      "watchers": 635
+    },
+    "construction": {
+      "active_window_ratio": 0.892,
+      "age_days": 194,
+      "days_since_push": 21,
+      "human_contributors": 7,
+      "longevity_days": 173,
+      "release_count": 13,
+      "top_contributions": 29,
+      "total_contributions": 61
+    },
+    "created_at": "2026-02-10",
+    "description": "Context Gateway is an agentic proxy that enhances any AI agent workflow with instant history compaction and context optimization tools",
+    "full_name": "Compresr-ai/Context-Gateway",
+    "homepage": null,
+    "language": "Go",
+    "license": "Apache-2.0",
+    "owner_login": "Compresr-ai",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-02",
+    "repo_id": "repo:11f8b0e807eeb6d4"
+  },
+  {
+    "attention": {
+      "forks": 15,
+      "open_issues": 2,
+      "stars": 281,
+      "watchers": 281
+    },
+    "construction": {
+      "active_window_ratio": 0.995,
+      "age_days": 222,
+      "days_since_push": 1,
+      "human_contributors": 3,
+      "longevity_days": 221,
+      "release_count": 9,
+      "top_contributions": 66,
+      "total_contributions": 87
+    },
+    "created_at": "2026-01-13",
+    "description": "Sigma Rules Engine inside the Linux Kernel using eBPF. Focusing on prevention capabilities",
+    "full_name": "Cybereason-Public/owLSM",
+    "homepage": "https://cybereason-public.github.io/owLSM/",
+    "language": "C",
+    "license": "GPL-2.0",
+    "owner_login": "Cybereason-Public",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:8797df4b3842213b"
+  },
+  {
+    "attention": {
+      "forks": 543,
+      "open_issues": 372,
+      "stars": 5726,
+      "watchers": 5726
+    },
+    "construction": {
+      "active_window_ratio": 0.999,
+      "age_days": 1581,
+      "days_since_push": 2,
+      "human_contributors": 9,
+      "longevity_days": 1579,
+      "release_count": 30,
+      "top_contributions": 800,
+      "total_contributions": 2998
+    },
+    "created_at": "2022-04-25",
+    "description": "High-performance data engine for AI and multimodal workloads. Process images, audio, video, and structured data at any scale",
+    "full_name": "Eventual-Inc/Daft",
+    "homepage": "https://daft.ai",
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "owner_login": "Eventual-Inc",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-21",
+    "repo_id": "repo:66b2c127eba5d5bc"
+  },
+  {
+    "attention": {
+      "forks": 287,
+      "open_issues": 37,
+      "stars": 1387,
+      "watchers": 1387
+    },
+    "construction": {
+      "active_window_ratio": 0.986,
+      "age_days": 139,
+      "days_since_push": 2,
+      "human_contributors": 8,
+      "longevity_days": 137,
+      "release_count": 30,
+      "top_contributions": 243,
+      "total_contributions": 285
+    },
+    "created_at": "2026-04-06",
+    "description": "Observability and enforcement for AI agent harnesses. Capture every run and runtime reliability with policy enforcement.  40 built-in policies, a local dashboard, no account required with a generous free cloud plan",
+    "full_name": "FailproofAI/failproofai",
+    "homepage": "https://befailproof.ai",
+    "language": "MDX",
+    "license": "NOASSERTION",
+    "owner_login": "FailproofAI",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-21",
+    "repo_id": "repo:4883de97218b8e02"
+  },
+  {
+    "attention": {
+      "forks": 20,
+      "open_issues": 78,
+      "stars": 273,
+      "watchers": 273
+    },
+    "construction": {
+      "active_window_ratio": 1.0,
+      "age_days": 238,
+      "days_since_push": 0,
+      "human_contributors": 4,
+      "longevity_days": 238,
+      "release_count": 30,
+      "top_contributions": 989,
+      "total_contributions": 1280
+    },
+    "created_at": "2025-12-28",
+    "description": "Open-source agent runtime — SSH-native isolation, eBPF egress policy, Kubernetes + LXC backends, GPU passthrough, MCP-native CLI",
+    "full_name": "FootprintAI/Containarium",
+    "homepage": "https://containarium.dev",
+    "language": "Go",
+    "license": "Apache-2.0",
+    "owner_login": "FootprintAI",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-23",
+    "repo_id": "repo:5bcb1d83e23cf921"
+  },
+  {
+    "attention": {
+      "forks": 81,
+      "open_issues": 12,
+      "stars": 556,
+      "watchers": 556
+    },
+    "construction": {
+      "active_window_ratio": 0.99,
+      "age_days": 96,
+      "days_since_push": 1,
+      "human_contributors": 4,
+      "longevity_days": 95,
+      "release_count": 0,
+      "top_contributions": 33,
+      "total_contributions": 40
+    },
+    "created_at": "2026-05-19",
+    "description": "OSCAR: Offline Spectral Covariance-Aware Rotation for 2-bit KV Cache Quantization",
+    "full_name": "FutureMLS-Lab/OSCAR",
+    "homepage": "https://oscar-quantize.github.io/",
+    "language": "Python",
+    "license": "MIT",
+    "owner_login": "FutureMLS-Lab",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:49492f50314e8ba7"
+  },
+  {
+    "attention": {
+      "forks": 200,
+      "open_issues": 105,
+      "stars": 1807,
+      "watchers": 1807
+    },
+    "construction": {
+      "active_window_ratio": 1.0,
+      "age_days": 202,
+      "days_since_push": 0,
+      "human_contributors": 10,
+      "longevity_days": 202,
+      "release_count": 30,
+      "top_contributions": 722,
+      "total_contributions": 3066
+    },
+    "created_at": "2026-02-02",
+    "description": "BitFun combines a high-performance agent runtime written in Rust with a polished desktop application. It pairs the depth of a Code Agent with open, general-purpose capabilities for work beyond software development.",
+    "full_name": "GCWing/BitFun",
+    "homepage": null,
+    "language": "Rust",
+    "license": "MIT",
+    "owner_login": "GCWing",
+    "owner_type": "User",
+    "pushed_at": "2026-08-23",
+    "repo_id": "repo:618f039a0bc81cc8"
+  },
+  {
+    "attention": {
+      "forks": 645,
+      "open_issues": 189,
+      "stars": 6126,
+      "watchers": 6126
+    },
+    "construction": {
+      "active_window_ratio": 0.968,
+      "age_days": 188,
+      "days_since_push": 6,
+      "human_contributors": 10,
+      "longevity_days": 182,
+      "release_count": 30,
+      "top_contributions": 341,
+      "total_contributions": 374
+    },
+    "created_at": "2026-02-16",
+    "description": "Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI.",
+    "full_name": "Gentleman-Programming/engram",
+    "homepage": null,
+    "language": "Go",
+    "license": "MIT",
+    "owner_login": "Gentleman-Programming",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-17",
+    "repo_id": "repo:601f1e027a49e821"
+  },
+  {
+    "attention": {
+      "forks": 10659,
+      "open_issues": 1047,
+      "stars": 109638,
+      "watchers": 109638
+    },
+    "construction": {
+      "active_window_ratio": 0.979,
+      "age_days": 142,
+      "days_since_push": 3,
+      "human_contributors": 10,
+      "longevity_days": 139,
+      "release_count": 30,
+      "top_contributions": 1025,
+      "total_contributions": 1172
+    },
+    "created_at": "2026-04-03",
+    "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+    "full_name": "Graphify-Labs/graphify",
+    "homepage": "https://www.graphify.com",
+    "language": "Python",
+    "license": "Apache-2.0",
+    "owner_login": "Graphify-Labs",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-20",
+    "repo_id": "repo:4c603b452eb19d2d"
+  },
+  {
+    "attention": {
+      "forks": 58,
+      "open_issues": 40,
+      "stars": 454,
+      "watchers": 454
+    },
+    "construction": {
+      "active_window_ratio": 0.975,
+      "age_days": 204,
+      "days_since_push": 5,
+      "human_contributors": 7,
+      "longevity_days": 199,
+      "release_count": 22,
+      "top_contributions": 141,
+      "total_contributions": 156
+    },
+    "created_at": "2026-01-31",
+    "description": "Open-source cross-platform endpoint detection engine for Windows, macOS, and Linux using ETW, ESF, eBPF, Sigma, YARA, IOCs, and ECS NDJSON alerts.",
+    "full_name": "Karib0u/rustinel",
+    "homepage": "https://docs.rustinel.io",
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "owner_login": "Karib0u",
+    "owner_type": "User",
+    "pushed_at": "2026-08-18",
+    "repo_id": "repo:55fc5892a37e8ecd"
+  },
+  {
+    "attention": {
+      "forks": 7510,
+      "open_issues": 721,
+      "stars": 58564,
+      "watchers": 58564
+    },
+    "construction": {
+      "active_window_ratio": 0.993,
+      "age_days": 140,
+      "days_since_push": 1,
+      "human_contributors": 10,
+      "longevity_days": 139,
+      "release_count": 15,
+      "top_contributions": 930,
+      "total_contributions": 1492
+    },
+    "created_at": "2026-04-05",
+    "description": "The best-benchmarked open-source AI memory system. And it's free.",
+    "full_name": "MemPalace/mempalace",
+    "homepage": "http://mempalaceofficial.com/",
+    "language": "Python",
+    "license": "MIT",
+    "owner_login": "MemPalace",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:eff9b37587dcd450"
+  },
+  {
+    "attention": {
+      "forks": 1003,
+      "open_issues": 75,
+      "stars": 10929,
+      "watchers": 10929
+    },
+    "construction": {
+      "active_window_ratio": 0.995,
+      "age_days": 413,
+      "days_since_push": 2,
+      "human_contributors": 10,
+      "longevity_days": 411,
+      "release_count": 30,
+      "top_contributions": 232,
+      "total_contributions": 1170
+    },
+    "created_at": "2025-07-06",
+    "description": "Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support.",
+    "full_name": "MemTensor/MemOS",
+    "homepage": "https://memos.openmem.net",
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "owner_login": "MemTensor",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-21",
+    "repo_id": "repo:93e244e68148136d"
+  },
+  {
+    "attention": {
+      "forks": 3229,
+      "open_issues": 33,
+      "stars": 16197,
+      "watchers": 16197
+    },
+    "construction": {
+      "active_window_ratio": 0.995,
+      "age_days": 395,
+      "days_since_push": 2,
+      "human_contributors": 10,
+      "longevity_days": 393,
+      "release_count": 30,
+      "top_contributions": 175,
+      "total_contributions": 568
+    },
+    "created_at": "2025-07-24",
+    "description": "Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems. Built for enterprise, Memori works with the data infrastructure you already run, no rip-and-replace, and deploys across managed cloud, single-tenant cloud, VPC, and on-premises.",
+    "full_name": "MemoriLabs/Memori",
+    "homepage": "https://memorilabs.ai",
+    "language": "Python",
+    "license": "NOASSERTION",
+    "owner_login": "MemoriLabs",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-21",
+    "repo_id": "repo:7d6659e421215cc6"
+  },
+  {
+    "attention": {
+      "forks": 2832,
+      "open_issues": 15,
+      "stars": 21323,
+      "watchers": 21323
+    },
+    "construction": {
+      "active_window_ratio": 0.982,
+      "age_days": 433,
+      "days_since_push": 8,
+      "human_contributors": 10,
+      "longevity_days": 425,
+      "release_count": 0,
+      "top_contributions": 167,
+      "total_contributions": 201
+    },
+    "created_at": "2025-06-16",
+    "description": "End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment.",
+    "full_name": "NirDiamant/agents-towards-production",
+    "homepage": "https://diamant-ai.com",
+    "language": "Jupyter Notebook",
+    "license": "NOASSERTION",
+    "owner_login": "NirDiamant",
+    "owner_type": "User",
+    "pushed_at": "2026-08-15",
+    "repo_id": "repo:4567bc8b296b131f"
+  },
+  {
+    "attention": {
+      "forks": 73,
+      "open_issues": 189,
+      "stars": 216,
+      "watchers": 216
+    },
+    "construction": {
+      "active_window_ratio": 0.988,
+      "age_days": 513,
+      "days_since_push": 6,
+      "human_contributors": 10,
+      "longevity_days": 507,
+      "release_count": 4,
+      "top_contributions": 1489,
+      "total_contributions": 2745
+    },
+    "created_at": "2025-03-28",
+    "description": "An open source fork of the now closed-source Mirth Connect.   Installers for the engine are in this repository.",
+    "full_name": "OpenIntegrationEngine/engine",
+    "homepage": "https://openintegrationengine.com/",
+    "language": "Java",
+    "license": "MPL-2.0",
+    "owner_login": "OpenIntegrationEngine",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-17",
+    "repo_id": "repo:1e1a5cfd35962b34"
+  },
+  {
+    "attention": {
+      "forks": 2204,
+      "open_issues": 7,
+      "stars": 26296,
+      "watchers": 26296
+    },
+    "construction": {
+      "active_window_ratio": 0.996,
+      "age_days": 232,
+      "days_since_push": 1,
+      "human_contributors": 10,
+      "longevity_days": 231,
+      "release_count": 30,
+      "top_contributions": 279,
+      "total_contributions": 309
+    },
+    "created_at": "2026-01-03",
+    "description": "Persistent file-based planning for AI coding agents and long-running tasks. Crash-proof markdown plans, session recovery after /clear and compaction, per-turn re-injection against context rot, deterministic completion gate. Manus-style. Install from npm, the Claude Code plugin marketplace, or npx skills. Codex, Cursor, OpenCode, 60+ agents.",
+    "full_name": "OthmanAdi/planning-with-files",
+    "homepage": "https://www.skills.sh/othmanadi/planning-with-files/planning-with-files",
+    "language": "Shell",
+    "license": "MIT",
+    "owner_login": "OthmanAdi",
+    "owner_type": "User",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:a7a9f7fdde38c461"
+  },
+  {
+    "attention": {
+      "forks": 29,
+      "open_issues": 41,
+      "stars": 326,
+      "watchers": 326
+    },
+    "construction": {
+      "active_window_ratio": 1.0,
+      "age_days": 184,
+      "days_since_push": 0,
+      "human_contributors": 7,
+      "longevity_days": 184,
+      "release_count": 30,
+      "top_contributions": 498,
+      "total_contributions": 511
+    },
+    "created_at": "2026-02-20",
+    "description": "Self-hosted runtime control plane for AI agents. Observe or HITL approve or Block rogue tool calls before it executes: secret leaks, prompt injection, supply chain etc in a local dashboard. Agent agnostic (Claude,codex etc.)",
+    "full_name": "PrismorSec/prismor",
+    "homepage": "https://prismor.dev",
+    "language": "Python",
+    "license": "Apache-2.0",
+    "owner_login": "PrismorSec",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-23",
+    "repo_id": "repo:fd03cfcc4b550c54"
+  },
+  {
+    "attention": {
+      "forks": 1403,
+      "open_issues": 15,
+      "stars": 16241,
+      "watchers": 16241
+    },
+    "construction": {
+      "active_window_ratio": 0.987,
+      "age_days": 150,
+      "days_since_push": 2,
+      "human_contributors": 6,
+      "longevity_days": 148,
+      "release_count": 0,
+      "top_contributions": 351,
+      "total_contributions": 356
+    },
+    "created_at": "2026-03-26",
+    "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+    "full_name": "RyanCodrai/turbovec",
+    "homepage": "https://pypi.org/project/turbovec/",
+    "language": "Rust",
+    "license": "MIT",
+    "owner_login": "RyanCodrai",
+    "owner_type": "User",
+    "pushed_at": "2026-08-21",
+    "repo_id": "repo:9611ef1239498d8b"
+  },
+  {
+    "attention": {
+      "forks": 18,
+      "open_issues": 10,
+      "stars": 130,
+      "watchers": 130
+    },
+    "construction": {
+      "active_window_ratio": 0.143,
+      "age_days": 175,
+      "days_since_push": 150,
+      "human_contributors": 2,
+      "longevity_days": 25,
+      "release_count": 1,
+      "top_contributions": 37,
+      "total_contributions": 62
+    },
+    "created_at": "2026-03-01",
+    "description": "Security proxy for AI agents. Scans every message for prompt injection, PII, and secrets. Defense-in-depth: Go proxy + iptables firewall + eBPF kernel monitor. YAML policy engine, audit logging, 5 AI agents with RAG knowledge bases.",
+    "full_name": "SleuthCo/clawshield-public",
+    "homepage": null,
+    "language": "Go",
+    "license": "Apache-2.0",
+    "owner_login": "SleuthCo",
+    "owner_type": "User",
+    "pushed_at": "2026-03-26",
+    "repo_id": "repo:27597b57378bb172"
+  },
+  {
+    "attention": {
+      "forks": 27,
+      "open_issues": 6,
+      "stars": 436,
+      "watchers": 436
+    },
+    "construction": {
+      "active_window_ratio": 0.986,
+      "age_days": 141,
+      "days_since_push": 2,
+      "human_contributors": 4,
+      "longevity_days": 139,
+      "release_count": 9,
+      "top_contributions": 158,
+      "total_contributions": 172
+    },
+    "created_at": "2026-04-04",
+    "description": "Deterministic safety solutions for probabilistic AI agents",
+    "full_name": "SponsioLabs/Sponsio",
+    "homepage": "https://sponsio.dev/",
+    "language": "Python",
+    "license": "Apache-2.0",
+    "owner_login": "SponsioLabs",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-21",
+    "repo_id": "repo:ecd99917fe0fa4f0"
+  },
+  {
+    "attention": {
+      "forks": 1558,
+      "open_issues": 291,
+      "stars": 10793,
+      "watchers": 10793
+    },
+    "construction": {
+      "active_window_ratio": 1.0,
+      "age_days": 222,
+      "days_since_push": 0,
+      "human_contributors": 9,
+      "longevity_days": 222,
+      "release_count": 30,
+      "top_contributions": 885,
+      "total_contributions": 2219
+    },
+    "created_at": "2026-01-13",
+    "description": "Build your own AI SRE agents. The open source toolkit for the AI era.",
+    "full_name": "Tracer-Cloud/opensre",
+    "homepage": "https://discord.com/invite/opensre",
+    "language": "Python",
+    "license": "Apache-2.0",
+    "owner_login": "Tracer-Cloud",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-23",
+    "repo_id": "repo:6d54fbb031ff9068"
+  },
+  {
+    "attention": {
+      "forks": 79,
+      "open_issues": 6,
+      "stars": 844,
+      "watchers": 844
+    },
+    "construction": {
+      "active_window_ratio": 0.865,
+      "age_days": 141,
+      "days_since_push": 19,
+      "human_contributors": 8,
+      "longevity_days": 122,
+      "release_count": 1,
+      "top_contributions": 31,
+      "total_contributions": 53
+    },
+    "created_at": "2026-04-04",
+    "description": "TriAttention — Efficient long reasoning with trigonometric KV cache compression. Enables OpenClaw local deployment on memory-constrained GPUs.",
+    "full_name": "WeianMao/triattention",
+    "homepage": null,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "owner_login": "WeianMao",
+    "owner_type": "User",
+    "pushed_at": "2026-08-04",
+    "repo_id": "repo:05a856dae4df18b0"
+  },
+  {
+    "attention": {
+      "forks": 102,
+      "open_issues": 278,
+      "stars": 1717,
+      "watchers": 1717
+    },
+    "construction": {
+      "active_window_ratio": 1.0,
+      "age_days": 230,
+      "days_since_push": 0,
+      "human_contributors": 8,
+      "longevity_days": 230,
+      "release_count": 30,
+      "top_contributions": 4523,
+      "total_contributions": 4654
+    },
+    "created_at": "2026-01-05",
+    "description": "Babysitter enforces obedience on agentic workforces and enables them to manage extremely complex tasks and workflows through deterministic, hallucination-free self-orchestration",
+    "full_name": "a5c-ai/babysitter",
+    "homepage": "https://a5c.ai",
+    "language": "JavaScript",
+    "license": "MIT",
+    "owner_login": "a5c-ai",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-23",
+    "repo_id": "repo:1b6b4ad093c1579e"
+  },
+  {
+    "attention": {
+      "forks": 47,
+      "open_issues": 36,
+      "stars": 298,
+      "watchers": 298
+    },
+    "construction": {
+      "active_window_ratio": 0.99,
+      "age_days": 205,
+      "days_since_push": 2,
+      "human_contributors": 10,
+      "longevity_days": 203,
+      "release_count": 30,
+      "top_contributions": 99,
+      "total_contributions": 304
+    },
+    "created_at": "2026-01-30",
+    "description": "Centralized agent control plane for governing runtime agent behavior at scale. Configurable, extensible, and production-ready.",
+    "full_name": "agentcontrol/agent-control",
+    "homepage": "https://agentcontrol.dev",
+    "language": "Python",
+    "license": "Apache-2.0",
+    "owner_login": "agentcontrol",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-21",
+    "repo_id": "repo:f7d3ff9496ca8bce"
+  },
+  {
+    "attention": {
+      "forks": 97,
+      "open_issues": 177,
+      "stars": 386,
+      "watchers": 386
+    },
+    "construction": {
+      "active_window_ratio": 0.993,
+      "age_days": 146,
+      "days_since_push": 1,
+      "human_contributors": 10,
+      "longevity_days": 145,
+      "release_count": 30,
+      "top_contributions": 452,
+      "total_contributions": 1777
+    },
+    "created_at": "2026-03-30",
+    "description": "ANOLISA (Agentic Nexus Operating Layer & Interface System Architecture) | Agentic OS with runtime, security, observability, and Tokenless response compression for lower token usage and cost.",
+    "full_name": "alibaba/anolisa",
+    "homepage": "https://agentic-os.sh/",
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "owner_login": "alibaba",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:4cf4578df1a9aeb1"
+  },
+  {
+    "attention": {
+      "forks": 404,
+      "open_issues": 2,
+      "stars": 2753,
+      "watchers": 2753
+    },
+    "construction": {
+      "active_window_ratio": 0.994,
+      "age_days": 323,
+      "days_since_push": 2,
+      "human_contributors": 10,
+      "longevity_days": 321,
+      "release_count": 7,
+      "top_contributions": 350,
+      "total_contributions": 1300
+    },
+    "created_at": "2025-10-04",
+    "description": "Connect any AI copilot or autonomous agent to your enterprise tools — through a single, secure MCP/Agent gateway with built-in identity, access control, and full observability.",
+    "full_name": "ascending-llc/jarvis-registry",
+    "homepage": "https://jarvisregistry.com",
+    "language": "Python",
+    "license": "Apache-2.0",
+    "owner_login": "ascending-llc",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-21",
+    "repo_id": "repo:b1d420740db6e5c8"
+  },
+  {
+    "attention": {
+      "forks": 162,
+      "open_issues": 259,
+      "stars": 2273,
+      "watchers": 2273
+    },
+    "construction": {
+      "active_window_ratio": 0.992,
+      "age_days": 259,
+      "days_since_push": 2,
+      "human_contributors": 9,
+      "longevity_days": 257,
+      "release_count": 30,
+      "top_contributions": 570,
+      "total_contributions": 753
+    },
+    "created_at": "2025-12-07",
+    "description": "The micro-VM for AI agents — light enough to embed on your laptop, elastic enough to power an agentic cloud.",
+    "full_name": "boxlite-ai/boxlite",
+    "homepage": "https://boxlite.ai/",
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "owner_login": "boxlite-ai",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-21",
+    "repo_id": "repo:166cb20753721681"
+  },
+  {
+    "attention": {
+      "forks": 32,
+      "open_issues": 14,
+      "stars": 513,
+      "watchers": 513
+    },
+    "construction": {
+      "active_window_ratio": 0.995,
+      "age_days": 195,
+      "days_since_push": 1,
+      "human_contributors": 1,
+      "longevity_days": 194,
+      "release_count": 30,
+      "top_contributions": 768,
+      "total_contributions": 768
+    },
+    "created_at": "2026-02-09",
+    "description": "Krasis is a Hybrid LLM runtime which focuses on efficient running of larger models on consumer grade VRAM limited hardware",
+    "full_name": "brontoguana/krasis",
+    "homepage": null,
+    "language": "C++",
+    "license": "NOASSERTION",
+    "owner_login": "brontoguana",
+    "owner_type": "User",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:67fe268083ef0970"
+  },
+  {
+    "attention": {
+      "forks": 7,
+      "open_issues": 9,
+      "stars": 240,
+      "watchers": 240
+    },
+    "construction": {
+      "active_window_ratio": 0.991,
+      "age_days": 108,
+      "days_since_push": 1,
+      "human_contributors": 7,
+      "longevity_days": 107,
+      "release_count": 30,
+      "top_contributions": 279,
+      "total_contributions": 285
+    },
+    "created_at": "2026-05-07",
+    "description": "Open-source eBPF runtime security sensor for GitHub Actions and GitLab CI/CD.",
+    "full_name": "cicd-sensor/cicd-sensor",
+    "homepage": "https://cicd-sensor.github.io",
+    "language": "Go",
+    "license": "Apache-2.0",
+    "owner_login": "cicd-sensor",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:45b5c31b52160806"
+  },
+  {
+    "attention": {
+      "forks": 74,
+      "open_issues": 7,
+      "stars": 753,
+      "watchers": 753
+    },
+    "construction": {
+      "active_window_ratio": 1.0,
+      "age_days": 165,
+      "days_since_push": 0,
+      "human_contributors": 4,
+      "longevity_days": 165,
+      "release_count": 0,
+      "top_contributions": 46,
+      "total_contributions": 51
+    },
+    "created_at": "2026-03-11",
+    "description": "Claw-Eval is an evaluation harness for evaluating LLM as agents. All tasks verified by humans.",
+    "full_name": "claw-eval/claw-eval",
+    "homepage": "https://claw-eval.github.io",
+    "language": "Python",
+    "license": "MIT",
+    "owner_login": "claw-eval",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-23",
+    "repo_id": "repo:517d20325bde3beb"
+  },
+  {
+    "attention": {
+      "forks": 35,
+      "open_issues": 0,
+      "stars": 289,
+      "watchers": 289
+    },
+    "construction": {
+      "active_window_ratio": 0.995,
+      "age_days": 204,
+      "days_since_push": 1,
+      "human_contributors": 9,
+      "longevity_days": 203,
+      "release_count": 30,
+      "top_contributions": 698,
+      "total_contributions": 1328
+    },
+    "created_at": "2026-01-31",
+    "description": "Deterministic, local-first memory and guardrails for AI coding agents with no LLM in the hot path.",
+    "full_name": "clay-good/OpenLore",
+    "homepage": "https://www.npmjs.com/package/openlore",
+    "language": "TypeScript",
+    "license": "MIT",
+    "owner_login": "clay-good",
+    "owner_type": "User",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:b011168b77686811"
+  },
+  {
+    "attention": {
+      "forks": 147,
+      "open_issues": 149,
+      "stars": 869,
+      "watchers": 869
+    },
+    "construction": {
+      "active_window_ratio": 0.991,
+      "age_days": 346,
+      "days_since_push": 3,
+      "human_contributors": 10,
+      "longevity_days": 343,
+      "release_count": 14,
+      "top_contributions": 313,
+      "total_contributions": 436
+    },
+    "created_at": "2025-09-11",
+    "description": "CUGA is an open-source generalist agent harness for the enterprise, supporting complex task execution on web and APIs, OpenAPI/MCP integrations, composable architecture, reasoning modes, and policy-aware features.",
+    "full_name": "cuga-project/cuga-agent",
+    "homepage": "https://cuga.dev",
+    "language": "Python",
+    "license": "NOASSERTION",
+    "owner_login": "cuga-project",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-20",
+    "repo_id": "repo:f7b796ec5d4081ac"
+  },
+  {
+    "attention": {
+      "forks": 120,
+      "open_issues": 13,
+      "stars": 603,
+      "watchers": 603
+    },
+    "construction": {
+      "active_window_ratio": 0.985,
+      "age_days": 66,
+      "days_since_push": 1,
+      "human_contributors": 5,
+      "longevity_days": 65,
+      "release_count": 7,
+      "top_contributions": 36,
+      "total_contributions": 43
+    },
+    "created_at": "2026-06-18",
+    "description": "DataBuff is an AI-native APM built on Opentelemetry，with multi-agent troubleshooting out of the box.",
+    "full_name": "databufflabs/databuff",
+    "homepage": "https://databuff.ai",
+    "language": "Java",
+    "license": "AGPL-3.0",
+    "owner_login": "databufflabs",
+    "owner_type": "User",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:75b9def65e0927ee"
+  },
+  {
+    "attention": {
+      "forks": 207,
+      "open_issues": 9,
+      "stars": 2749,
+      "watchers": 2749
+    },
+    "construction": {
+      "active_window_ratio": 0.99,
+      "age_days": 104,
+      "days_since_push": 1,
+      "human_contributors": 9,
+      "longevity_days": 103,
+      "release_count": 24,
+      "top_contributions": 278,
+      "total_contributions": 339
+    },
+    "created_at": "2026-05-11",
+    "description": "Fork() for AI agent microVMs. Spawn 100 children in ~100ms from a warm parent; BRANCH a live VM in ~150ms. KVM-isolated, snapshot CoW.",
+    "full_name": "deeplethe/forkd",
+    "homepage": null,
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "owner_login": "deeplethe",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:662002dbedfaefcd"
+  },
+  {
+    "attention": {
+      "forks": 13,
+      "open_issues": 0,
+      "stars": 362,
+      "watchers": 362
+    },
+    "construction": {
+      "active_window_ratio": 0.011,
+      "age_days": 464,
+      "days_since_push": 459,
+      "human_contributors": 3,
+      "longevity_days": 5,
+      "release_count": 0,
+      "top_contributions": 9,
+      "total_contributions": 11
+    },
+    "created_at": "2025-05-16",
+    "description": "Run larger LLMs with longer contexts on Apple Silicon by using differentiated precision for KV cache quantization. KVSplit enables 8-bit keys & 4-bit values, reducing memory by 59% with <1% quality loss. Includes benchmarking, visualization, and one-command setup. Optimized for M1/M2/M3 Macs with Metal support.",
+    "full_name": "dipampaul17/KVSplit",
+    "homepage": null,
+    "language": "Python",
+    "license": "NOASSERTION",
+    "owner_login": "dipampaul17",
+    "owner_type": "User",
+    "pushed_at": "2025-05-21",
+    "repo_id": "repo:d11e3b18cd65430c"
+  },
+  {
+    "attention": {
+      "forks": 228,
+      "open_issues": 17,
+      "stars": 4895,
+      "watchers": 4895
+    },
+    "construction": {
+      "active_window_ratio": 0.998,
+      "age_days": 483,
+      "days_since_push": 1,
+      "human_contributors": 8,
+      "longevity_days": 482,
+      "release_count": 25,
+      "top_contributions": 525,
+      "total_contributions": 556
+    },
+    "created_at": "2025-04-27",
+    "description": "Per-process network monitoring for your terminal with deep packet inspection. Cross-platform, sandboxed.",
+    "full_name": "domcyrus/rustnet",
+    "homepage": "https://github.com/domcyrus/rustnet#quick-start",
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "owner_login": "domcyrus",
+    "owner_type": "User",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:1175748fddb102c3"
+  },
+  {
+    "attention": {
+      "forks": 10,
+      "open_issues": 1,
+      "stars": 160,
+      "watchers": 160
+    },
+    "construction": {
+      "active_window_ratio": 0.973,
+      "age_days": 149,
+      "days_since_push": 4,
+      "human_contributors": 2,
+      "longevity_days": 145,
+      "release_count": 12,
+      "top_contributions": 1268,
+      "total_contributions": 1269
+    },
+    "created_at": "2026-03-27",
+    "description": "Containment for AI agents - user isolation, sandboxed execution, network controls, backup/rollback. TLA+ verified.",
+    "full_name": "dredozubov/hazmat",
+    "homepage": null,
+    "language": "Go",
+    "license": "MIT",
+    "owner_login": "dredozubov",
+    "owner_type": "User",
+    "pushed_at": "2026-08-19",
+    "repo_id": "repo:a7b4ad99240e5107"
+  },
+  {
+    "attention": {
+      "forks": 121,
+      "open_issues": 40,
+      "stars": 2017,
+      "watchers": 2017
+    },
+    "construction": {
+      "active_window_ratio": 0.761,
+      "age_days": 201,
+      "days_since_push": 48,
+      "human_contributors": 9,
+      "longevity_days": 153,
+      "release_count": 26,
+      "top_contributions": 347,
+      "total_contributions": 393
+    },
+    "created_at": "2026-02-03",
+    "description": "Experimental Linux microvm setup with a TypeScript Control Plane as Agent Sandbox",
+    "full_name": "earendil-works/gondolin",
+    "homepage": "https://earendil-works.github.io/gondolin",
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "owner_login": "earendil-works",
+    "owner_type": "Organization",
+    "pushed_at": "2026-07-06",
+    "repo_id": "repo:d53d6c0affd042a5"
+  },
+  {
+    "attention": {
+      "forks": 21,
+      "open_issues": 4,
+      "stars": 292,
+      "watchers": 292
+    },
+    "construction": {
+      "active_window_ratio": 0.296,
+      "age_days": 152,
+      "days_since_push": 107,
+      "human_contributors": 1,
+      "longevity_days": 45,
+      "release_count": 1,
+      "top_contributions": 26,
+      "total_contributions": 26
+    },
+    "created_at": "2026-03-24",
+    "description": "Agent memory infrastructure: provenance, rollback, lifecycle/supersession, three-layer model (working memory + session archive + wiki). Markdown on disk, MCP-native.",
+    "full_name": "esaradev/icarus-memory-infra",
+    "homepage": "https://x.com/IcarusHermes",
+    "language": "Python",
+    "license": "MIT",
+    "owner_login": "esaradev",
+    "owner_type": "User",
+    "pushed_at": "2026-05-08",
+    "repo_id": "repo:b012756f691c7b12"
+  },
+  {
+    "attention": {
+      "forks": 89,
+      "open_issues": 26,
+      "stars": 2030,
+      "watchers": 2030
+    },
+    "construction": {
+      "active_window_ratio": 0.995,
+      "age_days": 195,
+      "days_since_push": 1,
+      "human_contributors": 9,
+      "longevity_days": 194,
+      "release_count": 16,
+      "top_contributions": 190,
+      "total_contributions": 240
+    },
+    "created_at": "2026-02-09",
+    "description": "Sandbox your local AI agents so they can read/write only what they need",
+    "full_name": "eugene1g/agent-safehouse",
+    "homepage": "https://agent-safehouse.dev",
+    "language": "Shell",
+    "license": "Apache-2.0",
+    "owner_login": "eugene1g",
+    "owner_type": "User",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:b292dc9c8a11f430"
+  },
+  {
+    "attention": {
+      "forks": 91,
+      "open_issues": 25,
+      "stars": 599,
+      "watchers": 599
+    },
+    "construction": {
+      "active_window_ratio": 0.998,
+      "age_days": 412,
+      "days_since_push": 1,
+      "human_contributors": 9,
+      "longevity_days": 411,
+      "release_count": 30,
+      "top_contributions": 207,
+      "total_contributions": 358
+    },
+    "created_at": "2025-07-07",
+    "description": "lightweight system-level observability for AI Agents",
+    "full_name": "eunomia-bpf/agentsight",
+    "homepage": "https://eunomia.dev/agentsight/",
+    "language": "C",
+    "license": "MIT",
+    "owner_login": "eunomia-bpf",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:23bf188f2da9fee5"
+  },
+  {
+    "attention": {
+      "forks": 23,
+      "open_issues": 15,
+      "stars": 385,
+      "watchers": 385
+    },
+    "construction": {
+      "active_window_ratio": 0.932,
+      "age_days": 397,
+      "days_since_push": 27,
+      "human_contributors": 6,
+      "longevity_days": 370,
+      "release_count": 0,
+      "top_contributions": 288,
+      "total_contributions": 379
+    },
+    "created_at": "2025-07-22",
+    "description": "React components for visualizing traces from AI agents",
+    "full_name": "evilmartians/agent-prism",
+    "homepage": "https://storybook.agent-prism.evilmartians.io/?utm_source=github&utm_medium=social",
+    "language": "TypeScript",
+    "license": "MIT",
+    "owner_login": "evilmartians",
+    "owner_type": "Organization",
+    "pushed_at": "2026-07-27",
+    "repo_id": "repo:9d46a7b468308813"
+  },
+  {
+    "attention": {
+      "forks": 92,
+      "open_issues": 10,
+      "stars": 617,
+      "watchers": 617
+    },
+    "construction": {
+      "active_window_ratio": 0.946,
+      "age_days": 299,
+      "days_since_push": 16,
+      "human_contributors": 3,
+      "longevity_days": 283,
+      "release_count": 30,
+      "top_contributions": 1735,
+      "total_contributions": 2263
+    },
+    "created_at": "2025-10-28",
+    "description": "TypeScript AI agent framework: cognitive memory, runtime tool forging, multi-agent orchestration, 11 LLM providers.",
+    "full_name": "framerslab/agentos",
+    "homepage": "https://docs.agentos.sh",
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "owner_login": "framerslab",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-07",
+    "repo_id": "repo:34824ce09a78b681"
+  },
+  {
+    "attention": {
+      "forks": 536,
+      "open_issues": 740,
+      "stars": 1794,
+      "watchers": 1794
+    },
+    "construction": {
+      "active_window_ratio": 1.0,
+      "age_days": 122,
+      "days_since_push": 0,
+      "human_contributors": 10,
+      "longevity_days": 122,
+      "release_count": 23,
+      "top_contributions": 661,
+      "total_contributions": 3382
+    },
+    "created_at": "2026-04-23",
+    "description": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.",
+    "full_name": "future-agi/future-agi",
+    "homepage": "https://futureagi.com",
+    "language": "Python",
+    "license": "Apache-2.0",
+    "owner_login": "future-agi",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-23",
+    "repo_id": "repo:1eb5926cf740adff"
+  },
+  {
+    "attention": {
+      "forks": 1787,
+      "open_issues": 759,
+      "stars": 26533,
+      "watchers": 26533
+    },
+    "construction": {
+      "active_window_ratio": 1.0,
+      "age_days": 315,
+      "days_since_push": 0,
+      "human_contributors": 9,
+      "longevity_days": 315,
+      "release_count": 30,
+      "top_contributions": 4795,
+      "total_contributions": 6899
+    },
+    "created_at": "2025-10-12",
+    "description": "Beads - A memory upgrade for your coding agent",
+    "full_name": "gastownhall/beads",
+    "homepage": "https://beads.gascity.com",
+    "language": "Go",
+    "license": "MIT",
+    "owner_login": "gastownhall",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-23",
+    "repo_id": "repo:27649d6adc3dc232"
+  },
+  {
+    "attention": {
+      "forks": 767,
+      "open_issues": 30,
+      "stars": 9609,
+      "watchers": 9609
+    },
+    "construction": {
+      "active_window_ratio": 0.992,
+      "age_days": 132,
+      "days_since_push": 1,
+      "human_contributors": 10,
+      "longevity_days": 131,
+      "release_count": 30,
+      "top_contributions": 1234,
+      "total_contributions": 1521
+    },
+    "created_at": "2026-04-13",
+    "description": "Free, local tool to track AI coding token usage and cost across 37 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task. npx codeburn",
+    "full_name": "getagentseal/codeburn",
+    "homepage": "https://codeburn.app/",
+    "language": "TypeScript",
+    "license": "MIT",
+    "owner_login": "getagentseal",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:a04ea7b9c0067bda"
+  },
+  {
+    "attention": {
+      "forks": 51,
+      "open_issues": 7,
+      "stars": 538,
+      "watchers": 538
+    },
+    "construction": {
+      "active_window_ratio": 1.0,
+      "age_days": 165,
+      "days_since_push": 0,
+      "human_contributors": 10,
+      "longevity_days": 165,
+      "release_count": 27,
+      "top_contributions": 363,
+      "total_contributions": 394
+    },
+    "created_at": "2026-03-11",
+    "description": "Sandboxed collaboration for multi-agent teams: a Git-backed message forum with each agent isolated in its own disposable sandbox. Turn a Git repository into a secure message forum for AI agents.",
+    "full_name": "h5i-dev/h5i",
+    "homepage": "https://h5i.dev",
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "owner_login": "h5i-dev",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-23",
+    "repo_id": "repo:4e70bd940dcd3970"
+  },
+  {
+    "attention": {
+      "forks": 5180,
+      "open_issues": 526,
+      "stars": 67228,
+      "watchers": 67228
+    },
+    "construction": {
+      "active_window_ratio": 0.996,
+      "age_days": 228,
+      "days_since_push": 1,
+      "human_contributors": 9,
+      "longevity_days": 227,
+      "release_count": 30,
+      "top_contributions": 1164,
+      "total_contributions": 1992
+    },
+    "created_at": "2026-01-07",
+    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+    "full_name": "headroomlabs-ai/headroom",
+    "homepage": "https://docs.headroomlabs.ai/docs",
+    "language": "Python",
+    "license": "Apache-2.0",
+    "owner_login": "headroomlabs-ai",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:57bd5c24dce8d9a6"
+  },
+  {
+    "attention": {
+      "forks": 2263,
+      "open_issues": 224,
+      "stars": 31648,
+      "watchers": 31648
+    },
+    "construction": {
+      "active_window_ratio": 1.0,
+      "age_days": 149,
+      "days_since_push": 0,
+      "human_contributors": 9,
+      "longevity_days": 149,
+      "release_count": 30,
+      "top_contributions": 1167,
+      "total_contributions": 1337
+    },
+    "created_at": "2026-03-27",
+    "description": "the runtime your coding agents live on",
+    "full_name": "herdrdev/herdr",
+    "homepage": "https://herdr.dev",
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "owner_login": "herdrdev",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-23",
+    "repo_id": "repo:6c6c2da9ad564a34"
+  },
+  {
+    "attention": {
+      "forks": 74,
+      "open_issues": 2,
+      "stars": 1503,
+      "watchers": 1503
+    },
+    "construction": {
+      "active_window_ratio": 1.0,
+      "age_days": 241,
+      "days_since_push": 0,
+      "human_contributors": 4,
+      "longevity_days": 241,
+      "release_count": 30,
+      "top_contributions": 1083,
+      "total_contributions": 1095
+    },
+    "created_at": "2025-12-25",
+    "description": "An AI coding agent guardrail — a CLI hook that blocks destructive git and filesystem commands and secret file access before they execute. Supports Amp Code, Antigravity CLI, Claude Code, Codex, Copilot CLI, Cursor, Gemini CLI, Hermes Agent, Kimi Code, OpenClaw, OpenCode, and Pi.",
+    "full_name": "kenryu42/cc-safety-net",
+    "homepage": "https://ccsafetynet.com",
+    "language": "TypeScript",
+    "license": "MIT",
+    "owner_login": "kenryu42",
+    "owner_type": "User",
+    "pushed_at": "2026-08-23",
+    "repo_id": "repo:92c7db31bd406b67"
+  },
+  {
+    "attention": {
+      "forks": 456,
+      "open_issues": 205,
+      "stars": 3590,
+      "watchers": 3590
+    },
+    "construction": {
+      "active_window_ratio": 0.997,
+      "age_days": 376,
+      "days_since_push": 1,
+      "human_contributors": 9,
+      "longevity_days": 375,
+      "release_count": 19,
+      "top_contributions": 83,
+      "total_contributions": 471
+    },
+    "created_at": "2025-08-12",
+    "description": "agent-sandbox enables easy management of isolated, stateful, singleton workloads, ideal for use cases like AI agent runtimes  and reinforcement learning (RL).",
+    "full_name": "kubernetes-sigs/agent-sandbox",
+    "homepage": "https://agent-sandbox.sigs.k8s.io",
+    "language": "Go",
+    "license": "Apache-2.0",
+    "owner_login": "kubernetes-sigs",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:82345bcfe6e60e03"
+  },
+  {
+    "attention": {
+      "forks": 15,
+      "open_issues": 3,
+      "stars": 288,
+      "watchers": 288
+    },
+    "construction": {
+      "active_window_ratio": 0.545,
+      "age_days": 22,
+      "days_since_push": 10,
+      "human_contributors": 1,
+      "longevity_days": 12,
+      "release_count": 1,
+      "top_contributions": 173,
+      "total_contributions": 173
+    },
+    "created_at": "2026-08-01",
+    "description": "A deep-research agent with an enforced budget, verified quotes, and a privacy boundary for local data.",
+    "full_name": "lajosdeme/mole",
+    "homepage": null,
+    "language": "Go",
+    "license": "Apache-2.0",
+    "owner_login": "lajosdeme",
+    "owner_type": "User",
+    "pushed_at": "2026-08-13",
+    "repo_id": "repo:36472de4317cc278"
+  },
+  {
+    "attention": {
+      "forks": 30,
+      "open_issues": 3,
+      "stars": 262,
+      "watchers": 262
+    },
+    "construction": {
+      "active_window_ratio": 0.004,
+      "age_days": 228,
+      "days_since_push": 227,
+      "human_contributors": 1,
+      "longevity_days": 1,
+      "release_count": 0,
+      "top_contributions": 2,
+      "total_contributions": 2
+    },
+    "created_at": "2026-01-07",
+    "description": "Lasso security integrations for Claude Code, including prompt-injection defenses",
+    "full_name": "lasso-security/claude-hooks",
+    "homepage": "https://lasso.security",
+    "language": "TypeScript",
+    "license": "MIT",
+    "owner_login": "lasso-security",
+    "owner_type": "Organization",
+    "pushed_at": "2026-01-08",
+    "repo_id": "repo:f44b4051993ce915"
+  },
+  {
+    "attention": {
+      "forks": 15,
+      "open_issues": 5,
+      "stars": 249,
+      "watchers": 249
+    },
+    "construction": {
+      "active_window_ratio": 1.0,
+      "age_days": 295,
+      "days_since_push": 0,
+      "human_contributors": 4,
+      "longevity_days": 295,
+      "release_count": 3,
+      "top_contributions": 174,
+      "total_contributions": 183
+    },
+    "created_at": "2025-11-01",
+    "description": "eBPF-powered Linux observability with AI incident detection. AGPL-3.0 licensed.",
+    "full_name": "linnix-os/linnix",
+    "homepage": null,
+    "language": "Rust",
+    "license": "NOASSERTION",
+    "owner_login": "linnix-os",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-23",
+    "repo_id": "repo:45a6e169174f0eb0"
+  },
+  {
+    "attention": {
+      "forks": 1064,
+      "open_issues": 218,
+      "stars": 6087,
+      "watchers": 6087
+    },
+    "construction": {
+      "active_window_ratio": 0.989,
+      "age_days": 174,
+      "days_since_push": 2,
+      "human_contributors": 9,
+      "longevity_days": 172,
+      "release_count": 19,
+      "top_contributions": 857,
+      "total_contributions": 1313
+    },
+    "created_at": "2026-03-02",
+    "description": "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
+    "full_name": "microsoft/agent-governance-toolkit",
+    "homepage": null,
+    "language": "Python",
+    "license": "MIT",
+    "owner_login": "microsoft",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-21",
+    "repo_id": "repo:a021e9cea71e5700"
+  },
+  {
+    "attention": {
+      "forks": 73,
+      "open_issues": 5,
+      "stars": 622,
+      "watchers": 622
+    },
+    "construction": {
+      "active_window_ratio": 1.0,
+      "age_days": 30,
+      "days_since_push": 0,
+      "human_contributors": 4,
+      "longevity_days": 30,
+      "release_count": 15,
+      "top_contributions": 114,
+      "total_contributions": 120
+    },
+    "created_at": "2026-07-24",
+    "description": "See what your coding agents did and what it cost. Breaks each task down into work steps — tools used, files changed, tests run, time and tokens spent. Local-first dashboard for Claude Code, Codex, OpenCode, and more. No login, no telemetry.",
+    "full_name": "mikehasa/agentacct",
+    "homepage": null,
+    "language": "Python",
+    "license": "MIT",
+    "owner_login": "mikehasa",
+    "owner_type": "User",
+    "pushed_at": "2026-08-23",
+    "repo_id": "repo:531a4dd7e1baf429"
+  },
+  {
+    "attention": {
+      "forks": 1449,
+      "open_issues": 168,
+      "stars": 20096,
+      "watchers": 20096
+    },
+    "construction": {
+      "active_window_ratio": 1.0,
+      "age_days": 181,
+      "days_since_push": 0,
+      "human_contributors": 9,
+      "longevity_days": 181,
+      "release_count": 30,
+      "top_contributions": 1372,
+      "total_contributions": 1535
+    },
+    "created_at": "2026-02-23",
+    "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
+    "full_name": "mksglu/context-mode",
+    "homepage": "https://context-mode.com",
+    "language": "TypeScript",
+    "license": "NOASSERTION",
+    "owner_login": "mksglu",
+    "owner_type": "User",
+    "pushed_at": "2026-08-23",
+    "repo_id": "repo:400c22b0a9398804"
+  },
+  {
+    "attention": {
+      "forks": 15,
+      "open_issues": 4,
+      "stars": 106,
+      "watchers": 106
+    },
+    "construction": {
+      "active_window_ratio": 0.545,
+      "age_days": 202,
+      "days_since_push": 92,
+      "human_contributors": 2,
+      "longevity_days": 110,
+      "release_count": 1,
+      "top_contributions": 77,
+      "total_contributions": 78
+    },
+    "created_at": "2026-02-02",
+    "description": "BranchFS is a FUSE-based filesystem that provides lightweight, atomic speculative branching on top of any existing filesystem.",
+    "full_name": "multikernel/branchfs",
+    "homepage": null,
+    "language": "Rust",
+    "license": "MIT",
+    "owner_login": "multikernel",
+    "owner_type": "Organization",
+    "pushed_at": "2026-05-23",
+    "repo_id": "repo:2ae3781c1245fe08"
+  },
+  {
+    "attention": {
+      "forks": 1,
+      "open_issues": 0,
+      "stars": 21,
+      "watchers": 21
+    },
+    "construction": {
+      "active_window_ratio": 0.165,
+      "age_days": 194,
+      "days_since_push": 162,
+      "human_contributors": 1,
+      "longevity_days": 32,
+      "release_count": 0,
+      "top_contributions": 34,
+      "total_contributions": 34
+    },
+    "created_at": "2026-02-10",
+    "description": "BranchContext gives AI agents and automated workflows copy-on-write branching over filesystems and processes",
+    "full_name": "multikernel/branching",
+    "homepage": null,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "owner_login": "multikernel",
+    "owner_type": "Organization",
+    "pushed_at": "2026-03-14",
+    "repo_id": "repo:5b77cf5a8ca01d7a"
+  },
+  {
+    "attention": {
+      "forks": 7,
+      "open_issues": 13,
+      "stars": 93,
+      "watchers": 93
+    },
+    "construction": {
+      "active_window_ratio": 0.967,
+      "age_days": 211,
+      "days_since_push": 7,
+      "human_contributors": 2,
+      "longevity_days": 204,
+      "release_count": 1,
+      "top_contributions": 112,
+      "total_contributions": 115
+    },
+    "created_at": "2026-01-24",
+    "description": "Disaggregated filesystem for CXL and multikernel shared memory",
+    "full_name": "multikernel/daxfs",
+    "homepage": null,
+    "language": "C",
+    "license": "GPL-2.0",
+    "owner_login": "multikernel",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-16",
+    "repo_id": "repo:c5cff27f770b63e4"
+  },
+  {
+    "attention": {
+      "forks": 6,
+      "open_issues": 6,
+      "stars": 30,
+      "watchers": 30
+    },
+    "construction": {
+      "active_window_ratio": 0.997,
+      "age_days": 319,
+      "days_since_push": 1,
+      "human_contributors": 2,
+      "longevity_days": 318,
+      "release_count": 1,
+      "top_contributions": 156,
+      "total_contributions": 163
+    },
+    "created_at": "2025-10-08",
+    "description": "kerf is a tool designed to orchestrate and manage multiple kernel instances on a single host.",
+    "full_name": "multikernel/kerf",
+    "homepage": null,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "owner_login": "multikernel",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:72aac4bc8895d0f2"
+  },
+  {
+    "attention": {
+      "forks": 24,
+      "open_issues": 2,
+      "stars": 502,
+      "watchers": 502
+    },
+    "construction": {
+      "active_window_ratio": 0.857,
+      "age_days": 405,
+      "days_since_push": 58,
+      "human_contributors": 3,
+      "longevity_days": 347,
+      "release_count": 3,
+      "top_contributions": 524,
+      "total_contributions": 544
+    },
+    "created_at": "2025-07-14",
+    "description": "KernelScript is a modern, type-safe, domain-specific programming language for eBPF-centric kernel customization",
+    "full_name": "multikernel/kernelscript",
+    "homepage": null,
+    "language": "OCaml",
+    "license": "Apache-2.0",
+    "owner_login": "multikernel",
+    "owner_type": "Organization",
+    "pushed_at": "2026-06-26",
+    "repo_id": "repo:0d6564910393045c"
+  },
+  {
+    "attention": {
+      "forks": 7,
+      "open_issues": 3,
+      "stars": 90,
+      "watchers": 90
+    },
+    "construction": {
+      "active_window_ratio": 0.997,
+      "age_days": 342,
+      "days_since_push": 1,
+      "human_contributors": 0,
+      "longevity_days": 341,
+      "release_count": 0,
+      "top_contributions": 0,
+      "total_contributions": 0
+    },
+    "created_at": "2025-09-15",
+    "description": "Linux kernel with Multikernel support",
+    "full_name": "multikernel/linux",
+    "homepage": null,
+    "language": "C",
+    "license": "NOASSERTION",
+    "owner_login": "multikernel",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:7a0e0b759fce84cf"
+  },
+  {
+    "attention": {
+      "forks": 38,
+      "open_issues": 19,
+      "stars": 358,
+      "watchers": 358
+    },
+    "construction": {
+      "active_window_ratio": 1.0,
+      "age_days": 163,
+      "days_since_push": 0,
+      "human_contributors": 8,
+      "longevity_days": 163,
+      "release_count": 18,
+      "top_contributions": 807,
+      "total_contributions": 1079
+    },
+    "created_at": "2026-03-13",
+    "description": "The lightest AI sandbox. A process-based sandbox for Linux, no container, no VM, no privilege, no prompt injection",
+    "full_name": "multikernel/sandlock",
+    "homepage": "https://sandlock.io/",
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "owner_login": "multikernel",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-23",
+    "repo_id": "repo:4b088182f48243e7"
+  },
+  {
+    "attention": {
+      "forks": 405,
+      "open_issues": 5,
+      "stars": 4912,
+      "watchers": 4912
+    },
+    "construction": {
+      "active_window_ratio": 1.0,
+      "age_days": 55,
+      "days_since_push": 0,
+      "human_contributors": 9,
+      "longevity_days": 55,
+      "release_count": 13,
+      "top_contributions": 108,
+      "total_contributions": 397
+    },
+    "created_at": "2026-06-29",
+    "description": "Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
+    "full_name": "oomol-lab/open-connector",
+    "homepage": "https://oomol.com",
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "owner_login": "oomol-lab",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-23",
+    "repo_id": "repo:7d9892cdd3cf4b4d"
+  },
+  {
+    "attention": {
+      "forks": 1292,
+      "open_issues": 161,
+      "stars": 14588,
+      "watchers": 14588
+    },
+    "construction": {
+      "active_window_ratio": 0.996,
+      "age_days": 249,
+      "days_since_push": 1,
+      "human_contributors": 8,
+      "longevity_days": 248,
+      "release_count": 30,
+      "top_contributions": 1082,
+      "total_contributions": 1942
+    },
+    "created_at": "2025-12-17",
+    "description": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
+    "full_name": "opensandbox-group/OpenSandbox",
+    "homepage": "https://open-sandbox.ai",
+    "language": "Python",
+    "license": "Apache-2.0",
+    "owner_login": "opensandbox-group",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:834e88f5e78cf7f9"
+  },
+  {
+    "attention": {
+      "forks": 132,
+      "open_issues": 99,
+      "stars": 1140,
+      "watchers": 1140
+    },
+    "construction": {
+      "active_window_ratio": 1.0,
+      "age_days": 453,
+      "days_since_push": 0,
+      "human_contributors": 10,
+      "longevity_days": 453,
+      "release_count": 5,
+      "top_contributions": 77,
+      "total_contributions": 215
+    },
+    "created_at": "2025-05-27",
+    "description": "Virtualized Elastic KV Cache for Dynamic GPU Sharing and Beyond",
+    "full_name": "ovg-project/kvcached",
+    "homepage": null,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "owner_login": "ovg-project",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-23",
+    "repo_id": "repo:2117987c269c070d"
+  },
+  {
+    "attention": {
+      "forks": 103,
+      "open_issues": 109,
+      "stars": 655,
+      "watchers": 655
+    },
+    "construction": {
+      "active_window_ratio": 0.989,
+      "age_days": 187,
+      "days_since_push": 2,
+      "human_contributors": 10,
+      "longevity_days": 185,
+      "release_count": 1,
+      "top_contributions": 492,
+      "total_contributions": 700
+    },
+    "created_at": "2026-02-17",
+    "description": "Pure Rust + CUDA LLM inference engine — no PyTorch, OpenAI-compatible, serves Qwen3 to Kimi-K2",
+    "full_name": "pegainfer-project/pegainfer",
+    "homepage": "https://pegainfer.org/",
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "owner_login": "pegainfer-project",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-21",
+    "repo_id": "repo:0e4939795b5d33d1"
+  },
+  {
+    "attention": {
+      "forks": 18,
+      "open_issues": 20,
+      "stars": 483,
+      "watchers": 483
+    },
+    "construction": {
+      "active_window_ratio": 0.998,
+      "age_days": 529,
+      "days_since_push": 1,
+      "human_contributors": 1,
+      "longevity_days": 528,
+      "release_count": 7,
+      "top_contributions": 167,
+      "total_contributions": 167
+    },
+    "created_at": "2025-03-12",
+    "description": "A double entry ledger implementation in PostgreSQL",
+    "full_name": "pgr0ss/pgledger",
+    "homepage": null,
+    "language": "Go",
+    "license": "MIT",
+    "owner_login": "pgr0ss",
+    "owner_type": "User",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:bbdf15720e6d34d4"
+  },
+  {
+    "attention": {
+      "forks": 56,
+      "open_issues": 8,
+      "stars": 1456,
+      "watchers": 1456
+    },
+    "construction": {
+      "active_window_ratio": 0.992,
+      "age_days": 494,
+      "days_since_push": 4,
+      "human_contributors": 6,
+      "longevity_days": 490,
+      "release_count": 0,
+      "top_contributions": 138,
+      "total_contributions": 266
+    },
+    "created_at": "2025-04-16",
+    "description": "Qtap: An eBPF agent that captures pre-encrypted network traffic, providing rich context about egress connections and their originating processes.",
+    "full_name": "qpoint-io/qtap",
+    "homepage": "https://qpoint.io/products/qtap",
+    "language": "C",
+    "license": "AGPL-3.0",
+    "owner_login": "qpoint-io",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-19",
+    "repo_id": "repo:7818741466d29706"
+  },
+  {
+    "attention": {
+      "forks": 44,
+      "open_issues": 11,
+      "stars": 399,
+      "watchers": 399
+    },
+    "construction": {
+      "active_window_ratio": 0.196,
+      "age_days": 148,
+      "days_since_push": 119,
+      "human_contributors": 1,
+      "longevity_days": 29,
+      "release_count": 16,
+      "top_contributions": 788,
+      "total_contributions": 788
+    },
+    "created_at": "2026-03-28",
+    "description": "LLM inference with 7x longer context. Pure C, zero dependencies. Lossless KV cache compression + single-header library.",
+    "full_name": "quantumaikr/quant.cpp",
+    "homepage": null,
+    "language": "C",
+    "license": "Apache-2.0",
+    "owner_login": "quantumaikr",
+    "owner_type": "Organization",
+    "pushed_at": "2026-04-26",
+    "repo_id": "repo:baa0647292110f29"
+  },
+  {
+    "attention": {
+      "forks": 92,
+      "open_issues": 37,
+      "stars": 343,
+      "watchers": 343
+    },
+    "construction": {
+      "active_window_ratio": 0.938,
+      "age_days": 113,
+      "days_since_push": 7,
+      "human_contributors": 9,
+      "longevity_days": 106,
+      "release_count": 30,
+      "top_contributions": 780,
+      "total_contributions": 833
+    },
+    "created_at": "2026-05-02",
+    "description": "Local execution trees for TypeScript AI agents.  agent-inspect helps you understand what happened inside an AI agent run — locally. It turns manual steps, tool calls, LLM calls, structured logs, failures, durations, and run metadata into readable execution trees you can inspect from the terminal.  It is built for TypeScript/Node.js developers..",
+    "full_name": "rajudandigam/agent-inspect",
+    "homepage": "https://agentinspect.vercel.app",
+    "language": "TypeScript",
+    "license": "MIT",
+    "owner_login": "rajudandigam",
+    "owner_type": "User",
+    "pushed_at": "2026-08-16",
+    "repo_id": "repo:27ec2a2709531e00"
+  },
+  {
+    "attention": {
+      "forks": 34,
+      "open_issues": 34,
+      "stars": 229,
+      "watchers": 229
+    },
+    "construction": {
+      "active_window_ratio": 0.983,
+      "age_days": 115,
+      "days_since_push": 2,
+      "human_contributors": 9,
+      "longevity_days": 113,
+      "release_count": 2,
+      "top_contributions": 162,
+      "total_contributions": 457
+    },
+    "created_at": "2026-04-30",
+    "description": "Requirement-driven evaluation harness for AI agents and LLM applications. Generate behavior-specific test cases, run them against any target (hosted models, callable wrappers, OTel-traced agents), and inspect local-first artifacts.",
+    "full_name": "responsibleai/ASSERT",
+    "homepage": "https://responsibleai.github.io/ASSERT/",
+    "language": "Python",
+    "license": "MIT",
+    "owner_login": "responsibleai",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-21",
+    "repo_id": "repo:6f05f39f31ca8513"
+  },
+  {
+    "attention": {
+      "forks": 2335,
+      "open_issues": 492,
+      "stars": 27287,
+      "watchers": 27287
+    },
+    "construction": {
+      "active_window_ratio": 0.966,
+      "age_days": 179,
+      "days_since_push": 6,
+      "human_contributors": 10,
+      "longevity_days": 173,
+      "release_count": 30,
+      "top_contributions": 399,
+      "total_contributions": 440
+    },
+    "created_at": "2026-02-25",
+    "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+    "full_name": "rohitg00/agentmemory",
+    "homepage": "https://agent-memory.dev",
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "owner_login": "rohitg00",
+    "owner_type": "User",
+    "pushed_at": "2026-08-17",
+    "repo_id": "repo:0e45e6b5376d56e6"
+  },
+  {
+    "attention": {
+      "forks": 8397,
+      "open_issues": 112,
+      "stars": 47669,
+      "watchers": 47669
+    },
+    "construction": {
+      "active_window_ratio": 0.994,
+      "age_days": 158,
+      "days_since_push": 1,
+      "human_contributors": 9,
+      "longevity_days": 157,
+      "release_count": 2,
+      "top_contributions": 1558,
+      "total_contributions": 1592
+    },
+    "created_at": "2026-03-18",
+    "description": "Learn it. Build it. Ship it for others.",
+    "full_name": "rohitg00/ai-engineering-from-scratch",
+    "homepage": "https://aiengineeringfromscratch.com",
+    "language": "Python",
+    "license": "MIT",
+    "owner_login": "rohitg00",
+    "owner_type": "User",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:e1f6a792e479b417"
+  },
+  {
+    "attention": {
+      "forks": 4847,
+      "open_issues": 1999,
+      "stars": 77106,
+      "watchers": 77106
+    },
+    "construction": {
+      "active_window_ratio": 0.995,
+      "age_days": 213,
+      "days_since_push": 1,
+      "human_contributors": 9,
+      "longevity_days": 212,
+      "release_count": 30,
+      "top_contributions": 530,
+      "total_contributions": 1132
+    },
+    "created_at": "2026-01-22",
+    "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+    "full_name": "rtk-ai/rtk",
+    "homepage": "https://www.rtk-ai.app",
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "owner_login": "rtk-ai",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:fb31a3df14999c9b"
+  },
+  {
+    "attention": {
+      "forks": 28,
+      "open_issues": 14,
+      "stars": 337,
+      "watchers": 337
+    },
+    "construction": {
+      "active_window_ratio": 0.785,
+      "age_days": 191,
+      "days_since_push": 41,
+      "human_contributors": 7,
+      "longevity_days": 150,
+      "release_count": 7,
+      "top_contributions": 79,
+      "total_contributions": 103
+    },
+    "created_at": "2026-02-13",
+    "description": "The local runtime control layer for OpenClaw/Hermes-agent, PII & sensitive credentials protection.",
+    "full_name": "runta-dev/clawshell",
+    "homepage": "https://clawshell.org",
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "owner_login": "runta-dev",
+    "owner_type": "Organization",
+    "pushed_at": "2026-07-13",
+    "repo_id": "repo:2902febac3d0d9e7"
+  },
+  {
+    "attention": {
+      "forks": 33,
+      "open_issues": 3,
+      "stars": 374,
+      "watchers": 374
+    },
+    "construction": {
+      "active_window_ratio": 1.0,
+      "age_days": 231,
+      "days_since_push": 0,
+      "human_contributors": 6,
+      "longevity_days": 231,
+      "release_count": 30,
+      "top_contributions": 2733,
+      "total_contributions": 2762
+    },
+    "created_at": "2026-01-04",
+    "description": "Modern plain text accounting. Beancount compatible.",
+    "full_name": "rustledger/rustledger",
+    "homepage": "https://rustledger.github.io",
+    "language": "Rust",
+    "license": "GPL-3.0",
+    "owner_login": "rustledger",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-23",
+    "repo_id": "repo:7649e0805c8c1287"
+  },
+  {
+    "attention": {
+      "forks": 26,
+      "open_issues": 22,
+      "stars": 572,
+      "watchers": 572
+    },
+    "construction": {
+      "active_window_ratio": 0.994,
+      "age_days": 170,
+      "days_since_push": 1,
+      "human_contributors": 6,
+      "longevity_days": 169,
+      "release_count": 30,
+      "top_contributions": 319,
+      "total_contributions": 382
+    },
+    "created_at": "2026-03-06",
+    "description": "Catch and fix the code-quality issues AI coding agents leave behind - dead code, unsafe casts, swallowed errors, duplication, security risks, and more. 50+ deterministic rules across 10 language targets, with CLI, CI, and GitHub Actions. No LLM at runtime. MIT.",
+    "full_name": "scanaislop/aislop",
+    "homepage": "https://scanaislop.com",
+    "language": "TypeScript",
+    "license": "MIT",
+    "owner_login": "scanaislop",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:1ad5befe57787930"
+  },
+  {
+    "attention": {
+      "forks": 89,
+      "open_issues": 11,
+      "stars": 1043,
+      "watchers": 1043
+    },
+    "construction": {
+      "active_window_ratio": 0.187,
+      "age_days": 150,
+      "days_since_push": 122,
+      "human_contributors": 4,
+      "longevity_days": 28,
+      "release_count": 0,
+      "top_contributions": 64,
+      "total_contributions": 67
+    },
+    "created_at": "2026-03-26",
+    "description": "KV cache compression via block-diagonal rotation. Beats TurboQuant: better PPL (6.91 vs 7.07), 28% faster decode, 5.3x faster prefill, 44x fewer params. Drop-in llama.cpp integration.",
+    "full_name": "scrya-com/rotorquant",
+    "homepage": "https://www.scrya.com/rotorquant",
+    "language": "Python",
+    "license": "none",
+    "owner_login": "scrya-com",
+    "owner_type": "Organization",
+    "pushed_at": "2026-04-23",
+    "repo_id": "repo:4d25ee7375513b7a"
+  },
+  {
+    "attention": {
+      "forks": 91,
+      "open_issues": 6,
+      "stars": 546,
+      "watchers": 546
+    },
+    "construction": {
+      "active_window_ratio": 0.971,
+      "age_days": 104,
+      "days_since_push": 3,
+      "human_contributors": 10,
+      "longevity_days": 101,
+      "release_count": 0,
+      "top_contributions": 29,
+      "total_contributions": 62
+    },
+    "created_at": "2026-05-11",
+    "description": "Open-source runtime AI agent security tool - monitors and controls AI agents, catching malicious tool use, prompt injection, and policy drift in real time, before the agent acts.",
+    "full_name": "secureagentics/Adrian",
+    "homepage": "https://secureagentics.ai",
+    "language": "Python",
+    "license": "Apache-2.0",
+    "owner_login": "secureagentics",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-20",
+    "repo_id": "repo:6e49156b61567a28"
+  },
+  {
+    "attention": {
+      "forks": 33,
+      "open_issues": 2,
+      "stars": 173,
+      "watchers": 173
+    },
+    "construction": {
+      "active_window_ratio": 0.403,
+      "age_days": 206,
+      "days_since_push": 123,
+      "human_contributors": 7,
+      "longevity_days": 83,
+      "release_count": 0,
+      "top_contributions": 38,
+      "total_contributions": 86
+    },
+    "created_at": "2026-01-29",
+    "description": "Advanced prompt injection defense system for AI agents. Multi-language detection, severity scoring, and security auditing.",
+    "full_name": "seojoonkim/prompt-guard",
+    "homepage": null,
+    "language": "Python",
+    "license": "MIT",
+    "owner_login": "seojoonkim",
+    "owner_type": "User",
+    "pushed_at": "2026-04-22",
+    "repo_id": "repo:989ec27f6d0dc1ba"
+  },
+  {
+    "attention": {
+      "forks": 205,
+      "open_issues": 10,
+      "stars": 2365,
+      "watchers": 2365
+    },
+    "construction": {
+      "active_window_ratio": 0.767,
+      "age_days": 60,
+      "days_since_push": 14,
+      "human_contributors": 5,
+      "longevity_days": 46,
+      "release_count": 4,
+      "top_contributions": 100,
+      "total_contributions": 125
+    },
+    "created_at": "2026-06-24",
+    "description": "A runtime substrate that turns an agent's execution into a reversible, Git-like trace, so meta-agents can observe, fork, replay, and revert any run. Couples agent and environments in a copy-on-write fork ~5x faster than docker commit, with ~95% KV-cache reuse on replay. Framework built for meta-agents to supervise, optimize, and train other agents",
+    "full_name": "shepherd-agents/shepherd",
+    "homepage": "https://shepherd-agents.ai/",
+    "language": "Python",
+    "license": "MIT",
+    "owner_login": "shepherd-agents",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-09",
+    "repo_id": "repo:8730df4f6611fb6d"
+  },
+  {
+    "attention": {
+      "forks": 129,
+      "open_issues": 190,
+      "stars": 960,
+      "watchers": 960
+    },
+    "construction": {
+      "active_window_ratio": 1.0,
+      "age_days": 154,
+      "days_since_push": 0,
+      "human_contributors": 7,
+      "longevity_days": 154,
+      "release_count": 30,
+      "top_contributions": 3669,
+      "total_contributions": 3811
+    },
+    "created_at": "2026-03-22",
+    "description": "Deterministic orchestrator for CLI coding agents (Claude Code, Codex, Gemini CLI, +40 more). No model in the coordination loop, so parallel runs in per-task git worktrees replay byte-identically. Signed lineage plus an opt-in HMAC audit chain a reviewer checks offline. Cluster mode, air-gap deploy. Status: beta. https://bernstein.run",
+    "full_name": "sipyourdrink-ltd/bernstein",
+    "homepage": "https://bernstein.run",
+    "language": "Python",
+    "license": "Apache-2.0",
+    "owner_login": "sipyourdrink-ltd",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-23",
+    "repo_id": "repo:7dd2217d35630803"
+  },
+  {
+    "attention": {
+      "forks": 142,
+      "open_issues": 74,
+      "stars": 471,
+      "watchers": 471
+    },
+    "construction": {
+      "active_window_ratio": 1.0,
+      "age_days": 274,
+      "days_since_push": 0,
+      "human_contributors": 9,
+      "longevity_days": 274,
+      "release_count": 14,
+      "top_contributions": 1048,
+      "total_contributions": 1860
+    },
+    "created_at": "2025-11-22",
+    "description": "Engine-agnostic LLM gateway in Rust. Full OpenAI & Anthropic API compatibility across vLLM, TRT-LLM, TokenSpeed, SGLang, OpenAI, Gemini & more. Industry-first gRPC pipeline, KV cache-aware routing, chat history, tokenization caching, Responses API, embeddings, WASM plugins, MCP, and multi-tenant auth.",
+    "full_name": "smg-project/smg",
+    "homepage": "https://lightseek.org/smg",
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "owner_login": "smg-project",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-23",
+    "repo_id": "repo:58cbc00e9f9934d0"
+  },
+  {
+    "attention": {
+      "forks": 10,
+      "open_issues": 25,
+      "stars": 261,
+      "watchers": 261
+    },
+    "construction": {
+      "active_window_ratio": 0.975,
+      "age_days": 197,
+      "days_since_push": 5,
+      "human_contributors": 6,
+      "longevity_days": 192,
+      "release_count": 4,
+      "top_contributions": 209,
+      "total_contributions": 236
+    },
+    "created_at": "2026-02-07",
+    "description": "Cloud native zero trust security for AI agents run environments",
+    "full_name": "spinningfactory/kloak",
+    "homepage": "https://getkloak.io",
+    "language": "C",
+    "license": "AGPL-3.0",
+    "owner_login": "spinningfactory",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-18",
+    "repo_id": "repo:820021306ee198e0"
+  },
+  {
+    "attention": {
+      "forks": 22,
+      "open_issues": 3,
+      "stars": 489,
+      "watchers": 489
+    },
+    "construction": {
+      "active_window_ratio": 0.991,
+      "age_days": 112,
+      "days_since_push": 1,
+      "human_contributors": 2,
+      "longevity_days": 111,
+      "release_count": 5,
+      "top_contributions": 236,
+      "total_contributions": 237
+    },
+    "created_at": "2026-05-03",
+    "description": "State machine guardrails for AI agents",
+    "full_name": "statewright/statewright",
+    "homepage": "https://statewright.ai",
+    "language": "Rust",
+    "license": "NOASSERTION",
+    "owner_login": "statewright",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:6b6dd9775631550e"
+  },
+  {
+    "attention": {
+      "forks": 52,
+      "open_issues": 13,
+      "stars": 569,
+      "watchers": 569
+    },
+    "construction": {
+      "active_window_ratio": 0.974,
+      "age_days": 39,
+      "days_since_push": 1,
+      "human_contributors": 3,
+      "longevity_days": 38,
+      "release_count": 2,
+      "top_contributions": 494,
+      "total_contributions": 723
+    },
+    "created_at": "2026-07-15",
+    "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+    "full_name": "superdesigndev/treg",
+    "homepage": "https://treg.to",
+    "language": "Python",
+    "license": "NOASSERTION",
+    "owner_login": "superdesigndev",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:aba1b2757701866c"
+  },
+  {
+    "attention": {
+      "forks": 1604,
+      "open_issues": 1081,
+      "stars": 16283,
+      "watchers": 16283
+    },
+    "construction": {
+      "active_window_ratio": 1.0,
+      "age_days": 116,
+      "days_since_push": 0,
+      "human_contributors": 9,
+      "longevity_days": 116,
+      "release_count": 30,
+      "top_contributions": 3166,
+      "total_contributions": 4340
+    },
+    "created_at": "2026-04-29",
+    "description": "20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 90+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
+    "full_name": "t8y2/dbx",
+    "homepage": "https://dbxio.com",
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "owner_login": "t8y2",
+    "owner_type": "User",
+    "pushed_at": "2026-08-23",
+    "repo_id": "repo:c0c91eff35dc0873"
+  },
+  {
+    "attention": {
+      "forks": 196,
+      "open_issues": 12,
+      "stars": 1058,
+      "watchers": 1058
+    },
+    "construction": {
+      "active_window_ratio": 0.993,
+      "age_days": 267,
+      "days_since_push": 2,
+      "human_contributors": 8,
+      "longevity_days": 265,
+      "release_count": 0,
+      "top_contributions": 91,
+      "total_contributions": 154
+    },
+    "created_at": "2025-11-29",
+    "description": "The AI-native health data engine — collect, standardize, and reason over labs, wearables & genomics.",
+    "full_name": "thetahealth/mirobody",
+    "homepage": "https://mirobody.ai",
+    "language": "Python",
+    "license": "Apache-2.0",
+    "owner_login": "thetahealth",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-21",
+    "repo_id": "repo:f1e54946fc8d995c"
+  },
+  {
+    "attention": {
+      "forks": 368,
+      "open_issues": 685,
+      "stars": 564,
+      "watchers": 564
+    },
+    "construction": {
+      "active_window_ratio": 0.998,
+      "age_days": 479,
+      "days_since_push": 1,
+      "human_contributors": 10,
+      "longevity_days": 478,
+      "release_count": 30,
+      "top_contributions": 1098,
+      "total_contributions": 4073
+    },
+    "created_at": "2025-05-01",
+    "description": "ThunderID is a high-performance, open-source identity stack designed for developers to secure and manage access for humans, AI agents, and machines through fully composable identity flows.",
+    "full_name": "thunder-id/thunderid",
+    "homepage": "https://thunderid.dev",
+    "language": "Go",
+    "license": "Apache-2.0",
+    "owner_login": "thunder-id",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:51f11cdb81191c24"
+  },
+  {
+    "attention": {
+      "forks": 169,
+      "open_issues": 60,
+      "stars": 1492,
+      "watchers": 1492
+    },
+    "construction": {
+      "active_window_ratio": 1.0,
+      "age_days": 594,
+      "days_since_push": 0,
+      "human_contributors": 10,
+      "longevity_days": 594,
+      "release_count": 2,
+      "top_contributions": 716,
+      "total_contributions": 1218
+    },
+    "created_at": "2025-01-06",
+    "description": "UCCL is an efficient communication library for GPUs, covering collectives, P2P (e.g., KV cache transfer, RL weight transfer), and EP (e.g., GPU-driven)",
+    "full_name": "uccl-project/uccl",
+    "homepage": "https://uccl-project.github.io/",
+    "language": "C++",
+    "license": "Apache-2.0",
+    "owner_login": "uccl-project",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-23",
+    "repo_id": "repo:11b1a77cc0421cb2"
+  },
+  {
+    "attention": {
+      "forks": 1628,
+      "open_issues": 113,
+      "stars": 20946,
+      "watchers": 20946
+    },
+    "construction": {
+      "active_window_ratio": 1.0,
+      "age_days": 297,
+      "days_since_push": 0,
+      "human_contributors": 9,
+      "longevity_days": 297,
+      "release_count": 30,
+      "top_contributions": 1446,
+      "total_contributions": 2204
+    },
+    "created_at": "2025-10-30",
+    "description": "Hindsight: Agent Memory That  Learns",
+    "full_name": "vectorize-io/hindsight",
+    "homepage": "https://hindsight.vectorize.io/",
+    "language": "Python",
+    "license": "MIT",
+    "owner_login": "vectorize-io",
+    "owner_type": "Organization",
+    "pushed_at": "2026-08-23",
+    "repo_id": "repo:6f41b6a605fcfcac"
+  },
+  {
+    "attention": {
+      "forks": 65,
+      "open_issues": 85,
+      "stars": 399,
+      "watchers": 399
+    },
+    "construction": {
+      "active_window_ratio": 1.0,
+      "age_days": 191,
+      "days_since_push": 0,
+      "human_contributors": 8,
+      "longevity_days": 191,
+      "release_count": 30,
+      "top_contributions": 3112,
+      "total_contributions": 3148
+    },
+    "created_at": "2026-02-13",
+    "description": "See your agent think. Zero-config observability & governance for 20+ AI agent runtimes: OpenClaw, Claude Code, OpenAI Codex, Cursor, Aider, Goose, NVIDIA NemoClaw, NanoClaw & more. Live token costs, sessions, tool calls, crons.",
+    "full_name": "vivekchand/clawmetry",
+    "homepage": "https://clawmetry.com",
+    "language": "Python",
+    "license": "MIT",
+    "owner_login": "vivekchand",
+    "owner_type": "User",
+    "pushed_at": "2026-08-23",
+    "repo_id": "repo:f42539d4a535f254"
+  },
+  {
+    "attention": {
+      "forks": 50,
+      "open_issues": 3,
+      "stars": 132,
+      "watchers": 132
+    },
+    "construction": {
+      "active_window_ratio": 0.907,
+      "age_days": 431,
+      "days_since_push": 40,
+      "human_contributors": 9,
+      "longevity_days": 391,
+      "release_count": 2,
+      "top_contributions": 46,
+      "total_contributions": 121
+    },
+    "created_at": "2025-06-18",
+    "description": "FHIR MCP Server – helping you expose any FHIR Server or API as a MCP Server.",
+    "full_name": "wso2/fhir-mcp-server",
+    "homepage": null,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "owner_login": "wso2",
+    "owner_type": "Organization",
+    "pushed_at": "2026-07-14",
+    "repo_id": "repo:239c749c7bf48f7f"
+  },
+  {
+    "attention": {
+      "forks": 114,
+      "open_issues": 81,
+      "stars": 1578,
+      "watchers": 1578
+    },
+    "construction": {
+      "active_window_ratio": 0.991,
+      "age_days": 113,
+      "days_since_push": 1,
+      "human_contributors": 9,
+      "longevity_days": 112,
+      "release_count": 30,
+      "top_contributions": 470,
+      "total_contributions": 543
+    },
+    "created_at": "2026-05-02",
+    "description": "3x faster speeds on MLX | Qwen 3.8 27B | Native MTP Speculative Decoding On Apple Silicon With No External Drafter.",
+    "full_name": "youssofal/MTPLX",
+    "homepage": "https://mtplx.com",
+    "language": "Python",
+    "license": "Apache-2.0",
+    "owner_login": "youssofal",
+    "owner_type": "User",
+    "pushed_at": "2026-08-22",
+    "repo_id": "repo:578712c95012dd39"
+  },
+  {
+    "attention": {
+      "forks": 108,
+      "open_issues": 12,
+      "stars": 2434,
+      "watchers": 2434
+    },
+    "construction": {
+      "active_window_ratio": 0.037,
+      "age_days": 161,
+      "days_since_push": 155,
+      "human_contributors": 1,
+      "longevity_days": 6,
+      "release_count": 0,
+      "top_contributions": 24,
+      "total_contributions": 24
+    },
+    "created_at": "2026-03-15",
+    "description": "Sub-millisecond VM sandboxes for AI agents via copy-on-write forking",
+    "full_name": "zerobootdev/zeroboot",
+    "homepage": "https://zeroboot.dev",
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "owner_login": "zerobootdev",
+    "owner_type": "Organization",
+    "pushed_at": "2026-03-21",
+    "repo_id": "repo:b7fc2b2e03e9bf17"
+  }
+]

@@ -1,0 +1,26 @@
+# FROZEN. The Intro Queue replaces the Phase 1 "Weekly 3" as the canonical concept.
+# Queue size is whatever survives: 0, 1, 2, 3 or more.
+version: 1
+intro_ready_requirements:
+  identity_confidence_min: high
+  requires_real_artifact: true
+  requires_technical_depth_signal: true
+  requires_current_signal_days: 120       # last construction activity within N days
+  requires_formation_or_commercial_evidence: true
+  requires_array_relevant_theme: true
+  requires_technical_question: true
+  requires_commercial_or_formation_question: true
+  requires_cross_source_convergence: true
+  x_alone_can_promote: false              # hard rule
+disqualifiers:
+  - identity_confidence_low
+  - single_channel_evidence
+  - abandonment_signal_on_primary_artifact
+  - established_organization_owner
+  - status_institutionally_funded_and_public
+  - outside_thesis_areas
+  - formation_rests_on_forbidden_inference
+current_3:
+  enabled: true
+  emit_only_if_at_least: 3
+  never_pad: true

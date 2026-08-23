@@ -1,0 +1,40 @@
+{
+  "as_of": "2026-08-23",
+  "counts": {
+    "builders": 267,
+    "cost_events": 4,
+    "evidence": 1586,
+    "formation_states": 134,
+    "identities": 267,
+    "organizations": 66,
+    "papers": 6,
+    "relationships": 579,
+    "repositories": 102,
+    "signals:commercialization_signals": 9,
+    "signals:formation_signals": 171,
+    "signals:technical_signals": 648,
+    "status_checks": 3,
+    "technical_assessments": 918
+  },
+  "integrity_problems": [],
+  "totals": {
+    "builders": 267,
+    "commercialization_signals": 9,
+    "events": 0,
+    "evidence": 1586,
+    "formation_signals": 171,
+    "formation_state_rows": 134,
+    "hackathons": 0,
+    "identities": 487,
+    "organizations": 66,
+    "papers": 6,
+    "relationships": 579,
+    "repositories": 102,
+    "social_signals": 0,
+    "sources": 273,
+    "status_checks": 3,
+    "technical_assessments": 918,
+    "technical_signals": 648
+  },
+  "version": "0.2.0"
+}

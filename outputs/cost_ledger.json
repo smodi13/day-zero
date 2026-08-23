@@ -1,0 +1,65 @@
+{
+  "by_source": {
+    "arxiv": {
+      "actual_cost_usd": "UNKNOWN",
+      "estimated_cost_usd": "0.000000",
+      "requests": 12
+    },
+    "github": {
+      "actual_cost_usd": "UNKNOWN",
+      "estimated_cost_usd": "0.000000",
+      "requests": 1259
+    }
+  },
+  "events": [
+    {
+      "actual_cost_usd": "UNKNOWN",
+      "api": "rest",
+      "at": "2026-08-23T07:27:29.946937Z",
+      "estimated_cost_usd": "0.000000",
+      "requests": 618,
+      "row_id": "cost:262a752daee3c7be",
+      "run_id": "collect-phase2",
+      "source": "github",
+      "unit_label": "api_request",
+      "units": 618
+    },
+    {
+      "actual_cost_usd": "UNKNOWN",
+      "api": "rest",
+      "at": "2026-08-23T07:27:37.160513Z",
+      "estimated_cost_usd": "0.000000",
+      "requests": 598,
+      "row_id": "cost:faf51f08abe22a39",
+      "run_id": "collect-phase2",
+      "source": "github",
+      "unit_label": "api_request",
+      "units": 598
+    },
+    {
+      "actual_cost_usd": "UNKNOWN",
+      "api": "rest",
+      "at": "2026-08-23T14:26:29.732114Z",
+      "estimated_cost_usd": "0.000000",
+      "requests": 43,
+      "row_id": "cost:6200b05c626729fb",
+      "run_id": "collect-phase2b",
+      "source": "github",
+      "unit_label": "api_request",
+      "units": 43
+    },
+    {
+      "actual_cost_usd": "UNKNOWN",
+      "api": "export_api",
+      "at": "2026-08-23T14:27:56.760925Z",
+      "estimated_cost_usd": "0.000000",
+      "requests": 12,
+      "row_id": "cost:d819f71dd45f8ccb",
+      "run_id": "collect-arxiv",
+      "source": "arxiv",
+      "unit_label": "api_query",
+      "units": 12
+    }
+  ],
+  "note": "Free sources record 0. Costs that cannot be determined record UNKNOWN and are never invented."
+}

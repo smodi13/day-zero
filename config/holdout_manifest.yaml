@@ -1,0 +1,94 @@
+# HISTORICAL HOLDOUT MANIFEST — the 10 Phase 1 cases.
+#
+# This is a HISTORICAL DESIGN VALIDATION, not an investment-performance backtest:
+# the cohort is known to be Array portfolio companies, so no statistical claim is
+# available from it.
+#
+# Expected verdicts were PRE-REGISTERED in Phase 1 (research/array_portfolio_map.md
+# section 4) before any evaluation. They are repeated here so that the prediction is
+# part of the frozen artifact and can be compared with the result.
+#
+# NO POST-CUTOFF OUTCOME APPEARS IN THIS FILE. Outcomes live in
+# data/holdout/outcomes.yaml, which the evaluator never reads.
+version: 1
+cases:
+  - case_id: B1
+    company: "Eventual (Daft)"
+    founder_or_team: "Sammy Sidhu, Jay Chia"
+    cutoff_date: "2024-09-30"
+    permitted_source_types: [github_repo, github_org, github_commits, package_registry, project_site]
+    expected_availability: high
+    prereg_expected_verdict: PASS
+    primary_artifact: "github.com/Eventual-Inc/Daft"
+  - case_id: B2
+    company: "Sapiom"
+    founder_or_team: "Ilan Zerbib"
+    cutoff_date: "2026-02-04"
+    permitted_source_types: [github_repo, github_org, company_site, project_site]
+    expected_availability: low
+    prereg_expected_verdict: UNKNOWN
+    primary_artifact: null
+  - case_id: B3
+    company: "HappyRobot"
+    founder_or_team: "Pablo Palafox, Javier Palafox, Luis Paarup"
+    cutoff_date: "2024-12-03"
+    permitted_source_types: [company_site, hackathon_official, press]
+    expected_availability: medium
+    prereg_expected_verdict: PASS
+    primary_artifact: null
+  - case_id: B4
+    company: "Flamingo"
+    founder_or_team: "Michael Assraf"
+    cutoff_date: "2025-10-27"
+    permitted_source_types: [github_repo, company_site]
+    expected_availability: low
+    prereg_expected_verdict: PARTIAL
+    primary_artifact: null
+  - case_id: B5
+    company: "Meibel"
+    founder_or_team: "UNKNOWN"
+    cutoff_date: "2025-05-27"
+    permitted_source_types: [company_site]
+    expected_availability: low
+    prereg_expected_verdict: UNKNOWN
+    primary_artifact: null
+  - case_id: B6
+    company: "Integral"
+    founder_or_team: "UNKNOWN"
+    cutoff_date: "2023-09-04"
+    permitted_source_types: [company_site, project_site]
+    expected_availability: low
+    prereg_expected_verdict: PARTIAL
+    primary_artifact: null
+  - case_id: B7
+    company: "Mozart Data"
+    founder_or_team: "Peter Fishman, Dan Silberman"
+    cutoff_date: "2020-11-10"
+    permitted_source_types: [company_site, press]
+    expected_availability: low
+    prereg_expected_verdict: MISS
+    primary_artifact: null
+  - case_id: B8
+    company: "ZecOps"
+    founder_or_team: "Zuk Avraham"
+    cutoff_date: "2020-01-01"
+    permitted_source_types: [project_site, arxiv_paper, press, github_repo]
+    expected_availability: medium
+    prereg_expected_verdict: PASS
+    primary_artifact: null
+  - case_id: B9
+    company: "Era Software"
+    founder_or_team: "UNKNOWN"
+    cutoff_date: "2021-10-05"
+    permitted_source_types: [company_site]
+    expected_availability: low
+    prereg_expected_verdict: MISS
+    primary_artifact: null
+  - case_id: B10
+    company: "Wokelo"
+    founder_or_team: "UNKNOWN"
+    cutoff_date: "2024-10-08"
+    permitted_source_types: [company_site]
+    expected_availability: low
+    prereg_expected_verdict: MISS
+    primary_artifact: null

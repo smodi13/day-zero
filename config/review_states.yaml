@@ -1,0 +1,19 @@
+version: 1
+# Workflow states. NOT investment predictions.
+states:
+  DISCOVERED:  {order: 0, label: "Entity resolved, signals attached"}
+  WATCH:       {order: 1, label: "Interesting, fails one important requirement"}
+  REVIEW:      {order: 2, label: "In the analyst review queue"}
+  INTRO_READY: {order: 3, label: "Survived analyst review; worth relationship capital"}
+  DROP:        {order: -1, label: "Rejected, with a recorded reason"}
+drop_reasons:
+  - NO_FORMATION_EVIDENCE
+  - INSUFFICIENT_TECHNICAL_DEPTH
+  - ABANDONED
+  - ALREADY_ESTABLISHED
+  - WRAPPER_ONLY
+  - OUTSIDE_THESIS
+  - IDENTITY_UNRESOLVED
+  - INSUFFICIENT_CURRENT_SIGNAL
+  - SINGLE_CHANNEL_ONLY
+  - STATUS_TOO_LATE

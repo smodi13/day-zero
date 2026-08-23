@@ -41,3 +41,8 @@ Thumbs.db
 # --- Browser profiles / automation artifacts ---
 .playwright-mcp/
 browser-profiles/
+
+# --- Phase 2: regenerable canonical database ---
+data/day_zero.db
+data/_scratch.db
+data/*.db.tmp

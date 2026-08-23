@@ -1,0 +1,38 @@
+# FROZEN BEFORE THE HOLDOUT RUNS. Hash recorded in outputs/holdout_results.json.
+# This is a HISTORICAL DESIGN VALIDATION, not an investment-performance backtest.
+version: 1
+naming: HISTORICAL_HOLDOUT
+verdicts:
+  PASS:    "All intro-review criteria met on pre-cutoff evidence alone."
+  PARTIAL: "Would have surfaced (build+depth present) but >=1 further criterion fails."
+  MISS:    "No pre-cutoff evidence would have surfaced the person or artifact."
+  UNKNOWN: "Pre-cutoff public evidence is insufficient to judge."
+pass_criteria:
+  - build_signal_present
+  - technical_depth_signal_present
+  - author_identity_resolvable
+  - cross_source_convergence
+  - within_array_areas
+  - no_disqualifier
+as_of_enforcement:
+  reject_evidence_after_cutoff: true
+  # A later article describing an earlier event is NOT automatically valid: the
+  # underlying artifact must itself have been publicly available before the cutoff.
+  require_artifact_available_at_cutoff: true
+  excluded_field_classes:
+    - current_star_count
+    - current_follower_count
+    - current_bio
+    - current_readme
+    - current_description
+    - current_homepage
+blinding:
+  strip_from_packet:
+    - array_relationship
+    - later_financing
+    - later_outcome
+    - acquisition
+    - post_cutoff_traction
+    - post_cutoff_team_growth
+  outcomes_file: data/holdout/outcomes.yaml   # never read by the evaluator
+no_tuning_after_results: true

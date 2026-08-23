@@ -1,0 +1,20 @@
+# The 11 Phase 1 negative controls. They run through the SAME pipeline.
+# No special-case rejection code is permitted (tested).
+version: 1
+controls:
+  NC-1:  {name: "Viral repo, near-zero construction", subject: "0xSero/turboquant", expected_drop_reason: INSUFFICIENT_TECHNICAL_DEPTH}
+  NC-2:  {name: "Thin wrapper as infrastructure", subject: "class:wrapper", expected_drop_reason: WRAPPER_ONLY, may_resolve_ambiguous: true}
+  NC-3:  {name: "Abandoned project with formation shell", subject: "zerobootdev/zeroboot", expected_drop_reason: ABANDONED}
+  NC-3b: {name: "Abandoned well-specified artifact", subject: "dipampaul17/KVSplit", expected_drop_reason: ABANDONED}
+  NC-4:  {name: "Precise claim, no license, dead", subject: "scrya-com/rotorquant", expected_drop_reason: ABANDONED}
+  NC-5:  {name: "Frontier-lab engineer, strong artifact, zero formation", subject: "RyanCodrai/turbovec", expected_drop_reason: NO_FORMATION_EVIDENCE}
+  NC-6:  {name: "Established org resurfaced as new", subject: "thunder-id/thunderid", expected_drop_reason: ALREADY_ESTABLISHED, may_resolve_ambiguous: true}
+  NC-7:  {name: "Research with no formation", subject: "FutureMLS-Lab/OSCAR", expected_drop_reason: NO_FORMATION_EVIDENCE}
+  NC-8:  {name: "Hackathon demo that stopped", subject: "class:hackathon_stopped", expected_drop_reason: ABANDONED}
+  NC-9:  {name: "Large following, weak artifact", subject: "class:curation_repo", expected_drop_reason: INSUFFICIENT_TECHNICAL_DEPTH}
+  NC-10: {name: "Excellent but out of thesis", subject: "class:out_of_thesis", expected_drop_reason: OUTSIDE_THESIS}
+  NC-11: {name: "Name-collision false positive", subject: "collision:Agency|Eventual", expected_drop_reason: IDENTITY_UNRESOLVED}
+pass_criteria:
+  no_special_case_code: true
+  rule_must_predate_control: true
+  must_not_also_reject_expected_pass_holdout_case: true

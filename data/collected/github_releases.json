@@ -1,0 +1,6564 @@
+{
+  "0xSero/turboquant": [],
+  "7df-lab/devo": [
+    {
+      "published_at": "2026-08-22",
+      "tag": "v0.1.34"
+    },
+    {
+      "published_at": "2026-08-02",
+      "tag": "v0.1.33"
+    },
+    {
+      "published_at": "2026-07-30",
+      "tag": "v0.1.32"
+    },
+    {
+      "published_at": "2026-07-22",
+      "tag": "v0.1.31"
+    },
+    {
+      "published_at": "2026-07-16",
+      "tag": "v0.1.30"
+    },
+    {
+      "published_at": "2026-07-14",
+      "tag": "v0.1.29"
+    },
+    {
+      "published_at": "2026-07-12",
+      "tag": "v0.1.28"
+    },
+    {
+      "published_at": "2026-07-09",
+      "tag": "v0.1.27"
+    },
+    {
+      "published_at": "2026-07-06",
+      "tag": "v0.1.26"
+    },
+    {
+      "published_at": "2026-07-06",
+      "tag": "v0.1.25"
+    },
+    {
+      "published_at": "2026-06-30",
+      "tag": "v0.1.24"
+    },
+    {
+      "published_at": "2026-06-27",
+      "tag": "v0.1.23"
+    },
+    {
+      "published_at": "2026-06-25",
+      "tag": "v0.1.22"
+    },
+    {
+      "published_at": "2026-06-18",
+      "tag": "v0.1.21"
+    },
+    {
+      "published_at": "2026-06-16",
+      "tag": "v0.1.20"
+    },
+    {
+      "published_at": "2026-06-13",
+      "tag": "v0.1.19"
+    },
+    {
+      "published_at": "2026-06-11",
+      "tag": "v0.1.17"
+    },
+    {
+      "published_at": "2026-06-11",
+      "tag": "v0.1.16"
+    },
+    {
+      "published_at": "2026-06-11",
+      "tag": "v0.1.15"
+    },
+    {
+      "published_at": "2026-06-11",
+      "tag": "v0.1.14"
+    },
+    {
+      "published_at": "2026-06-10",
+      "tag": "v0.1.13"
+    },
+    {
+      "published_at": "2026-06-07",
+      "tag": "v0.1.12"
+    },
+    {
+      "published_at": "2026-06-02",
+      "tag": "v0.1.11"
+    },
+    {
+      "published_at": "2026-05-27",
+      "tag": "v0.1.10"
+    },
+    {
+      "published_at": "2026-05-19",
+      "tag": "v0.1.9"
+    },
+    {
+      "published_at": "2026-05-18",
+      "tag": "v0.1.8"
+    },
+    {
+      "published_at": "2026-05-14",
+      "tag": "v0.1.7"
+    },
+    {
+      "published_at": "2026-05-10",
+      "tag": "v0.1.6"
+    },
+    {
+      "published_at": "2026-05-07",
+      "tag": "v0.1.5"
+    },
+    {
+      "published_at": "2026-05-06",
+      "tag": "v0.1.4"
+    }
+  ],
+  "AI45Lab/AgentDoG": [],
+  "Brain0-ai/brain0": [
+    {
+      "published_at": "2026-07-02",
+      "tag": "v0.1.0"
+    }
+  ],
+  "ComposioHQ/awesome-claude-skills": [],
+  "Compresr-ai/Context-Gateway": [
+    {
+      "published_at": "2026-03-18",
+      "tag": "v0.5.3"
+    },
+    {
+      "published_at": "2026-03-12",
+      "tag": "v0.5.2"
+    },
+    {
+      "published_at": "2026-03-06",
+      "tag": "v0.5.1"
+    },
+    {
+      "published_at": "2026-03-06",
+      "tag": "v0.5.0"
+    },
+    {
+      "published_at": "2026-03-05",
+      "tag": "v0.4.5"
+    },
+    {
+      "published_at": "2026-02-28",
+      "tag": "v0.4.4"
+    },
+    {
+      "published_at": "2026-02-28",
+      "tag": "v0.4.3"
+    },
+    {
+      "published_at": "2026-02-25",
+      "tag": "v0.4.2"
+    },
+    {
+      "published_at": "2026-02-22",
+      "tag": "v0.4.1"
+    },
+    {
+      "published_at": "2026-02-20",
+      "tag": "v0.4.0"
+    },
+    {
+      "published_at": "2026-02-13",
+      "tag": "v0.3.0"
+    },
+    {
+      "published_at": "2026-02-12",
+      "tag": "v0.2.0"
+    },
+    {
+      "published_at": "2026-02-10",
+      "tag": "v0.1.0"
+    }
+  ],
+  "Cybereason-Public/owLSM": [
+    {
+      "published_at": "2026-07-29",
+      "tag": "v0.9.0"
+    },
+    {
+      "published_at": "2026-07-09",
+      "tag": "v0.8.0"
+    },
+    {
+      "published_at": "2026-06-25",
+      "tag": "v0.7.0"
+    },
+    {
+      "published_at": "2026-06-08",
+      "tag": "v0.6.0"
+    },
+    {
+      "published_at": "2026-06-03",
+      "tag": "v0.5.0"
+    },
+    {
+      "published_at": "2026-05-26",
+      "tag": "v0.4.0"
+    },
+    {
+      "published_at": "2026-05-09",
+      "tag": "v0.3.0"
+    },
+    {
+      "published_at": "2026-04-14",
+      "tag": "v0.2.0"
+    },
+    {
+      "published_at": "2026-03-19",
+      "tag": "v0.1.0"
+    }
+  ],
+  "Eventual-Inc/Daft": [
+    {
+      "published_at": "2026-08-14",
+      "tag": "v0.7.24"
+    },
+    {
+      "published_at": "2026-08-05",
+      "tag": "v0.7.23"
+    },
+    {
+      "published_at": "2026-08-03",
+      "tag": "v0.7.22"
+    },
+    {
+      "published_at": "2026-07-17",
+      "tag": "v0.7.21"
+    },
+    {
+      "published_at": "2026-07-14",
+      "tag": "v0.7.20"
+    },
+    {
+      "published_at": "2026-07-10",
+      "tag": "v0.7.19"
+    },
+    {
+      "published_at": "2026-07-08",
+      "tag": "v0.7.18"
+    },
+    {
+      "published_at": "2026-07-06",
+      "tag": "v0.7.17"
+    },
+    {
+      "published_at": "2026-06-26",
+      "tag": "v0.7.16"
+    },
+    {
+      "published_at": "2026-06-06",
+      "tag": "v0.7.15"
+    },
+    {
+      "published_at": "2026-05-20",
+      "tag": "v0.7.14"
+    },
+    {
+      "published_at": "2026-05-14",
+      "tag": "v0.7.13"
+    },
+    {
+      "published_at": "2026-05-13",
+      "tag": "v0.7.12"
+    },
+    {
+      "published_at": "2026-05-11",
+      "tag": "v0.7.11"
+    },
+    {
+      "published_at": "2026-04-30",
+      "tag": "v0.7.10"
+    },
+    {
+      "published_at": "2026-04-14",
+      "tag": "v0.7.9"
+    },
+    {
+      "published_at": "2026-04-08",
+      "tag": "v0.7.8"
+    },
+    {
+      "published_at": "2026-04-02",
+      "tag": "v0.7.7"
+    },
+    {
+      "published_at": "2026-03-30",
+      "tag": "v0.7.6"
+    },
+    {
+      "published_at": "2026-03-16",
+      "tag": "v0.7.5"
+    },
+    {
+      "published_at": "2026-02-25",
+      "tag": "v0.7.4"
+    },
+    {
+      "published_at": "2026-02-13",
+      "tag": "v0.7.3"
+    },
+    {
+      "published_at": "2026-01-15",
+      "tag": "v0.7.2"
+    },
+    {
+      "published_at": "2025-12-19",
+      "tag": "v0.7.1"
+    },
+    {
+      "published_at": "2025-12-16",
+      "tag": "v0.7.0"
+    },
+    {
+      "published_at": "2025-11-17",
+      "tag": "v0.6.14"
+    },
+    {
+      "published_at": "2025-11-13",
+      "tag": "v0.6.13"
+    },
+    {
+      "published_at": "2025-11-10",
+      "tag": "v0.6.12"
+    },
+    {
+      "published_at": "2025-11-07",
+      "tag": "v0.6.11"
+    },
+    {
+      "published_at": "2025-11-05",
+      "tag": "v0.6.10"
+    }
+  ],
+  "FailproofAI/failproofai": [
+    {
+      "published_at": "2026-08-19",
+      "tag": "v1.0.1"
+    },
+    {
+      "published_at": "2026-08-17",
+      "tag": "v1.0.1-beta.1"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "v1.0.1-beta.0"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "v1.0.0"
+    },
+    {
+      "published_at": "2026-08-10",
+      "tag": "v1.0.0-beta.21"
+    },
+    {
+      "published_at": "2026-08-10",
+      "tag": "v1.0.0-beta.20"
+    },
+    {
+      "published_at": "2026-08-10",
+      "tag": "v1.0.0-beta.19"
+    },
+    {
+      "published_at": "2026-08-10",
+      "tag": "v1.0.0-beta.18"
+    },
+    {
+      "published_at": "2026-08-10",
+      "tag": "v1.0.0-beta.17"
+    },
+    {
+      "published_at": "2026-08-10",
+      "tag": "v1.0.0-beta.16"
+    },
+    {
+      "published_at": "2026-08-08",
+      "tag": "v1.0.0-beta.15"
+    },
+    {
+      "published_at": "2026-08-08",
+      "tag": "v1.0.0-beta.14"
+    },
+    {
+      "published_at": "2026-08-08",
+      "tag": "v1.0.0-beta.13"
+    },
+    {
+      "published_at": "2026-08-07",
+      "tag": "v1.0.0-beta.12"
+    },
+    {
+      "published_at": "2026-08-07",
+      "tag": "v1.0.0-beta.11"
+    },
+    {
+      "published_at": "2026-08-06",
+      "tag": "v1.0.0-beta.9"
+    },
+    {
+      "published_at": "2026-08-06",
+      "tag": "v1.0.0-beta.8"
+    },
+    {
+      "published_at": "2026-08-06",
+      "tag": "v1.0.0-beta.7"
+    },
+    {
+      "published_at": "2026-08-06",
+      "tag": "v1.0.0-beta.6"
+    },
+    {
+      "published_at": "2026-08-06",
+      "tag": "v1.0.0-beta.10"
+    },
+    {
+      "published_at": "2026-08-04",
+      "tag": "v1.0.0-beta.5"
+    },
+    {
+      "published_at": "2026-08-04",
+      "tag": "v1.0.0-beta.4"
+    },
+    {
+      "published_at": "2026-08-03",
+      "tag": "v1.0.0-beta.3"
+    },
+    {
+      "published_at": "2026-07-31",
+      "tag": "v1.0.0-beta.2"
+    },
+    {
+      "published_at": "2026-07-31",
+      "tag": "v1.0.0-beta.1"
+    },
+    {
+      "published_at": "2026-07-31",
+      "tag": "v1.0.0-beta.0"
+    },
+    {
+      "published_at": "2026-07-29",
+      "tag": "v0.0.15"
+    },
+    {
+      "published_at": "2026-07-29",
+      "tag": "v0.0.15-beta.0"
+    },
+    {
+      "published_at": "2026-07-21",
+      "tag": "v0.0.14"
+    },
+    {
+      "published_at": "2026-07-20",
+      "tag": "v0.0.14-beta.2"
+    }
+  ],
+  "FootprintAI/Containarium": [
+    {
+      "published_at": "2026-08-14",
+      "tag": "v0.66.0"
+    },
+    {
+      "published_at": "2026-08-08",
+      "tag": "v0.65.0"
+    },
+    {
+      "published_at": "2026-08-07",
+      "tag": "v0.64.3"
+    },
+    {
+      "published_at": "2026-08-07",
+      "tag": "v0.64.2"
+    },
+    {
+      "published_at": "2026-08-05",
+      "tag": "v0.64.1"
+    },
+    {
+      "published_at": "2026-08-04",
+      "tag": "v0.64.0"
+    },
+    {
+      "published_at": "2026-08-02",
+      "tag": "v0.63.0"
+    },
+    {
+      "published_at": "2026-07-30",
+      "tag": "v0.62.0"
+    },
+    {
+      "published_at": "2026-07-27",
+      "tag": "v0.61.0"
+    },
+    {
+      "published_at": "2026-07-23",
+      "tag": "v0.60.0"
+    },
+    {
+      "published_at": "2026-07-22",
+      "tag": "v0.59.2"
+    },
+    {
+      "published_at": "2026-07-22",
+      "tag": "v0.59.1"
+    },
+    {
+      "published_at": "2026-07-20",
+      "tag": "v0.59.0"
+    },
+    {
+      "published_at": "2026-07-20",
+      "tag": "v0.58.0"
+    },
+    {
+      "published_at": "2026-07-20",
+      "tag": "v0.57.0"
+    },
+    {
+      "published_at": "2026-07-19",
+      "tag": "v0.56.0"
+    },
+    {
+      "published_at": "2026-07-19",
+      "tag": "v0.55.1"
+    },
+    {
+      "published_at": "2026-07-18",
+      "tag": "v0.55.0"
+    },
+    {
+      "published_at": "2026-07-18",
+      "tag": "v0.54.0"
+    },
+    {
+      "published_at": "2026-07-17",
+      "tag": "v0.53.0"
+    },
+    {
+      "published_at": "2026-07-15",
+      "tag": "v0.52.1"
+    },
+    {
+      "published_at": "2026-07-15",
+      "tag": "v0.52.0"
+    },
+    {
+      "published_at": "2026-07-14",
+      "tag": "v0.51.6"
+    },
+    {
+      "published_at": "2026-07-14",
+      "tag": "v0.51.5"
+    },
+    {
+      "published_at": "2026-07-14",
+      "tag": "v0.51.4"
+    },
+    {
+      "published_at": "2026-07-14",
+      "tag": "v0.51.3"
+    },
+    {
+      "published_at": "2026-07-13",
+      "tag": "v0.51.2"
+    },
+    {
+      "published_at": "2026-07-13",
+      "tag": "v0.51.1"
+    },
+    {
+      "published_at": "2026-07-13",
+      "tag": "v0.51.0"
+    },
+    {
+      "published_at": "2026-07-11",
+      "tag": "v0.50.2"
+    }
+  ],
+  "FutureMLS-Lab/OSCAR": [],
+  "GCWing/BitFun": [
+    {
+      "published_at": "2026-08-21",
+      "tag": "v0.2.19-beta.1"
+    },
+    {
+      "published_at": "2026-08-14",
+      "tag": "v0.2.18"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "v0.2.18-beta.1"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "channel-beta"
+    },
+    {
+      "published_at": "2026-08-10",
+      "tag": "v0.2.17"
+    },
+    {
+      "published_at": "2026-08-06",
+      "tag": "v0.2.16"
+    },
+    {
+      "published_at": "2026-08-03",
+      "tag": "nightly"
+    },
+    {
+      "published_at": "2026-07-31",
+      "tag": "v0.2.15"
+    },
+    {
+      "published_at": "2026-07-27",
+      "tag": "v0.2.14"
+    },
+    {
+      "published_at": "2026-07-13",
+      "tag": "v0.2.13"
+    },
+    {
+      "published_at": "2026-07-03",
+      "tag": "v0.2.12"
+    },
+    {
+      "published_at": "2026-06-24",
+      "tag": "v0.2.11"
+    },
+    {
+      "published_at": "2026-06-13",
+      "tag": "v0.2.10"
+    },
+    {
+      "published_at": "2026-06-02",
+      "tag": "v0.2.9"
+    },
+    {
+      "published_at": "2026-05-25",
+      "tag": "v0.2.8"
+    },
+    {
+      "published_at": "2026-05-12",
+      "tag": "v0.2.7"
+    },
+    {
+      "published_at": "2026-05-09",
+      "tag": "v0.2.6"
+    },
+    {
+      "published_at": "2026-05-08",
+      "tag": "v0.2.6-test.2"
+    },
+    {
+      "published_at": "2026-05-08",
+      "tag": "v0.2.6-test.1"
+    },
+    {
+      "published_at": "2026-04-28",
+      "tag": "v0.2.5"
+    },
+    {
+      "published_at": "2026-04-24",
+      "tag": "v0.2.4"
+    },
+    {
+      "published_at": "2026-04-17",
+      "tag": "v0.2.3"
+    },
+    {
+      "published_at": "2026-04-07",
+      "tag": "v0.2.3-alpha.0"
+    },
+    {
+      "published_at": "2026-04-02",
+      "tag": "v0.2.2"
+    },
+    {
+      "published_at": "2026-03-27",
+      "tag": "v0.2.1"
+    },
+    {
+      "published_at": "2026-03-27",
+      "tag": "v0.2.1.alpha.0"
+    },
+    {
+      "published_at": "2026-03-16",
+      "tag": "v0.2.0"
+    },
+    {
+      "published_at": "2026-03-11",
+      "tag": "v0.1.2"
+    },
+    {
+      "published_at": "2026-03-09",
+      "tag": "v0.1.2.alpha.1"
+    },
+    {
+      "published_at": "2026-02-14",
+      "tag": "v0.1.1"
+    }
+  ],
+  "Gentleman-Programming/engram": [
+    {
+      "published_at": "2026-07-20",
+      "tag": "v1.20.0"
+    },
+    {
+      "published_at": "2026-07-08",
+      "tag": "v1.19.0"
+    },
+    {
+      "published_at": "2026-07-06",
+      "tag": "pi-v0.1.10"
+    },
+    {
+      "published_at": "2026-07-05",
+      "tag": "v1.18.0"
+    },
+    {
+      "published_at": "2026-06-30",
+      "tag": "pi-v0.1.9"
+    },
+    {
+      "published_at": "2026-06-20",
+      "tag": "v1.17.0"
+    },
+    {
+      "published_at": "2026-06-13",
+      "tag": "v1.16.3"
+    },
+    {
+      "published_at": "2026-06-13",
+      "tag": "v1.16.2"
+    },
+    {
+      "published_at": "2026-06-13",
+      "tag": "pi-v0.1.8"
+    },
+    {
+      "published_at": "2026-05-29",
+      "tag": "v1.16.1"
+    },
+    {
+      "published_at": "2026-05-28",
+      "tag": "v1.16.0"
+    },
+    {
+      "published_at": "2026-05-20",
+      "tag": "v1.15.15"
+    },
+    {
+      "published_at": "2026-05-20",
+      "tag": "v1.15.14"
+    },
+    {
+      "published_at": "2026-05-18",
+      "tag": "pi-v0.1.7"
+    },
+    {
+      "published_at": "2026-05-18",
+      "tag": "pi-v0.1.6"
+    },
+    {
+      "published_at": "2026-05-14",
+      "tag": "v1.15.13"
+    },
+    {
+      "published_at": "2026-05-14",
+      "tag": "v1.15.12"
+    },
+    {
+      "published_at": "2026-05-12",
+      "tag": "v1.15.11"
+    },
+    {
+      "published_at": "2026-05-07",
+      "tag": "v1.15.10"
+    },
+    {
+      "published_at": "2026-05-06",
+      "tag": "v1.15.9"
+    },
+    {
+      "published_at": "2026-05-05",
+      "tag": "v1.15.8"
+    },
+    {
+      "published_at": "2026-05-04",
+      "tag": "v1.15.7"
+    },
+    {
+      "published_at": "2026-05-04",
+      "tag": "v1.15.6"
+    },
+    {
+      "published_at": "2026-05-04",
+      "tag": "v1.15.5"
+    },
+    {
+      "published_at": "2026-05-03",
+      "tag": "v1.15.4"
+    },
+    {
+      "published_at": "2026-05-03",
+      "tag": "v1.15.3"
+    },
+    {
+      "published_at": "2026-05-03",
+      "tag": "v1.15.2"
+    },
+    {
+      "published_at": "2026-04-30",
+      "tag": "v1.15.1"
+    },
+    {
+      "published_at": "2026-04-30",
+      "tag": "v1.15.0"
+    },
+    {
+      "published_at": "2026-04-29",
+      "tag": "v1.14.13"
+    }
+  ],
+  "Graphify-Labs/graphify": [
+    {
+      "published_at": "2026-08-20",
+      "tag": "v0.9.48"
+    },
+    {
+      "published_at": "2026-08-19",
+      "tag": "v0.9.47"
+    },
+    {
+      "published_at": "2026-08-17",
+      "tag": "v0.9.46"
+    },
+    {
+      "published_at": "2026-08-16",
+      "tag": "v0.9.45"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "v0.9.44"
+    },
+    {
+      "published_at": "2026-08-14",
+      "tag": "v0.9.43"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "v0.9.42"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "v0.9.41"
+    },
+    {
+      "published_at": "2026-08-11",
+      "tag": "v0.9.40"
+    },
+    {
+      "published_at": "2026-08-10",
+      "tag": "v0.9.39"
+    },
+    {
+      "published_at": "2026-08-09",
+      "tag": "v0.9.38"
+    },
+    {
+      "published_at": "2026-08-08",
+      "tag": "v0.9.37"
+    },
+    {
+      "published_at": "2026-08-07",
+      "tag": "v0.9.36"
+    },
+    {
+      "published_at": "2026-08-06",
+      "tag": "v0.9.35"
+    },
+    {
+      "published_at": "2026-08-05",
+      "tag": "v0.9.34"
+    },
+    {
+      "published_at": "2026-08-05",
+      "tag": "v0.9.33"
+    },
+    {
+      "published_at": "2026-08-01",
+      "tag": "v0.9.32"
+    },
+    {
+      "published_at": "2026-07-30",
+      "tag": "v0.9.31"
+    },
+    {
+      "published_at": "2026-07-29",
+      "tag": "v0.9.30"
+    },
+    {
+      "published_at": "2026-07-28",
+      "tag": "v0.9.29"
+    },
+    {
+      "published_at": "2026-07-27",
+      "tag": "v0.9.28"
+    },
+    {
+      "published_at": "2026-07-26",
+      "tag": "v0.9.27"
+    },
+    {
+      "published_at": "2026-07-24",
+      "tag": "v0.9.26"
+    },
+    {
+      "published_at": "2026-07-22",
+      "tag": "v0.9.25"
+    },
+    {
+      "published_at": "2026-07-22",
+      "tag": "v0.9.24"
+    },
+    {
+      "published_at": "2026-07-21",
+      "tag": "v0.9.23"
+    },
+    {
+      "published_at": "2026-07-20",
+      "tag": "v0.9.22"
+    },
+    {
+      "published_at": "2026-07-20",
+      "tag": "v0.9.21"
+    },
+    {
+      "published_at": "2026-07-18",
+      "tag": "v0.9.20"
+    },
+    {
+      "published_at": "2026-07-18",
+      "tag": "v0.9.19"
+    }
+  ],
+  "Karib0u/rustinel": [
+    {
+      "published_at": "2026-08-14",
+      "tag": "v1.3.0"
+    },
+    {
+      "published_at": "2026-07-26",
+      "tag": "v1.3.0-rc.1"
+    },
+    {
+      "published_at": "2026-07-12",
+      "tag": "v1.2.0"
+    },
+    {
+      "published_at": "2026-07-11",
+      "tag": "v1.2.0-rc.4"
+    },
+    {
+      "published_at": "2026-07-11",
+      "tag": "v1.2.0-rc.3"
+    },
+    {
+      "published_at": "2026-07-10",
+      "tag": "v1.2.0-rc.2"
+    },
+    {
+      "published_at": "2026-07-08",
+      "tag": "v1.2.0-rc.1"
+    },
+    {
+      "published_at": "2026-06-20",
+      "tag": "v1.1.4"
+    },
+    {
+      "published_at": "2026-06-12",
+      "tag": "v1.1.3"
+    },
+    {
+      "published_at": "2026-06-10",
+      "tag": "v1.1.2"
+    },
+    {
+      "published_at": "2026-06-06",
+      "tag": "v1.1.1"
+    },
+    {
+      "published_at": "2026-06-06",
+      "tag": "v1.1.0"
+    },
+    {
+      "published_at": "2026-05-13",
+      "tag": "v1.0.2"
+    },
+    {
+      "published_at": "2026-05-12",
+      "tag": "v1.0.1"
+    },
+    {
+      "published_at": "2026-04-16",
+      "tag": "v1.0.0"
+    },
+    {
+      "published_at": "2026-03-04",
+      "tag": "v0.4.0"
+    },
+    {
+      "published_at": "2026-02-15",
+      "tag": "v0.3.1"
+    },
+    {
+      "published_at": "2026-02-13",
+      "tag": "v0.3.0"
+    },
+    {
+      "published_at": "2026-02-04",
+      "tag": "v0.2.0"
+    },
+    {
+      "published_at": "2026-02-03",
+      "tag": "v0.1.2"
+    },
+    {
+      "published_at": "2026-02-01",
+      "tag": "v0.1.1"
+    },
+    {
+      "published_at": "2026-02-01",
+      "tag": "v0.1.0"
+    }
+  ],
+  "MemPalace/mempalace": [
+    {
+      "published_at": "2026-08-14",
+      "tag": "v3.7.1"
+    },
+    {
+      "published_at": "2026-08-11",
+      "tag": "v3.7.0"
+    },
+    {
+      "published_at": "2026-07-17",
+      "tag": "v3.6.0"
+    },
+    {
+      "published_at": "2026-06-23",
+      "tag": "v3.5.0"
+    },
+    {
+      "published_at": "2026-06-15",
+      "tag": "v3.4.1"
+    },
+    {
+      "published_at": "2026-06-06",
+      "tag": "v3.4.0"
+    },
+    {
+      "published_at": "2026-06-06",
+      "tag": "v3.3.6"
+    },
+    {
+      "published_at": "2026-05-10",
+      "tag": "v3.3.5"
+    },
+    {
+      "published_at": "2026-05-01",
+      "tag": "v3.3.4"
+    },
+    {
+      "published_at": "2026-04-24",
+      "tag": "v3.3.3"
+    },
+    {
+      "published_at": "2026-04-21",
+      "tag": "v3.3.2"
+    },
+    {
+      "published_at": "2026-04-18",
+      "tag": "v3.3.1"
+    },
+    {
+      "published_at": "2026-04-14",
+      "tag": "v3.3.0"
+    },
+    {
+      "published_at": "2026-04-09",
+      "tag": "v3.1.0"
+    },
+    {
+      "published_at": "2026-04-06",
+      "tag": "v3.0.0"
+    }
+  ],
+  "MemTensor/MemOS": [
+    {
+      "published_at": "2026-08-16",
+      "tag": "memos-local-plugin-v2.0.16"
+    },
+    {
+      "published_at": "2026-08-14",
+      "tag": "v2.0.30"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "memos-local-plugin-v2.0.15"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "memos-local-plugin-v2.0.15-beta.1"
+    },
+    {
+      "published_at": "2026-08-07",
+      "tag": "memos-local-plugin-v2.0.14"
+    },
+    {
+      "published_at": "2026-08-07",
+      "tag": "memos-local-plugin-v2.0.14-beta.1"
+    },
+    {
+      "published_at": "2026-08-05",
+      "tag": "memos-local-plugin-v2.0.13"
+    },
+    {
+      "published_at": "2026-08-04",
+      "tag": "memos-local-plugin-v2.0.13-beta.2"
+    },
+    {
+      "published_at": "2026-08-03",
+      "tag": "memos-local-plugin-v2.0.13-beta.1"
+    },
+    {
+      "published_at": "2026-07-31",
+      "tag": "v2.0.27"
+    },
+    {
+      "published_at": "2026-07-29",
+      "tag": "memos-local-plugin-v2.0.12"
+    },
+    {
+      "published_at": "2026-07-29",
+      "tag": "memos-local-plugin-v2.0.12-beta.1"
+    },
+    {
+      "published_at": "2026-07-27",
+      "tag": "memos-local-plugin-v2.0.11"
+    },
+    {
+      "published_at": "2026-07-24",
+      "tag": "v2.0.25"
+    },
+    {
+      "published_at": "2026-07-19",
+      "tag": "v2.0.24"
+    },
+    {
+      "published_at": "2026-07-09",
+      "tag": "v2.0.23"
+    },
+    {
+      "published_at": "2026-07-15",
+      "tag": "memos-local-plugin-v2.0.10"
+    },
+    {
+      "published_at": "2026-07-03",
+      "tag": "v2.0.22"
+    },
+    {
+      "published_at": "2026-06-18",
+      "tag": "v2.0.20"
+    },
+    {
+      "published_at": "2026-06-12",
+      "tag": "v2.0.19"
+    },
+    {
+      "published_at": "2026-05-26",
+      "tag": "v2.0.17"
+    },
+    {
+      "published_at": "2026-05-19",
+      "tag": "v2.0.16"
+    },
+    {
+      "published_at": "2026-05-11",
+      "tag": "v2.0.15"
+    },
+    {
+      "published_at": "2026-04-23",
+      "tag": "v2.0.14"
+    },
+    {
+      "published_at": "2026-04-10",
+      "tag": "v2.0.13"
+    },
+    {
+      "published_at": "2026-04-07",
+      "tag": "v2.0.12"
+    },
+    {
+      "published_at": "2026-03-27",
+      "tag": "v2.0.11"
+    },
+    {
+      "published_at": "2026-03-20",
+      "tag": "v2.0.10"
+    },
+    {
+      "published_at": "2026-03-16",
+      "tag": "v2.0.9"
+    },
+    {
+      "published_at": "2026-03-09",
+      "tag": "v2.0.8"
+    }
+  ],
+  "MemoriLabs/Memori": [
+    {
+      "published_at": "2026-05-28",
+      "tag": "v3.3.6"
+    },
+    {
+      "published_at": "2026-05-27",
+      "tag": "v3.3.5"
+    },
+    {
+      "published_at": "2026-05-20",
+      "tag": "v3.3.4"
+    },
+    {
+      "published_at": "2026-05-05",
+      "tag": "v3.3.3"
+    },
+    {
+      "published_at": "2026-04-29",
+      "tag": "v3.3.2"
+    },
+    {
+      "published_at": "2026-04-27",
+      "tag": "v3.3.1"
+    },
+    {
+      "published_at": "2026-04-22",
+      "tag": "v0.1.5-beta"
+    },
+    {
+      "published_at": "2026-04-20",
+      "tag": "v3.3.0"
+    },
+    {
+      "published_at": "2026-04-20",
+      "tag": "v3.3.0rc1"
+    },
+    {
+      "published_at": "2026-04-13",
+      "tag": "v3.2.8"
+    },
+    {
+      "published_at": "2026-04-06",
+      "tag": "v3.2.7"
+    },
+    {
+      "published_at": "2026-04-06",
+      "tag": "v3.2.6"
+    },
+    {
+      "published_at": "2026-04-06",
+      "tag": "v3.2.5"
+    },
+    {
+      "published_at": "2026-03-25",
+      "tag": "v3.2.4"
+    },
+    {
+      "published_at": "2026-03-10",
+      "tag": "v3.2.3"
+    },
+    {
+      "published_at": "2026-03-10",
+      "tag": "v3.2.2"
+    },
+    {
+      "published_at": "2026-02-25",
+      "tag": "v3.2.1"
+    },
+    {
+      "published_at": "2026-02-23",
+      "tag": "v3.2.0"
+    },
+    {
+      "published_at": "2026-01-28",
+      "tag": "v3.1.6"
+    },
+    {
+      "published_at": "2026-01-21",
+      "tag": "v3.1.5"
+    },
+    {
+      "published_at": "2026-01-21",
+      "tag": "v3.1.4"
+    },
+    {
+      "published_at": "2026-01-05",
+      "tag": "v3.1.3"
+    },
+    {
+      "published_at": "2025-12-17",
+      "tag": "v3.1.2"
+    },
+    {
+      "published_at": "2025-12-12",
+      "tag": "v3.1.1"
+    },
+    {
+      "published_at": "2025-12-09",
+      "tag": "v3.1.0"
+    },
+    {
+      "published_at": "2025-12-04",
+      "tag": "v3.0.6"
+    },
+    {
+      "published_at": "2025-12-03",
+      "tag": "v3.0.5"
+    },
+    {
+      "published_at": "2025-12-03",
+      "tag": "v3.0.4"
+    },
+    {
+      "published_at": "2025-12-03",
+      "tag": "v3.0.3"
+    },
+    {
+      "published_at": "2025-12-02",
+      "tag": "v3.0.2"
+    }
+  ],
+  "NirDiamant/agents-towards-production": [],
+  "OpenIntegrationEngine/engine": [
+    {
+      "published_at": "2026-07-09",
+      "tag": "v4.6.0"
+    },
+    {
+      "published_at": "2026-05-07",
+      "tag": "v4.6.0-rc1"
+    },
+    {
+      "published_at": "2025-07-09",
+      "tag": "v4.5.2"
+    },
+    {
+      "published_at": "2025-06-13",
+      "tag": "v4.5.2-tp.1"
+    }
+  ],
+  "OthmanAdi/planning-with-files": [
+    {
+      "published_at": "2026-08-22",
+      "tag": "v3.11.2"
+    },
+    {
+      "published_at": "2026-08-21",
+      "tag": "v3.11.1"
+    },
+    {
+      "published_at": "2026-08-20",
+      "tag": "v3.11.0"
+    },
+    {
+      "published_at": "2026-08-19",
+      "tag": "v3.10.2"
+    },
+    {
+      "published_at": "2026-08-14",
+      "tag": "v3.10.1"
+    },
+    {
+      "published_at": "2026-08-09",
+      "tag": "v3.10.0"
+    },
+    {
+      "published_at": "2026-08-01",
+      "tag": "v3.9.0"
+    },
+    {
+      "published_at": "2026-07-24",
+      "tag": "v3.8.2"
+    },
+    {
+      "published_at": "2026-07-21",
+      "tag": "v3.8.1"
+    },
+    {
+      "published_at": "2026-07-21",
+      "tag": "v3.8.0"
+    },
+    {
+      "published_at": "2026-07-18",
+      "tag": "v3.7.0"
+    },
+    {
+      "published_at": "2026-07-18",
+      "tag": "v3.6.0"
+    },
+    {
+      "published_at": "2026-07-14",
+      "tag": "v3.5.1"
+    },
+    {
+      "published_at": "2026-07-13",
+      "tag": "v3.5.0"
+    },
+    {
+      "published_at": "2026-07-12",
+      "tag": "v3.4.1"
+    },
+    {
+      "published_at": "2026-07-06",
+      "tag": "v3.4.0"
+    },
+    {
+      "published_at": "2026-07-06",
+      "tag": "v3.3.0"
+    },
+    {
+      "published_at": "2026-07-03",
+      "tag": "v3.2.0"
+    },
+    {
+      "published_at": "2026-06-16",
+      "tag": "v3.1.3"
+    },
+    {
+      "published_at": "2026-06-16",
+      "tag": "v3.1.2"
+    },
+    {
+      "published_at": "2026-06-14",
+      "tag": "v3.1.1"
+    },
+    {
+      "published_at": "2026-06-13",
+      "tag": "v3.1.0"
+    },
+    {
+      "published_at": "2026-06-10",
+      "tag": "v3.0.0"
+    },
+    {
+      "published_at": "2026-05-26",
+      "tag": "v2.43.0"
+    },
+    {
+      "published_at": "2026-05-25",
+      "tag": "v2.42.0"
+    },
+    {
+      "published_at": "2026-05-24",
+      "tag": "v2.41.0"
+    },
+    {
+      "published_at": "2026-05-22",
+      "tag": "v2.40.1"
+    },
+    {
+      "published_at": "2026-05-21",
+      "tag": "v2.40.0"
+    },
+    {
+      "published_at": "2026-05-21",
+      "tag": "v2.39.0"
+    },
+    {
+      "published_at": "2026-05-16",
+      "tag": "v2.38.1"
+    }
+  ],
+  "PrismorSec/prismor": [
+    {
+      "published_at": "2026-08-20",
+      "tag": "v1.43.0"
+    },
+    {
+      "published_at": "2026-08-16",
+      "tag": "v1.42.2"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "v1.42.1"
+    },
+    {
+      "published_at": "2026-08-14",
+      "tag": "v1.42.0"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "v1.41.0"
+    },
+    {
+      "published_at": "2026-08-10",
+      "tag": "v1.40.1"
+    },
+    {
+      "published_at": "2026-08-10",
+      "tag": "v1.40.0"
+    },
+    {
+      "published_at": "2026-08-07",
+      "tag": "v1.39.0"
+    },
+    {
+      "published_at": "2026-08-07",
+      "tag": "v1.38.1"
+    },
+    {
+      "published_at": "2026-08-03",
+      "tag": "v1.38.0"
+    },
+    {
+      "published_at": "2026-08-03",
+      "tag": "v1.37.0"
+    },
+    {
+      "published_at": "2026-08-03",
+      "tag": "v1.36.0"
+    },
+    {
+      "published_at": "2026-07-29",
+      "tag": "v1.35.0"
+    },
+    {
+      "published_at": "2026-07-28",
+      "tag": "v1.34.2"
+    },
+    {
+      "published_at": "2026-07-24",
+      "tag": "v1.34.1"
+    },
+    {
+      "published_at": "2026-07-24",
+      "tag": "v1.34.0"
+    },
+    {
+      "published_at": "2026-07-23",
+      "tag": "v1.33.0"
+    },
+    {
+      "published_at": "2026-07-23",
+      "tag": "v1.32.1"
+    },
+    {
+      "published_at": "2026-07-23",
+      "tag": "v1.32.0"
+    },
+    {
+      "published_at": "2026-07-22",
+      "tag": "v1.31.0"
+    },
+    {
+      "published_at": "2026-07-22",
+      "tag": "v1.30.3"
+    },
+    {
+      "published_at": "2026-07-22",
+      "tag": "v1.30.2"
+    },
+    {
+      "published_at": "2026-07-22",
+      "tag": "v1.30.1"
+    },
+    {
+      "published_at": "2026-07-21",
+      "tag": "v1.30.0"
+    },
+    {
+      "published_at": "2026-07-20",
+      "tag": "v1.29.0"
+    },
+    {
+      "published_at": "2026-07-19",
+      "tag": "v1.28.0"
+    },
+    {
+      "published_at": "2026-07-18",
+      "tag": "v1.27.0"
+    },
+    {
+      "published_at": "2026-07-15",
+      "tag": "v1.26.5"
+    },
+    {
+      "published_at": "2026-07-15",
+      "tag": "v1.26.4"
+    },
+    {
+      "published_at": "2026-07-15",
+      "tag": "v1.26.3"
+    }
+  ],
+  "RyanCodrai/turbovec": [],
+  "SleuthCo/clawshield-public": [
+    {
+      "published_at": "2026-03-01",
+      "tag": "v1.0.0"
+    }
+  ],
+  "SponsioLabs/Sponsio": [
+    {
+      "published_at": "2026-08-13",
+      "tag": "v0.2.0a7"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "v0.2.0a6"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "v0.2.0a5"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "v0.2.0a4"
+    },
+    {
+      "published_at": "2026-06-08",
+      "tag": "v0.2.0a3"
+    },
+    {
+      "published_at": "2026-06-07",
+      "tag": "v0.2.0a2"
+    },
+    {
+      "published_at": "2026-06-07",
+      "tag": "v0.2.0a1"
+    },
+    {
+      "published_at": "2026-05-23",
+      "tag": "v0.1.1"
+    },
+    {
+      "published_at": "2026-05-06",
+      "tag": "v0.1.0"
+    }
+  ],
+  "Tracer-Cloud/opensre": [
+    {
+      "published_at": "2026-06-28",
+      "tag": "main-build"
+    },
+    {
+      "published_at": "2026-08-23",
+      "tag": "v0.1.2026.8.23"
+    },
+    {
+      "published_at": "2026-08-22",
+      "tag": "v0.1.2026.8.22"
+    },
+    {
+      "published_at": "2026-08-21",
+      "tag": "v0.1.2026.8.21"
+    },
+    {
+      "published_at": "2026-08-20",
+      "tag": "v0.1.2026.8.20"
+    },
+    {
+      "published_at": "2026-08-19",
+      "tag": "v0.1.2026.8.19"
+    },
+    {
+      "published_at": "2026-08-18",
+      "tag": "v0.1.2026.8.18"
+    },
+    {
+      "published_at": "2026-08-17",
+      "tag": "v0.1.2026.8.17"
+    },
+    {
+      "published_at": "2026-08-16",
+      "tag": "v0.1.2026.8.16"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "v0.1.2026.8.15"
+    },
+    {
+      "published_at": "2026-08-14",
+      "tag": "v0.1.2026.8.14"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "v0.1.2026.8.13"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "v0.1.2026.8.12"
+    },
+    {
+      "published_at": "2026-08-11",
+      "tag": "v0.1.2026.8.11"
+    },
+    {
+      "published_at": "2026-08-10",
+      "tag": "v0.1.2026.8.10"
+    },
+    {
+      "published_at": "2026-08-09",
+      "tag": "v0.1.2026.8.9"
+    },
+    {
+      "published_at": "2026-08-08",
+      "tag": "v0.1.2026.8.8"
+    },
+    {
+      "published_at": "2026-08-06",
+      "tag": "v0.1.2026.8.6"
+    },
+    {
+      "published_at": "2026-08-05",
+      "tag": "v0.1.2026.8.5"
+    },
+    {
+      "published_at": "2026-08-04",
+      "tag": "v0.1.2026.8.4"
+    },
+    {
+      "published_at": "2026-08-03",
+      "tag": "v0.1.2026.8.3"
+    },
+    {
+      "published_at": "2026-08-02",
+      "tag": "v0.1.2026.8.2"
+    },
+    {
+      "published_at": "2026-08-01",
+      "tag": "v0.1.2026.8.1"
+    },
+    {
+      "published_at": "2026-07-31",
+      "tag": "v0.1.2026.7.31"
+    },
+    {
+      "published_at": "2026-07-30",
+      "tag": "v0.1.2026.7.30"
+    },
+    {
+      "published_at": "2026-07-29",
+      "tag": "v0.1.2026.7.29"
+    },
+    {
+      "published_at": "2026-07-28",
+      "tag": "v0.1.2026.7.28"
+    },
+    {
+      "published_at": "2026-07-27",
+      "tag": "v0.1.2026.7.27"
+    },
+    {
+      "published_at": "2026-07-26",
+      "tag": "v0.1.2026.7.26"
+    },
+    {
+      "published_at": "2026-07-25",
+      "tag": "v0.1.2026.7.25"
+    }
+  ],
+  "WeianMao/triattention": [
+    {
+      "published_at": "2026-04-22",
+      "tag": "v0.2.0"
+    }
+  ],
+  "a5c-ai/babysitter": [
+    {
+      "published_at": "2026-06-26",
+      "tag": "v0.0.188"
+    },
+    {
+      "published_at": "2026-04-04",
+      "tag": "v0.0.187"
+    },
+    {
+      "published_at": "2026-04-04",
+      "tag": "v0.0.186"
+    },
+    {
+      "published_at": "2026-04-04",
+      "tag": "v0.0.185"
+    },
+    {
+      "published_at": "2026-04-03",
+      "tag": "v0.0.184"
+    },
+    {
+      "published_at": "2026-03-30",
+      "tag": "v0.0.183"
+    },
+    {
+      "published_at": "2026-03-15",
+      "tag": "v0.0.182"
+    },
+    {
+      "published_at": "2026-03-15",
+      "tag": "v0.0.181"
+    },
+    {
+      "published_at": "2026-03-10",
+      "tag": "v0.0.180"
+    },
+    {
+      "published_at": "2026-03-07",
+      "tag": "v0.0.179"
+    },
+    {
+      "published_at": "2026-03-07",
+      "tag": "v0.0.178"
+    },
+    {
+      "published_at": "2026-03-06",
+      "tag": "v0.0.177"
+    },
+    {
+      "published_at": "2026-03-06",
+      "tag": "v0.0.176"
+    },
+    {
+      "published_at": "2026-03-04",
+      "tag": "v0.0.175"
+    },
+    {
+      "published_at": "2026-03-04",
+      "tag": "v0.0.174"
+    },
+    {
+      "published_at": "2026-03-03",
+      "tag": "v0.0.172"
+    },
+    {
+      "published_at": "2026-03-03",
+      "tag": "v0.0.171"
+    },
+    {
+      "published_at": "2026-03-03",
+      "tag": "v0.0.170"
+    },
+    {
+      "published_at": "2026-02-19",
+      "tag": "v0.0.169"
+    },
+    {
+      "published_at": "2026-02-16",
+      "tag": "v0.0.168"
+    },
+    {
+      "published_at": "2026-02-16",
+      "tag": "v0.0.167"
+    },
+    {
+      "published_at": "2026-02-12",
+      "tag": "v0.0.166"
+    },
+    {
+      "published_at": "2026-02-10",
+      "tag": "v0.0.165"
+    },
+    {
+      "published_at": "2026-02-10",
+      "tag": "v0.0.164"
+    },
+    {
+      "published_at": "2026-02-10",
+      "tag": "v0.0.163"
+    },
+    {
+      "published_at": "2026-02-10",
+      "tag": "v0.0.162"
+    },
+    {
+      "published_at": "2026-02-10",
+      "tag": "v0.0.161"
+    },
+    {
+      "published_at": "2026-02-08",
+      "tag": "v0.0.160"
+    },
+    {
+      "published_at": "2026-02-02",
+      "tag": "v0.0.158"
+    },
+    {
+      "published_at": "2026-01-31",
+      "tag": "v0.0.157"
+    }
+  ],
+  "agentcontrol/agent-control": [
+    {
+      "published_at": "2026-08-21",
+      "tag": "v8.6.0"
+    },
+    {
+      "published_at": "2026-08-14",
+      "tag": "v8.5.0"
+    },
+    {
+      "published_at": "2026-07-27",
+      "tag": "v8.4.0"
+    },
+    {
+      "published_at": "2026-07-13",
+      "tag": "v8.3.0"
+    },
+    {
+      "published_at": "2026-06-25",
+      "tag": "v8.2.0"
+    },
+    {
+      "published_at": "2026-06-20",
+      "tag": "v8.1.2"
+    },
+    {
+      "published_at": "2026-06-20",
+      "tag": "v8.1.1"
+    },
+    {
+      "published_at": "2026-06-17",
+      "tag": "v8.1.0"
+    },
+    {
+      "published_at": "2026-06-17",
+      "tag": "ts-sdk-v3.1.0"
+    },
+    {
+      "published_at": "2026-06-05",
+      "tag": "v8.0.0"
+    },
+    {
+      "published_at": "2026-06-05",
+      "tag": "ts-sdk-v3.0.0"
+    },
+    {
+      "published_at": "2026-05-28",
+      "tag": "ts-sdk-v2.6.0"
+    },
+    {
+      "published_at": "2026-05-27",
+      "tag": "v7.10.0"
+    },
+    {
+      "published_at": "2026-05-25",
+      "tag": "v7.9.0"
+    },
+    {
+      "published_at": "2026-05-20",
+      "tag": "v7.8.1"
+    },
+    {
+      "published_at": "2026-05-15",
+      "tag": "v7.8.0"
+    },
+    {
+      "published_at": "2026-05-07",
+      "tag": "v7.7.0"
+    },
+    {
+      "published_at": "2026-05-02",
+      "tag": "ts-sdk-v2.5.0"
+    },
+    {
+      "published_at": "2026-04-22",
+      "tag": "v7.6.0"
+    },
+    {
+      "published_at": "2026-04-22",
+      "tag": "ts-sdk-v2.4.0"
+    },
+    {
+      "published_at": "2026-04-20",
+      "tag": "v7.5.0"
+    },
+    {
+      "published_at": "2026-04-19",
+      "tag": "ts-sdk-v2.3.0"
+    },
+    {
+      "published_at": "2026-04-14",
+      "tag": "v7.4.1"
+    },
+    {
+      "published_at": "2026-04-07",
+      "tag": "v7.4.0"
+    },
+    {
+      "published_at": "2026-04-07",
+      "tag": "ts-sdk-v2.2.0"
+    },
+    {
+      "published_at": "2026-04-02",
+      "tag": "v7.3.2"
+    },
+    {
+      "published_at": "2026-04-01",
+      "tag": "v7.3.1"
+    },
+    {
+      "published_at": "2026-03-30",
+      "tag": "v7.3.0"
+    },
+    {
+      "published_at": "2026-03-26",
+      "tag": "v7.2.0"
+    },
+    {
+      "published_at": "2026-03-20",
+      "tag": "v7.1.0"
+    }
+  ],
+  "alibaba/anolisa": [
+    {
+      "published_at": "2026-08-22",
+      "tag": "anolisa/v0.3.6"
+    },
+    {
+      "published_at": "2026-08-21",
+      "tag": "skillfs/v0.4.1"
+    },
+    {
+      "published_at": "2026-08-21",
+      "tag": "skill/v0.6.3"
+    },
+    {
+      "published_at": "2026-08-21",
+      "tag": "cosh-ng/v0.19.0"
+    },
+    {
+      "published_at": "2026-08-21",
+      "tag": "ckpt/v0.4.3"
+    },
+    {
+      "published_at": "2026-08-20",
+      "tag": "tokenless/v0.7.11"
+    },
+    {
+      "published_at": "2026-08-20",
+      "tag": "cosh-ng/v0.18.0"
+    },
+    {
+      "published_at": "2026-08-19",
+      "tag": "tokenless/v0.7.10"
+    },
+    {
+      "published_at": "2026-08-19",
+      "tag": "cosh-ng/v0.17.2"
+    },
+    {
+      "published_at": "2026-08-18",
+      "tag": "sight/v0.10.2"
+    },
+    {
+      "published_at": "2026-08-18",
+      "tag": "cosh-ng/v0.17.1"
+    },
+    {
+      "published_at": "2026-08-17",
+      "tag": "tokenless/v0.7.7"
+    },
+    {
+      "published_at": "2026-08-17",
+      "tag": "cosh-ng/v0.17.0"
+    },
+    {
+      "published_at": "2026-08-14",
+      "tag": "cosh-ng/v0.16.1"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "tokenless/v0.7.6"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "sight/v0.10.1"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "cosh-ng/v0.16.0"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "sec-core/v0.10.1"
+    },
+    {
+      "published_at": "2026-08-11",
+      "tag": "sight/v0.10.0"
+    },
+    {
+      "published_at": "2026-08-09",
+      "tag": "tokenless/v0.7.5"
+    },
+    {
+      "published_at": "2026-08-09",
+      "tag": "cosh-ng/v0.15.0"
+    },
+    {
+      "published_at": "2026-08-09",
+      "tag": "anolisa/v0.2.19"
+    },
+    {
+      "published_at": "2026-08-07",
+      "tag": "skill/v0.6.2"
+    },
+    {
+      "published_at": "2026-08-07",
+      "tag": "sec-core/v0.10.0"
+    },
+    {
+      "published_at": "2026-08-04",
+      "tag": "sight/v0.9.1"
+    },
+    {
+      "published_at": "2026-08-04",
+      "tag": "cosh-ng/v0.14.0"
+    },
+    {
+      "published_at": "2026-08-03",
+      "tag": "cosh/v2.8.0"
+    },
+    {
+      "published_at": "2026-07-31",
+      "tag": "tokenless/v0.7.4"
+    },
+    {
+      "published_at": "2026-07-30",
+      "tag": "memory/v0.2.6"
+    },
+    {
+      "published_at": "2026-07-30",
+      "tag": "anolisa/v0.2.15"
+    }
+  ],
+  "ascending-llc/jarvis-registry": [
+    {
+      "published_at": "2026-08-19",
+      "tag": "cli-v0.1.0"
+    },
+    {
+      "published_at": "2026-07-29",
+      "tag": "asc0.5.4"
+    },
+    {
+      "published_at": "2026-07-24",
+      "tag": "asc0.5.3"
+    },
+    {
+      "published_at": "2026-07-10",
+      "tag": "asc0.5.2"
+    },
+    {
+      "published_at": "2026-07-06",
+      "tag": "asc0.5.1"
+    },
+    {
+      "published_at": "2026-05-26",
+      "tag": "asc0.3.1"
+    },
+    {
+      "published_at": "2026-05-13",
+      "tag": "asc0.2.12"
+    }
+  ],
+  "boxlite-ai/boxlite": [
+    {
+      "published_at": "2026-07-01",
+      "tag": "v0.9.7"
+    },
+    {
+      "published_at": "2026-05-16",
+      "tag": "v0.9.5"
+    },
+    {
+      "published_at": "2026-05-12",
+      "tag": "v0.9.4"
+    },
+    {
+      "published_at": "2026-05-05",
+      "tag": "v0.9.3"
+    },
+    {
+      "published_at": "2026-05-04",
+      "tag": "v0.9.2"
+    },
+    {
+      "published_at": "2026-05-04",
+      "tag": "v0.9.1"
+    },
+    {
+      "published_at": "2026-05-03",
+      "tag": "v0.9.0"
+    },
+    {
+      "published_at": "2026-04-02",
+      "tag": "v0.8.2"
+    },
+    {
+      "published_at": "2026-03-14",
+      "tag": "v0.7.5"
+    },
+    {
+      "published_at": "2026-03-14",
+      "tag": "v0.7.4"
+    },
+    {
+      "published_at": "2026-03-13",
+      "tag": "v0.7.3"
+    },
+    {
+      "published_at": "2026-03-12",
+      "tag": "v0.7.0"
+    },
+    {
+      "published_at": "2026-02-25",
+      "tag": "v0.6.0"
+    },
+    {
+      "published_at": "2026-02-15",
+      "tag": "v0.5.14"
+    },
+    {
+      "published_at": "2026-02-14",
+      "tag": "v0.5.13"
+    },
+    {
+      "published_at": "2026-02-13",
+      "tag": "v0.5.12"
+    },
+    {
+      "published_at": "2026-02-13",
+      "tag": "v0.5.11"
+    },
+    {
+      "published_at": "2026-02-06",
+      "tag": "v0.5.10"
+    },
+    {
+      "published_at": "2026-02-04",
+      "tag": "v0.5.9"
+    },
+    {
+      "published_at": "2026-01-29",
+      "tag": "v0.5.8"
+    },
+    {
+      "published_at": "2026-01-23",
+      "tag": "v0.5.7"
+    },
+    {
+      "published_at": "2026-01-23",
+      "tag": "v0.5.6"
+    },
+    {
+      "published_at": "2026-01-23",
+      "tag": "v0.5.5"
+    },
+    {
+      "published_at": "2026-01-21",
+      "tag": "v0.5.4"
+    },
+    {
+      "published_at": "2026-01-15",
+      "tag": "v0.5.3"
+    },
+    {
+      "published_at": "2026-01-13",
+      "tag": "v0.5.2"
+    },
+    {
+      "published_at": "2026-01-13",
+      "tag": "v0.5.1"
+    },
+    {
+      "published_at": "2026-01-11",
+      "tag": "v0.5.0"
+    },
+    {
+      "published_at": "2026-01-02",
+      "tag": "v0.4.5"
+    },
+    {
+      "published_at": "2026-01-02",
+      "tag": "v0.4.4"
+    }
+  ],
+  "brontoguana/krasis": [
+    {
+      "published_at": "2026-08-22",
+      "tag": "v1.0.21-rc.4"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "v1.0.21-rc.3"
+    },
+    {
+      "published_at": "2026-08-09",
+      "tag": "v1.0.21-rc.2"
+    },
+    {
+      "published_at": "2026-08-06",
+      "tag": "v1.0.21-rc.1"
+    },
+    {
+      "published_at": "2026-08-04",
+      "tag": "v1.0.20"
+    },
+    {
+      "published_at": "2026-08-04",
+      "tag": "v1.0.19"
+    },
+    {
+      "published_at": "2026-08-04",
+      "tag": "v1.0.18"
+    },
+    {
+      "published_at": "2026-08-03",
+      "tag": "v1.0.17"
+    },
+    {
+      "published_at": "2026-07-27",
+      "tag": "v1.0.16"
+    },
+    {
+      "published_at": "2026-07-27",
+      "tag": "v1.0.16-rc.10"
+    },
+    {
+      "published_at": "2026-07-27",
+      "tag": "v1.0.16-rc.9"
+    },
+    {
+      "published_at": "2026-07-26",
+      "tag": "v1.0.16-rc.8"
+    },
+    {
+      "published_at": "2026-07-26",
+      "tag": "v1.0.16-rc.7"
+    },
+    {
+      "published_at": "2026-07-25",
+      "tag": "v1.0.16-rc.6"
+    },
+    {
+      "published_at": "2026-07-25",
+      "tag": "v1.0.16-rc.5"
+    },
+    {
+      "published_at": "2026-07-25",
+      "tag": "v1.0.16-rc.4"
+    },
+    {
+      "published_at": "2026-07-25",
+      "tag": "v1.0.16-rc.3"
+    },
+    {
+      "published_at": "2026-07-24",
+      "tag": "v1.0.16-rc.2"
+    },
+    {
+      "published_at": "2026-07-23",
+      "tag": "v1.0.16-rc.1"
+    },
+    {
+      "published_at": "2026-06-05",
+      "tag": "v1.0.15"
+    },
+    {
+      "published_at": "2026-06-04",
+      "tag": "v1.0.14"
+    },
+    {
+      "published_at": "2026-05-30",
+      "tag": "v1.0.13"
+    },
+    {
+      "published_at": "2026-05-29",
+      "tag": "v1.0.13-rc.2"
+    },
+    {
+      "published_at": "2026-05-29",
+      "tag": "v1.0.13-rc.1"
+    },
+    {
+      "published_at": "2026-05-29",
+      "tag": "v1.0.12"
+    },
+    {
+      "published_at": "2026-05-29",
+      "tag": "v1.0.11"
+    },
+    {
+      "published_at": "2026-05-28",
+      "tag": "v1.0.10"
+    },
+    {
+      "published_at": "2026-05-27",
+      "tag": "v1.0.9"
+    },
+    {
+      "published_at": "2026-05-27",
+      "tag": "v1.0.8"
+    },
+    {
+      "published_at": "2026-05-27",
+      "tag": "v1.0.7"
+    }
+  ],
+  "cicd-sensor/cicd-sensor": [
+    {
+      "published_at": "2026-08-09",
+      "tag": "releases/v0.0.45"
+    },
+    {
+      "published_at": "2026-07-29",
+      "tag": "releases/v0.0.44"
+    },
+    {
+      "published_at": "2026-07-16",
+      "tag": "releases/v0.0.43"
+    },
+    {
+      "published_at": "2026-07-14",
+      "tag": "releases/v0.0.42"
+    },
+    {
+      "published_at": "2026-07-03",
+      "tag": "releases/v0.0.41"
+    },
+    {
+      "published_at": "2026-06-30",
+      "tag": "releases/v0.0.40"
+    },
+    {
+      "published_at": "2026-06-18",
+      "tag": "releases/v0.0.39"
+    },
+    {
+      "published_at": "2026-06-12",
+      "tag": "releases/v0.0.38"
+    },
+    {
+      "published_at": "2026-06-10",
+      "tag": "releases/v0.0.37"
+    },
+    {
+      "published_at": "2026-05-30",
+      "tag": "releases/v0.0.36"
+    },
+    {
+      "published_at": "2026-05-28",
+      "tag": "releases/v0.0.35"
+    },
+    {
+      "published_at": "2026-05-27",
+      "tag": "releases/v0.0.34"
+    },
+    {
+      "published_at": "2026-05-27",
+      "tag": "releases/v0.0.33"
+    },
+    {
+      "published_at": "2026-05-26",
+      "tag": "releases/v0.0.32"
+    },
+    {
+      "published_at": "2026-05-24",
+      "tag": "releases/v0.0.31"
+    },
+    {
+      "published_at": "2026-05-24",
+      "tag": "releases/v0.0.30"
+    },
+    {
+      "published_at": "2026-05-24",
+      "tag": "releases/v0.0.29"
+    },
+    {
+      "published_at": "2026-05-24",
+      "tag": "releases/v0.0.28"
+    },
+    {
+      "published_at": "2026-05-24",
+      "tag": "releases/v0.0.27"
+    },
+    {
+      "published_at": "2026-05-24",
+      "tag": "releases/v0.0.26"
+    },
+    {
+      "published_at": "2026-05-23",
+      "tag": "releases/v0.0.25"
+    },
+    {
+      "published_at": "2026-05-23",
+      "tag": "releases/v0.0.24"
+    },
+    {
+      "published_at": "2026-05-23",
+      "tag": "releases/v0.0.23"
+    },
+    {
+      "published_at": "2026-05-23",
+      "tag": "releases/v0.0.22"
+    },
+    {
+      "published_at": "2026-05-23",
+      "tag": "releases/v0.0.21"
+    },
+    {
+      "published_at": "2026-05-23",
+      "tag": "releases/v0.0.20"
+    },
+    {
+      "published_at": "2026-05-22",
+      "tag": "releases/v0.0.19"
+    },
+    {
+      "published_at": "2026-05-22",
+      "tag": "releases/v0.0.18"
+    },
+    {
+      "published_at": "2026-05-22",
+      "tag": "releases/v0.0.17"
+    },
+    {
+      "published_at": "2026-05-22",
+      "tag": "releases/v0.0.15"
+    }
+  ],
+  "claw-eval/claw-eval": [],
+  "clay-good/OpenLore": [
+    {
+      "published_at": "2026-08-17",
+      "tag": "v2.2.0"
+    },
+    {
+      "published_at": "2026-08-10",
+      "tag": "v2.1.9"
+    },
+    {
+      "published_at": "2026-08-02",
+      "tag": "v2.1.8"
+    },
+    {
+      "published_at": "2026-07-26",
+      "tag": "v2.1.7"
+    },
+    {
+      "published_at": "2026-07-19",
+      "tag": "v2.1.6"
+    },
+    {
+      "published_at": "2026-06-28",
+      "tag": "v2.1.5"
+    },
+    {
+      "published_at": "2026-06-27",
+      "tag": "v2.1.4"
+    },
+    {
+      "published_at": "2026-06-22",
+      "tag": "v2.1.3"
+    },
+    {
+      "published_at": "2026-06-20",
+      "tag": "v2.1.2"
+    },
+    {
+      "published_at": "2026-06-19",
+      "tag": "v2.1.1"
+    },
+    {
+      "published_at": "2026-06-18",
+      "tag": "v2.1.0"
+    },
+    {
+      "published_at": "2026-06-16",
+      "tag": "v2.0.19"
+    },
+    {
+      "published_at": "2026-06-14",
+      "tag": "v2.0.18"
+    },
+    {
+      "published_at": "2026-06-12",
+      "tag": "v2.0.17"
+    },
+    {
+      "published_at": "2026-06-10",
+      "tag": "v2.0.16"
+    },
+    {
+      "published_at": "2026-06-10",
+      "tag": "v2.0.15"
+    },
+    {
+      "published_at": "2026-06-09",
+      "tag": "v2.0.14"
+    },
+    {
+      "published_at": "2026-06-07",
+      "tag": "v2.0.13"
+    },
+    {
+      "published_at": "2026-06-07",
+      "tag": "v2.0.12"
+    },
+    {
+      "published_at": "2026-06-06",
+      "tag": "v2.0.11"
+    },
+    {
+      "published_at": "2026-06-05",
+      "tag": "v2.0.10"
+    },
+    {
+      "published_at": "2026-06-03",
+      "tag": "v2.0.9"
+    },
+    {
+      "published_at": "2026-06-02",
+      "tag": "v2.0.8"
+    },
+    {
+      "published_at": "2026-06-01",
+      "tag": "v2.0.7"
+    },
+    {
+      "published_at": "2026-06-01",
+      "tag": "v2.0.6"
+    },
+    {
+      "published_at": "2026-05-29",
+      "tag": "v2.0.5"
+    },
+    {
+      "published_at": "2026-05-27",
+      "tag": "v2.0.4"
+    },
+    {
+      "published_at": "2026-05-27",
+      "tag": "v2.0.3"
+    },
+    {
+      "published_at": "2026-05-26",
+      "tag": "v2.0.2"
+    },
+    {
+      "published_at": "2026-05-17",
+      "tag": "v2.0.1"
+    }
+  ],
+  "cuga-project/cuga-agent": [
+    {
+      "published_at": "2026-08-20",
+      "tag": "v0.3.2"
+    },
+    {
+      "published_at": "2026-08-03",
+      "tag": "v0.3.1"
+    },
+    {
+      "published_at": "2026-06-30",
+      "tag": "v0.3.0"
+    },
+    {
+      "published_at": "2026-05-10",
+      "tag": "v0.2.28"
+    },
+    {
+      "published_at": "2026-03-30",
+      "tag": "v0.2.11"
+    },
+    {
+      "published_at": "2026-02-26",
+      "tag": "v0.2.10"
+    },
+    {
+      "published_at": "2026-01-12",
+      "tag": "v0.2.7"
+    },
+    {
+      "published_at": "2025-12-11",
+      "tag": "v0.2.0"
+    },
+    {
+      "published_at": "2025-12-11",
+      "tag": "v0.1.11"
+    },
+    {
+      "published_at": "2025-11-22",
+      "tag": "v0.1.10"
+    },
+    {
+      "published_at": "2025-11-14",
+      "tag": "v0.1.7"
+    },
+    {
+      "published_at": "2025-11-11",
+      "tag": "v0.1.4"
+    },
+    {
+      "published_at": "2025-11-04",
+      "tag": "v0.1.3"
+    },
+    {
+      "published_at": "2025-11-04",
+      "tag": "v0.1.1"
+    }
+  ],
+  "databufflabs/databuff": [
+    {
+      "published_at": "2026-08-10",
+      "tag": "v0.1.7"
+    },
+    {
+      "published_at": "2026-08-03",
+      "tag": "v0.1.6"
+    },
+    {
+      "published_at": "2026-07-27",
+      "tag": "v0.1.5"
+    },
+    {
+      "published_at": "2026-07-21",
+      "tag": "v0.1.4"
+    },
+    {
+      "published_at": "2026-07-13",
+      "tag": "0.1.3"
+    },
+    {
+      "published_at": "2026-07-06",
+      "tag": "0.1.2"
+    },
+    {
+      "published_at": "2026-06-26",
+      "tag": "0.1.1"
+    }
+  ],
+  "deeplethe/forkd": [
+    {
+      "published_at": "2026-07-22",
+      "tag": "v0.5.3"
+    },
+    {
+      "published_at": "2026-06-08",
+      "tag": "v0.5.2"
+    },
+    {
+      "published_at": "2026-06-05",
+      "tag": "v0.5.1"
+    },
+    {
+      "published_at": "2026-06-04",
+      "tag": "v0.5.0"
+    },
+    {
+      "published_at": "2026-05-27",
+      "tag": "hub-python-numpy-v1"
+    },
+    {
+      "published_at": "2026-05-27",
+      "tag": "hub-postgres-fixture-v1"
+    },
+    {
+      "published_at": "2026-05-27",
+      "tag": "hub-playwright-browser-v1"
+    },
+    {
+      "published_at": "2026-05-27",
+      "tag": "hub-nodejs-v1"
+    },
+    {
+      "published_at": "2026-05-27",
+      "tag": "hub-jupyter-kernel-v1"
+    },
+    {
+      "published_at": "2026-05-27",
+      "tag": "hub-e2b-codeinterpreter-v1"
+    },
+    {
+      "published_at": "2026-05-27",
+      "tag": "hub-coding-agent-v1"
+    },
+    {
+      "published_at": "2026-05-23",
+      "tag": "v0.3.4"
+    },
+    {
+      "published_at": "2026-05-21",
+      "tag": "v0.3.3"
+    },
+    {
+      "published_at": "2026-05-20",
+      "tag": "v0.3.2"
+    },
+    {
+      "published_at": "2026-05-19",
+      "tag": "v0.3.1"
+    },
+    {
+      "published_at": "2026-05-19",
+      "tag": "v0.3.0"
+    },
+    {
+      "published_at": "2026-05-19",
+      "tag": "mcp-v0.2.0"
+    },
+    {
+      "published_at": "2026-05-18",
+      "tag": "hub-langgraph-react-v1"
+    },
+    {
+      "published_at": "2026-05-18",
+      "tag": "hub-coding-agent-fork-v1"
+    },
+    {
+      "published_at": "2026-05-17",
+      "tag": "v0.1.4"
+    },
+    {
+      "published_at": "2026-05-16",
+      "tag": "mcp-v0.1.0"
+    },
+    {
+      "published_at": "2026-05-13",
+      "tag": "v0.1.3"
+    },
+    {
+      "published_at": "2026-05-12",
+      "tag": "v0.1.2"
+    },
+    {
+      "published_at": "2026-05-11",
+      "tag": "v0.0.1-alpha"
+    }
+  ],
+  "dipampaul17/KVSplit": [],
+  "domcyrus/rustnet": [
+    {
+      "published_at": "2026-08-20",
+      "tag": "v1.6.0"
+    },
+    {
+      "published_at": "2026-07-21",
+      "tag": "v1.5.0"
+    },
+    {
+      "published_at": "2026-06-16",
+      "tag": "v1.4.0"
+    },
+    {
+      "published_at": "2026-05-05",
+      "tag": "v1.3.0"
+    },
+    {
+      "published_at": "2026-04-09",
+      "tag": "v1.2.0"
+    },
+    {
+      "published_at": "2026-03-17",
+      "tag": "v1.1.0"
+    },
+    {
+      "published_at": "2026-02-10",
+      "tag": "v1.0.0"
+    },
+    {
+      "published_at": "2026-01-07",
+      "tag": "v0.18.0"
+    },
+    {
+      "published_at": "2025-12-07",
+      "tag": "v0.17.0"
+    },
+    {
+      "published_at": "2025-11-22",
+      "tag": "v0.16.1"
+    },
+    {
+      "published_at": "2025-10-25",
+      "tag": "v0.15.0"
+    },
+    {
+      "published_at": "2025-10-12",
+      "tag": "v0.14.0"
+    },
+    {
+      "published_at": "2025-10-04",
+      "tag": "v0.13.0"
+    },
+    {
+      "published_at": "2025-10-01",
+      "tag": "v0.12.0"
+    },
+    {
+      "published_at": "2025-09-30",
+      "tag": "v0.11.0"
+    },
+    {
+      "published_at": "2025-09-28",
+      "tag": "v0.10.0"
+    },
+    {
+      "published_at": "2025-09-18",
+      "tag": "v0.9.0"
+    },
+    {
+      "published_at": "2025-09-11",
+      "tag": "v0.8.0"
+    },
+    {
+      "published_at": "2025-09-11",
+      "tag": "v0.7.0"
+    },
+    {
+      "published_at": "2025-09-10",
+      "tag": "v0.6.0"
+    },
+    {
+      "published_at": "2025-09-09",
+      "tag": "v0.5.0"
+    },
+    {
+      "published_at": "2025-08-30",
+      "tag": "v0.4.0"
+    },
+    {
+      "published_at": "2025-08-28",
+      "tag": "v0.3.0"
+    },
+    {
+      "published_at": "2025-08-27",
+      "tag": "v0.2.0"
+    },
+    {
+      "published_at": "2025-08-27",
+      "tag": "v0.1.0"
+    }
+  ],
+  "dredozubov/hazmat": [
+    {
+      "published_at": "2026-06-27",
+      "tag": "v0.10.1"
+    },
+    {
+      "published_at": "2026-06-26",
+      "tag": "v0.10.0"
+    },
+    {
+      "published_at": "2026-06-10",
+      "tag": "v0.9.0"
+    },
+    {
+      "published_at": "2026-05-23",
+      "tag": "v0.8.1"
+    },
+    {
+      "published_at": "2026-05-22",
+      "tag": "v0.8.0"
+    },
+    {
+      "published_at": "2026-04-18",
+      "tag": "v0.7.0"
+    },
+    {
+      "published_at": "2026-04-10",
+      "tag": "v0.6.0"
+    },
+    {
+      "published_at": "2026-04-08",
+      "tag": "v0.5.0"
+    },
+    {
+      "published_at": "2026-04-06",
+      "tag": "v0.4.3"
+    },
+    {
+      "published_at": "2026-04-05",
+      "tag": "v0.4.2"
+    },
+    {
+      "published_at": "2026-04-04",
+      "tag": "v0.4.1"
+    },
+    {
+      "published_at": "2026-04-04",
+      "tag": "v0.4.0"
+    }
+  ],
+  "earendil-works/gondolin": [
+    {
+      "published_at": "2026-05-19",
+      "tag": "v0.12.0"
+    },
+    {
+      "published_at": "2026-05-19",
+      "tag": "sandbox-helpers--0.12.0"
+    },
+    {
+      "published_at": "2026-05-18",
+      "tag": "v0.11.0"
+    },
+    {
+      "published_at": "2026-05-18",
+      "tag": "sandbox-helpers--0.11.0"
+    },
+    {
+      "published_at": "2026-05-13",
+      "tag": "v0.10.0"
+    },
+    {
+      "published_at": "2026-05-13",
+      "tag": "sandbox-helpers--0.10.0"
+    },
+    {
+      "published_at": "2026-05-07",
+      "tag": "v0.9.1"
+    },
+    {
+      "published_at": "2026-05-07",
+      "tag": "v0.9.0"
+    },
+    {
+      "published_at": "2026-05-07",
+      "tag": "sandbox-helpers--0.9.1"
+    },
+    {
+      "published_at": "2026-05-07",
+      "tag": "sandbox-helpers--0.9.0"
+    },
+    {
+      "published_at": "2026-05-05",
+      "tag": "v0.8.1"
+    },
+    {
+      "published_at": "2026-04-21",
+      "tag": "v0.8.0"
+    },
+    {
+      "published_at": "2026-04-21",
+      "tag": "image-alpine-base--0.2.0"
+    },
+    {
+      "published_at": "2026-03-19",
+      "tag": "v0.7.0"
+    },
+    {
+      "published_at": "2026-03-02",
+      "tag": "image-alpine-base--0.1.1"
+    },
+    {
+      "published_at": "2026-03-01",
+      "tag": "v0.6.0"
+    },
+    {
+      "published_at": "2026-03-01",
+      "tag": "image-alpine-base--0.1.0"
+    },
+    {
+      "published_at": "2026-02-19",
+      "tag": "v0.5.0"
+    },
+    {
+      "published_at": "2026-02-18",
+      "tag": "v0.4.0"
+    },
+    {
+      "published_at": "2026-02-15",
+      "tag": "v0.3.0"
+    },
+    {
+      "published_at": "2026-02-07",
+      "tag": "v0.2.1"
+    },
+    {
+      "published_at": "2026-02-07",
+      "tag": "v0.2.0"
+    },
+    {
+      "published_at": "2026-02-05",
+      "tag": "v0.1.3"
+    },
+    {
+      "published_at": "2026-02-04",
+      "tag": "v0.1.2"
+    },
+    {
+      "published_at": "2026-02-04",
+      "tag": "v0.1.1"
+    },
+    {
+      "published_at": "2026-02-04",
+      "tag": "v0.1.0"
+    }
+  ],
+  "esaradev/icarus-memory-infra": [
+    {
+      "published_at": "2026-03-29",
+      "tag": "v2.0.0"
+    }
+  ],
+  "eugene1g/agent-safehouse": [
+    {
+      "published_at": "2026-07-17",
+      "tag": "v0.11.1"
+    },
+    {
+      "published_at": "2026-07-08",
+      "tag": "v0.11.0"
+    },
+    {
+      "published_at": "2026-05-20",
+      "tag": "v0.10.1"
+    },
+    {
+      "published_at": "2026-05-19",
+      "tag": "v0.10.0"
+    },
+    {
+      "published_at": "2026-03-27",
+      "tag": "v0.9.0"
+    },
+    {
+      "published_at": "2026-03-27",
+      "tag": "v0.8.0"
+    },
+    {
+      "published_at": "2026-03-27",
+      "tag": "v0.7.0"
+    },
+    {
+      "published_at": "2026-03-23",
+      "tag": "v0.6.0"
+    },
+    {
+      "published_at": "2026-03-18",
+      "tag": "v0.5.2"
+    },
+    {
+      "published_at": "2026-03-17",
+      "tag": "v0.5.1"
+    },
+    {
+      "published_at": "2026-03-17",
+      "tag": "v0.5.0"
+    },
+    {
+      "published_at": "2026-03-16",
+      "tag": "v0.4.0"
+    },
+    {
+      "published_at": "2026-03-12",
+      "tag": "v0.3.1"
+    },
+    {
+      "published_at": "2026-03-12",
+      "tag": "v0.3.0"
+    },
+    {
+      "published_at": "2026-03-11",
+      "tag": "v0.2.0"
+    },
+    {
+      "published_at": "2026-03-11",
+      "tag": "v0.1.0"
+    }
+  ],
+  "eunomia-bpf/agentsight": [
+    {
+      "published_at": "2026-08-22",
+      "tag": "v1.0.26"
+    },
+    {
+      "published_at": "2026-08-16",
+      "tag": "v1.0.25"
+    },
+    {
+      "published_at": "2026-08-16",
+      "tag": "v1.0.24"
+    },
+    {
+      "published_at": "2026-08-16",
+      "tag": "v1.0.23"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "v1.0.22"
+    },
+    {
+      "published_at": "2026-08-14",
+      "tag": "v1.0.21"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "v1.0.20"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "v1.0.19"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "v1.0.18"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "v1.0.17"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "v1.0.16"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "v1.0.15"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "v1.0.14"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "v1.0.13"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "v1.0.12"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "v1.0.11"
+    },
+    {
+      "published_at": "2026-08-11",
+      "tag": "v1.0.10"
+    },
+    {
+      "published_at": "2026-08-11",
+      "tag": "v1.0.9"
+    },
+    {
+      "published_at": "2026-08-11",
+      "tag": "v1.0.8"
+    },
+    {
+      "published_at": "2026-08-11",
+      "tag": "v1.0.7"
+    },
+    {
+      "published_at": "2026-08-11",
+      "tag": "v1.0.6"
+    },
+    {
+      "published_at": "2026-08-11",
+      "tag": "v1.0.5"
+    },
+    {
+      "published_at": "2026-08-10",
+      "tag": "v1.0.4"
+    },
+    {
+      "published_at": "2026-08-06",
+      "tag": "v1.0.3"
+    },
+    {
+      "published_at": "2026-08-06",
+      "tag": "v1.0.2"
+    },
+    {
+      "published_at": "2026-08-06",
+      "tag": "v1.0.1"
+    },
+    {
+      "published_at": "2026-08-06",
+      "tag": "v1.0.0"
+    },
+    {
+      "published_at": "2026-08-05",
+      "tag": "v0.2.68"
+    },
+    {
+      "published_at": "2026-08-05",
+      "tag": "v0.2.67"
+    },
+    {
+      "published_at": "2026-07-26",
+      "tag": "v0.2.66"
+    }
+  ],
+  "evilmartians/agent-prism": [],
+  "framerslab/agentos": [
+    {
+      "published_at": "2026-08-07",
+      "tag": "v0.10.14"
+    },
+    {
+      "published_at": "2026-08-07",
+      "tag": "v0.10.13"
+    },
+    {
+      "published_at": "2026-08-07",
+      "tag": "v0.10.12"
+    },
+    {
+      "published_at": "2026-08-05",
+      "tag": "v0.10.11"
+    },
+    {
+      "published_at": "2026-08-05",
+      "tag": "v0.10.10"
+    },
+    {
+      "published_at": "2026-08-05",
+      "tag": "v0.10.9"
+    },
+    {
+      "published_at": "2026-08-05",
+      "tag": "v0.10.8"
+    },
+    {
+      "published_at": "2026-08-05",
+      "tag": "v0.10.7"
+    },
+    {
+      "published_at": "2026-08-05",
+      "tag": "v0.10.6"
+    },
+    {
+      "published_at": "2026-08-05",
+      "tag": "v0.10.5"
+    },
+    {
+      "published_at": "2026-07-29",
+      "tag": "v0.10.4"
+    },
+    {
+      "published_at": "2026-07-28",
+      "tag": "v0.10.3"
+    },
+    {
+      "published_at": "2026-07-28",
+      "tag": "v0.10.2"
+    },
+    {
+      "published_at": "2026-07-26",
+      "tag": "v0.10.1"
+    },
+    {
+      "published_at": "2026-07-22",
+      "tag": "v0.10.0"
+    },
+    {
+      "published_at": "2026-07-20",
+      "tag": "v0.9.164"
+    },
+    {
+      "published_at": "2026-07-20",
+      "tag": "v0.9.163"
+    },
+    {
+      "published_at": "2026-07-20",
+      "tag": "v0.9.162"
+    },
+    {
+      "published_at": "2026-07-20",
+      "tag": "v0.9.161"
+    },
+    {
+      "published_at": "2026-07-20",
+      "tag": "v0.9.160"
+    },
+    {
+      "published_at": "2026-07-20",
+      "tag": "v0.9.159"
+    },
+    {
+      "published_at": "2026-07-20",
+      "tag": "v0.9.158"
+    },
+    {
+      "published_at": "2026-07-20",
+      "tag": "v0.9.157"
+    },
+    {
+      "published_at": "2026-07-18",
+      "tag": "v0.9.156"
+    },
+    {
+      "published_at": "2026-07-16",
+      "tag": "v0.9.155"
+    },
+    {
+      "published_at": "2026-07-16",
+      "tag": "v0.9.154"
+    },
+    {
+      "published_at": "2026-07-16",
+      "tag": "v0.9.153"
+    },
+    {
+      "published_at": "2026-07-16",
+      "tag": "v0.9.152"
+    },
+    {
+      "published_at": "2026-07-16",
+      "tag": "v0.9.151"
+    },
+    {
+      "published_at": "2026-07-16",
+      "tag": "v0.9.150"
+    }
+  ],
+  "future-agi/future-agi": [
+    {
+      "published_at": "2026-08-19",
+      "tag": "v1.29.0"
+    },
+    {
+      "published_at": "2026-08-18",
+      "tag": "v1.28.0"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "v1.27.4"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "v1.27.3"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "v1.27.2"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "v1.27.1"
+    },
+    {
+      "published_at": "2026-08-10",
+      "tag": "v1.27.0"
+    },
+    {
+      "published_at": "2026-08-07",
+      "tag": "v1.26.0"
+    },
+    {
+      "published_at": "2026-08-07",
+      "tag": "v1.25.0"
+    },
+    {
+      "published_at": "2026-08-05",
+      "tag": "v1.24.3"
+    },
+    {
+      "published_at": "2026-08-04",
+      "tag": "v1.24.2"
+    },
+    {
+      "published_at": "2026-08-03",
+      "tag": "v1.24.1"
+    },
+    {
+      "published_at": "2026-07-30",
+      "tag": "v1.24.0"
+    },
+    {
+      "published_at": "2026-07-29",
+      "tag": "v1.23.1"
+    },
+    {
+      "published_at": "2026-07-28",
+      "tag": "v1.23.0"
+    },
+    {
+      "published_at": "2026-06-23",
+      "tag": "0.5.10"
+    },
+    {
+      "published_at": "2026-06-22",
+      "tag": "0.5.9"
+    },
+    {
+      "published_at": "2026-06-08",
+      "tag": "0.5.8"
+    },
+    {
+      "published_at": "2026-06-02",
+      "tag": "0.5.7"
+    },
+    {
+      "published_at": "2026-05-22",
+      "tag": "0.5.6"
+    },
+    {
+      "published_at": "2026-05-14",
+      "tag": "0.5.5"
+    },
+    {
+      "published_at": "2026-05-07",
+      "tag": "0.5.4"
+    },
+    {
+      "published_at": "2026-05-05",
+      "tag": "0.5.3"
+    }
+  ],
+  "gastownhall/beads": [
+    {
+      "published_at": "2026-08-15",
+      "tag": "v1.2.2"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "v1.2.2-rc.1"
+    },
+    {
+      "published_at": "2026-08-11",
+      "tag": "v1.2.1"
+    },
+    {
+      "published_at": "2026-07-26",
+      "tag": "v1.1.2"
+    },
+    {
+      "published_at": "2026-07-04",
+      "tag": "v1.1.0"
+    },
+    {
+      "published_at": "2026-07-02",
+      "tag": "v1.1.0-rc.2"
+    },
+    {
+      "published_at": "2026-06-26",
+      "tag": "v1.1.0-rc.1"
+    },
+    {
+      "published_at": "2026-05-09",
+      "tag": "v1.0.4"
+    },
+    {
+      "published_at": "2026-04-24",
+      "tag": "v1.0.3"
+    },
+    {
+      "published_at": "2026-04-15",
+      "tag": "v1.0.2"
+    },
+    {
+      "published_at": "2026-04-15",
+      "tag": "v1.0.1"
+    },
+    {
+      "published_at": "2026-04-03",
+      "tag": "v1.0.0"
+    },
+    {
+      "published_at": "2026-03-30",
+      "tag": "v0.63.3"
+    },
+    {
+      "published_at": "2026-03-22",
+      "tag": "v0.62.0"
+    },
+    {
+      "published_at": "2026-03-16",
+      "tag": "v0.61.0"
+    },
+    {
+      "published_at": "2026-03-12",
+      "tag": "v0.60.0"
+    },
+    {
+      "published_at": "2026-03-06",
+      "tag": "v0.59.0"
+    },
+    {
+      "published_at": "2026-03-03",
+      "tag": "v0.58.0"
+    },
+    {
+      "published_at": "2026-03-01",
+      "tag": "v0.57.0"
+    },
+    {
+      "published_at": "2026-02-23",
+      "tag": "v0.56.1"
+    },
+    {
+      "published_at": "2026-02-20",
+      "tag": "v0.55.4"
+    },
+    {
+      "published_at": "2026-02-17",
+      "tag": "v0.52.0"
+    },
+    {
+      "published_at": "2026-02-16",
+      "tag": "v0.51.0"
+    },
+    {
+      "published_at": "2026-02-15",
+      "tag": "v0.50.3"
+    },
+    {
+      "published_at": "2026-02-14",
+      "tag": "v0.50.2"
+    },
+    {
+      "published_at": "2026-02-14",
+      "tag": "v0.50.1"
+    },
+    {
+      "published_at": "2026-02-08",
+      "tag": "v0.49.6"
+    },
+    {
+      "published_at": "2026-02-08",
+      "tag": "v0.49.5"
+    },
+    {
+      "published_at": "2026-02-05",
+      "tag": "v0.49.4"
+    },
+    {
+      "published_at": "2026-02-01",
+      "tag": "v0.49.3"
+    }
+  ],
+  "getagentseal/codeburn": [
+    {
+      "published_at": "2026-08-18",
+      "tag": "windows-v0.9.20"
+    },
+    {
+      "published_at": "2026-08-10",
+      "tag": "v0.9.20"
+    },
+    {
+      "published_at": "2026-08-10",
+      "tag": "mac-v0.9.20"
+    },
+    {
+      "published_at": "2026-08-10",
+      "tag": "desktop-v0.9.20"
+    },
+    {
+      "published_at": "2026-07-20",
+      "tag": "v0.9.19"
+    },
+    {
+      "published_at": "2026-07-20",
+      "tag": "mac-v0.9.19"
+    },
+    {
+      "published_at": "2026-07-20",
+      "tag": "desktop-v0.9.19"
+    },
+    {
+      "published_at": "2026-07-17",
+      "tag": "v0.9.16"
+    },
+    {
+      "published_at": "2026-07-17",
+      "tag": "mac-v0.9.16"
+    },
+    {
+      "published_at": "2026-07-17",
+      "tag": "desktop-v0.9.17"
+    },
+    {
+      "published_at": "2026-07-17",
+      "tag": "desktop-v0.9.16"
+    },
+    {
+      "published_at": "2026-07-16",
+      "tag": "desktop-v0.9.15"
+    },
+    {
+      "published_at": "2026-07-02",
+      "tag": "v0.9.15"
+    },
+    {
+      "published_at": "2026-07-02",
+      "tag": "mac-v0.9.15"
+    },
+    {
+      "published_at": "2026-06-22",
+      "tag": "v0.9.14"
+    },
+    {
+      "published_at": "2026-06-22",
+      "tag": "mac-v0.9.14"
+    },
+    {
+      "published_at": "2026-06-14",
+      "tag": "mac-v0.9.13"
+    },
+    {
+      "published_at": "2026-06-09",
+      "tag": "v0.9.12"
+    },
+    {
+      "published_at": "2026-06-09",
+      "tag": "mac-v0.9.12"
+    },
+    {
+      "published_at": "2026-05-27",
+      "tag": "v0.9.11"
+    },
+    {
+      "published_at": "2026-05-27",
+      "tag": "mac-v0.9.11"
+    },
+    {
+      "published_at": "2026-05-20",
+      "tag": "v0.9.10"
+    },
+    {
+      "published_at": "2026-05-20",
+      "tag": "mac-v0.9.10"
+    },
+    {
+      "published_at": "2026-05-17",
+      "tag": "v0.9.9"
+    },
+    {
+      "published_at": "2026-05-17",
+      "tag": "mac-v0.9.9"
+    },
+    {
+      "published_at": "2026-05-11",
+      "tag": "v0.9.8"
+    },
+    {
+      "published_at": "2026-05-11",
+      "tag": "mac-v0.9.8"
+    },
+    {
+      "published_at": "2026-05-07",
+      "tag": "v0.9.7"
+    },
+    {
+      "published_at": "2026-05-07",
+      "tag": "mac-v0.9.7"
+    },
+    {
+      "published_at": "2026-05-03",
+      "tag": "v0.9.6"
+    }
+  ],
+  "h5i-dev/h5i": [
+    {
+      "published_at": "2026-08-21",
+      "tag": "v0.3.6"
+    },
+    {
+      "published_at": "2026-08-20",
+      "tag": "v0.3.5"
+    },
+    {
+      "published_at": "2026-08-16",
+      "tag": "v0.3.4"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "v0.3.3"
+    },
+    {
+      "published_at": "2026-08-07",
+      "tag": "v0.3.2"
+    },
+    {
+      "published_at": "2026-08-07",
+      "tag": "v0.3.1"
+    },
+    {
+      "published_at": "2026-07-21",
+      "tag": "v0.3.0"
+    },
+    {
+      "published_at": "2026-07-16",
+      "tag": "v0.2.9"
+    },
+    {
+      "published_at": "2026-07-08",
+      "tag": "v0.2.8"
+    },
+    {
+      "published_at": "2026-07-06",
+      "tag": "v0.2.7"
+    },
+    {
+      "published_at": "2026-07-01",
+      "tag": "v0.2.6"
+    },
+    {
+      "published_at": "2026-06-28",
+      "tag": "v0.2.5"
+    },
+    {
+      "published_at": "2026-06-25",
+      "tag": "v0.2.4"
+    },
+    {
+      "published_at": "2026-06-22",
+      "tag": "v0.2.3"
+    },
+    {
+      "published_at": "2026-06-22",
+      "tag": "v0.2.2"
+    },
+    {
+      "published_at": "2026-06-18",
+      "tag": "v0.2.1"
+    },
+    {
+      "published_at": "2026-06-16",
+      "tag": "v0.2.0"
+    },
+    {
+      "published_at": "2026-06-15",
+      "tag": "v0.1.9"
+    },
+    {
+      "published_at": "2026-06-14",
+      "tag": "v0.1.8"
+    },
+    {
+      "published_at": "2026-06-07",
+      "tag": "v0.1.7"
+    },
+    {
+      "published_at": "2026-05-30",
+      "tag": "v0.1.6"
+    },
+    {
+      "published_at": "2026-05-29",
+      "tag": "v0.1.5"
+    },
+    {
+      "published_at": "2026-05-24",
+      "tag": "v0.1.4"
+    },
+    {
+      "published_at": "2026-05-06",
+      "tag": "v0.1.3"
+    },
+    {
+      "published_at": "2026-04-26",
+      "tag": "v0.1.2"
+    },
+    {
+      "published_at": "2026-04-21",
+      "tag": "v0.1.1"
+    },
+    {
+      "published_at": "2026-04-21",
+      "tag": "v0.1.0"
+    }
+  ],
+  "headroomlabs-ai/headroom": [
+    {
+      "published_at": "2026-08-22",
+      "tag": "v0.36.5"
+    },
+    {
+      "published_at": "2026-08-22",
+      "tag": "v0.36.4"
+    },
+    {
+      "published_at": "2026-08-21",
+      "tag": "v0.36.3"
+    },
+    {
+      "published_at": "2026-08-21",
+      "tag": "v0.36.2"
+    },
+    {
+      "published_at": "2026-08-21",
+      "tag": "v0.36.1"
+    },
+    {
+      "published_at": "2026-08-20",
+      "tag": "v0.36.0"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "v0.35.0"
+    },
+    {
+      "published_at": "2026-08-05",
+      "tag": "v0.34.0"
+    },
+    {
+      "published_at": "2026-07-29",
+      "tag": "v0.33.0"
+    },
+    {
+      "published_at": "2026-07-17",
+      "tag": "v0.32.0"
+    },
+    {
+      "published_at": "2026-07-09",
+      "tag": "v0.31.0"
+    },
+    {
+      "published_at": "2026-07-03",
+      "tag": "v0.30.0"
+    },
+    {
+      "published_at": "2026-07-03",
+      "tag": "v0.29.0"
+    },
+    {
+      "published_at": "2026-06-29",
+      "tag": "v0.28.0"
+    },
+    {
+      "published_at": "2026-06-22",
+      "tag": "v0.27.0"
+    },
+    {
+      "published_at": "2026-06-16",
+      "tag": "v0.26.0"
+    },
+    {
+      "published_at": "2026-06-12",
+      "tag": "v0.25.0"
+    },
+    {
+      "published_at": "2026-06-09",
+      "tag": "v0.24.0"
+    },
+    {
+      "published_at": "2026-06-04",
+      "tag": "v0.23.0"
+    },
+    {
+      "published_at": "2026-06-01",
+      "tag": "v0.22.4"
+    },
+    {
+      "published_at": "2026-05-20",
+      "tag": "v0.22.2"
+    },
+    {
+      "published_at": "2026-05-20",
+      "tag": "v0.22.1"
+    },
+    {
+      "published_at": "2026-05-19",
+      "tag": "v0.22.0"
+    },
+    {
+      "published_at": "2026-05-15",
+      "tag": "v0.21.38"
+    },
+    {
+      "published_at": "2026-05-15",
+      "tag": "v0.21.37"
+    },
+    {
+      "published_at": "2026-05-14",
+      "tag": "v0.21.36"
+    },
+    {
+      "published_at": "2026-05-14",
+      "tag": "v0.21.35"
+    },
+    {
+      "published_at": "2026-05-13",
+      "tag": "v0.21.34"
+    },
+    {
+      "published_at": "2026-05-13",
+      "tag": "v0.21.33"
+    },
+    {
+      "published_at": "2026-05-13",
+      "tag": "v0.21.32"
+    }
+  ],
+  "herdrdev/herdr": [
+    {
+      "published_at": "2026-08-19",
+      "tag": "v0.8.2"
+    },
+    {
+      "published_at": "2026-08-19",
+      "tag": "preview-2026-08-19-b5c4a0176e91"
+    },
+    {
+      "published_at": "2026-08-18",
+      "tag": "preview-2026-08-18-9fac51722653"
+    },
+    {
+      "published_at": "2026-08-17",
+      "tag": "preview-2026-08-17-1147e60bc0a4"
+    },
+    {
+      "published_at": "2026-08-03",
+      "tag": "v0.8.0"
+    },
+    {
+      "published_at": "2026-08-03",
+      "tag": "preview-2026-08-04-d78e3d3b5126"
+    },
+    {
+      "published_at": "2026-07-29",
+      "tag": "preview-2026-07-29-44b3adb12552"
+    },
+    {
+      "published_at": "2026-07-21",
+      "tag": "v0.7.5"
+    },
+    {
+      "published_at": "2026-07-21",
+      "tag": "preview-2026-07-21-0f10e1453a7f"
+    },
+    {
+      "published_at": "2026-07-17",
+      "tag": "preview-2026-07-17-813fec141faa"
+    },
+    {
+      "published_at": "2026-07-16",
+      "tag": "preview-2026-07-16-e907e6a36646"
+    },
+    {
+      "published_at": "2026-07-15",
+      "tag": "v0.7.4"
+    },
+    {
+      "published_at": "2026-07-15",
+      "tag": "preview-2026-07-15-50aaa2ec046e"
+    },
+    {
+      "published_at": "2026-07-07",
+      "tag": "v0.7.3"
+    },
+    {
+      "published_at": "2026-07-07",
+      "tag": "v0.7.2"
+    },
+    {
+      "published_at": "2026-07-07",
+      "tag": "preview-2026-07-07-f5354780e4ef"
+    },
+    {
+      "published_at": "2026-07-06",
+      "tag": "preview-2026-07-06-4dae557eefd9"
+    },
+    {
+      "published_at": "2026-06-30",
+      "tag": "preview-2026-06-30-3459798b606d"
+    },
+    {
+      "published_at": "2026-06-25",
+      "tag": "preview-2026-06-25-7811d84f15f1"
+    },
+    {
+      "published_at": "2026-06-24",
+      "tag": "v0.7.1"
+    },
+    {
+      "published_at": "2026-06-22",
+      "tag": "preview-2026-06-22-24c7377de01c"
+    },
+    {
+      "published_at": "2026-06-15",
+      "tag": "v0.7.0"
+    },
+    {
+      "published_at": "2026-06-15",
+      "tag": "preview-2026-06-15-517ca8163f7c"
+    },
+    {
+      "published_at": "2026-06-12",
+      "tag": "preview-2026-06-12-7ba4bfe90e7a"
+    },
+    {
+      "published_at": "2026-06-11",
+      "tag": "v0.6.10"
+    },
+    {
+      "published_at": "2026-06-10",
+      "tag": "v0.6.9"
+    },
+    {
+      "published_at": "2026-06-10",
+      "tag": "preview-2026-06-10-7d6eaf5f26d1"
+    },
+    {
+      "published_at": "2026-06-10",
+      "tag": "preview-2026-06-10-38f3b290deed"
+    },
+    {
+      "published_at": "2026-06-09",
+      "tag": "preview-2026-06-09-3e2bdbab7b05"
+    },
+    {
+      "published_at": "2026-06-07",
+      "tag": "preview-2026-06-07-3f7236f81735"
+    }
+  ],
+  "kenryu42/cc-safety-net": [
+    {
+      "published_at": "2026-08-21",
+      "tag": "v2.0.10"
+    },
+    {
+      "published_at": "2026-08-21",
+      "tag": "v2.0.9"
+    },
+    {
+      "published_at": "2026-08-20",
+      "tag": "v2.0.8"
+    },
+    {
+      "published_at": "2026-08-19",
+      "tag": "v2.0.7"
+    },
+    {
+      "published_at": "2026-08-17",
+      "tag": "v2.0.6"
+    },
+    {
+      "published_at": "2026-08-14",
+      "tag": "v2.0.5"
+    },
+    {
+      "published_at": "2026-08-14",
+      "tag": "v2.0.4"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "v2.0.3"
+    },
+    {
+      "published_at": "2026-08-10",
+      "tag": "v2.0.1"
+    },
+    {
+      "published_at": "2026-08-10",
+      "tag": "v2.0.0"
+    },
+    {
+      "published_at": "2026-06-15",
+      "tag": "v1.0.6"
+    },
+    {
+      "published_at": "2026-06-14",
+      "tag": "v1.0.5"
+    },
+    {
+      "published_at": "2026-06-14",
+      "tag": "v1.0.4"
+    },
+    {
+      "published_at": "2026-06-13",
+      "tag": "v1.0.3"
+    },
+    {
+      "published_at": "2026-06-12",
+      "tag": "v1.0.2"
+    },
+    {
+      "published_at": "2026-06-05",
+      "tag": "v1.0.1"
+    },
+    {
+      "published_at": "2026-06-05",
+      "tag": "v1.0.0"
+    },
+    {
+      "published_at": "2026-05-07",
+      "tag": "v0.9.0"
+    },
+    {
+      "published_at": "2026-03-25",
+      "tag": "v0.8.2"
+    },
+    {
+      "published_at": "2026-03-24",
+      "tag": "v0.8.1"
+    },
+    {
+      "published_at": "2026-03-21",
+      "tag": "v0.8.0"
+    },
+    {
+      "published_at": "2026-01-25",
+      "tag": "v0.7.1"
+    },
+    {
+      "published_at": "2026-01-23",
+      "tag": "v0.7.0"
+    },
+    {
+      "published_at": "2026-01-19",
+      "tag": "v0.6.2"
+    },
+    {
+      "published_at": "2026-01-15",
+      "tag": "v0.6.0"
+    },
+    {
+      "published_at": "2026-01-11",
+      "tag": "v0.5.1"
+    },
+    {
+      "published_at": "2026-01-10",
+      "tag": "v0.5.0"
+    },
+    {
+      "published_at": "2026-01-08",
+      "tag": "v0.4.1"
+    },
+    {
+      "published_at": "2026-01-07",
+      "tag": "v0.4.0"
+    },
+    {
+      "published_at": "2026-01-02",
+      "tag": "v0.3.2"
+    }
+  ],
+  "kubernetes-sigs/agent-sandbox": [
+    {
+      "published_at": "2026-08-20",
+      "tag": "v0.5.6"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "v0.5.5"
+    },
+    {
+      "published_at": "2026-07-30",
+      "tag": "v0.5.4"
+    },
+    {
+      "published_at": "2026-07-23",
+      "tag": "v0.5.3"
+    },
+    {
+      "published_at": "2026-07-17",
+      "tag": "v0.5.2"
+    },
+    {
+      "published_at": "2026-07-09",
+      "tag": "v0.5.1"
+    },
+    {
+      "published_at": "2026-06-24",
+      "tag": "v0.5.0"
+    },
+    {
+      "published_at": "2026-06-08",
+      "tag": "v0.5.0rc1"
+    },
+    {
+      "published_at": "2026-05-14",
+      "tag": "v0.4.6"
+    },
+    {
+      "published_at": "2026-05-06",
+      "tag": "v0.4.5"
+    },
+    {
+      "published_at": "2026-04-28",
+      "tag": "v0.4.3"
+    },
+    {
+      "published_at": "2026-04-22",
+      "tag": "v0.4.2"
+    },
+    {
+      "published_at": "2026-04-08",
+      "tag": "v0.3.10"
+    },
+    {
+      "published_at": "2026-03-14",
+      "tag": "v0.2.1"
+    },
+    {
+      "published_at": "2026-02-04",
+      "tag": "v0.1.1"
+    },
+    {
+      "published_at": "2025-11-07",
+      "tag": "v0.1.0"
+    },
+    {
+      "published_at": "2025-11-07",
+      "tag": "v0.1.0-rc.2"
+    },
+    {
+      "published_at": "2025-11-04",
+      "tag": "v0.1.0-rc.1"
+    },
+    {
+      "published_at": "2025-10-24",
+      "tag": "v0.1.0-rc.0"
+    }
+  ],
+  "lajosdeme/mole": [
+    {
+      "published_at": "2026-08-13",
+      "tag": "v0.1.0"
+    }
+  ],
+  "lasso-security/claude-hooks": [],
+  "linnix-os/linnix": [
+    {
+      "published_at": "2025-11-26",
+      "tag": "v0.2.0"
+    },
+    {
+      "published_at": "2025-11-20",
+      "tag": "v0.1.1"
+    },
+    {
+      "published_at": "2025-11-04",
+      "tag": "v0.1.0"
+    }
+  ],
+  "microsoft/agent-governance-toolkit": [
+    {
+      "published_at": "2026-06-09",
+      "tag": "v4.1.0"
+    },
+    {
+      "published_at": "2026-06-01",
+      "tag": "v4.0.0"
+    },
+    {
+      "published_at": "2026-05-18",
+      "tag": "v3.7.0"
+    },
+    {
+      "published_at": "2026-05-18",
+      "tag": "v3.6.0"
+    },
+    {
+      "published_at": "2026-05-08",
+      "tag": "v3.5.0"
+    },
+    {
+      "published_at": "2026-05-05",
+      "tag": "v3.4.0"
+    },
+    {
+      "published_at": "2026-04-27",
+      "tag": "v3.3.0"
+    },
+    {
+      "published_at": "2026-04-22",
+      "tag": "v3.2.2"
+    },
+    {
+      "published_at": "2026-04-22",
+      "tag": "v3.2.1"
+    },
+    {
+      "published_at": "2026-04-22",
+      "tag": "v3.2.0"
+    },
+    {
+      "published_at": "2026-04-21",
+      "tag": "v3.1.1"
+    },
+    {
+      "published_at": "2026-04-11",
+      "tag": "v3.1.0"
+    },
+    {
+      "published_at": "2026-04-01",
+      "tag": "v3.0.1"
+    },
+    {
+      "published_at": "2026-03-26",
+      "tag": "v3.0.0"
+    },
+    {
+      "published_at": "2026-03-26",
+      "tag": "v2.3.0"
+    },
+    {
+      "published_at": "2026-03-18",
+      "tag": "v2.2.0"
+    },
+    {
+      "published_at": "2026-03-08",
+      "tag": "v1.1.0"
+    },
+    {
+      "published_at": "2026-03-06",
+      "tag": "v1.0.1"
+    },
+    {
+      "published_at": "2026-03-04",
+      "tag": "v1.0.0"
+    }
+  ],
+  "mikehasa/agentacct": [
+    {
+      "published_at": "2026-08-21",
+      "tag": "v0.9.2"
+    },
+    {
+      "published_at": "2026-08-21",
+      "tag": "v0.9.1"
+    },
+    {
+      "published_at": "2026-08-17",
+      "tag": "v0.9.0"
+    },
+    {
+      "published_at": "2026-08-04",
+      "tag": "v0.8.1"
+    },
+    {
+      "published_at": "2026-08-04",
+      "tag": "v0.8.0"
+    },
+    {
+      "published_at": "2026-08-03",
+      "tag": "v0.7.0"
+    },
+    {
+      "published_at": "2026-08-01",
+      "tag": "v0.6.0"
+    },
+    {
+      "published_at": "2026-07-31",
+      "tag": "v0.5.3"
+    },
+    {
+      "published_at": "2026-07-30",
+      "tag": "v0.5.2"
+    },
+    {
+      "published_at": "2026-07-29",
+      "tag": "v0.5.1"
+    },
+    {
+      "published_at": "2026-07-29",
+      "tag": "v0.5.0"
+    },
+    {
+      "published_at": "2026-07-29",
+      "tag": "v0.4.0"
+    },
+    {
+      "published_at": "2026-07-28",
+      "tag": "v0.3.0"
+    },
+    {
+      "published_at": "2026-07-27",
+      "tag": "v0.2.0"
+    },
+    {
+      "published_at": "2026-07-24",
+      "tag": "v0.1.0"
+    }
+  ],
+  "mksglu/context-mode": [
+    {
+      "published_at": "2026-06-29",
+      "tag": "v1.0.169"
+    },
+    {
+      "published_at": "2026-06-26",
+      "tag": "v1.0.168"
+    },
+    {
+      "published_at": "2026-06-26",
+      "tag": "v1.0.167"
+    },
+    {
+      "published_at": "2026-06-23",
+      "tag": "v1.0.166"
+    },
+    {
+      "published_at": "2026-06-22",
+      "tag": "v1.0.165"
+    },
+    {
+      "published_at": "2026-06-22",
+      "tag": "v1.0.164"
+    },
+    {
+      "published_at": "2026-06-21",
+      "tag": "v1.0.163"
+    },
+    {
+      "published_at": "2026-06-02",
+      "tag": "v1.0.162"
+    },
+    {
+      "published_at": "2026-06-01",
+      "tag": "v1.0.161"
+    },
+    {
+      "published_at": "2026-06-01",
+      "tag": "v1.0.160"
+    },
+    {
+      "published_at": "2026-06-01",
+      "tag": "v1.0.159"
+    },
+    {
+      "published_at": "2026-06-01",
+      "tag": "v1.0.158"
+    },
+    {
+      "published_at": "2026-05-31",
+      "tag": "v1.0.157"
+    },
+    {
+      "published_at": "2026-05-31",
+      "tag": "v1.0.156"
+    },
+    {
+      "published_at": "2026-05-31",
+      "tag": "v1.0.155"
+    },
+    {
+      "published_at": "2026-05-31",
+      "tag": "v1.0.154"
+    },
+    {
+      "published_at": "2026-05-31",
+      "tag": "v1.0.153"
+    },
+    {
+      "published_at": "2026-05-31",
+      "tag": "v1.0.152"
+    },
+    {
+      "published_at": "2026-05-24",
+      "tag": "v1.0.151"
+    },
+    {
+      "published_at": "2026-05-24",
+      "tag": "v1.0.150"
+    },
+    {
+      "published_at": "2026-05-24",
+      "tag": "v1.0.149"
+    },
+    {
+      "published_at": "2026-05-24",
+      "tag": "v1.0.148"
+    },
+    {
+      "published_at": "2026-05-24",
+      "tag": "v1.0.147"
+    },
+    {
+      "published_at": "2026-05-20",
+      "tag": "v1.0.146"
+    },
+    {
+      "published_at": "2026-05-20",
+      "tag": "v1.0.145"
+    },
+    {
+      "published_at": "2026-05-19",
+      "tag": "v1.0.144"
+    },
+    {
+      "published_at": "2026-05-19",
+      "tag": "v1.0.143"
+    },
+    {
+      "published_at": "2026-05-19",
+      "tag": "v1.0.142"
+    },
+    {
+      "published_at": "2026-05-19",
+      "tag": "v1.0.141"
+    },
+    {
+      "published_at": "2026-05-18",
+      "tag": "v1.0.140"
+    }
+  ],
+  "multikernel/branchfs": [
+    {
+      "published_at": "2026-05-14",
+      "tag": "v0.1.1"
+    }
+  ],
+  "multikernel/branching": [],
+  "multikernel/daxfs": [
+    {
+      "published_at": "2026-05-23",
+      "tag": "v0.1.0"
+    }
+  ],
+  "multikernel/kerf": [
+    {
+      "published_at": "2026-08-19",
+      "tag": "v0.1.0"
+    }
+  ],
+  "multikernel/kernelscript": [
+    {
+      "published_at": "2026-06-26",
+      "tag": "v0.1.2"
+    },
+    {
+      "published_at": "2026-05-18",
+      "tag": "v0.1.1"
+    },
+    {
+      "published_at": "2026-05-13",
+      "tag": "v0.1.0"
+    }
+  ],
+  "multikernel/linux": [],
+  "multikernel/sandlock": [
+    {
+      "published_at": "2026-08-08",
+      "tag": "v0.8.6"
+    },
+    {
+      "published_at": "2026-07-20",
+      "tag": "v0.8.5"
+    },
+    {
+      "published_at": "2026-06-30",
+      "tag": "v0.8.4"
+    },
+    {
+      "published_at": "2026-06-08",
+      "tag": "v0.8.3"
+    },
+    {
+      "published_at": "2026-05-31",
+      "tag": "v0.8.2"
+    },
+    {
+      "published_at": "2026-05-27",
+      "tag": "v0.8.1"
+    },
+    {
+      "published_at": "2026-05-25",
+      "tag": "v0.8.0"
+    },
+    {
+      "published_at": "2026-05-01",
+      "tag": "v0.7.0"
+    },
+    {
+      "published_at": "2026-04-09",
+      "tag": "v0.6.0"
+    },
+    {
+      "published_at": "2026-04-06",
+      "tag": "v0.5.0"
+    },
+    {
+      "published_at": "2026-04-04",
+      "tag": "v0.4.8"
+    },
+    {
+      "published_at": "2026-04-03",
+      "tag": "v0.4.7"
+    },
+    {
+      "published_at": "2026-04-03",
+      "tag": "v0.4.6"
+    },
+    {
+      "published_at": "2026-04-03",
+      "tag": "v0.4.5"
+    },
+    {
+      "published_at": "2026-04-02",
+      "tag": "v0.4.4"
+    },
+    {
+      "published_at": "2026-04-01",
+      "tag": "v0.4.3"
+    },
+    {
+      "published_at": "2026-04-01",
+      "tag": "v0.4.2"
+    },
+    {
+      "published_at": "2026-04-01",
+      "tag": "v0.4.1"
+    }
+  ],
+  "oomol-lab/open-connector": [
+    {
+      "published_at": "2026-08-20",
+      "tag": "v1.4.0"
+    },
+    {
+      "published_at": "2026-08-07",
+      "tag": "v1.3.5"
+    },
+    {
+      "published_at": "2026-08-03",
+      "tag": "v1.3.4"
+    },
+    {
+      "published_at": "2026-07-30",
+      "tag": "v1.3.3"
+    },
+    {
+      "published_at": "2026-07-27",
+      "tag": "v1.3.2"
+    },
+    {
+      "published_at": "2026-07-24",
+      "tag": "v1.3.1"
+    },
+    {
+      "published_at": "2026-07-17",
+      "tag": "v1.3.0"
+    },
+    {
+      "published_at": "2026-07-16",
+      "tag": "v1.2.0"
+    },
+    {
+      "published_at": "2026-07-13",
+      "tag": "v1.1.0"
+    },
+    {
+      "published_at": "2026-07-11",
+      "tag": "v1.0.3"
+    },
+    {
+      "published_at": "2026-07-09",
+      "tag": "v1.0.2"
+    },
+    {
+      "published_at": "2026-07-08",
+      "tag": "v1.0.1"
+    },
+    {
+      "published_at": "2026-07-08",
+      "tag": "v1.0.0"
+    }
+  ],
+  "opensandbox-group/OpenSandbox": [
+    {
+      "published_at": "2026-08-21",
+      "tag": "docker/egress/v1.1.7"
+    },
+    {
+      "published_at": "2026-08-19",
+      "tag": "helm/opensandbox/0.2.2"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "docker/execd/v1.0.22"
+    },
+    {
+      "published_at": "2026-08-11",
+      "tag": "docker/egress/v1.1.6"
+    },
+    {
+      "published_at": "2026-08-06",
+      "tag": "java/sandbox/v1.0.18"
+    },
+    {
+      "published_at": "2026-07-27",
+      "tag": "docker/egress/v1.1.5"
+    },
+    {
+      "published_at": "2026-07-24",
+      "tag": "sdks/sandbox/go/v1.0.5"
+    },
+    {
+      "published_at": "2026-07-24",
+      "tag": "python/sandbox/v0.1.15"
+    },
+    {
+      "published_at": "2026-07-24",
+      "tag": "js/sandbox/v0.1.11"
+    },
+    {
+      "published_at": "2026-07-24",
+      "tag": "java/sandbox/v1.0.17"
+    },
+    {
+      "published_at": "2026-07-24",
+      "tag": "csharp/sandbox/v0.1.5"
+    },
+    {
+      "published_at": "2026-07-20",
+      "tag": "server/v0.2.2"
+    },
+    {
+      "published_at": "2026-07-13",
+      "tag": "python/sandbox/v0.1.14"
+    },
+    {
+      "published_at": "2026-07-13",
+      "tag": "java/sandbox/v1.0.16"
+    },
+    {
+      "published_at": "2026-07-13",
+      "tag": "java/code-interpreter/v1.0.16"
+    },
+    {
+      "published_at": "2026-07-12",
+      "tag": "docker/ingress/v1.0.10"
+    },
+    {
+      "published_at": "2026-07-12",
+      "tag": "docker/execd/v1.0.21"
+    },
+    {
+      "published_at": "2026-07-12",
+      "tag": "docker/egress/v1.1.4"
+    },
+    {
+      "published_at": "2026-07-08",
+      "tag": "sdks/sandbox/go/v1.0.4"
+    },
+    {
+      "published_at": "2026-07-08",
+      "tag": "js/sandbox/v0.1.10"
+    },
+    {
+      "published_at": "2026-07-08",
+      "tag": "csharp/sandbox/v0.1.4"
+    },
+    {
+      "published_at": "2026-07-05",
+      "tag": "k8s/image-committer/v0.1.1"
+    },
+    {
+      "published_at": "2026-07-05",
+      "tag": "docker/ingress/v1.0.9"
+    },
+    {
+      "published_at": "2026-06-29",
+      "tag": "server/v0.2.1"
+    },
+    {
+      "published_at": "2026-06-29",
+      "tag": "docker/execd/v1.0.20"
+    },
+    {
+      "published_at": "2026-06-29",
+      "tag": "docker/egress/v1.1.3"
+    },
+    {
+      "published_at": "2026-06-25",
+      "tag": "python/sandbox/v0.1.13"
+    },
+    {
+      "published_at": "2026-06-25",
+      "tag": "java/sandbox/v1.0.15"
+    },
+    {
+      "published_at": "2026-06-25",
+      "tag": "java/code-interpreter/v1.0.15"
+    },
+    {
+      "published_at": "2026-06-22",
+      "tag": "python/sandbox/v0.1.12"
+    }
+  ],
+  "ovg-project/kvcached": [
+    {
+      "published_at": "2026-04-07",
+      "tag": "v0.1.5"
+    },
+    {
+      "published_at": "2026-03-05",
+      "tag": "v0.1.4"
+    },
+    {
+      "published_at": "2026-01-10",
+      "tag": "v0.1.3"
+    },
+    {
+      "published_at": "2025-10-19",
+      "tag": "v0.1.2"
+    },
+    {
+      "published_at": "2025-10-15",
+      "tag": "v0.1.1"
+    }
+  ],
+  "pegainfer-project/pegainfer": [
+    {
+      "published_at": "2026-06-13",
+      "tag": "v0.1.0"
+    }
+  ],
+  "pgr0ss/pgledger": [
+    {
+      "published_at": "2025-12-03",
+      "tag": "v0.7.0"
+    },
+    {
+      "published_at": "2025-11-06",
+      "tag": "v0.6.0"
+    },
+    {
+      "published_at": "2025-10-31",
+      "tag": "v0.5.0"
+    },
+    {
+      "published_at": "2025-08-22",
+      "tag": "v0.4.0"
+    },
+    {
+      "published_at": "2025-07-02",
+      "tag": "v0.3.0"
+    },
+    {
+      "published_at": "2025-07-02",
+      "tag": "v0.2.0"
+    },
+    {
+      "published_at": "2025-07-02",
+      "tag": "v0.1.0"
+    }
+  ],
+  "qpoint-io/qtap": [],
+  "quantumaikr/quant.cpp": [
+    {
+      "published_at": "2026-04-12",
+      "tag": "v0.13.0"
+    },
+    {
+      "published_at": "2026-04-11",
+      "tag": "v0.12.1"
+    },
+    {
+      "published_at": "2026-04-11",
+      "tag": "v0.12.0"
+    },
+    {
+      "published_at": "2026-04-08",
+      "tag": "v0.8.0"
+    },
+    {
+      "published_at": "2026-04-08",
+      "tag": "v0.7.2"
+    },
+    {
+      "published_at": "2026-04-08",
+      "tag": "v0.7.1"
+    },
+    {
+      "published_at": "2026-04-08",
+      "tag": "v0.7.0"
+    },
+    {
+      "published_at": "2026-04-08",
+      "tag": "v0.6.5"
+    },
+    {
+      "published_at": "2026-04-08",
+      "tag": "v0.6.4"
+    },
+    {
+      "published_at": "2026-04-08",
+      "tag": "v0.6.3"
+    },
+    {
+      "published_at": "2026-04-07",
+      "tag": "v0.6.2"
+    },
+    {
+      "published_at": "2026-04-07",
+      "tag": "v0.6.1"
+    },
+    {
+      "published_at": "2026-04-07",
+      "tag": "v0.6.0"
+    },
+    {
+      "published_at": "2026-04-05",
+      "tag": "v0.5.0"
+    },
+    {
+      "published_at": "2026-04-03",
+      "tag": "v0.2.0"
+    },
+    {
+      "published_at": "2026-03-31",
+      "tag": "v0.1.0"
+    }
+  ],
+  "rajudandigam/agent-inspect": [
+    {
+      "published_at": "2026-08-15",
+      "tag": "agent-inspect@6.17.2"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "@agent-inspect/vitest@6.17.2"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "@agent-inspect/viewer@6.17.2"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "@agent-inspect/tui@6.17.2"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "@agent-inspect/studio@6.17.2"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "@agent-inspect/redact@6.17.2"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "@agent-inspect/openai-agents@6.17.2"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "@agent-inspect/mcp@6.17.2"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "@agent-inspect/mcp-server@6.17.2"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "@agent-inspect/langchain@6.17.2"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "@agent-inspect/jest@6.17.2"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "@agent-inspect/index-sqlite@6.17.2"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "@agent-inspect/harness@6.17.2"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "@agent-inspect/guardrails@6.17.2"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "@agent-inspect/eval@6.17.2"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "@agent-inspect/circuit@6.17.2"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "@agent-inspect/ai-sdk@6.17.2"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "@agent-inspect/adapter-sdk@6.17.2"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "agent-inspect@6.17.1"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "agent-inspect@6.17.0"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "agent-inspect@6.16.2"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "agent-inspect@6.16.1"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "@agent-inspect/vitest@6.17.1"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "@agent-inspect/vitest@6.17.0"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "@agent-inspect/vitest@6.16.2"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "@agent-inspect/vitest@6.16.1"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "@agent-inspect/viewer@6.17.1"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "@agent-inspect/viewer@6.17.0"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "@agent-inspect/viewer@6.16.2"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "@agent-inspect/viewer@6.16.1"
+    }
+  ],
+  "responsibleai/ASSERT": [
+    {
+      "published_at": "2026-08-15",
+      "tag": "v0.2.0"
+    },
+    {
+      "published_at": "2026-06-02",
+      "tag": "v0.1.0"
+    }
+  ],
+  "rohitg00/agentmemory": [
+    {
+      "published_at": "2026-08-16",
+      "tag": "v0.9.29"
+    },
+    {
+      "published_at": "2026-07-19",
+      "tag": "v0.9.28"
+    },
+    {
+      "published_at": "2026-06-07",
+      "tag": "v0.9.27"
+    },
+    {
+      "published_at": "2026-06-03",
+      "tag": "v0.9.26"
+    },
+    {
+      "published_at": "2026-06-02",
+      "tag": "v0.9.25"
+    },
+    {
+      "published_at": "2026-05-29",
+      "tag": "v0.9.24"
+    },
+    {
+      "published_at": "2026-05-29",
+      "tag": "v0.9.23"
+    },
+    {
+      "published_at": "2026-05-26",
+      "tag": "v0.9.22"
+    },
+    {
+      "published_at": "2026-05-19",
+      "tag": "v0.9.21"
+    },
+    {
+      "published_at": "2026-05-18",
+      "tag": "v0.9.20"
+    },
+    {
+      "published_at": "2026-05-18",
+      "tag": "v0.9.19"
+    },
+    {
+      "published_at": "2026-05-17",
+      "tag": "v0.9.18"
+    },
+    {
+      "published_at": "2026-05-16",
+      "tag": "v0.9.17"
+    },
+    {
+      "published_at": "2026-05-15",
+      "tag": "v0.9.16"
+    },
+    {
+      "published_at": "2026-05-15",
+      "tag": "v0.9.15"
+    },
+    {
+      "published_at": "2026-05-15",
+      "tag": "v0.9.14"
+    },
+    {
+      "published_at": "2026-05-15",
+      "tag": "v0.9.13"
+    },
+    {
+      "published_at": "2026-05-13",
+      "tag": "v0.9.12"
+    },
+    {
+      "published_at": "2026-05-12",
+      "tag": "v0.9.11"
+    },
+    {
+      "published_at": "2026-05-12",
+      "tag": "v0.9.10"
+    },
+    {
+      "published_at": "2026-05-11",
+      "tag": "v0.9.9"
+    },
+    {
+      "published_at": "2026-05-11",
+      "tag": "v0.9.8"
+    },
+    {
+      "published_at": "2026-05-11",
+      "tag": "v0.9.7"
+    },
+    {
+      "published_at": "2026-05-10",
+      "tag": "v0.9.6"
+    },
+    {
+      "published_at": "2026-05-09",
+      "tag": "v0.9.5"
+    },
+    {
+      "published_at": "2026-04-29",
+      "tag": "v0.9.4"
+    },
+    {
+      "published_at": "2026-04-24",
+      "tag": "v0.9.3"
+    },
+    {
+      "published_at": "2026-04-22",
+      "tag": "v0.9.2"
+    },
+    {
+      "published_at": "2026-04-20",
+      "tag": "v0.9.1"
+    },
+    {
+      "published_at": "2026-04-18",
+      "tag": "v0.9.0"
+    }
+  ],
+  "rohitg00/ai-engineering-from-scratch": [
+    {
+      "published_at": "2026-08-10",
+      "tag": "v2026.08"
+    },
+    {
+      "published_at": "2026-07-25",
+      "tag": "v2026.07"
+    }
+  ],
+  "rtk-ai/rtk": [
+    {
+      "published_at": "2026-08-20",
+      "tag": "dev-0.45.1-rc.362"
+    },
+    {
+      "published_at": "2026-08-20",
+      "tag": "dev-0.45.1-rc.361"
+    },
+    {
+      "published_at": "2026-08-17",
+      "tag": "dev-0.45.1-rc.359"
+    },
+    {
+      "published_at": "2026-08-16",
+      "tag": "dev-0.45.1-rc.358"
+    },
+    {
+      "published_at": "2026-08-16",
+      "tag": "dev-0.45.1-rc.357"
+    },
+    {
+      "published_at": "2026-08-14",
+      "tag": "dev-0.45.1-rc.356"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "dev-0.45.1-rc.355"
+    },
+    {
+      "published_at": "2026-08-12",
+      "tag": "dev-0.45.1-rc.354"
+    },
+    {
+      "published_at": "2026-08-07",
+      "tag": "v0.45.0"
+    },
+    {
+      "published_at": "2026-08-06",
+      "tag": "dev-0.45.0-rc.351"
+    },
+    {
+      "published_at": "2026-08-03",
+      "tag": "dev-0.45.0-rc.350"
+    },
+    {
+      "published_at": "2026-08-02",
+      "tag": "dev-0.44.3-rc.349"
+    },
+    {
+      "published_at": "2026-08-01",
+      "tag": "v0.44.2"
+    },
+    {
+      "published_at": "2026-08-01",
+      "tag": "dev-0.44.2-rc.346"
+    },
+    {
+      "published_at": "2026-08-01",
+      "tag": "dev-0.44.2-rc.345"
+    },
+    {
+      "published_at": "2026-07-28",
+      "tag": "v0.44.1"
+    },
+    {
+      "published_at": "2026-07-28",
+      "tag": "dev-0.44.2-rc.344"
+    },
+    {
+      "published_at": "2026-07-28",
+      "tag": "dev-0.44.1-rc.341"
+    },
+    {
+      "published_at": "2026-07-27",
+      "tag": "dev-0.44.1-rc.340"
+    },
+    {
+      "published_at": "2026-07-27",
+      "tag": "dev-0.44.1-rc.339"
+    },
+    {
+      "published_at": "2026-07-27",
+      "tag": "dev-0.44.1-rc.337"
+    },
+    {
+      "published_at": "2026-07-27",
+      "tag": "dev-0.44.1-rc.336"
+    },
+    {
+      "published_at": "2026-07-26",
+      "tag": "v0.44.0"
+    },
+    {
+      "published_at": "2026-07-26",
+      "tag": "dev-0.44.0-rc.333"
+    },
+    {
+      "published_at": "2026-07-26",
+      "tag": "dev-0.44.0-rc.332"
+    },
+    {
+      "published_at": "2026-07-25",
+      "tag": "dev-0.44.0-rc.331"
+    },
+    {
+      "published_at": "2026-07-24",
+      "tag": "dev-0.44.0-rc.330"
+    },
+    {
+      "published_at": "2026-07-24",
+      "tag": "dev-0.44.0-rc.329"
+    },
+    {
+      "published_at": "2026-07-23",
+      "tag": "dev-0.44.0-rc.328"
+    },
+    {
+      "published_at": "2026-07-23",
+      "tag": "dev-0.44.0-rc.327"
+    }
+  ],
+  "runta-dev/clawshell": [
+    {
+      "published_at": "2026-04-12",
+      "tag": "v0.2.1"
+    },
+    {
+      "published_at": "2026-04-12",
+      "tag": "v0.2.0"
+    },
+    {
+      "published_at": "2026-02-19",
+      "tag": "v0.1.1"
+    },
+    {
+      "published_at": "2026-02-19",
+      "tag": "v0.1.0"
+    },
+    {
+      "published_at": "2026-02-19",
+      "tag": "v0.1.0-alpha.1"
+    },
+    {
+      "published_at": "2026-02-19",
+      "tag": "v0.1.0-alpha.0"
+    },
+    {
+      "published_at": "2026-02-13",
+      "tag": "v0.0.1"
+    }
+  ],
+  "rustledger/rustledger": [
+    {
+      "published_at": "2026-08-21",
+      "tag": "v0.22.0"
+    },
+    {
+      "published_at": "2026-07-11",
+      "tag": "v0.21.0"
+    },
+    {
+      "published_at": "2026-07-04",
+      "tag": "v0.20.2"
+    },
+    {
+      "published_at": "2026-07-03",
+      "tag": "v0.20.1"
+    },
+    {
+      "published_at": "2026-07-03",
+      "tag": "v0.20.0"
+    },
+    {
+      "published_at": "2026-07-02",
+      "tag": "v0.19.1"
+    },
+    {
+      "published_at": "2026-07-01",
+      "tag": "v0.19.0"
+    },
+    {
+      "published_at": "2026-07-01",
+      "tag": "v0.18.0"
+    },
+    {
+      "published_at": "2026-07-01",
+      "tag": "v0.17.4"
+    },
+    {
+      "published_at": "2026-07-01",
+      "tag": "v0.17.3"
+    },
+    {
+      "published_at": "2026-06-30",
+      "tag": "v0.17.2"
+    },
+    {
+      "published_at": "2026-06-30",
+      "tag": "v0.17.1"
+    },
+    {
+      "published_at": "2026-06-30",
+      "tag": "v0.17.0"
+    },
+    {
+      "published_at": "2026-06-18",
+      "tag": "v0.16.5"
+    },
+    {
+      "published_at": "2026-06-17",
+      "tag": "v0.16.4"
+    },
+    {
+      "published_at": "2026-06-17",
+      "tag": "v0.16.3"
+    },
+    {
+      "published_at": "2026-06-17",
+      "tag": "v0.16.2"
+    },
+    {
+      "published_at": "2026-06-16",
+      "tag": "v0.16.1"
+    },
+    {
+      "published_at": "2026-06-15",
+      "tag": "v0.16.0"
+    },
+    {
+      "published_at": "2026-05-15",
+      "tag": "v0.15.0"
+    },
+    {
+      "published_at": "2026-04-27",
+      "tag": "v0.14.1"
+    },
+    {
+      "published_at": "2026-04-27",
+      "tag": "v0.14.0"
+    },
+    {
+      "published_at": "2026-04-21",
+      "tag": "v0.13.0"
+    },
+    {
+      "published_at": "2026-04-13",
+      "tag": "v0.12.0"
+    },
+    {
+      "published_at": "2026-04-03",
+      "tag": "v0.11.0"
+    },
+    {
+      "published_at": "2026-03-13",
+      "tag": "v0.10.1"
+    },
+    {
+      "published_at": "2026-03-08",
+      "tag": "v0.10.0"
+    },
+    {
+      "published_at": "2026-02-18",
+      "tag": "v0.9.1"
+    },
+    {
+      "published_at": "2026-02-17",
+      "tag": "v0.9.0"
+    },
+    {
+      "published_at": "2026-02-15",
+      "tag": "v0.8.8"
+    }
+  ],
+  "scanaislop/aislop": [
+    {
+      "published_at": "2026-08-08",
+      "tag": "v0.14.1"
+    },
+    {
+      "published_at": "2026-07-23",
+      "tag": "v0.14.0"
+    },
+    {
+      "published_at": "2026-06-29",
+      "tag": "v0.13.1"
+    },
+    {
+      "published_at": "2026-06-28",
+      "tag": "v0.13.0"
+    },
+    {
+      "published_at": "2026-06-20",
+      "tag": "v0.12.1"
+    },
+    {
+      "published_at": "2026-06-10",
+      "tag": "v0.12.0"
+    },
+    {
+      "published_at": "2026-06-06",
+      "tag": "v0.11.0"
+    },
+    {
+      "published_at": "2026-06-02",
+      "tag": "v0.10.2"
+    },
+    {
+      "published_at": "2026-05-30",
+      "tag": "v0.10.1"
+    },
+    {
+      "published_at": "2026-05-30",
+      "tag": "v0.10.0"
+    },
+    {
+      "published_at": "2026-05-30",
+      "tag": "v0.9.6"
+    },
+    {
+      "published_at": "2026-05-29",
+      "tag": "v0.9.5"
+    },
+    {
+      "published_at": "2026-05-28",
+      "tag": "v0.9.4"
+    },
+    {
+      "published_at": "2026-05-22",
+      "tag": "v0.9.3"
+    },
+    {
+      "published_at": "2026-05-19",
+      "tag": "v0.9.2"
+    },
+    {
+      "published_at": "2026-05-19",
+      "tag": "v0.9.1"
+    },
+    {
+      "published_at": "2026-05-16",
+      "tag": "v0.9.0"
+    },
+    {
+      "published_at": "2026-05-13",
+      "tag": "v0.8.3"
+    },
+    {
+      "published_at": "2026-05-13",
+      "tag": "v0.8.2"
+    },
+    {
+      "published_at": "2026-05-10",
+      "tag": "v0.8.1"
+    },
+    {
+      "published_at": "2026-05-09",
+      "tag": "v0.8.0"
+    },
+    {
+      "published_at": "2026-05-02",
+      "tag": "v0.7.0"
+    },
+    {
+      "published_at": "2026-04-23",
+      "tag": "v0.6.2"
+    },
+    {
+      "published_at": "2026-04-21",
+      "tag": "v0.6.1"
+    },
+    {
+      "published_at": "2026-04-20",
+      "tag": "v0.6.0"
+    },
+    {
+      "published_at": "2026-04-19",
+      "tag": "v0.5.1"
+    },
+    {
+      "published_at": "2026-04-18",
+      "tag": "v0.5.0"
+    },
+    {
+      "published_at": "2026-04-15",
+      "tag": "v0.4.0"
+    },
+    {
+      "published_at": "2026-03-23",
+      "tag": "v0.3.2"
+    },
+    {
+      "published_at": "2026-03-23",
+      "tag": "v0.3.1"
+    }
+  ],
+  "scrya-com/rotorquant": [],
+  "secureagentics/Adrian": [],
+  "seojoonkim/prompt-guard": [],
+  "shepherd-agents/shepherd": [
+    {
+      "published_at": "2026-07-08",
+      "tag": "v0.3.0"
+    },
+    {
+      "published_at": "2026-07-06",
+      "tag": "v0.2.1"
+    },
+    {
+      "published_at": "2026-07-05",
+      "tag": "v0.2.0"
+    },
+    {
+      "published_at": "2026-07-01",
+      "tag": "v0.1.3"
+    }
+  ],
+  "sipyourdrink-ltd/bernstein": [
+    {
+      "published_at": "2026-08-22",
+      "tag": "v3.17.1"
+    },
+    {
+      "published_at": "2026-08-21",
+      "tag": "v3.17.0"
+    },
+    {
+      "published_at": "2026-08-17",
+      "tag": "v3.16.0"
+    },
+    {
+      "published_at": "2026-08-14",
+      "tag": "v3.15.1"
+    },
+    {
+      "published_at": "2026-08-14",
+      "tag": "v3.15.0"
+    },
+    {
+      "published_at": "2026-08-10",
+      "tag": "v3.14.159"
+    },
+    {
+      "published_at": "2026-08-01",
+      "tag": "v3.13.0"
+    },
+    {
+      "published_at": "2026-08-01",
+      "tag": "v3.12.0"
+    },
+    {
+      "published_at": "2026-07-28",
+      "tag": "v3.11.0"
+    },
+    {
+      "published_at": "2026-07-25",
+      "tag": "v3.10.0"
+    },
+    {
+      "published_at": "2026-07-24",
+      "tag": "v3.9.0"
+    },
+    {
+      "published_at": "2026-07-24",
+      "tag": "v3.8.4"
+    },
+    {
+      "published_at": "2026-07-22",
+      "tag": "v3.8.3"
+    },
+    {
+      "published_at": "2026-07-20",
+      "tag": "v3.8.2"
+    },
+    {
+      "published_at": "2026-07-19",
+      "tag": "v3.8.1"
+    },
+    {
+      "published_at": "2026-07-19",
+      "tag": "v3.8.0"
+    },
+    {
+      "published_at": "2026-07-18",
+      "tag": "v3.7.1"
+    },
+    {
+      "published_at": "2026-07-17",
+      "tag": "v3.7.0"
+    },
+    {
+      "published_at": "2026-07-17",
+      "tag": "v3.6.0"
+    },
+    {
+      "published_at": "2026-07-16",
+      "tag": "v3.5.0"
+    },
+    {
+      "published_at": "2026-07-12",
+      "tag": "v3.4.4"
+    },
+    {
+      "published_at": "2026-07-12",
+      "tag": "v3.4.3"
+    },
+    {
+      "published_at": "2026-07-12",
+      "tag": "v3.4.2"
+    },
+    {
+      "published_at": "2026-07-12",
+      "tag": "v3.4.1"
+    },
+    {
+      "published_at": "2026-07-12",
+      "tag": "v3.4.0"
+    },
+    {
+      "published_at": "2026-07-11",
+      "tag": "v3.3.0"
+    },
+    {
+      "published_at": "2026-07-10",
+      "tag": "v3.2.0"
+    },
+    {
+      "published_at": "2026-07-07",
+      "tag": "v3.1.0"
+    },
+    {
+      "published_at": "2026-07-06",
+      "tag": "v3.0.0"
+    },
+    {
+      "published_at": "2026-07-06",
+      "tag": "v2.16.1"
+    }
+  ],
+  "smg-project/smg": [
+    {
+      "published_at": "2026-07-30",
+      "tag": "v1.9.0"
+    },
+    {
+      "published_at": "2026-07-18",
+      "tag": "v1.8.0"
+    },
+    {
+      "published_at": "2026-06-29",
+      "tag": "v1.7.0"
+    },
+    {
+      "published_at": "2026-06-21",
+      "tag": "v1.6.0"
+    },
+    {
+      "published_at": "2026-06-12",
+      "tag": "v1.5.0"
+    },
+    {
+      "published_at": "2026-04-09",
+      "tag": "v1.4.1"
+    },
+    {
+      "published_at": "2026-04-02",
+      "tag": "v1.4.0"
+    },
+    {
+      "published_at": "2026-03-21",
+      "tag": "v1.3.3"
+    },
+    {
+      "published_at": "2026-03-17",
+      "tag": "v1.3.2"
+    },
+    {
+      "published_at": "2026-03-16",
+      "tag": "v1.3.1"
+    },
+    {
+      "published_at": "2026-03-15",
+      "tag": "v1.3.0"
+    },
+    {
+      "published_at": "2026-03-10",
+      "tag": "v1.2.0"
+    },
+    {
+      "published_at": "2026-02-23",
+      "tag": "v1.1.0"
+    },
+    {
+      "published_at": "2026-02-13",
+      "tag": "v1.0.1"
+    }
+  ],
+  "spinningfactory/kloak": [
+    {
+      "published_at": "2026-08-05",
+      "tag": "v0.2.0-alpha"
+    },
+    {
+      "published_at": "2026-05-01",
+      "tag": "v0.1.2"
+    },
+    {
+      "published_at": "2026-04-22",
+      "tag": "v0.1.1"
+    },
+    {
+      "published_at": "2026-04-20",
+      "tag": "v0.1.0"
+    }
+  ],
+  "statewright/statewright": [
+    {
+      "published_at": "2026-08-06",
+      "tag": "gateway-v1.1.3"
+    },
+    {
+      "published_at": "2026-08-06",
+      "tag": "codex-v0.3.0-r1"
+    },
+    {
+      "published_at": "2026-08-06",
+      "tag": "claude-v0.3.0-r1"
+    },
+    {
+      "published_at": "2026-06-01",
+      "tag": "v1.1.0"
+    },
+    {
+      "published_at": "2026-05-20",
+      "tag": "v1"
+    }
+  ],
+  "superdesigndev/treg": [
+    {
+      "published_at": "2026-08-04",
+      "tag": "meta-consent-notice-evidence"
+    },
+    {
+      "published_at": "2026-07-31",
+      "tag": "pr-evidence"
+    }
+  ],
+  "t8y2/dbx": [
+    {
+      "published_at": "2026-08-22",
+      "tag": "v0.5.92"
+    },
+    {
+      "published_at": "2026-08-23",
+      "tag": "packages-v0.4.70"
+    },
+    {
+      "published_at": "2026-08-22",
+      "tag": "agents-v0.2.91"
+    },
+    {
+      "published_at": "2026-06-23",
+      "tag": "agents-latest"
+    },
+    {
+      "published_at": "2026-08-21",
+      "tag": "v0.5.91"
+    },
+    {
+      "published_at": "2026-08-21",
+      "tag": "agents-v0.2.90"
+    },
+    {
+      "published_at": "2026-08-20",
+      "tag": "v0.5.90"
+    },
+    {
+      "published_at": "2026-08-20",
+      "tag": "v0.5.89"
+    },
+    {
+      "published_at": "2026-08-20",
+      "tag": "packages-v0.4.68"
+    },
+    {
+      "published_at": "2026-08-20",
+      "tag": "packages-v0.4.67"
+    },
+    {
+      "published_at": "2026-08-20",
+      "tag": "agents-v0.2.89"
+    },
+    {
+      "published_at": "2026-08-20",
+      "tag": "agents-v0.2.88"
+    },
+    {
+      "published_at": "2026-08-18",
+      "tag": "v0.5.88"
+    },
+    {
+      "published_at": "2026-08-18",
+      "tag": "packages-v0.4.66"
+    },
+    {
+      "published_at": "2026-08-18",
+      "tag": "agents-v0.2.87"
+    },
+    {
+      "published_at": "2026-08-18",
+      "tag": "v0.5.87"
+    },
+    {
+      "published_at": "2026-08-17",
+      "tag": "packages-v0.4.65"
+    },
+    {
+      "published_at": "2026-08-17",
+      "tag": "agents-v0.2.86"
+    },
+    {
+      "published_at": "2026-08-16",
+      "tag": "v0.5.86"
+    },
+    {
+      "published_at": "2026-08-16",
+      "tag": "packages-v0.4.64"
+    },
+    {
+      "published_at": "2026-08-16",
+      "tag": "agents-v0.2.85"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "v0.5.85"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "packages-v0.4.63"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "agents-v0.2.84"
+    },
+    {
+      "published_at": "2026-08-14",
+      "tag": "v0.5.84"
+    },
+    {
+      "published_at": "2026-08-14",
+      "tag": "packages-v0.4.62"
+    },
+    {
+      "published_at": "2026-08-14",
+      "tag": "agents-v0.2.83"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "v0.5.83"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "packages-v0.4.61"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "agents-v0.2.82"
+    }
+  ],
+  "thetahealth/mirobody": [],
+  "thunder-id/thunderid": [
+    {
+      "published_at": "2026-08-15",
+      "tag": "v1.0.0"
+    },
+    {
+      "published_at": "2026-08-13",
+      "tag": "v1.0.0-rc"
+    },
+    {
+      "published_at": "2026-08-07",
+      "tag": "v1.0.0-beta2"
+    },
+    {
+      "published_at": "2026-08-04",
+      "tag": "v1.0.0-beta"
+    },
+    {
+      "published_at": "2026-07-28",
+      "tag": "v1.0.0-alpha2"
+    },
+    {
+      "published_at": "2026-07-21",
+      "tag": "v1.0.0-alpha"
+    },
+    {
+      "published_at": "2026-07-11",
+      "tag": "v0.48.0"
+    },
+    {
+      "published_at": "2026-07-06",
+      "tag": "v0.47.0"
+    },
+    {
+      "published_at": "2026-06-24",
+      "tag": "v0.46.0"
+    },
+    {
+      "published_at": "2026-06-19",
+      "tag": "v0.45.0"
+    },
+    {
+      "published_at": "2026-06-12",
+      "tag": "v0.44.0"
+    },
+    {
+      "published_at": "2026-06-09",
+      "tag": "v0.43.0"
+    },
+    {
+      "published_at": "2026-06-04",
+      "tag": "v0.42.0"
+    },
+    {
+      "published_at": "2026-05-29",
+      "tag": "v0.41.0"
+    },
+    {
+      "published_at": "2026-05-21",
+      "tag": "v0.40.0"
+    },
+    {
+      "published_at": "2026-05-17",
+      "tag": "v0.39.0"
+    },
+    {
+      "published_at": "2026-05-14",
+      "tag": "v0.38.0"
+    },
+    {
+      "published_at": "2026-05-08",
+      "tag": "v0.37.0"
+    },
+    {
+      "published_at": "2026-04-30",
+      "tag": "v0.36.0"
+    },
+    {
+      "published_at": "2026-04-24",
+      "tag": "v0.35.0"
+    },
+    {
+      "published_at": "2026-04-17",
+      "tag": "v0.34.0"
+    },
+    {
+      "published_at": "2026-04-10",
+      "tag": "v0.33.0"
+    },
+    {
+      "published_at": "2026-04-08",
+      "tag": "v0.32.0"
+    },
+    {
+      "published_at": "2026-04-03",
+      "tag": "v0.31.0"
+    },
+    {
+      "published_at": "2026-03-27",
+      "tag": "v0.30.0"
+    },
+    {
+      "published_at": "2026-03-20",
+      "tag": "v0.29.0"
+    },
+    {
+      "published_at": "2026-03-16",
+      "tag": "v0.28.0"
+    },
+    {
+      "published_at": "2026-03-13",
+      "tag": "v0.27.0"
+    },
+    {
+      "published_at": "2026-03-11",
+      "tag": "v0.26.0"
+    },
+    {
+      "published_at": "2026-03-06",
+      "tag": "v0.25.0"
+    }
+  ],
+  "uccl-project/uccl": [
+    {
+      "published_at": "2026-05-10",
+      "tag": "v0.1.1"
+    },
+    {
+      "published_at": "2026-03-14",
+      "tag": "v0.0.1.post6"
+    }
+  ],
+  "vectorize-io/hindsight": [
+    {
+      "published_at": "2026-08-14",
+      "tag": "v0.9.1"
+    },
+    {
+      "published_at": "2026-08-07",
+      "tag": "v0.9.0"
+    },
+    {
+      "published_at": "2026-07-29",
+      "tag": "v0.8.6"
+    },
+    {
+      "published_at": "2026-07-22",
+      "tag": "v0.8.5"
+    },
+    {
+      "published_at": "2026-07-01",
+      "tag": "v0.8.4"
+    },
+    {
+      "published_at": "2026-06-18",
+      "tag": "v0.8.3"
+    },
+    {
+      "published_at": "2026-06-12",
+      "tag": "v0.8.2"
+    },
+    {
+      "published_at": "2026-06-09",
+      "tag": "v0.8.1"
+    },
+    {
+      "published_at": "2026-06-08",
+      "tag": "v0.8.0"
+    },
+    {
+      "published_at": "2026-06-02",
+      "tag": "v0.7.2"
+    },
+    {
+      "published_at": "2026-05-28",
+      "tag": "v0.7.1"
+    },
+    {
+      "published_at": "2026-05-27",
+      "tag": "v0.7.0"
+    },
+    {
+      "published_at": "2026-05-14",
+      "tag": "v0.6.2"
+    },
+    {
+      "published_at": "2026-05-08",
+      "tag": "v0.6.1"
+    },
+    {
+      "published_at": "2026-05-05",
+      "tag": "v0.6.0"
+    },
+    {
+      "published_at": "2026-04-28",
+      "tag": "v0.5.6"
+    },
+    {
+      "published_at": "2026-04-28",
+      "tag": "v0.5.5"
+    },
+    {
+      "published_at": "2026-04-22",
+      "tag": "v0.5.4"
+    },
+    {
+      "published_at": "2026-04-17",
+      "tag": "v0.5.3"
+    },
+    {
+      "published_at": "2026-04-15",
+      "tag": "v0.5.2"
+    },
+    {
+      "published_at": "2026-04-13",
+      "tag": "v0.5.1"
+    },
+    {
+      "published_at": "2026-04-08",
+      "tag": "v0.5.0"
+    },
+    {
+      "published_at": "2026-03-31",
+      "tag": "v0.4.22"
+    },
+    {
+      "published_at": "2026-03-30",
+      "tag": "v0.4.21"
+    },
+    {
+      "published_at": "2026-03-24",
+      "tag": "v0.4.20"
+    },
+    {
+      "published_at": "2026-03-18",
+      "tag": "v0.4.19"
+    },
+    {
+      "published_at": "2026-03-13",
+      "tag": "v0.4.18"
+    },
+    {
+      "published_at": "2026-03-10",
+      "tag": "v0.4.17"
+    },
+    {
+      "published_at": "2026-03-05",
+      "tag": "v0.4.16"
+    },
+    {
+      "published_at": "2026-03-03",
+      "tag": "v0.4.15"
+    }
+  ],
+  "vivekchand/clawmetry": [
+    {
+      "published_at": "2026-08-22",
+      "tag": "v0.12.759"
+    },
+    {
+      "published_at": "2026-08-22",
+      "tag": "v0.12.758"
+    },
+    {
+      "published_at": "2026-08-22",
+      "tag": "v0.12.757"
+    },
+    {
+      "published_at": "2026-08-22",
+      "tag": "v0.12.756"
+    },
+    {
+      "published_at": "2026-08-22",
+      "tag": "v0.12.755"
+    },
+    {
+      "published_at": "2026-08-22",
+      "tag": "v0.12.754"
+    },
+    {
+      "published_at": "2026-08-22",
+      "tag": "v0.12.753"
+    },
+    {
+      "published_at": "2026-08-22",
+      "tag": "v0.12.752"
+    },
+    {
+      "published_at": "2026-08-22",
+      "tag": "v0.12.751"
+    },
+    {
+      "published_at": "2026-08-21",
+      "tag": "v0.12.750"
+    },
+    {
+      "published_at": "2026-08-20",
+      "tag": "v0.12.749"
+    },
+    {
+      "published_at": "2026-08-20",
+      "tag": "v0.12.748"
+    },
+    {
+      "published_at": "2026-08-20",
+      "tag": "v0.12.746"
+    },
+    {
+      "published_at": "2026-08-20",
+      "tag": "v0.12.744"
+    },
+    {
+      "published_at": "2026-08-20",
+      "tag": "v0.12.742"
+    },
+    {
+      "published_at": "2026-08-20",
+      "tag": "v0.12.741"
+    },
+    {
+      "published_at": "2026-08-20",
+      "tag": "v0.12.740"
+    },
+    {
+      "published_at": "2026-08-20",
+      "tag": "v0.12.739"
+    },
+    {
+      "published_at": "2026-08-20",
+      "tag": "v0.12.738"
+    },
+    {
+      "published_at": "2026-08-19",
+      "tag": "v0.12.737"
+    },
+    {
+      "published_at": "2026-08-18",
+      "tag": "v0.12.736"
+    },
+    {
+      "published_at": "2026-08-18",
+      "tag": "v0.12.735"
+    },
+    {
+      "published_at": "2026-08-18",
+      "tag": "v0.12.734"
+    },
+    {
+      "published_at": "2026-08-18",
+      "tag": "v0.12.733"
+    },
+    {
+      "published_at": "2026-08-17",
+      "tag": "v0.12.732"
+    },
+    {
+      "published_at": "2026-08-17",
+      "tag": "v0.12.731"
+    },
+    {
+      "published_at": "2026-08-17",
+      "tag": "v0.12.730"
+    },
+    {
+      "published_at": "2026-08-17",
+      "tag": "v0.12.729"
+    },
+    {
+      "published_at": "2026-08-17",
+      "tag": "v0.12.728"
+    },
+    {
+      "published_at": "2026-08-17",
+      "tag": "v0.12.726"
+    }
+  ],
+  "wso2/fhir-mcp-server": [
+    {
+      "published_at": "2025-10-30",
+      "tag": "0.10.0"
+    },
+    {
+      "published_at": "2025-07-22",
+      "tag": "0.9.0"
+    }
+  ],
+  "youssofal/MTPLX": [
+    {
+      "published_at": "2026-08-22",
+      "tag": "v2.9.1"
+    },
+    {
+      "published_at": "2026-08-20",
+      "tag": "v2.9.0"
+    },
+    {
+      "published_at": "2026-08-18",
+      "tag": "v2.8.3"
+    },
+    {
+      "published_at": "2026-08-17",
+      "tag": "v2.8.2"
+    },
+    {
+      "published_at": "2026-08-17",
+      "tag": "v2.8.1"
+    },
+    {
+      "published_at": "2026-08-17",
+      "tag": "v2.8.0"
+    },
+    {
+      "published_at": "2026-08-16",
+      "tag": "v2.7.2"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "v2.7.1"
+    },
+    {
+      "published_at": "2026-08-15",
+      "tag": "v2.7.0"
+    },
+    {
+      "published_at": "2026-08-11",
+      "tag": "v2.6.0"
+    },
+    {
+      "published_at": "2026-08-07",
+      "tag": "v2.5.4"
+    },
+    {
+      "published_at": "2026-08-06",
+      "tag": "v2.5.3"
+    },
+    {
+      "published_at": "2026-08-04",
+      "tag": "v2.5.2"
+    },
+    {
+      "published_at": "2026-08-03",
+      "tag": "v2.5.1"
+    },
+    {
+      "published_at": "2026-08-03",
+      "tag": "v2.5.0"
+    },
+    {
+      "published_at": "2026-08-02",
+      "tag": "v2.4.2"
+    },
+    {
+      "published_at": "2026-08-01",
+      "tag": "v2.4.1"
+    },
+    {
+      "published_at": "2026-07-31",
+      "tag": "v2.4.0"
+    },
+    {
+      "published_at": "2026-07-21",
+      "tag": "v2.3.0"
+    },
+    {
+      "published_at": "2026-07-19",
+      "tag": "v2.2.0"
+    },
+    {
+      "published_at": "2026-07-17",
+      "tag": "v2.1.0"
+    },
+    {
+      "published_at": "2026-07-09",
+      "tag": "v2.0.2"
+    },
+    {
+      "published_at": "2026-07-07",
+      "tag": "v2.0.1"
+    },
+    {
+      "published_at": "2026-07-07",
+      "tag": "v2.0.0"
+    },
+    {
+      "published_at": "2026-06-12",
+      "tag": "v1.0.4"
+    },
+    {
+      "published_at": "2026-06-11",
+      "tag": "v1.0.3"
+    },
+    {
+      "published_at": "2026-06-11",
+      "tag": "v1.0.2"
+    },
+    {
+      "published_at": "2026-06-11",
+      "tag": "v1.0.1"
+    },
+    {
+      "published_at": "2026-06-11",
+      "tag": "v1.0.0"
+    },
+    {
+      "published_at": "2026-05-17",
+      "tag": "v0.3.7"
+    }
+  ],
+  "zerobootdev/zeroboot": []
+}

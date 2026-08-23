@@ -1,0 +1,78 @@
+# Frozen v1.0 ontology from research/signal_ontology.md.
+version: 1
+families:
+  BUILD:            {surfacing: true,  decays: false}
+  TECHNICAL_DEPTH:  {surfacing: true,  decays: false}
+  COLLABORATION:    {surfacing: true,  decays: false}
+  FORMATION:        {surfacing: true,  decays: true,  stale_after_days: 270}
+  VELOCITY:         {surfacing: true,  decays: true,  stale_after_days: 180}
+  COMMERCIALIZATION: {surfacing: false, decays: true,  stale_after_days: 365}
+  SOCIAL:           {surfacing: false, decays: true,  stale_after_days: 90}
+
+signals:
+  B-01: {family: BUILD, label: "Repository created"}
+  B-02: {family: BUILD, label: "First public release"}
+  B-03: {family: BUILD, label: "Sustained construction (>=8 distinct human commit weeks)"}
+  B-04: {family: BUILD, label: "Technical package published"}
+  B-05: {family: BUILD, label: "Benchmark published"}
+  B-06: {family: BUILD, label: "Working demo"}
+  B-07: {family: BUILD, label: "Public API / service"}
+  B-08: {family: BUILD, label: "Paper implementation shipped"}
+  B-09: {family: BUILD, label: "Infrastructure-layer project"}
+  D-01: {family: TECHNICAL_DEPTH, label: "Non-trivial systems work"}
+  D-02: {family: TECHNICAL_DEPTH, label: "Original architecture"}
+  D-03: {family: TECHNICAL_DEPTH, label: "Performance engineering"}
+  D-04: {family: TECHNICAL_DEPTH, label: "Distributed systems"}
+  D-05: {family: TECHNICAL_DEPTH, label: "Security research"}
+  D-06: {family: TECHNICAL_DEPTH, label: "Compiler / database / runtime work"}
+  D-07: {family: TECHNICAL_DEPTH, label: "Model infrastructure"}
+  D-08: {family: TECHNICAL_DEPTH, label: "Evaluation systems"}
+  D-09: {family: TECHNICAL_DEPTH, label: "Novel data infrastructure"}
+  D-10: {family: TECHNICAL_DEPTH, label: "Deep domain implementation"}
+  C-01: {family: COLLABORATION, label: "New co-maintainer"}
+  C-02: {family: COLLABORATION, label: "Repeated collaborator across artifacts"}
+  C-03: {family: COLLABORATION, label: "Co-author becomes co-committer"}
+  C-04: {family: COLLABORATION, label: "New GitHub organization"}
+  C-05: {family: COLLABORATION, label: "Complementary technical contributors"}
+  F-01: {family: FORMATION, label: "Project name + resolving domain"}
+  F-02: {family: FORMATION, label: "New GitHub organization (formation reading)"}
+  F-03: {family: FORMATION, label: "Explicit first-person founder statement"}
+  F-04: {family: FORMATION, label: "Recruiting collaborators"}
+  F-05: {family: FORMATION, label: "Accelerator participation"}
+  F-06: {family: FORMATION, label: "Incorporation evidence"}
+  F-07: {family: FORMATION, label: "Public launch"}
+  F-08: {family: FORMATION, label: "Financing filing / announcement"}
+  V-01: {family: VELOCITY, label: "Activity acceleration"}
+  V-02: {family: VELOCITY, label: "Release cadence change"}
+  V-03: {family: VELOCITY, label: "External contributor growth"}
+  V-04: {family: VELOCITY, label: "Issue engagement by non-owners"}
+  V-05: {family: VELOCITY, label: "Scope expansion"}
+  V-06: {family: VELOCITY, label: "Abandonment (negative velocity)", negative: true}
+  M-01: {family: COMMERCIALIZATION, label: "Named third-party adopter"}
+  M-02: {family: COMMERCIALIZATION, label: "Integrations shipped"}
+  M-03: {family: COMMERCIALIZATION, label: "Documentation maturing"}
+  M-04: {family: COMMERCIALIZATION, label: "Productized API / pricing surface"}
+  M-05: {family: COMMERCIALIZATION, label: "Pricing page"}
+  M-06: {family: COMMERCIALIZATION, label: "Enterprise deployment / pilot"}
+  M-07: {family: COMMERCIALIZATION, label: "Customer reference"}
+  S-01: {family: SOCIAL, label: "Project launch post"}
+  S-02: {family: SOCIAL, label: "Build-in-public update"}
+  S-03: {family: SOCIAL, label: "Explicit founder-transition statement"}
+  S-04: {family: SOCIAL, label: "Benchmark discussion"}
+  S-05: {family: SOCIAL, label: "Recruiting post"}
+  S-06: {family: SOCIAL, label: "New technical collaboration"}
+  S-07: {family: SOCIAL, label: "Hackathon result"}
+  S-08: {family: SOCIAL, label: "Demo video"}
+
+# Attention metrics are DESCRIPTIVE ONLY and are barred from surfacing logic.
+barred_from_surfacing: [stars, forks, watchers, followers, likes, retweets]
+
+convergence:
+  min_signals: 2
+  min_independent_channels: 2
+  window_days: 180
+  requires_family_in: [BUILD, TECHNICAL_DEPTH]
+  requires_family_in_2: [COLLABORATION, FORMATION]
+  # Phase 1 near-miss NM-1: signals published simultaneously from surfaces the same
+  # person controls are ONE channel, not several.
+  same_day_same_actor_counts_as_one_channel: true

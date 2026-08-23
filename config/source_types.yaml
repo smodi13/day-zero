@@ -1,0 +1,27 @@
+# Source types. Derived from research/data_sources.md (Phase 1).
+# `automation` records whether DAY ZERO may collect programmatically.
+version: 1
+source_types:
+  github_repo:        {label: "GitHub repository",        channel: github,   automation: allowed,   primary_artifact: true}
+  github_user:        {label: "GitHub user profile",      channel: github,   automation: allowed,   primary_artifact: true}
+  github_org:         {label: "GitHub organization",      channel: github,   automation: allowed,   primary_artifact: true}
+  github_commits:     {label: "GitHub commit history",    channel: github,   automation: allowed,   primary_artifact: true}
+  github_releases:    {label: "GitHub releases",          channel: github,   automation: allowed,   primary_artifact: true}
+  arxiv_paper:        {label: "arXiv paper",              channel: research, automation: allowed,   primary_artifact: true}
+  package_registry:   {label: "Package registry entry",   channel: registry, automation: allowed,   primary_artifact: true}
+  project_site:       {label: "Official project site",    channel: web,      automation: allowed,   primary_artifact: true}
+  company_site:       {label: "Official company site",    channel: web,      automation: allowed,   primary_artifact: true}
+  mailing_list:       {label: "Public mailing list post", channel: mailinglist, automation: allowed, primary_artifact: true}
+  x_post:             {label: "X / Twitter post",         channel: x,        automation: gated,     primary_artifact: false}
+  press:              {label: "Press / trade publication",channel: press,    automation: allowed,   primary_artifact: false}
+  press_release:      {label: "Press release",            channel: press,    automation: allowed,   primary_artifact: false}
+  aggregator:         {label: "Database / aggregator",    channel: aggregator, automation: allowed, primary_artifact: false}
+  hackathon_official: {label: "Official hackathon page",  channel: hackathon, automation: manual_only, primary_artifact: true}
+  event_listing:      {label: "Public event listing",     channel: events,   automation: manual_only, primary_artifact: false}
+  filing:             {label: "Regulatory filing",        channel: filings,  automation: allowed,   primary_artifact: true}
+  access_policy:      {label: "robots.txt / access terms",channel: meta,     automation: allowed,   primary_artifact: true}
+
+# Channels that must never be automated by this project.
+manual_only_channels:
+  - hackathon   # Devpost robots.txt disallows anthropic-ai/GPTBot/CCBot (verified 2026-08-22)
+  - events

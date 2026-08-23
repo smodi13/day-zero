@@ -1,0 +1,15 @@
+# X / social evidence — MANUAL SEED FILE.
+#
+# STATUS AT PHASE 2: X live ingestion is OFF (adapters/x.py fails closed: no
+# credentials present, and the carried-over pricing reference dated 2026-07-18 is
+# past its own 30-day staleness gate). No X API call was made in Phase 1 or Phase 2.
+#
+# This file therefore contains ZERO X-sourced signal records. It exists so that the
+# schema path, the ingestion path, and the "X alone cannot promote" rule are all
+# exercised and testable without paid access.
+#
+# Any record added here in future MUST carry ingest_mode: MANUAL_RESEARCH_SOURCE and
+# a claim_class, because an X post is authoritative only for the STATEMENT, never for
+# the fact asserted.
+availability: UNAVAILABLE_NO_CREDENTIALS
+records: []

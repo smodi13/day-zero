@@ -1,0 +1,37 @@
+# PHASE 1 FINDING: the two sourcing pools are useful SEARCH DIRECTIONS but poor
+# data-schema categories. 69% of the Phase 1 universe could not be classified
+# without guessing. This field is OPTIONAL and never used as a positive ranking factor.
+version: 1
+classes:
+  YOUNG_BUILDER:
+    label: "Student, recent graduate, research engineer, or lab researcher"
+    requires_evidence: true
+    accepted_evidence:
+      - self_published_student_or_phd_status
+      - university_or_lab_affiliation_on_first_party_page
+      - official_hackathon_participation_record
+      - paper_authorship_with_student_affiliation
+  OPERATOR_TO_FOUNDER:
+    label: "Experienced operator who has publicly stated they are building"
+    requires_evidence: true
+    accepted_evidence:
+      - explicit_first_person_founder_statement
+      - self_published_role_history_plus_founder_statement
+      - company_site_naming_them_as_founder
+  OTHER_EXPLICIT:
+    label: "Career stage explicitly published but fitting neither pool"
+    requires_evidence: true
+    accepted_evidence: [self_published_role_statement]
+  UNCLASSIFIED:
+    label: "Career stage not publicly determinable without inference"
+    requires_evidence: false
+default: UNCLASSIFIED
+ranking_use: forbidden
+forbidden_evidence:
+  - account_age
+  - graduation_year_guess
+  - repo_topic
+  - social_activity_level
+  - employer_silence
+  - follower_count
+  - name_or_appearance
