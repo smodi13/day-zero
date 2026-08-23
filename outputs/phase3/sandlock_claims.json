@@ -1,0 +1,102 @@
+{
+  "claims": [
+    {
+      "claim": "Startup overhead ~5 ms",
+      "id": "C1",
+      "note": "Project's own benchmark; not reproduced here (needs Linux 6.12; test machine is macOS/M1)",
+      "source": "S3 README, S5 paper, S7 comparison",
+      "status": "OBSERVED_AS_CLAIM",
+      "verified_independently": false
+    },
+    {
+      "claim": "Runs Redis at bare-metal throughput, within measurement noise",
+      "id": "C2",
+      "source": "S5 paper abstract",
+      "status": "OBSERVED_AS_CLAIM",
+      "verified_independently": false
+    },
+    {
+      "claim": "No root, no cgroups, no containers, no hypervisor",
+      "id": "C3",
+      "note": "Consistent with the code read: Landlock+seccomp only, no namespace setup path found",
+      "source": "S3, S6",
+      "status": "OBSERVED",
+      "verified_independently": false
+    },
+    {
+      "claim": "Landlock enforces filesystem, TCP ports and IPC scoping",
+      "id": "C4",
+      "source": "S16 landlock.rs uses LANDLOCK_RULE_PATH_BENEATH, LANDLOCK_RULE_NET_PORT, LANDLOCK_SCOPE_SIGNAL, LANDLOCK_SCOPE_ABSTRACT_UNIX_SOCKET",
+      "status": "OBSERVED",
+      "verified_independently": true
+    },
+    {
+      "claim": "seccomp user notification handles runtime decisions and virtualised effects",
+      "id": "C5",
+      "source": "S2: seccomp/notif.rs 131KB, cow/seccomp.rs 319KB, procfs.rs 50KB",
+      "status": "OBSERVED",
+      "verified_independently": true
+    },
+    {
+      "claim": "Fail-closed by default; refuses to start when a required protection is unavailable",
+      "id": "C6",
+      "source": "S4 protection opt-out section",
+      "status": "OBSERVED",
+      "verified_independently": false
+    },
+    {
+      "claim": "Credential never enters the child's address space",
+      "id": "C7",
+      "note": "credential.rs (39KB) exists; behaviour not dynamically tested",
+      "source": "S6, S3",
+      "status": "OBSERVED_AS_CLAIM",
+      "verified_independently": false
+    },
+    {
+      "claim": "Kernel vulnerabilities are out of scope",
+      "id": "C8",
+      "note": "Stated by the project itself, in bold",
+      "source": "S6 security page, verbatim",
+      "status": "OBSERVED",
+      "verified_independently": true
+    },
+    {
+      "claim": "Landlock rules are kernel-evaluated and TOCTOU-immune",
+      "id": "C9",
+      "source": "S4",
+      "status": "OBSERVED_AS_CLAIM",
+      "verified_independently": false
+    },
+    {
+      "claim": "Requires Linux 6.12+ (Landlock ABI v6) for the default posture",
+      "id": "C10",
+      "source": "S3 requirements table",
+      "status": "OBSERVED",
+      "verified_independently": false
+    },
+    {
+      "claim": "Public institutional financing exists",
+      "id": "C11",
+      "note": "No public financing identified in the sources reviewed. This is NOT a claim of bootstrapping.",
+      "source": "searches of company site, project site, repo, web",
+      "status": "NOT_FOUND",
+      "verified_independently": false
+    },
+    {
+      "claim": "Independent security audit exists",
+      "id": "C12",
+      "source": "repo, site, web searches",
+      "status": "NOT_FOUND",
+      "verified_independently": false
+    },
+    {
+      "claim": "Named customers or revenue",
+      "id": "C13",
+      "source": "no pricing page, no logos, no case studies found",
+      "status": "UNKNOWN",
+      "verified_independently": false
+    }
+  ],
+  "source_audit": "research/sandlock/source_audit.md",
+  "subject": "multikernel/sandlock"
+}

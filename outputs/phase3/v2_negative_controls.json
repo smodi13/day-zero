@@ -1,0 +1,116 @@
+{
+  "caveat": "Curated control set. This measures design failure modes, not specificity.",
+  "controls": [
+    {
+      "control_id": "NC-1",
+      "event_count": 2,
+      "failed_checks": [
+        "distinct_modalities",
+        "distinct_events",
+        "includes_formation_like",
+        "temporal_spread"
+      ],
+      "modalities": [
+        "CONSTRUCTION"
+      ],
+      "rejected_facts": [],
+      "subject": "0xSero/turboquant",
+      "v1_state": "DROP",
+      "v2_converged": false,
+      "v2_result": "STILL_REJECTED"
+    },
+    {
+      "control_id": "NC-3",
+      "event_count": 2,
+      "failed_checks": [
+        "distinct_modalities",
+        "distinct_events",
+        "temporal_spread"
+      ],
+      "modalities": [
+        "CONSTRUCTION",
+        "FORMATION"
+      ],
+      "rejected_facts": [],
+      "subject": "zerobootdev/zeroboot",
+      "v1_state": "DROP",
+      "v2_converged": false,
+      "v2_result": "STILL_REJECTED"
+    },
+    {
+      "control_id": "NC-3b",
+      "event_count": 2,
+      "failed_checks": [
+        "distinct_modalities",
+        "distinct_events",
+        "includes_formation_like",
+        "temporal_spread"
+      ],
+      "modalities": [
+        "CONSTRUCTION"
+      ],
+      "rejected_facts": [],
+      "subject": "dipampaul17/KVSplit",
+      "v1_state": "DROP",
+      "v2_converged": false,
+      "v2_result": "STILL_REJECTED"
+    },
+    {
+      "control_id": "NC-4",
+      "event_count": 3,
+      "failed_checks": [
+        "distinct_modalities"
+      ],
+      "modalities": [
+        "CONSTRUCTION",
+        "FORMATION"
+      ],
+      "rejected_facts": [],
+      "subject": "scrya-com/rotorquant",
+      "v1_state": "DROP",
+      "v2_converged": false,
+      "v2_result": "STILL_REJECTED"
+    },
+    {
+      "control_id": "NC-5",
+      "event_count": 3,
+      "failed_checks": [
+        "distinct_modalities",
+        "includes_formation_like"
+      ],
+      "modalities": [
+        "CONSTRUCTION",
+        "IDENTITY"
+      ],
+      "rejected_facts": [
+        "EXTERNAL_VALIDATION from a non-third-party surface: self-published to PyPI"
+      ],
+      "subject": "RyanCodrai/turbovec",
+      "v1_state": "WATCH",
+      "v2_converged": false,
+      "v2_result": "STILL_REJECTED"
+    },
+    {
+      "control_id": "NC-7",
+      "event_count": 3,
+      "failed_checks": [
+        "temporal_spread"
+      ],
+      "modalities": [
+        "CONSTRUCTION",
+        "IDENTITY",
+        "RESEARCH"
+      ],
+      "rejected_facts": [],
+      "subject": "FutureMLS-Lab/OSCAR",
+      "v1_state": "WATCH",
+      "v2_converged": false,
+      "v2_result": "STILL_REJECTED"
+    }
+  ],
+  "label": "POST-HOC EXPLORATORY RE-RUN \u2014 NOT OUT-OF-SAMPLE VALIDATION. v2 was designed after seeing v1 fail on cases whose answers were known.",
+  "regressions": [],
+  "v1_incorrectly_promoted": 0,
+  "v2_incorrectly_promoted": 0,
+  "v2_rules_hash": "435dfb8a568d8f07124125b08566cc9ced48f4d17ef76064978905968287f434"
+}

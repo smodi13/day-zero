@@ -1,0 +1,14 @@
+{
+  "backfilled_earlier_phases": false,
+  "intro_ready_count": 3,
+  "minutes_per_intro_ready_awu": null,
+  "note": "Phase 3 onward only. Phase 1 and Phase 2 analyst time was never measured and is reported as NOT_MEASURED rather than estimated.",
+  "phase": "phase3",
+  "phase3_review_measured": false,
+  "session_count": 0,
+  "sessions": [],
+  "status": "INSTRUMENTED_AND_TESTED_READY_FROM_PHASE_4",
+  "total_active_minutes": null,
+  "total_active_seconds": null,
+  "why_not_measured": "The instrument was BUILT during Phase 3, after the Sandlock diligence and the experiment analysis were already under way. Timing those sessions retroactively would be an estimate presented as a measurement, which is exactly what this project refuses to do. Phase 3's own analyst time is therefore reported as NOT_MEASURED, the same way Phase 1 and Phase 2 were."
+}

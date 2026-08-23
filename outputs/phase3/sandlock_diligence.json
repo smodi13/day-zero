@@ -1,0 +1,94 @@
+{
+  "agentsight_relationship": {
+    "established": "paper co-authorship on arXiv:2605.26298 (Cong Wang, Yusheng Zheng); 49 code-search references to sandlock inside the eunomia-bpf org including workload reproduction notes",
+    "not_established": "any organisational, employment, equity or corporate relationship - none found and none inferred",
+    "sourcing_consequence": "Phase 2 counted Multikernel and AgentSight as two independent leads. They share an author, so they are one intellectual cluster as evidence. v2 must not double-count them."
+  },
+  "attention": {
+    "forks": 38,
+    "note": "descriptive only; never a surfacing input",
+    "open_issues": 19,
+    "stars": 358
+  },
+  "biggest_risk": "No evidence of any adversarial contact: no audit, no bounty, no published escape attempt.",
+  "company_status": {
+    "customers": "UNKNOWN",
+    "entity": "Multikernel Technologies, Inc.",
+    "github_org_created": "2025-03-08",
+    "open_core": true,
+    "pricing": "UNKNOWN",
+    "products": [
+      "Sandbox HTTP API",
+      "Sandbox Scheduler"
+    ],
+    "public_institutional_financing": "NONE_IDENTIFIED_IN_SOURCES_REVIEWED",
+    "team_size": "UNKNOWN"
+  },
+  "construction": {
+    "architectures": [
+      "x86_64",
+      "aarch64",
+      "riscv64"
+    ],
+    "human_contributors": 8,
+    "languages": {
+      "C": 125532,
+      "Go": 75477,
+      "Python": 503404,
+      "Rust": 3321536,
+      "Shell": 22560
+    },
+    "releases": [
+      "v0.8.1 2026-05-27",
+      "v0.8.2 2026-05-31",
+      "v0.8.3 2026-06-08",
+      "v0.8.4 2026-06-30",
+      "v0.8.5 2026-07-20",
+      "v0.8.6 2026-08-08"
+    ],
+    "top_contributions": 807,
+    "weekly_commits_last_12": [
+      73,
+      58,
+      31,
+      35,
+      46,
+      31,
+      40,
+      89,
+      64,
+      41,
+      19,
+      10
+    ]
+  },
+  "defensibility": {
+    "not_a_moat": [
+      "Landlock and seccomp are public kernel features",
+      "startup speed alone",
+      "star count"
+    ],
+    "potential": [
+      "agent-specific policy layer: HTTP ACL, credential injection, deterministic execution",
+      "accumulated hardening if adversarial contact occurs",
+      "scheduler + checkpoint/restore if density becomes the axis"
+    ],
+    "proven": [
+      "kernel-subsystem-maintainer expertise applied to a userspace product",
+      "a working seccomp-user-notification policy engine with CoW transactional semantics"
+    ]
+  },
+  "note": "INVEST is deliberately not in the vocabulary; it is unavailable from outside-in public work.",
+  "recommendation": "ADVANCE_TO_FOUNDER_CONVERSATION",
+  "recommendation_vocabulary": [
+    "ADVANCE_TO_FOUNDER_CONVERSATION",
+    "WATCH",
+    "PASS"
+  ],
+  "subject": "multikernel/sandlock",
+  "thematic_mirroring_guard": {
+    "basis": "The artifact is verifiable independent of Array's thesis: 3.3MB Rust, a kernel maintainer's record, a paper, an OCI shim and three SDKs. The mechanism was not chosen to match anyone's vocabulary.",
+    "caveat": "Array relevance still depends on the security thesis being right about BUYERS, not just about threats.",
+    "passed": true
+  }
+}

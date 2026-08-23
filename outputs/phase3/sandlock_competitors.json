@@ -1,0 +1,75 @@
+{
+  "alternatives": [
+    {
+      "escape_requires": "VMM or KVM bug after guest compromise",
+      "filesystem": "block-level",
+      "isolation_boundary": "hardware virtualisation, separate guest kernel",
+      "kernel": "separate",
+      "name": "Firecracker microVM",
+      "root_required": true,
+      "sandlock_difference": "no image, no root, ~20x faster start, plus HTTP-level egress policy a VM cannot express",
+      "security_ceiling": "highest",
+      "source": "S7 + analyst",
+      "startup": "~100 ms"
+    },
+    {
+      "escape_requires": "Sentry bug or a host bug reachable through it",
+      "filesystem": "gofer",
+      "isolation_boundary": "userspace kernel (Sentry) services every syscall",
+      "kernel": "reimplemented in userspace",
+      "name": "gVisor",
+      "root_required": "varies",
+      "sandlock_difference": "host kernel stays in the syscall path; native performance and full compatibility, wider escape surface",
+      "security_ceiling": "high",
+      "source": "S7 + analyst",
+      "startup": "moderate"
+    },
+    {
+      "escape_requires": "kernel LPE or misconfiguration",
+      "filesystem": "overlay",
+      "isolation_boundary": "namespaces",
+      "kernel": "shared",
+      "name": "Containers (namespaces + cgroups)",
+      "root_required": "yes, or user-ns + /etc/subuid",
+      "sandlock_difference": "access-control ruleset rather than a constructed namespace; no image; HTTP ACL; CoW rollback",
+      "security_ceiling": "comparable or lower",
+      "source": "S7 + analyst",
+      "startup": "~200 ms"
+    },
+    {
+      "escape_requires": "kernel LPE or namespace misconfiguration",
+      "filesystem": "bind mounts",
+      "isolation_boundary": "constructed namespaces",
+      "kernel": "shared",
+      "name": "bubblewrap / firejail",
+      "root_required": "user namespaces",
+      "sandlock_difference": "no user-namespace requirement; destination-IP and HTTP rules; credential injection; transactional writes",
+      "security_ceiling": "comparable",
+      "source": "S7 + analyst",
+      "startup": "fast"
+    },
+    {
+      "escape_requires": "kernel LPE",
+      "isolation_boundary": "identical primitives",
+      "kernel": "shared",
+      "name": "Raw Landlock + seccomp",
+      "root_required": false,
+      "sandlock_difference": "the supervisor, the CoW engine, the HTTP layer, the protection-posture model and the distribution - i.e. every hard part",
+      "security_ceiling": "identical",
+      "source": "analyst",
+      "startup": "fast"
+    },
+    {
+      "isolation_boundary": "control plane above a sandbox",
+      "kernel": "delegates",
+      "name": "OpenShell (NVIDIA)",
+      "root_required": "depends on backend",
+      "sandlock_difference": "OpenShell requires Docker/Podman/microVM/K8s underneath; sandlock is the confinement itself. They compose rather than compete",
+      "security_ceiling": "inherits backend",
+      "source": "S7",
+      "startup": "n/a"
+    }
+  ],
+  "note": "Compared on isolation boundary and failure mode, not on a feature matrix.",
+  "subject": "multikernel/sandlock"
+}

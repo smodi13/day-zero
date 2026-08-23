@@ -1,0 +1,102 @@
+{
+  "analyst_time": {
+    "backfilled": false,
+    "phase3_measured": false,
+    "status": "INSTRUMENTED_AND_TESTED_READY_FROM_PHASE_4"
+  },
+  "commits": {
+    "phase1": "5049772e748dc7e21df2bc67e5832e277b105721",
+    "phase2_A": "75b4311ad9ce540e7f36f8d2ec927623f7f419f0",
+    "phase2_B": "74c4627402d6e3dcf60d28bab09d165d2e781174",
+    "protocol_commit_C": "2056d35910cad745c58bf8ac784e299da301aedc",
+    "v2_rule_commit_D": "e8e3c64f56437bdac70db1957e841ac4d9d9fdbc"
+  },
+  "contacted_anyone": false,
+  "deployed": false,
+  "experiment": {
+    "claims_failed": [
+      "CLAIM-D",
+      "CLAIM-E"
+    ],
+    "claims_supported": [
+      "CLAIM-A",
+      "CLAIM-B",
+      "CLAIM-C"
+    ],
+    "cost_usd": "0.000000",
+    "headline": {
+      "agent_context_vs_raw_median_pct": 0.0,
+      "coding_context_vs_raw_median_pct": 0.0,
+      "probe_retention_rate": 1.0,
+      "structured_json_vs_minified_median_pct": 28.41,
+      "structured_json_vs_raw_median_pct": 46.3
+    },
+    "id": "EXP-1",
+    "llm_calls": 0,
+    "paid_api_calls": 0,
+    "probe_retention": 1.0,
+    "samples": 35,
+    "target": "headroom-ai 0.36.5",
+    "tokenizers": [
+      "o200k_base",
+      "cl100k_base"
+    ],
+    "transformation_errors": 0,
+    "verdict": "PARTIALLY_REPRODUCED"
+  },
+  "frontend_built": false,
+  "hashes": {
+    "experiment_dataset": "c16472c28c06194bfc0ffcf57c0acc77363847866835014e6a19b4680f3622bf",
+    "experiment_protocol": "0c8aa36e13d554177bf18a57ba263f2fe5c678ea53929c6caa6b778b8469eaf0",
+    "v1_frozen": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+    "v1_unchanged": true,
+    "v2_rules": "435dfb8a568d8f07124125b08566cc9ced48f4d17ef76064978905968287f434"
+  },
+  "phase": "phase3",
+  "phase2_preserved": {
+    "builders": 267,
+    "current_3": [
+      "multikernel/sandlock",
+      "sipyourdrink-ltd/bernstein",
+      "scanaislop/aislop"
+    ],
+    "evidence": 1586,
+    "intro_ready_awu": 3,
+    "relationships": 579,
+    "repositories": 102,
+    "sources": 273,
+    "v1_holdout": {
+      "MISS": 4,
+      "PARTIAL": 2,
+      "UNKNOWN": 4
+    }
+  },
+  "sandlock": {
+    "biggest_risk": "No evidence of any adversarial contact: no audit, no bounty, no published escape attempt.",
+    "public_institutional_financing": "NONE_IDENTIFIED_IN_SOURCES_REVIEWED",
+    "recommendation": "ADVANCE_TO_FOUNDER_CONVERSATION",
+    "thematic_mirroring_guard_passed": true
+  },
+  "v2": {
+    "cases_changed": [
+      "B1",
+      "B2",
+      "B3"
+    ],
+    "status": "POST_HOC_EXPLORATORY",
+    "v1_control_regressions": 0,
+    "v1_holdout": {
+      "MISS": 4,
+      "PARTIAL": 2,
+      "UNKNOWN": 4
+    },
+    "v2_control_regressions": 0,
+    "v2_holdout": {
+      "MISS": 3,
+      "PARTIAL": 1,
+      "PASS": 2,
+      "UNKNOWN": 4
+    }
+  },
+  "x_status": "still disabled by default; identity join remains the bottleneck"
+}
