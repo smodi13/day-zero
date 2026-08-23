@@ -1,0 +1,38 @@
+{
+  "label": "SUPPLEMENTARY DIAGNOSTIC — not part of the pre-registered protocol and cannot change the verdict",
+  "purpose": "Test competing explanations for the 0% coding-context result before concluding CLAIM-E is unsupported.",
+  "diagnostics": [
+    {
+      "id": "SUPP-1",
+      "hypothesis": "The 0% coding result is an artifact of presenting a single recent tool output; real savings come from compressing OLDER conversation turns.",
+      "method": "Six-file multi-turn coding session (read_file tool calls interleaved with assistant turns), headroom.compress(model_limit=200000).",
+      "result": {"tokens_before": 16803, "tokens_after": 16803, "reduction_pct": 0.0,
+                 "transforms": ["router:protected:user_message", "router:protected:analysis_context x4", "router:protected:recent_code"]},
+      "conclusion": "FALSIFIED. Every message was routed to a protected class. Multi-turn framing does not change the result."
+    },
+    {
+      "id": "SUPP-2",
+      "hypothesis": "Context pressure triggers compression that a large model_limit does not.",
+      "method": "Same session with model_limit=20000 against 16,803 tokens of content.",
+      "result": {"tokens_before": 16803, "tokens_after": 16803, "reduction_pct": 0.0},
+      "conclusion": "FALSIFIED. Tight context pressure produced no additional compression."
+    },
+    {
+      "id": "SUPP-3",
+      "hypothesis": "Code compression requires the optional [code] extra, which the base install omits.",
+      "method": "pip install 'headroom-ai[code]', then re-run a single source-file tool output.",
+      "result": {"tokens_before": 6270, "tokens_after": 6270, "reduction_pct": 0.0,
+                 "transforms": ["router:protected:user_message", "router:protected:recent_code"]},
+      "conclusion": "FALSIFIED for the library path. The extra installs, but the router still protects recent code."
+    }
+  ],
+  "untested_configurations": [
+    "headroom proxy (--port) path",
+    "headroom wrap <agent> path, which also installs Serena semantic code navigation",
+    "MCP server path",
+    "Kompress-v2-base prose model (HuggingFace download; 8 GB RAM machine)",
+    "cross-agent memory and `headroom learn`",
+    "sessions substantially longer than 17k tokens"
+  ],
+  "fairness_note": "Three competing explanations were tested and falsified before concluding that CLAIM-E is unsupported on this dataset. The untested configurations above are named rather than dismissed: the coding claim may hold on one of them, and this experiment does not rule that out."
+}

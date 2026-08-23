@@ -1,0 +1,83 @@
+# v2 CONVERGENCE — a response to the documented v1 failure.
+#
+# WHAT FAILED IN v1: Eventual/Daft reached only PARTIAL because all of its pre-cutoff
+# evidence came from GitHub, and v1 collapsed github_org / github_repo / github_commits /
+# github_releases into ONE channel. The rule that exists to stop single-channel false
+# positives blocked the strongest true positive in the cohort.
+#
+# WHAT v1 GOT RIGHT AND v2 MUST KEEP: a press release re-syndicated four times is one
+# fact, not four. Four GitHub metrics describing the same push are one fact, not four.
+#
+# THE v2 INSIGHT: "independent" should mean independent FACTS, not independent WEBSITES.
+# A repo created in 2022, sustained commits through 2023, a first release in 2024, and an
+# organisation registered in 2022 are four distinct events about four distinct decisions,
+# even though one hostname serves them all.
+#
+# v2 IS POST-HOC relative to the v1 holdout. Any historical re-run under it is an
+# EXPLORATORY DIAGNOSTIC, never out-of-sample validation.
+version: 2
+supersedes: signal_types.yaml#convergence
+status: POST_HOC_EXPLORATORY
+
+# Evidence modalities: WHAT KIND OF FACT this is, independent of where it is hosted.
+modalities:
+  CONSTRUCTION:        {description: "Something was built: repo creation, sustained commits, releases, packages published"}
+  FORMATION:           {description: "An entity decision: organisation created, domain registered, incorporation, explicit founder statement"}
+  RESEARCH:            {description: "A paper, with author overlap verified against the artifact"}
+  COLLABORATION:       {description: "Another identified human co-built it"}
+  COMMERCIALIZATION:   {description: "A product surface: docs, pricing, productized API"}
+  IDENTITY:            {description: "The builder is resolvable to a named person"}
+  EXTERNAL_VALIDATION: {description: "A THIRD PARTY validates it: named adopter, downstream dependent, citation, independent reporting"}
+
+# Self-publication is CONSTRUCTION, never EXTERNAL_VALIDATION. Publishing your own
+# package to PyPI is something you built, not someone else's endorsement. This
+# distinction is what keeps negative control NC-5 rejected.
+external_validation_excludes:
+  - self_published_package
+  - own_project_site
+  - own_social_post
+  - star_or_follower_count
+
+requirements:
+  min_distinct_modalities: 3
+  min_distinct_events: 3
+  must_include: [CONSTRUCTION]
+  must_include_one_of: [FORMATION, RESEARCH, COLLABORATION, EXTERNAL_VALIDATION]
+
+# SAME-EVENT DEDUPLICATION — the false-positive protection v1 provided, preserved.
+event_deduplication:
+  enabled: true
+  key: same_underlying_event
+  rules:
+    - id: DEDUP-1
+      description: "Facts sharing an underlying_event_key collapse to ONE event."
+    - id: DEDUP-2
+      description: >-
+        Facts of the SAME modality on the SAME calendar day from surfaces the same actor
+        controls collapse to one event. A launch post, a domain and an org created on one
+        day is one decision announced three ways (Phase 1 near-miss NM-1).
+    - id: DEDUP-3
+      description: >-
+        A press release, its syndicated rewrites, an aggregator entry and a social repost
+        are one event. Lineage is tracked via sources.underlying_event_key.
+    - id: DEDUP-4
+      description: >-
+        Repository metrics describing one push (stars, forks, watchers, latest commit) are
+        never events. Attention is not evidence and remains barred from surfacing.
+
+# TEMPORAL SPREAD — genuine formation accretes; a launch happens in a day.
+temporal_spread:
+  min_span_days: 30
+  applies_when: "all qualifying events fall within a single window"
+  rationale: >-
+    Multikernel's evidence spans 17 months; shepherd-agents' org, domain and repo appeared
+    the same day. The first is formation, the second is an announcement.
+
+# EXPLICIT GUARD: v2 must not simply be v1 with a lower bar.
+anti_loosening_guards:
+  - "min_distinct_modalities RAISED from an implicit 2 to 3"
+  - "min_distinct_events introduced; v1 had no event-level concept at all"
+  - "CONSTRUCTION is now mandatory; v1 accepted BUILD *or* DEPTH"
+  - "EXTERNAL_VALIDATION cannot be self-published"
+  - "temporal spread requirement added; v1 had none beyond same-day collapse"
+  - "every v1 negative control must still be rejected — tested, not asserted"

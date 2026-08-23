@@ -1,0 +1,760 @@
+{
+  "by_variant": {
+    "HEADROOM_A": {
+      "cl100k_base": {
+        "agent_context": {
+          "minify_only_vs_raw": {
+            "max": 44.09,
+            "median": 8.69,
+            "min": 0.0,
+            "n": 11,
+            "p25": 0.49,
+            "p75": 12.29
+          },
+          "vs_minified": {
+            "max": 50.78,
+            "median": -8.36,
+            "min": -13.86,
+            "n": 11,
+            "p25": -10.65,
+            "p75": -0.11
+          },
+          "vs_raw": {
+            "max": 72.48,
+            "median": 0.0,
+            "min": 0.0,
+            "n": 11,
+            "p25": 0.0,
+            "p75": 28.94
+          }
+        },
+        "coding_context": {
+          "minify_only_vs_raw": {
+            "max": 9.53,
+            "median": 7.41,
+            "min": 0.81,
+            "n": 12,
+            "p25": 3.5,
+            "p75": 8.71
+          },
+          "vs_minified": {
+            "max": -0.82,
+            "median": -8.0,
+            "min": -10.54,
+            "n": 12,
+            "p25": -9.55,
+            "p75": -3.63
+          },
+          "vs_raw": {
+            "max": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "n": 12,
+            "p25": 0.0,
+            "p75": 0.0
+          }
+        },
+        "overall": {
+          "minify_only_vs_raw": {
+            "max": 44.09,
+            "median": 9.53,
+            "min": 0.0,
+            "n": 35,
+            "p25": 6.4,
+            "p75": 30.7
+          },
+          "vs_minified": {
+            "max": 86.7,
+            "median": -3.1,
+            "min": -13.86,
+            "n": 35,
+            "p25": -8.67,
+            "p75": 27.14
+          },
+          "vs_raw": {
+            "max": 92.48,
+            "median": 0.0,
+            "min": 0.0,
+            "n": 35,
+            "p25": 0.0,
+            "p75": 42.21
+          }
+        },
+        "structured_json": {
+          "minify_only_vs_raw": {
+            "max": 43.98,
+            "median": 31.27,
+            "min": 23.8,
+            "n": 12,
+            "p25": 28.9,
+            "p75": 34.15
+          },
+          "vs_minified": {
+            "max": 86.7,
+            "median": 29.11,
+            "min": -8.33,
+            "n": 12,
+            "p25": 14.39,
+            "p75": 80.12
+          },
+          "vs_raw": {
+            "max": 92.48,
+            "median": 46.81,
+            "min": 27.92,
+            "n": 12,
+            "p25": 39.79,
+            "p75": 86.16
+          }
+        }
+      },
+      "compression_time_ms": {
+        "max": 283.73,
+        "median": 11.24,
+        "min": 0.32,
+        "n": 35,
+        "p25": 4.6,
+        "p75": 29.08
+      },
+      "o200k_base": {
+        "agent_context": {
+          "minify_only_vs_raw": {
+            "max": 42.7,
+            "median": 8.69,
+            "min": 0.0,
+            "n": 11,
+            "p25": 0.49,
+            "p75": 12.14
+          },
+          "vs_minified": {
+            "max": 51.97,
+            "median": -8.67,
+            "min": -13.81,
+            "n": 11,
+            "p25": -10.57,
+            "p75": -0.11
+          },
+          "vs_raw": {
+            "max": 72.48,
+            "median": 0.0,
+            "min": 0.0,
+            "n": 11,
+            "p25": 0.0,
+            "p75": 28.94
+          }
+        },
+        "coding_context": {
+          "minify_only_vs_raw": {
+            "max": 9.41,
+            "median": 7.4,
+            "min": 0.82,
+            "n": 12,
+            "p25": 3.54,
+            "p75": 8.69
+          },
+          "vs_minified": {
+            "max": -0.83,
+            "median": -8.0,
+            "min": -10.38,
+            "n": 12,
+            "p25": -9.52,
+            "p75": -3.68
+          },
+          "vs_raw": {
+            "max": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "n": 12,
+            "p25": 0.0,
+            "p75": 0.0
+          }
+        },
+        "overall": {
+          "minify_only_vs_raw": {
+            "max": 43.83,
+            "median": 9.41,
+            "min": 0.0,
+            "n": 35,
+            "p25": 6.4,
+            "p75": 30.46
+          },
+          "vs_minified": {
+            "max": 86.85,
+            "median": -3.09,
+            "min": -13.81,
+            "n": 35,
+            "p25": -8.67,
+            "p75": 27.05
+          },
+          "vs_raw": {
+            "max": 92.47,
+            "median": 0.0,
+            "min": 0.0,
+            "n": 35,
+            "p25": 0.0,
+            "p75": 42.48
+          }
+        },
+        "structured_json": {
+          "minify_only_vs_raw": {
+            "max": 43.83,
+            "median": 30.84,
+            "min": 23.9,
+            "n": 12,
+            "p25": 28.45,
+            "p75": 33.98
+          },
+          "vs_minified": {
+            "max": 86.85,
+            "median": 28.41,
+            "min": -4.9,
+            "n": 12,
+            "p25": 14.25,
+            "p75": 80.16
+          },
+          "vs_raw": {
+            "max": 92.47,
+            "median": 46.3,
+            "min": 28.45,
+            "n": 12,
+            "p25": 39.0,
+            "p75": 86.19
+          }
+        }
+      },
+      "probe_retention": {
+        "by_category": {
+          "agent_context": 1.0,
+          "coding_context": 1.0,
+          "structured_json": 1.0
+        },
+        "losses": [],
+        "overall_rate": 1.0,
+        "samples_with_loss": 0
+      }
+    },
+    "HEADROOM_B_DEFAULT": {
+      "cl100k_base": {
+        "agent_context": {
+          "minify_only_vs_raw": {
+            "max": 44.09,
+            "median": 8.69,
+            "min": 0.0,
+            "n": 11,
+            "p25": 0.49,
+            "p75": 12.29
+          },
+          "vs_minified": {
+            "max": 50.78,
+            "median": -8.36,
+            "min": -14.01,
+            "n": 11,
+            "p25": -10.68,
+            "p75": -0.11
+          },
+          "vs_raw": {
+            "max": 72.48,
+            "median": 0.0,
+            "min": 0.0,
+            "n": 11,
+            "p25": 0.0,
+            "p75": 0.0
+          }
+        },
+        "coding_context": {
+          "minify_only_vs_raw": {
+            "max": 9.53,
+            "median": 7.41,
+            "min": 0.81,
+            "n": 12,
+            "p25": 3.5,
+            "p75": 8.71
+          },
+          "vs_minified": {
+            "max": -0.82,
+            "median": -8.0,
+            "min": -10.54,
+            "n": 12,
+            "p25": -9.55,
+            "p75": -3.63
+          },
+          "vs_raw": {
+            "max": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "n": 12,
+            "p25": 0.0,
+            "p75": 0.0
+          }
+        },
+        "overall": {
+          "minify_only_vs_raw": {
+            "max": 44.09,
+            "median": 9.53,
+            "min": 0.0,
+            "n": 35,
+            "p25": 6.4,
+            "p75": 30.7
+          },
+          "vs_minified": {
+            "max": 86.7,
+            "median": -3.1,
+            "min": -14.01,
+            "n": 35,
+            "p25": -8.67,
+            "p75": 16.61
+          },
+          "vs_raw": {
+            "max": 92.48,
+            "median": 0.0,
+            "min": 0.0,
+            "n": 35,
+            "p25": 0.0,
+            "p75": 42.21
+          }
+        },
+        "structured_json": {
+          "minify_only_vs_raw": {
+            "max": 43.98,
+            "median": 31.27,
+            "min": 23.8,
+            "n": 12,
+            "p25": 28.9,
+            "p75": 34.15
+          },
+          "vs_minified": {
+            "max": 86.7,
+            "median": 29.11,
+            "min": -8.33,
+            "n": 12,
+            "p25": 14.39,
+            "p75": 80.12
+          },
+          "vs_raw": {
+            "max": 92.48,
+            "median": 46.81,
+            "min": 27.92,
+            "n": 12,
+            "p25": 39.79,
+            "p75": 86.16
+          }
+        }
+      },
+      "compression_time_ms": {
+        "max": 65.24,
+        "median": 0.08,
+        "min": 0.01,
+        "n": 35,
+        "p25": 0.03,
+        "p75": 3.71
+      },
+      "o200k_base": {
+        "agent_context": {
+          "minify_only_vs_raw": {
+            "max": 42.7,
+            "median": 8.69,
+            "min": 0.0,
+            "n": 11,
+            "p25": 0.49,
+            "p75": 12.14
+          },
+          "vs_minified": {
+            "max": 51.97,
+            "median": -8.67,
+            "min": -13.82,
+            "n": 11,
+            "p25": -10.69,
+            "p75": -0.11
+          },
+          "vs_raw": {
+            "max": 72.48,
+            "median": 0.0,
+            "min": 0.0,
+            "n": 11,
+            "p25": 0.0,
+            "p75": 0.0
+          }
+        },
+        "coding_context": {
+          "minify_only_vs_raw": {
+            "max": 9.41,
+            "median": 7.4,
+            "min": 0.82,
+            "n": 12,
+            "p25": 3.54,
+            "p75": 8.69
+          },
+          "vs_minified": {
+            "max": -0.83,
+            "median": -8.0,
+            "min": -10.38,
+            "n": 12,
+            "p25": -9.52,
+            "p75": -3.68
+          },
+          "vs_raw": {
+            "max": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "n": 12,
+            "p25": 0.0,
+            "p75": 0.0
+          }
+        },
+        "overall": {
+          "minify_only_vs_raw": {
+            "max": 43.83,
+            "median": 9.41,
+            "min": 0.0,
+            "n": 35,
+            "p25": 6.4,
+            "p75": 30.46
+          },
+          "vs_minified": {
+            "max": 86.85,
+            "median": -3.09,
+            "min": -13.82,
+            "n": 35,
+            "p25": -8.67,
+            "p75": 18.34
+          },
+          "vs_raw": {
+            "max": 92.47,
+            "median": 0.0,
+            "min": 0.0,
+            "n": 35,
+            "p25": 0.0,
+            "p75": 42.48
+          }
+        },
+        "structured_json": {
+          "minify_only_vs_raw": {
+            "max": 43.83,
+            "median": 30.84,
+            "min": 23.9,
+            "n": 12,
+            "p25": 28.45,
+            "p75": 33.98
+          },
+          "vs_minified": {
+            "max": 86.85,
+            "median": 28.41,
+            "min": -4.9,
+            "n": 12,
+            "p25": 14.25,
+            "p75": 80.16
+          },
+          "vs_raw": {
+            "max": 92.47,
+            "median": 46.3,
+            "min": 28.45,
+            "n": 12,
+            "p25": 39.0,
+            "p75": 86.19
+          }
+        }
+      },
+      "probe_retention": {
+        "by_category": {
+          "agent_context": 1.0,
+          "coding_context": 1.0,
+          "structured_json": 1.0
+        },
+        "losses": [],
+        "overall_rate": 1.0,
+        "samples_with_loss": 0
+      }
+    },
+    "HEADROOM_B_LOSSLESS": {
+      "cl100k_base": {
+        "agent_context": {
+          "minify_only_vs_raw": {
+            "max": 44.09,
+            "median": 8.69,
+            "min": 0.0,
+            "n": 11,
+            "p25": 0.49,
+            "p75": 12.29
+          },
+          "vs_minified": {
+            "max": 50.78,
+            "median": -8.36,
+            "min": -14.01,
+            "n": 11,
+            "p25": -10.68,
+            "p75": -0.11
+          },
+          "vs_raw": {
+            "max": 72.48,
+            "median": 0.0,
+            "min": 0.0,
+            "n": 11,
+            "p25": 0.0,
+            "p75": 0.0
+          }
+        },
+        "coding_context": {
+          "minify_only_vs_raw": {
+            "max": 9.53,
+            "median": 7.41,
+            "min": 0.81,
+            "n": 12,
+            "p25": 3.5,
+            "p75": 8.71
+          },
+          "vs_minified": {
+            "max": -0.82,
+            "median": -8.0,
+            "min": -10.54,
+            "n": 12,
+            "p25": -9.55,
+            "p75": -3.63
+          },
+          "vs_raw": {
+            "max": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "n": 12,
+            "p25": 0.0,
+            "p75": 0.0
+          }
+        },
+        "overall": {
+          "minify_only_vs_raw": {
+            "max": 44.09,
+            "median": 9.53,
+            "min": 0.0,
+            "n": 35,
+            "p25": 6.4,
+            "p75": 30.7
+          },
+          "vs_minified": {
+            "max": 86.7,
+            "median": -3.1,
+            "min": -14.01,
+            "n": 35,
+            "p25": -8.67,
+            "p75": 16.61
+          },
+          "vs_raw": {
+            "max": 92.48,
+            "median": 0.0,
+            "min": 0.0,
+            "n": 35,
+            "p25": 0.0,
+            "p75": 42.21
+          }
+        },
+        "structured_json": {
+          "minify_only_vs_raw": {
+            "max": 43.98,
+            "median": 31.27,
+            "min": 23.8,
+            "n": 12,
+            "p25": 28.9,
+            "p75": 34.15
+          },
+          "vs_minified": {
+            "max": 86.7,
+            "median": 29.11,
+            "min": -8.33,
+            "n": 12,
+            "p25": 14.39,
+            "p75": 78.59
+          },
+          "vs_raw": {
+            "max": 92.48,
+            "median": 46.81,
+            "min": 27.92,
+            "n": 12,
+            "p25": 39.79,
+            "p75": 85.09
+          }
+        }
+      },
+      "compression_time_ms": {
+        "max": 65.31,
+        "median": 0.07,
+        "min": 0.01,
+        "n": 35,
+        "p25": 0.02,
+        "p75": 3.66
+      },
+      "o200k_base": {
+        "agent_context": {
+          "minify_only_vs_raw": {
+            "max": 42.7,
+            "median": 8.69,
+            "min": 0.0,
+            "n": 11,
+            "p25": 0.49,
+            "p75": 12.14
+          },
+          "vs_minified": {
+            "max": 51.97,
+            "median": -8.67,
+            "min": -13.82,
+            "n": 11,
+            "p25": -10.69,
+            "p75": -0.11
+          },
+          "vs_raw": {
+            "max": 72.48,
+            "median": 0.0,
+            "min": 0.0,
+            "n": 11,
+            "p25": 0.0,
+            "p75": 0.0
+          }
+        },
+        "coding_context": {
+          "minify_only_vs_raw": {
+            "max": 9.41,
+            "median": 7.4,
+            "min": 0.82,
+            "n": 12,
+            "p25": 3.54,
+            "p75": 8.69
+          },
+          "vs_minified": {
+            "max": -0.83,
+            "median": -8.0,
+            "min": -10.38,
+            "n": 12,
+            "p25": -9.52,
+            "p75": -3.68
+          },
+          "vs_raw": {
+            "max": 0.0,
+            "median": 0.0,
+            "min": 0.0,
+            "n": 12,
+            "p25": 0.0,
+            "p75": 0.0
+          }
+        },
+        "overall": {
+          "minify_only_vs_raw": {
+            "max": 43.83,
+            "median": 9.41,
+            "min": 0.0,
+            "n": 35,
+            "p25": 6.4,
+            "p75": 30.46
+          },
+          "vs_minified": {
+            "max": 86.85,
+            "median": -3.09,
+            "min": -13.82,
+            "n": 35,
+            "p25": -8.67,
+            "p75": 18.34
+          },
+          "vs_raw": {
+            "max": 92.47,
+            "median": 0.0,
+            "min": 0.0,
+            "n": 35,
+            "p25": 0.0,
+            "p75": 42.48
+          }
+        },
+        "structured_json": {
+          "minify_only_vs_raw": {
+            "max": 43.83,
+            "median": 30.84,
+            "min": 23.9,
+            "n": 12,
+            "p25": 28.45,
+            "p75": 33.98
+          },
+          "vs_minified": {
+            "max": 86.85,
+            "median": 28.41,
+            "min": -4.9,
+            "n": 12,
+            "p25": 14.25,
+            "p75": 78.63
+          },
+          "vs_raw": {
+            "max": 92.47,
+            "median": 46.3,
+            "min": 28.45,
+            "n": 12,
+            "p25": 39.0,
+            "p75": 85.12
+          }
+        }
+      },
+      "probe_retention": {
+        "by_category": {
+          "agent_context": 1.0,
+          "coding_context": 1.0,
+          "structured_json": 1.0
+        },
+        "losses": [],
+        "overall_rate": 1.0,
+        "samples_with_loss": 0
+      }
+    }
+  },
+  "claims": {
+    "CLAIM-A": {
+      "supported": true,
+      "threshold": "> 0% vs raw (structured_json)",
+      "value": 46.3
+    },
+    "CLAIM-B": {
+      "supported": true,
+      "threshold": ">= 25.0% vs minified",
+      "value": 28.41
+    },
+    "CLAIM-C": {
+      "supported": true,
+      "threshold": ">= 0.95 probe retention",
+      "value": 1.0
+    },
+    "CLAIM-D": {
+      "supported": false,
+      "threshold": "60.0-95.0% vs raw",
+      "value": 46.3
+    },
+    "CLAIM-E": {
+      "supported": false,
+      "threshold": ">= 15.0% vs raw",
+      "value": 0.0
+    }
+  },
+  "claims_failed": [
+    "CLAIM-D",
+    "CLAIM-E"
+  ],
+  "claims_supported": [
+    "CLAIM-A",
+    "CLAIM-B",
+    "CLAIM-C"
+  ],
+  "environment": {
+    "gpu": false,
+    "headroom_ai": "0.36.5",
+    "machine": "arm64",
+    "paid_api_calls": 0,
+    "platform": "macOS-26.3-arm64-arm-64bit-Mach-O",
+    "python": "3.14.3",
+    "tiktoken": "0.14.0"
+  },
+  "errors": [],
+  "experiment_id": "EXP-1",
+  "headline": {
+    "agent_context_vs_raw_median_pct": 0.0,
+    "coding_context_vs_raw_median_pct": 0.0,
+    "probe_retention_rate": 1.0,
+    "structured_json_vs_minified_median_pct": 28.41,
+    "structured_json_vs_raw_median_pct": 46.3
+  },
+  "manifest_sha256": "c16472c28c06194bfc0ffcf57c0acc77363847866835014e6a19b4680f3622bf",
+  "note": "Distributions only. No combined score exists, by pre-registration.",
+  "primary_tokenizer": "o200k_base",
+  "primary_variant": "HEADROOM_A",
+  "protocol_sha256": "0c8aa36e13d554177bf18a57ba263f2fe5c678ea53929c6caa6b778b8469eaf0",
+  "verdict": "PARTIALLY_REPRODUCED"
+}

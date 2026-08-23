@@ -1,0 +1,29 @@
+# v2 DOMAIN SIGNAL.
+#
+# Phase 2 measured that formation lives on DOMAINS (73 of 171 formation signals) while
+# construction lives on GITHUB. v1 treated the domain as one weak formation signal; v2
+# models what the domain actually shows.
+version: 2
+status: POST_HOC_EXPLORATORY
+
+signals:
+  D-01: {name: project_domain_resolves, modality: FORMATION, description: "A project domain exists and serves content"}
+  D-02: {name: docs_site_present, modality: COMMERCIALIZATION, description: "Versioned documentation, a getting-started path"}
+  D-03: {name: pricing_or_products_page, modality: COMMERCIALIZATION, description: "A commercial surface with named products"}
+  D-04: {name: company_identity_on_site, modality: FORMATION, description: "A registered company name appears on the site"}
+  D-05: {name: site_links_github_org, modality: IDENTITY, description: "The site links the GitHub organisation, closing the domain-to-code loop"}
+  D-06: {name: team_page_names_people, modality: IDENTITY, description: "A team/about page names individuals"}
+
+# Distinct pages on one domain are NOT distinct events unless they establish
+# distinct facts of distinct modalities.
+event_grouping: "one domain contributes at most one FORMATION event"
+
+prohibited:
+  - whois_enrichment          # invasive; registrant data is personal data
+  - dns_history_broker_data
+  - domain_registrant_lookup
+  - reverse_whois
+allowed:
+  - fetching the public page as any ordinary reader
+  - reading content the operator chose to publish
+  - honouring robots.txt

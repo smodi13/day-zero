@@ -1,0 +1,57 @@
+# v2 IDENTITY RESOLUTION — a response to the second documented v1 failure.
+#
+# WHAT FAILED IN v1: identity confidence was computed only from GitHub profile fields
+# (display name + blog). Cong Wang publishes no blog value, so the strongest lead in the
+# universe resolved to `medium` and needed a manual analyst override. Separately, only
+# 1 of 267 collected identities publishes a linkable X account, so X evidence could not
+# attach to 99.6% of the universe.
+#
+# WHAT v2 MUST NOT DO: solve this with fuzzy name matching. ER-2 stands.
+version: 2
+supersedes: "resolve.identity_confidence"
+status: POST_HOC_EXPLORATORY
+
+states:
+  VERIFIED_CROSS_LINK:
+    may_merge: true
+    description: "A first-party surface explicitly links the two identities."
+    accepted_evidence:
+      - github_profile_blog_points_at_the_other_profile
+      - personal_site_links_both_profiles
+      - readme_author_link_to_a_profile
+      - package_registry_metadata_naming_the_author_profile
+      - paper_author_page_linking_the_repository
+      - company_team_page_naming_the_person_and_linking_the_profile
+      - orcid_record_linking_both
+      - explicit_bio_statement_naming_the_other_handle
+  STRONG_ARTIFACT_MATCH:
+    may_merge: true
+    description: >-
+      No single link, but two or more INDEPENDENT artifacts each connect the same named
+      person to the same artifact. This is the state that resolves Cong Wang without an
+      analyst override: the company site names him as founder, the paper lists him as an
+      author, and the GitHub login is the artifact's top contributor.
+    requires:
+      min_independent_artifacts: 2
+      must_share: exact_full_name
+      forbidden: [surname_only_match, partial_name_match, employer_match, location_match]
+  POSSIBLE_MATCH:
+    may_merge: false
+    description: "Suggestive but insufficient. Recorded, never merged, never intro-eligible."
+  UNRESOLVED:
+    may_merge: false
+    description: "No accepted evidence."
+
+# Unchanged from v1 and non-negotiable.
+forbidden_merge_evidence:
+  - display_name_similarity
+  - surname_match
+  - avatar_similarity
+  - same_city
+  - same_employer
+  - same_technical_topic
+  - any_combination_of_the_above
+
+intro_eligibility:
+  min_state: STRONG_ARTIFACT_MATCH
+  rationale: "You cannot introduce someone you cannot name."

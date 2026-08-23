@@ -1,0 +1,13 @@
+{
+  "combined_hash": "435dfb8a568d8f07124125b08566cc9ced48f4d17ef76064978905968287f434",
+  "created_at": "2026-08-23T15:19:30.736192Z",
+  "files": {
+    "convergence_v2.yaml": "b722d04e46a6f57679c0973cffee7bada4fe29e0735f1c7b480591e4fc083966",
+    "domain_signal_v2.yaml": "72810e6f893549c8445ca1fbc65991ef41b020f7422aef1222b1e86910e3e590",
+    "identity_v2.yaml": "6e736d899d620a0c991236e237509223ea484eef65cb3bcef7f7441434780428"
+  },
+  "git_commit": "PENDING_COMMIT_D",
+  "schema_version": "dayzero-rules-2",
+  "status": "POST_HOC_EXPLORATORY",
+  "v1_hash_unchanged_note": "v1 remains frozen and is never modified by v2."
+}
