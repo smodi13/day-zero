@@ -23,17 +23,17 @@ export default function About() {
           diligence that reads the code, and a methodology that publishes its own failures.
         </p>
         <p className="body mt-4 max-w-prose">
-          What it does <strong className="text-text">not</strong> claim: that its tallies
+          What it does <strong className="text-ink">not</strong> claim: that its tallies
           are investment performance; that a convergence pass predicts a good company; that
           any person analysed here is or should be raising; that absence of public evidence
           is evidence of absence; or that a system this young has validated its own
-          usefulness. The <Link href="/methodology/" className="text-signal underline underline-offset-4">methodology page</Link>{" "}
+          usefulness. The <Link href="/methodology/" className="text-exec-deep underline underline-offset-4">methodology page</Link>{" "}
           is deliberately the load-bearing one.
         </p>
       </Section>
 
       <Section eyebrow="Principles" title="Privacy">
-        <ul className="grid gap-px overflow-hidden rounded border border-line bg-line sm:grid-cols-2">
+        <ul className="grid gap-px overflow-hidden rounded border border-paper-line bg-paper-line sm:grid-cols-2">
           {[
             ["Professional artifacts only", "The project analyses repositories, papers, project domains and organisation records — what people build in public. It does not profile people."],
             ["No private identifiers", "No emails, no phone numbers, no precise locations, no personal biography. The export pipeline refuses to emit those fields, and tests enforce it."],
@@ -42,7 +42,7 @@ export default function About() {
             ["A small public surface", "The full research universe (267 identities, 102 repositories, 1,586 evidence records) never reaches this site. Only the material needed for the analyses shown here is exported, and a build test verifies the rest stayed home."],
             ["Descriptive, not judgmental", "Attention metrics appear only as description. No person on this site is scored, ranked or labelled a good or bad founder."],
           ].map(([t, d]) => (
-            <li key={t} className="bg-surface p-5">
+            <li key={t} className="bg-paper-card p-5">
               <h3 className="h3">{t}</h3>
               <p className="meta mt-2">{d}</p>
             </li>
@@ -51,9 +51,9 @@ export default function About() {
       </Section>
 
       <Section eyebrow="Disclosure" title="AI disclosure">
-        <div className="panel-raised max-w-prose border-l-4 border-l-trace/60 p-6">
+        <div className="panel-raised max-w-prose border-l-4 border-l-trace p-6">
           <p className="body">
-            <strong className="text-text">This project was built with substantial AI
+            <strong className="text-ink">This project was built with substantial AI
             assistance.</strong> Claude Code assisted with research organisation, software
             implementation, structured extraction from public sources, classification
             assistance, testing, debugging, experiment implementation, drafting and
@@ -73,7 +73,7 @@ export default function About() {
       </Section>
 
       <Section eyebrow="Disclaimer" title="Independence">
-        <p className="body max-w-prose border-l-2 border-line pl-5 text-[15px]">
+        <p className="body max-w-prose border-l-2 border-paper-line pl-5 text-[15px]">
           {DISCLAIMER}
         </p>
         <p className="meta mt-4 max-w-prose">
@@ -87,13 +87,13 @@ export default function About() {
         <div className="grid gap-4 lg:grid-cols-2">
           <div className="panel p-5">
             <p className="eyebrow">Architecture</p>
-            <div className="mono mt-3 grid gap-1 text-[12.5px] leading-relaxed text-dim">
+            <div className="mono mt-3 grid gap-1 text-[12.5px] leading-relaxed text-ink-dim">
               <span>Python research pipeline (canonical)</span>
-              <span className="text-faint">└─ frozen rules · evidence store · experiments</span>
+              <span className="text-ink-faint">└─ frozen rules · evidence store · experiments</span>
               <span>scripts/build_frontend_data.py</span>
-              <span className="text-faint">└─ validated public export · forbidden-key guard</span>
+              <span className="text-ink-faint">└─ validated public export · forbidden-key guard</span>
               <span>Next.js static export (this site)</span>
-              <span className="text-faint">└─ no runtime DB · no API · no auth · no AI calls</span>
+              <span className="text-ink-faint">└─ no runtime DB · no API · no auth · no AI calls</span>
             </div>
             <p className="meta mt-3 text-[13px]">
               Every research value on this site originates from the canonical export —
@@ -109,12 +109,12 @@ export default function About() {
               test suite that guards them. The Headroom experiment reruns from its
               committed protocol; the sourcing validations rerun against the frozen rules;
               the export regenerates deterministically. The commit hashes on the{" "}
-              <Link href="/methodology/" className="text-signal underline underline-offset-4">
+              <Link href="/methodology/" className="text-exec-deep underline underline-offset-4">
                 methodology page
               </Link>{" "}
               are the audit trail.
             </p>
-            <p className="mono mt-3 break-all text-[11px] text-faint">
+            <p className="mono mt-3 break-all text-[11px] text-ink-faint">
               export: {research.generatedFrom ?? "outputs/**"}
             </p>
           </div>

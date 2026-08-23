@@ -1,31 +1,33 @@
 "use client";
 
 import { useState } from "react";
+import { usePrefersReducedMotion } from "@/lib/motion";
 
 /**
- * Interactive trust-boundary comparison. Each architecture is a stack of layers
- * from the hostile workload down to hardware. Boundaries are drawn as named,
- * hatched bars — the mechanism is written on the boundary, because the mechanism
- * IS the security argument. Trust levels are labelled in text on every layer;
- * colour is only reinforcement.
+ * Interactive trust-boundary comparison.
  *
- * The full four-way comparison also exists as a server-rendered dimension table
- * on the page, so nothing here is the sole carrier of the information.
+ * Each architecture is a stack from the hostile workload down to the host
+ * kernel. Boundaries are drawn as named, hatched bars because the mechanism IS
+ * the security argument — "hardware virtualisation" and "Landlock + seccomp"
+ * are not decoration, they are the thing being compared.
+ *
+ * Switching architecture animates rather than swaps: the layers that persist
+ * keep their position and re-flow, so the reader sees WHERE the boundary moves
+ * (Firecracker gains a guest kernel above the boundary; gVisor interposes a
+ * userspace kernel; raw Landlock loses the supervisor). Every layer carries a
+ * text trust label, and the full comparison also exists as a server-rendered
+ * dimension table on the page — this diagram is never the sole carrier.
  */
 
 type Trust = "hostile" | "partial" | "trusted" | "contained";
 
-interface Layer { label: string; sub?: string; trust: Trust }
-interface Boundary { mechanism: string; strength: "kernel" | "hardware" | "userspace" }
-type Row = { kind: "layer"; layer: Layer } | { kind: "boundary"; boundary: Boundary };
+interface Layer { key: string; label: string; sub?: string; trust: Trust }
+interface Boundary { key: string; mechanism: string; strength: "kernel" | "hardware" | "userspace" }
+type Row = ({ kind: "layer" } & Layer) | ({ kind: "boundary" } & Boundary);
 
 interface Arch {
-  id: string;
-  name: string;
-  rows: Row[];
-  escape: string;
-  gains: string;
-  cost: string;
+  id: string; name: string; rows: Row[];
+  escape: string; gains: string; cost: string;
 }
 
 const ARCHS: Arch[] = [
@@ -33,10 +35,14 @@ const ARCHS: Arch[] = [
     id: "sandlock",
     name: "Sandlock",
     rows: [
-      { kind: "layer", layer: { label: "Agent workload", sub: "assumed hostile — never executes an unconfined instruction", trust: "hostile" } },
-      { kind: "boundary", boundary: { mechanism: "Landlock LSM + seccomp-bpf + seccomp user notification", strength: "kernel" } },
-      { kind: "layer", layer: { label: "Supervisor", sub: "partially trusted · userspace parent process · runtime decisions, CoW staging, credential injection", trust: "partial" } },
-      { kind: "layer", layer: { label: "Shared host kernel", sub: "fully trusted — “if the kernel is compromised, so is every guarantee”", trust: "trusted" } },
+      { kind: "layer", key: "work", label: "Agent workload", trust: "hostile",
+        sub: "assumed hostile — never executes an unconfined instruction" },
+      { kind: "boundary", key: "b", strength: "kernel",
+        mechanism: "Landlock LSM + seccomp-bpf + seccomp user notification" },
+      { kind: "layer", key: "sup", label: "Supervisor", trust: "partial",
+        sub: "partially trusted · userspace parent process · runtime decisions, CoW staging, credential injection" },
+      { kind: "layer", key: "host", label: "Shared host kernel", trust: "trusted",
+        sub: "fully trusted — “if the kernel is compromised, so is every guarantee”" },
     ],
     escape: "a kernel privilege-escalation bug in any syscall the policy permits",
     gains: "~5 ms start (project claim) · no root · no image · HTTP-level policy and supervisor-held credentials",
@@ -46,11 +52,14 @@ const ARCHS: Arch[] = [
     id: "firecracker",
     name: "Firecracker",
     rows: [
-      { kind: "layer", layer: { label: "Workload", sub: "assumed hostile", trust: "hostile" } },
-      { kind: "layer", layer: { label: "Guest kernel", sub: "separate kernel — its compromise is contained inside the VM", trust: "contained" } },
-      { kind: "boundary", boundary: { mechanism: "Hardware virtualisation — narrow virtio device surface", strength: "hardware" } },
-      { kind: "layer", layer: { label: "VMM + KVM", sub: "trusted · requires root / KVM access", trust: "partial" } },
-      { kind: "layer", layer: { label: "Host kernel", sub: "fully trusted", trust: "trusted" } },
+      { kind: "layer", key: "work", label: "Workload", trust: "hostile", sub: "assumed hostile" },
+      { kind: "layer", key: "guest", label: "Guest kernel", trust: "contained",
+        sub: "separate kernel — its compromise is contained inside the VM" },
+      { kind: "boundary", key: "b", strength: "hardware",
+        mechanism: "Hardware virtualisation — narrow virtio device surface" },
+      { kind: "layer", key: "sup", label: "VMM + KVM", trust: "partial",
+        sub: "trusted · requires root / KVM access" },
+      { kind: "layer", key: "host", label: "Host kernel", trust: "trusted", sub: "fully trusted" },
     ],
     escape: "a VMM or KVM bug — after first compromising the guest kernel",
     gains: "two boundaries: highest realistic security ceiling of the four",
@@ -60,10 +69,13 @@ const ARCHS: Arch[] = [
     id: "gvisor",
     name: "gVisor",
     rows: [
-      { kind: "layer", layer: { label: "Workload", sub: "assumed hostile", trust: "hostile" } },
-      { kind: "boundary", boundary: { mechanism: "Every syscall intercepted and re-serviced in userspace", strength: "userspace" } },
-      { kind: "layer", layer: { label: "Sentry — userspace kernel", sub: "reimplements the Linux syscall interface; presents a narrowed surface to the host", trust: "partial" } },
-      { kind: "layer", layer: { label: "Host kernel", sub: "fully trusted, but reached only through the Sentry", trust: "trusted" } },
+      { kind: "layer", key: "work", label: "Workload", trust: "hostile", sub: "assumed hostile" },
+      { kind: "boundary", key: "b", strength: "userspace",
+        mechanism: "Every syscall intercepted and re-serviced in userspace" },
+      { kind: "layer", key: "sup", label: "Sentry — userspace kernel", trust: "partial",
+        sub: "reimplements the Linux syscall interface; presents a narrowed surface to the host" },
+      { kind: "layer", key: "host", label: "Host kernel", trust: "trusted",
+        sub: "fully trusted, but reached only through the Sentry" },
     ],
     escape: "a Sentry bug, or a host-kernel bug reachable through it",
     gains: "host syscall surface shrunk to what the Sentry forwards",
@@ -73,9 +85,11 @@ const ARCHS: Arch[] = [
     id: "raw",
     name: "Raw Landlock / process isolation",
     rows: [
-      { kind: "layer", layer: { label: "Workload", sub: "assumed hostile", trust: "hostile" } },
-      { kind: "boundary", boundary: { mechanism: "Landlock + seccomp — the identical kernel primitives", strength: "kernel" } },
-      { kind: "layer", layer: { label: "Shared host kernel", sub: "fully trusted — same ceiling as Sandlock", trust: "trusted" } },
+      { kind: "layer", key: "work", label: "Workload", trust: "hostile", sub: "assumed hostile" },
+      { kind: "boundary", key: "b", strength: "kernel",
+        mechanism: "Landlock + seccomp — the identical kernel primitives" },
+      { kind: "layer", key: "host", label: "Shared host kernel", trust: "trusted",
+        sub: "fully trusted — same ceiling as Sandlock" },
     ],
     escape: "a kernel privilege-escalation bug — the identical ceiling to Sandlock",
     gains: "no dependency: the primitives are public kernel features anyone can call",
@@ -84,10 +98,10 @@ const ARCHS: Arch[] = [
 ];
 
 const TRUST_STYLE: Record<Trust, string> = {
-  hostile: "border-absent/50 bg-absent/10",
-  partial: "border-claim/40 bg-claim/5",
-  trusted: "border-line bg-raised",
-  contained: "border-trace/40 bg-trace/5",
+  hostile: "border-absent/45 bg-absent-pale",
+  partial: "border-claim/40 bg-claim-pale",
+  trusted: "border-paper-line bg-paper",
+  contained: "border-trace/35 bg-trace-pale",
 };
 
 const TRUST_TAG: Record<Trust, string> = {
@@ -97,35 +111,24 @@ const TRUST_TAG: Record<Trust, string> = {
   contained: "CONTAINED IF COMPROMISED",
 };
 
-function BoundaryBar({ b }: { b: Boundary }) {
-  const tone = b.strength === "hardware" ? "border-trace/60 text-trace"
-    : b.strength === "kernel" ? "border-signal/60 text-signal"
-    : "border-claim/60 text-claim";
-  return (
-    <div className={`relative border-y-2 border-dashed px-3 py-1.5 text-center ${tone}`}
-         role="presentation">
-      <span className="mono text-[11px] uppercase tracking-wider">
-        ▚ {b.mechanism} ▞
-      </span>
-    </div>
-  );
-}
+const BOUNDARY_TONE: Record<Boundary["strength"], string> = {
+  hardware: "border-trace/60 text-trace",
+  kernel: "border-exec/60 text-exec-deep",
+  userspace: "border-claim/60 text-claim",
+};
 
 export function BoundaryDiagram() {
+  const reduced = usePrefersReducedMotion();
   const [active, setActive] = useState("sandlock");
   const arch = ARCHS.find((a) => a.id === active) ?? ARCHS[0];
 
   return (
-    <div className="panel overflow-hidden">
-      <div className="flex flex-wrap gap-2 border-b border-line p-3 sm:p-4"
+    <div className="panel-raised overflow-hidden">
+      <div className="flex flex-wrap gap-2 border-b border-paper-line p-3 sm:p-4"
            role="group" aria-label="Choose an isolation architecture to inspect">
         {ARCHS.map((a) => (
           <button key={a.id} type="button" onClick={() => setActive(a.id)}
-            aria-pressed={a.id === active}
-            className={`rounded border px-3 py-1.5 text-[13px] transition-colors ${
-              a.id === active
-                ? "border-signal/60 bg-signal/10 text-signal"
-                : "border-line bg-raised text-dim hover:text-text"}`}>
+                  aria-pressed={a.id === active} className="ctl">
             {a.name}
           </button>
         ))}
@@ -133,25 +136,44 @@ export function BoundaryDiagram() {
 
       <div className="px-4 py-5 sm:px-6" aria-live="polite">
         <div className="mx-auto flex max-w-xl flex-col gap-1.5">
-          {arch.rows.map((row, i) =>
-            row.kind === "boundary" ? (
-              <BoundaryBar key={i} b={row.boundary} />
-            ) : (
-              <div key={i}
-                   className={`rounded border px-4 py-3 ${TRUST_STYLE[row.layer.trust]}`}>
+          {arch.rows.map((row, i) => {
+            /* Keying by `arch.id + key` re-mounts a layer only when it genuinely
+               changes role, so shared layers (workload, host kernel) transition
+               in place instead of flashing. */
+            const enter = reduced ? undefined : {
+              animation: `dz-layer-in 420ms cubic-bezier(.22,.61,.36,1) both`,
+              animationDelay: `${i * 55}ms`,
+            };
+            if (row.kind === "boundary") {
+              return (
+                <div key={`${arch.id}-${row.key}`} style={enter}
+                     className={`relative border-y-2 border-dashed px-3 py-1.5 text-center ${BOUNDARY_TONE[row.strength]}`}>
+                  <span className="mono text-[11px] uppercase tracking-wider">
+                    ▚ {row.mechanism} ▞
+                  </span>
+                  {!reduced && (
+                    <span aria-hidden="true"
+                          className="dz-boundary-scan pointer-events-none absolute inset-y-0 left-0 w-16" />
+                  )}
+                </div>
+              );
+            }
+            return (
+              <div key={`${arch.id}-${row.key}`} style={enter}
+                   className={`rounded border px-4 py-3 ${TRUST_STYLE[row.trust]}`}>
                 <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
-                  <span className="text-[14.5px] font-semibold text-text">{row.layer.label}</span>
-                  <span className="mono text-[10px] uppercase tracking-widest text-faint">
-                    {TRUST_TAG[row.layer.trust]}
+                  <span className="text-[14.5px] font-semibold text-ink">{row.label}</span>
+                  <span className="mono text-[10px] uppercase tracking-widest text-ink-faint">
+                    {TRUST_TAG[row.trust]}
                   </span>
                 </div>
-                {row.layer.sub ? <p className="meta mt-1 text-[12.5px]">{row.layer.sub}</p> : null}
+                {row.sub ? <p className="meta mt-1 text-[12.5px]">{row.sub}</p> : null}
               </div>
-            ),
-          )}
+            );
+          })}
         </div>
 
-        <dl className="mx-auto mt-5 grid max-w-xl gap-3 text-[13.5px] sm:grid-cols-1">
+        <dl className="mx-auto mt-5 grid max-w-xl gap-3 text-[13.5px]">
           <div className="trace-rule">
             <dt className="eyebrow">Escape requires</dt>
             <dd className="body mt-1">{arch.escape}</dd>

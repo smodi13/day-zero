@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Section } from "@/components/Chrome";
 import { Hash } from "@/components/Evidence";
 import { Reveal } from "@/components/Reveal";
+import { Timeline } from "@/components/Timeline";
 import { research } from "@/lib/research";
 
 export const metadata: Metadata = {
@@ -24,8 +25,8 @@ function Tally({ t, dimZero = false }: { t: Record<string, number>; dimZero?: bo
         return (
           <span key={k}
             className={`mono rounded border px-2 py-1 text-[11.5px] ${
-              v === 0 && dimZero ? "border-lineSoft text-faint" : "border-line text-dim"}`}>
-            <span className={v > 0 && k === "PASS" ? "text-signal" : v > 0 && k === "MISS" ? "text-absent" : "text-text"}>
+              v === 0 && dimZero ? "border-paper-line text-ink-faint" : "border-paper-line text-ink-dim"}`}>
+            <span className={v > 0 && k === "PASS" ? "text-exec-deep" : v > 0 && k === "MISS" ? "text-absent" : "text-ink"}>
               {v}
             </span>{" "}{k}
           </span>
@@ -36,14 +37,15 @@ function Tally({ t, dimZero = false }: { t: Record<string, number>; dimZero?: bo
 }
 
 const TIMELINE = [
-  { commit: "phase1", label: "Phase 1 — ontology, evidence philosophy, initial sourcing hypothesis", detail: "Signal ontology, evidence states, privacy rules, the no-score rule. No collection yet." },
-  { commit: "commit_a", label: "v1 rules frozen — before any validation ran", detail: "Eligibility, independence and convergence rules hashed into a frozen manifest." },
-  { commit: "commit_b", label: "v1 holdout run against the frozen rules", detail: "0 PASS / 2 PARTIAL / 4 MISS / 4 UNKNOWN. The failure is committed, not retried." },
-  { commit: "commit_c", label: "Headroom reproduction protocol pre-registered", detail: "Claims, thresholds, baselines and verdict rules hashed before any measurement." },
-  { commit: "commit_d", label: "v2 rules designed from the v1 diagnosis and frozen", detail: "Independence redefined as modalities + distinct events; stricter on four axes." },
-  { commit: "commit_e", label: "Reproduction + deep diligence executed", detail: "Headroom: PARTIALLY REPRODUCED. Sandlock: advance to founder conversation." },
-  { commit: "commit_f", label: "Unseen validation cohort frozen — before evidence retrieval", detail: "Nine cases selected deterministically from portfolio history v2 had never touched." },
-  { commit: "commit_g", label: "Unseen validation + identity audit run", detail: "2 PASS / 0 PARTIAL / 1 MISS / 6 UNKNOWN — and a new failure mode found." },
+  { commit: "phase1", kind: "lock" as const, label: "Phase 1 — ontology and evidence philosophy", detail: "Signal ontology, evidence states, privacy rules, the no-score rule. No collection yet." },
+  { commit: "commit_a", kind: "lock" as const, label: "v1 rules frozen — before any validation ran", detail: "Eligibility, independence and convergence rules hashed into a frozen manifest." },
+  { commit: "commit_b", kind: "failure" as const, label: "v1 holdout run against the frozen rules", detail: "0 PASS / 2 PARTIAL / 4 MISS / 4 UNKNOWN. The failure is committed, not retried." },
+  { commit: "commit_c", kind: "lock" as const, label: "Headroom reproduction protocol pre-registered", detail: "Claims, thresholds, baselines and verdict rules hashed before any measurement." },
+  { commit: "commit_d", kind: "lock" as const, label: "v2 rules designed from the v1 diagnosis and frozen", detail: "Independence redefined as modalities + distinct events; stricter on four axes." },
+  { commit: "commit_e", kind: "result" as const, label: "Reproduction + deep diligence executed", detail: "Headroom: PARTIALLY REPRODUCED. Sandlock: advance to founder conversation." },
+  { commit: "commit_f", kind: "lock" as const, label: "Unseen validation cohort frozen — before evidence retrieval", detail: "Nine cases selected deterministically from portfolio history v2 had never touched." },
+  { commit: "commit_g", kind: "result" as const, label: "Unseen validation + identity audit run", detail: "2 PASS / 0 PARTIAL / 1 MISS / 6 UNKNOWN — v2's repair holds on cases it never saw." },
+  { commit: "commit_g", kind: "failure" as const, label: "What broke next — Perspective AI", detail: "One of those two passes came from a marketing repository. The gate checks independence, not technical depth. Left unpatched, and published as a limitation." },
 ] as const;
 
 export default function Methodology() {
@@ -56,7 +58,7 @@ export default function Methodology() {
           rules would have surfaced known Array portfolio companies from public evidence
           available before their announcement dates. Every case is a company with a known
           outcome, so hindsight bias is structural.{" "}
-          <strong className="text-text">None of these figures is investment performance,
+          <strong className="text-ink">None of these figures is investment performance,
           precision, recall, or a win rate</strong> — and the three runs below are not
           comparable to each other as performance, because each answers a different
           question.
@@ -73,7 +75,7 @@ export default function Methodology() {
               <Tally t={m.v1.tally} />
               <p className="meta mt-3">
                 Ten historical cases; the rules had never seen any of them.{" "}
-                <strong className="text-dim">Zero passes.</strong> The diagnosis: v1 defined
+                <strong className="text-ink-dim">Zero passes.</strong> The diagnosis: v1 defined
                 independence as <em>different hostnames</em>, so a builder whose entire
                 verifiable life is on GitHub — organisation creation, sustained construction,
                 collaborators, releases — collapsed into “one source” and could never
@@ -95,7 +97,7 @@ export default function Methodology() {
             </div>
           </Reveal>
           <Reveal delay={120}>
-            <div className="panel h-full border-l-2 border-l-signalDim p-5">
+            <div className="panel h-full border-l-2 border-l-exec p-5">
               <p className="eyebrow">Phase 4A · v2 · UNSEEN COHORT</p>
               <h3 className="h3 mt-2">The real test</h3>
               <Tally t={m.unseen.tally} />
@@ -122,11 +124,11 @@ export default function Methodology() {
               collaborators in 2026 all counted as <em>one</em> channel — while a repo plus
               a tweet about the repo counted as two.
             </p>
-            <p className="mono mt-4 break-all text-[11px] text-faint">
+            <p className="mono mt-4 break-all text-[11px] text-ink-faint">
               v1 {r.hashes.v1Frozen}
             </p>
           </div>
-          <div className="panel border-l-2 border-l-signalDim p-5">
+          <div className="panel border-l-2 border-l-exec p-5">
             <p className="eyebrow">v2 · independence = modalities + events</p>
             <p className="body mt-2 text-[14.5px]">
               Independence became <em>evidence modalities</em> (construction, formation,
@@ -134,16 +136,16 @@ export default function Methodology() {
               tightening four other axes at once: a minimum modality count, a minimum event
               count, mandatory construction evidence, and mandatory temporal spread.
             </p>
-            <p className="mono mt-4 break-all text-[11px] text-faint">
+            <p className="mono mt-4 break-all text-[11px] text-ink-faint">
               v2 {r.hashes.v2Rules}
             </p>
           </div>
         </div>
         <p className="body mt-5 max-w-prose">
-          The check that keeps the repair honest: <strong className="text-text">negative
+          The check that keeps the repair honest: <strong className="text-ink">negative
           controls</strong>. All {m.negativeControls.v2Controls.length} v1-rejected control
           repositories — curated lists, hype repos, thin wrappers — were re-run under v2.{" "}
-          <span className="mono text-text">{m.negativeControls.v2Regressions}</span> were
+          <span className="mono text-ink">{m.negativeControls.v2Regressions}</span> were
           incorrectly promoted. Loosening that let junk through would have been a worse
           failure than the one being fixed.
         </p>
@@ -152,10 +154,10 @@ export default function Methodology() {
       {/* ── UNSEEN VALIDATION ────────────────────────────────────────────── */}
       <Section eyebrow="Phase 4A" title="The unseen test"
         lead="Nine eligible portfolio companies v2 had never seen, ordered by a deterministic rule — SHA-256 of the v2 rule hash joined with the case ID, sorted ascending — frozen in a commit, and only then researched. Binding the ordering to the v2 hash means it could not be chosen after the fact without visibly changing v2 itself. Case-by-case:">
-        <div className="scroll-x rounded border border-line">
+        <div className="scroll-x rounded border border-paper-line">
           <table className="text-[13px]">
             <thead>
-              <tr className="border-b border-line bg-raised">
+              <tr className="border-b border-paper-line bg-paper">
                 <th className="px-4 py-2.5">Case</th>
                 <th className="px-4 py-2.5">Company</th>
                 <th className="px-4 py-2.5">Cutoff</th>
@@ -168,15 +170,15 @@ export default function Methodology() {
                   verdict: string; reason: string; modalities?: string[] }[])]
                 .sort((a, b) => a.case_id.localeCompare(b.case_id))
                 .map((c) => (
-                <tr key={c.case_id} className="border-b border-lineSoft align-top last:border-b-0">
-                  <td className="mono px-4 py-2.5 text-faint">{c.case_id}</td>
-                  <td className="px-4 py-2.5 font-semibold text-text">{c.company}</td>
-                  <td className="mono whitespace-nowrap px-4 py-2.5 text-dim">{c.cutoff_date}</td>
+                <tr key={c.case_id} className="border-b border-paper-line align-top last:border-b-0">
+                  <td className="mono px-4 py-2.5 text-ink-faint">{c.case_id}</td>
+                  <td className="px-4 py-2.5 font-semibold text-ink">{c.company}</td>
+                  <td className="mono whitespace-nowrap px-4 py-2.5 text-ink-dim">{c.cutoff_date}</td>
                   <td className={`mono whitespace-nowrap px-4 py-2.5 text-[11.5px] ${
-                    c.verdict === "PASS" ? "text-signal" : c.verdict === "MISS" ? "text-absent" : "text-unknown"}`}>
+                    c.verdict === "PASS" ? "text-exec-deep" : c.verdict === "MISS" ? "text-absent" : "text-unknown"}`}>
                     {c.verdict === "PASS" ? "● " : c.verdict === "MISS" ? "✕ " : "○ "}{c.verdict}
                   </td>
-                  <td className="px-4 py-2.5 text-dim">{c.reason}</td>
+                  <td className="px-4 py-2.5 text-ink-dim">{c.reason}</td>
                 </tr>
               ))}
             </tbody>
@@ -199,7 +201,7 @@ export default function Methodology() {
             <p className="eyebrow">Perspective AI · U01 · PASS — and that is the problem</p>
             <p className="body mt-3 max-w-prose">
               Perspective AI passed the v2 convergence gate on a{" "}
-              <strong className="text-text">marketing/content repository</strong> — SCSS, no
+              <strong className="text-ink">marketing/content repository</strong> — SCSS, no
               licence, no meaningful engineering surface. Every convergence check was
               legitimately satisfied: the evidence was independent, multi-modal, temporally
               spread, and included construction events. The pass is valid under the frozen
@@ -212,7 +214,7 @@ export default function Methodology() {
               wired into this gate.
             </p>
             <p className="body mt-3 max-w-prose">
-              <strong className="text-text">The rule was not changed after seeing the
+              <strong className="text-ink">The rule was not changed after seeing the
               result.</strong> A technical-depth eligibility requirement at the convergence
               gate is the leading candidate for a future v3 — and no v3 has been designed,
               frozen or validated, so none is claimed. The weakness stands in the record
@@ -225,25 +227,17 @@ export default function Methodology() {
       {/* ── GIT TIMELINE ─────────────────────────────────────────────────── */}
       <Section eyebrow="Proof" title="The commit history is the argument"
         lead="Freeze-before-measure only means something if the ordering is verifiable. Every step below is a real commit in the repository, in this order.">
-        <ol className="grid gap-0">
-          {TIMELINE.map((t, i) => (
-            <li key={t.commit} className="relative flex gap-4 pb-6 last:pb-0">
-              <div className="flex flex-col items-center">
-                <span className={`mt-1 h-2.5 w-2.5 shrink-0 rounded-full border-2 ${
-                  i === 1 || i === 3 || i === 6 ? "border-signal bg-signal/20" : "border-line bg-raised"}`}
-                  aria-hidden="true" />
-                {i < TIMELINE.length - 1 && <span className="w-px flex-1 bg-line" aria-hidden="true" />}
-              </div>
-              <div className="min-w-0 pb-1">
-                <p className="text-[14px] font-semibold text-text">{t.label}</p>
-                <p className="meta mt-1 text-[13px]">{t.detail}</p>
-                <p className="mono mt-1.5 break-all text-[11px] text-faint">
-                  {r.commits[t.commit] ?? "—"}
-                </p>
-              </div>
-            </li>
-          ))}
-        </ol>
+        <Timeline steps={TIMELINE.map((t) => ({
+          kind: t.kind, label: t.label, detail: t.detail,
+          hash: r.commits[t.commit] ?? undefined,
+        }))} />
+        <p className="meta mt-6 max-w-prose">
+          Read the sequence as pairs: a <span className="mono">locked</span> node is a rule
+          set or a cohort, hashed and committed; the node under it is what happened when
+          that frozen thing was run. The hash always comes first — that ordering is the
+          entire epistemic claim, and it is checkable with{" "}
+          <span className="mono">git log</span> rather than taken on trust.
+        </p>
         <div className="panel mt-6 p-5">
           <p className="eyebrow">The three hashes that matter</p>
           <div className="mt-3 grid gap-2 text-[13px]">
@@ -259,7 +253,7 @@ export default function Methodology() {
         <div className="grid gap-3 lg:grid-cols-2">
           <div className="panel p-5">
             <p className="eyebrow">Human analyst active time</p>
-            <p className="mono mt-2 text-lg text-text">NOT_MEASURED</p>
+            <p className="mono mt-2 text-lg text-ink">NOT_MEASURED</p>
             <p className="meta mt-2 text-[13px]">
               No human ran the review timer during Phase 4, so no number is reported.
               Claude Code and tool wall-clock time is machine time, and it is never
@@ -277,7 +271,7 @@ export default function Methodology() {
               not survive as a finished system — the Perspective AI gap and the six
               identity-unresolvable cases bound what it can currently claim. Both statements
               belong in the record; see also{" "}
-              <Link href="/signals/" className="text-signal underline underline-offset-4">
+              <Link href="/signals/" className="text-exec-deep underline underline-offset-4">
                 the identity audit
               </Link>{" "}
               for the assumption Phase 4 revised.

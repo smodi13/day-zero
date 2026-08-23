@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Section } from "@/components/Chrome";
 import { BoundaryDiagram } from "@/components/BoundaryDiagram";
+import { SemanticPolicy } from "@/components/SemanticPolicy";
 import { EvidenceBadge, Verdict, type EvidenceState } from "@/components/Evidence";
 import { Reveal } from "@/components/Reveal";
 import { SourceLedger, SRef } from "@/components/Sources";
@@ -58,7 +59,7 @@ export default function Sandlock() {
       <Section eyebrow="Diligence · multikernel/sandlock" title="Sandlock">
         <Verdict label={s.recommendation.replaceAll("_", " ")} kind="signal"
           sub={<>
-            <strong className="text-text">{s.financingWording}</strong>{" "}
+            <strong className="text-ink">{s.financingWording}</strong>{" "}
             <EvidenceBadge state="NOT_FOUND" /> That is a statement about what is public —
             not a claim that the company is bootstrapped, which would require evidence this
             research does not have. <em>Invest</em> is deliberately absent from the verdict
@@ -108,7 +109,7 @@ export default function Sandlock() {
         </p>
 
         <H3>The organising idea</H3>
-        <blockquote className="panel-raised mt-3 max-w-prose border-l-2 border-l-signal px-5 py-4">
+        <blockquote className="panel-raised mt-3 max-w-prose border-l-2 border-l-exec px-5 py-4">
           <p className="body italic">
             “Static, input-independent policy is compiled into kernel-enforced rules, while
             a narrow supervisor handles runtime-dependent decisions and virtualized
@@ -159,31 +160,31 @@ export default function Sandlock() {
         lead="Published at sandlock.io/security.html, and unusually direct — its opening line: “A sandbox is only useful if you know its edges.”">
         <div className="grid gap-4 lg:grid-cols-2">
           <div className="panel overflow-hidden">
-            <p className="eyebrow border-b border-line px-5 py-3">
+            <p className="eyebrow border-b border-paper-line px-5 py-3">
               In scope — what it claims to stop <SRef id="S6" />
             </p>
             <ul>
               {IN_SCOPE.map(([t, d]) => (
-                <li key={t} className="border-b border-lineSoft px-5 py-3 last:border-b-0">
-                  <p className="text-[13.5px] font-semibold text-text">{t}</p>
+                <li key={t} className="border-b border-paper-line px-5 py-3 last:border-b-0">
+                  <p className="text-[13.5px] font-semibold text-ink">{t}</p>
                   <p className="meta mt-0.5 text-[12.5px]">{d}</p>
                 </li>
               ))}
             </ul>
           </div>
           <div className="panel overflow-hidden">
-            <p className="eyebrow border-b border-line px-5 py-3">
+            <p className="eyebrow border-b border-paper-line px-5 py-3">
               Explicitly out of scope <SRef id="S6" />
             </p>
             <ul>
               {OUT_OF_SCOPE.map(([t, d]) => (
-                <li key={t} className="border-b border-lineSoft px-5 py-3 last:border-b-0">
-                  <p className="text-[13.5px] font-semibold text-text">{t}</p>
+                <li key={t} className="border-b border-paper-line px-5 py-3 last:border-b-0">
+                  <p className="text-[13.5px] font-semibold text-ink">{t}</p>
                   <p className="meta mt-0.5 text-[12.5px]">{d}</p>
                 </li>
               ))}
             </ul>
-            <p className="meta border-t border-line px-5 py-3 text-[12.5px]">
+            <p className="meta border-t border-paper-line px-5 py-3 text-[12.5px]">
               The most important exclusion is the first, and it is not close. Side channels
               are physics and over-broad policy is operator error — kernel escape is the one
               exclusion <em>inherent to the architecture</em>, and it cannot be engineered
@@ -193,10 +194,10 @@ export default function Sandlock() {
         </div>
 
         <H3>What a hostile workload actually does</H3>
-        <div className="scroll-x mt-3 rounded border border-line">
+        <div className="scroll-x mt-3 rounded border border-paper-line">
           <table className="text-[13px]">
             <thead>
-              <tr className="border-b border-line bg-raised">
+              <tr className="border-b border-paper-line bg-paper">
                 <th className="px-4 py-2.5">Scenario</th>
                 <th className="px-4 py-2.5">Outcome</th>
                 <th className="px-4 py-2.5">Mechanism / caveat</th>
@@ -204,13 +205,13 @@ export default function Sandlock() {
             </thead>
             <tbody>
               {SCENARIOS.map(([sc, out, note]) => (
-                <tr key={sc} className="border-b border-lineSoft last:border-b-0">
-                  <td className="px-4 py-2.5 text-dim">{sc}</td>
+                <tr key={sc} className="border-b border-paper-line last:border-b-0">
+                  <td className="px-4 py-2.5 text-ink-dim">{sc}</td>
                   <td className={`mono whitespace-nowrap px-4 py-2.5 text-[11.5px] ${
-                    out.startsWith("BLOCKED") ? "text-signal" : "text-absent"}`}>
+                    out.startsWith("BLOCKED") ? "text-exec-deep" : "text-absent"}`}>
                     {out.startsWith("BLOCKED") ? "● " : "✕ "}{out}
                   </td>
-                  <td className="px-4 py-2.5 text-dim">{note}</td>
+                  <td className="px-4 py-2.5 text-ink-dim">{note}</td>
                 </tr>
               ))}
             </tbody>
@@ -221,36 +222,11 @@ export default function Sandlock() {
       {/* ── THE CORE INSIGHT ─────────────────────────────────────────────── */}
       <Section eyebrow="05" title="The question a VM boundary cannot answer">
         <Reveal>
-          <div className="grid gap-px overflow-hidden rounded border border-line bg-line lg:grid-cols-2">
-            <div className="bg-surface p-6">
-              <p className="eyebrow">Traditional isolation asks</p>
-              <p className="mt-3 text-xl font-semibold tracking-tight text-dim">
-                “Can this process access that resource?”
-              </p>
-              <p className="meta mt-3">
-                Namespaces, microVMs and userspace kernels all answer this — some with a
-                very high ceiling. It is a binary, structural question.
-              </p>
-            </div>
-            <div className="bg-surface p-6">
-              <p className="eyebrow">Agent security also asks</p>
-              <p className="mt-3 text-xl font-semibold tracking-tight text-text">
-                “Should this <em className="text-signal">legitimate</em> agent use this{" "}
-                <em className="text-signal">legitimate</em> credential for this{" "}
-                <em className="text-signal">legitimate</em> operation, against this
-                destination, <em className="text-signal">right now</em>?”
-              </p>
-              <p className="meta mt-3">
-                A prompt-injected agent does not exploit a memory bug. It makes a correct
-                API call with a real credential to the wrong place. No VM boundary answers
-                that question — it is not a boundary question at all.
-              </p>
-            </div>
-          </div>
+          <SemanticPolicy />
         </Reveal>
         <p className="body mt-5 max-w-prose">
           This is why the interesting layer of Sandlock is not the sandbox. It is the{" "}
-          <strong className="text-text">semantic execution policy</strong>: an HTTP ACL on
+          <strong className="text-ink">semantic execution policy</strong>: an HTTP ACL on
           method/host/path, a credential the child process can use but never read, and
           transactional writes that make a failed run leave no trace. The syscall
           confinement underneath is competent; the policy layer is the part a competitor
@@ -261,10 +237,10 @@ export default function Sandlock() {
       {/* ── COMPARISON TABLE ─────────────────────────────────────────────── */}
       <Section eyebrow="06" title="Against the alternatives, dimension by dimension"
         lead="No aggregate score, deliberately. Isolation boundary, kernel relationship, startup model, trust assumptions and operational burden are different axes, and collapsing them into one number would hide the trade each architecture makes.">
-        <div className="scroll-x rounded border border-line">
+        <div className="scroll-x rounded border border-paper-line">
           <table className="text-[12.5px]">
             <thead>
-              <tr className="border-b border-line bg-raised">
+              <tr className="border-b border-paper-line bg-paper">
                 <th className="px-3 py-2.5">Alternative</th>
                 <th className="px-3 py-2.5">Isolation boundary</th>
                 <th className="px-3 py-2.5">Kernel</th>
@@ -277,15 +253,15 @@ export default function Sandlock() {
             </thead>
             <tbody>
               {s.competitors.map((c) => (
-                <tr key={c.name} className="border-b border-lineSoft align-top last:border-b-0">
-                  <td className="whitespace-nowrap px-3 py-2.5 font-semibold text-text">{c.name}</td>
-                  <td className="px-3 py-2.5 text-dim">{c.isolation_boundary}</td>
-                  <td className="px-3 py-2.5 text-dim">{c.kernel}</td>
-                  <td className="mono whitespace-nowrap px-3 py-2.5 text-dim">{c.startup ?? "—"}</td>
-                  <td className="px-3 py-2.5 text-dim">{String(c.root_required ?? "—")}</td>
-                  <td className="px-3 py-2.5 text-dim">{c.escape_requires ?? "—"}</td>
-                  <td className="px-3 py-2.5 text-dim">{c.security_ceiling ?? "—"}</td>
-                  <td className="px-3 py-2.5 text-dim">{c.sandlock_difference}</td>
+                <tr key={c.name} className="border-b border-paper-line align-top last:border-b-0">
+                  <td className="whitespace-nowrap px-3 py-2.5 font-semibold text-ink">{c.name}</td>
+                  <td className="px-3 py-2.5 text-ink-dim">{c.isolation_boundary}</td>
+                  <td className="px-3 py-2.5 text-ink-dim">{c.kernel}</td>
+                  <td className="mono whitespace-nowrap px-3 py-2.5 text-ink-dim">{c.startup ?? "—"}</td>
+                  <td className="px-3 py-2.5 text-ink-dim">{String(c.root_required ?? "—")}</td>
+                  <td className="px-3 py-2.5 text-ink-dim">{c.escape_requires ?? "—"}</td>
+                  <td className="px-3 py-2.5 text-ink-dim">{c.security_ceiling ?? "—"}</td>
+                  <td className="px-3 py-2.5 text-ink-dim">{c.sandlock_difference}</td>
                 </tr>
               ))}
             </tbody>
@@ -305,7 +281,7 @@ export default function Sandlock() {
       <Section eyebrow="07" title="The trade, stated plainly"
         lead="The shared kernel is not a footnote. It is the price of everything Sandlock gains, and the project prices it honestly.">
         <div className="grid gap-4 lg:grid-cols-2">
-          <div className="panel border-l-2 border-l-signalDim p-5">
+          <div className="panel border-l-2 border-l-exec p-5">
             <p className="eyebrow">Sandlock gains</p>
             <ul className="mt-3 grid gap-2">
               {["~5 ms claimed startup and no VM image — the isolation layer stops being the dominant cost at agent volumes",
@@ -315,12 +291,12 @@ export default function Sandlock() {
                 "fail-closed by default, with named, auditable, per-protection opt-outs",
               ].map((t) => (
                 <li key={t} className="body flex gap-2 text-[14px]">
-                  <span aria-hidden="true" className="mt-0.5 text-signal">+</span>{t}
+                  <span aria-hidden="true" className="mt-0.5 text-exec-deep">+</span>{t}
                 </li>
               ))}
             </ul>
           </div>
-          <div className="panel border-l-2 border-l-absent/60 p-5">
+          <div className="panel border-l-2 border-l-absent p-5">
             <p className="eyebrow">Sandlock gives up</p>
             <ul className="mt-3 grid gap-2">
               {["a separate guest kernel — a kernel LPE in any permitted syscall defeats it, stated plainly by the project itself",
@@ -343,22 +319,22 @@ export default function Sandlock() {
         lead="Commit count is not the evidence. The shape is: sustained cadence, proportionate tests, a real review process, multi-architecture work, and a monthly release train.">
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           <div className="panel px-4 py-3">
-            <div className="font-mono text-lg text-text">{s.construction.human_contributors}</div>
+            <div className="font-mono text-lg text-ink">{s.construction.human_contributors}</div>
             <div className="eyebrow mt-1">Human contributors</div>
             <div className="meta mt-1 text-[12px]">top contributor {s.construction.top_contributions} commits <SRef id="S9" /></div>
           </div>
           <div className="panel px-4 py-3">
-            <div className="font-mono text-lg text-text">3.3 MB</div>
+            <div className="font-mono text-lg text-ink">3.3 MB</div>
             <div className="eyebrow mt-1">Rust</div>
             <div className="meta mt-1 text-[12px]">+ 503 KB Python, 75 KB Go SDKs <SRef id="S15" /></div>
           </div>
           <div className="panel px-4 py-3">
-            <div className="font-mono text-lg text-text">{s.construction.releases.length} releases</div>
+            <div className="font-mono text-lg text-ink">{s.construction.releases.length} releases</div>
             <div className="eyebrow mt-1">In 3 months</div>
             <div className="meta mt-1 text-[12px]">{s.construction.releases[0].split(" ")[0]} → {s.construction.releases.at(-1)!.split(" ")[0]} <SRef id="S11" /></div>
           </div>
           <div className="panel px-4 py-3">
-            <div className="font-mono text-lg text-text">{s.construction.architectures.join(" ")}</div>
+            <div className="font-mono text-lg text-ink">{s.construction.architectures.join(" ")}</div>
             <div className="eyebrow mt-1">Architectures</div>
             <div className="meta mt-1 text-[12px]">active PR review with named blockers <SRef id="S12" /></div>
           </div>
@@ -368,11 +344,11 @@ export default function Sandlock() {
           <div className="mt-3 flex h-16 items-end gap-1.5" role="img"
                aria-label={`Weekly commits over the last twelve weeks: ${s.construction.weekly_commits_last_12.join(", ")}`}>
             {s.construction.weekly_commits_last_12.map((v, i) => (
-              <div key={i} className="flex-1 rounded-sm bg-signalDim"
+              <div key={i} className="flex-1 rounded-sm bg-exec"
                    style={{ height: `${Math.max(6, (v / 89) * 100)}%` }} title={`${v} commits`} />
             ))}
           </div>
-          <p className="mono mt-2 text-[11px] text-faint">
+          <p className="mono mt-2 text-[11px] text-ink-faint">
             {s.construction.weekly_commits_last_12.join(" · ")} — sustained, not bursty
           </p>
         </div>
@@ -390,10 +366,10 @@ export default function Sandlock() {
       {/* ── CLAIMS LEDGER ────────────────────────────────────────────────── */}
       <Section eyebrow="09" title="Claims ledger — performance, security, commercial"
         lead="Every material claim, with its evidence state. A project's own benchmark is authoritative that the project claims the number — never that the number is true.">
-        <div className="scroll-x rounded border border-line">
+        <div className="scroll-x rounded border border-paper-line">
           <table className="text-[13px]">
             <thead>
-              <tr className="border-b border-line bg-raised">
+              <tr className="border-b border-paper-line bg-paper">
                 <th className="px-4 py-2.5">ID</th>
                 <th className="px-4 py-2.5">Claim</th>
                 <th className="px-4 py-2.5">State</th>
@@ -402,15 +378,15 @@ export default function Sandlock() {
             </thead>
             <tbody>
               {s.claims.map((c) => (
-                <tr key={c.id} className="border-b border-lineSoft align-top last:border-b-0">
-                  <td className="mono whitespace-nowrap px-4 py-2.5 text-faint">{c.id}</td>
-                  <td className="px-4 py-2.5 text-text">{c.claim}</td>
+                <tr key={c.id} className="border-b border-paper-line align-top last:border-b-0">
+                  <td className="mono whitespace-nowrap px-4 py-2.5 text-ink-faint">{c.id}</td>
+                  <td className="px-4 py-2.5 text-ink">{c.claim}</td>
                   <td className="whitespace-nowrap px-4 py-2.5">
                     <EvidenceBadge state={c.status as EvidenceState} />
                   </td>
-                  <td className="px-4 py-2.5 text-dim">
+                  <td className="px-4 py-2.5 text-ink-dim">
                     {c.note ? <>{c.note}. </> : null}
-                    <span className="mono text-[11.5px] text-faint">{c.source}</span>
+                    <span className="mono text-[11.5px] text-ink-faint">{c.source}</span>
                   </td>
                 </tr>
               ))}
@@ -425,7 +401,7 @@ export default function Sandlock() {
           and nothing on this page treats them as verified.
         </p>
         <p className="body mt-4 max-w-prose">
-          <strong className="text-text">The biggest gap in the record:</strong>{" "}
+          <strong className="text-ink">The biggest gap in the record:</strong>{" "}
           {s.biggestRisk} For a security product, <em>survived adversarial contact</em> is
           the evidence that matters most, and it is absent from public sources. Absence of
           an audit is not evidence of weakness — it is absence of evidence, in the category
@@ -473,16 +449,16 @@ export default function Sandlock() {
           ].map(([t, repos, note]) => (
             <div key={t} className="panel p-5">
               <p className="eyebrow">{t}</p>
-              <p className="mono mt-2 text-[12px] leading-relaxed text-dim">{repos}</p>
+              <p className="mono mt-2 text-[12px] leading-relaxed text-ink-dim">{repos}</p>
               <p className="meta mt-3 text-[12.5px]">{note}</p>
             </div>
           ))}
         </div>
-        <p className="mono mt-3 text-[11.5px] text-faint">Source: org repository listing <SRef id="S13" /></p>
+        <p className="mono mt-3 text-[11.5px] text-ink-faint">Source: org repository listing <SRef id="S13" /></p>
 
         <H3>The AgentSight relationship — stated precisely</H3>
         <div className="mt-3 grid gap-3 lg:grid-cols-2">
-          <div className="panel border-l-2 border-l-signalDim p-5">
+          <div className="panel border-l-2 border-l-exec p-5">
             <p className="eyebrow">Established</p>
             <p className="body mt-2 text-[14px]">{s.agentsight.established} <SRef id="S5" /> <SRef id="S17" /></p>
           </div>
@@ -505,7 +481,7 @@ export default function Sandlock() {
             ["Not a moat", s.defensibility.not_a_moat, "absent"],
           ] as const).map(([t, items, tone]) => (
             <div key={t} className={`panel h-full border-t-2 p-5 ${
-              tone === "signal" ? "border-t-signalDim" : tone === "claim" ? "border-t-claim/50" : "border-t-absent/50"}`}>
+              tone === "signal" ? "border-t-exec" : tone === "claim" ? "border-t-claim" : "border-t-absent"}`}>
               <p className="eyebrow">{t}</p>
               <ul className="mt-3 grid gap-2">
                 {items.map((it) => <li key={it} className="body text-[13.5px]">{it}</li>)}
@@ -518,7 +494,7 @@ export default function Sandlock() {
           twelve months with two or three engineers who genuinely understand seccomp
           notification. What stays hard: the CoW correctness surface, the TOCTOU discipline,
           and the kernel-maintainer judgement about which primitives will exist in two
-          years. <strong className="text-text">That is a real head start and a thin moat,
+          years. <strong className="text-ink">That is a real head start and a thin moat,
           and both statements are true at once.</strong>
         </p>
       </Section>
@@ -537,7 +513,7 @@ export default function Sandlock() {
             "Sandlock is Apache-2.0 and your site says “what is open, what is licensed.” Where is that line, and what stops a cloud provider from running the open core as a service?",
           ].map((q, i) => (
             <li key={i} className="panel flex gap-4 p-4">
-              <span className="mono pt-0.5 text-faint">{String(i + 1).padStart(2, "0")}</span>
+              <span className="mono pt-0.5 text-ink-faint">{String(i + 1).padStart(2, "0")}</span>
               <p className="body text-[14.5px]">{q}</p>
             </li>
           ))}
@@ -552,7 +528,7 @@ export default function Sandlock() {
       {/* ── WHAT CHANGES THE VIEW ────────────────────────────────────────── */}
       <Section eyebrow="14" title="What would change this view">
         <div className="grid gap-4 lg:grid-cols-2">
-          <div className="panel border-l-2 border-l-signalDim p-5">
+          <div className="panel border-l-2 border-l-exec p-5">
             <p className="eyebrow">Upgrade</p>
             <p className="body mt-2 text-[14px]">
               An independent audit or a real adversarial engagement with a published
@@ -562,7 +538,7 @@ export default function Sandlock() {
               senior systems engineer with material ownership.
             </p>
           </div>
-          <div className="panel border-l-2 border-l-absent/60 p-5">
+          <div className="panel border-l-2 border-l-absent p-5">
             <p className="eyebrow">Downgrade</p>
             <p className="body mt-2 text-[14px]">
               An escape that does not require a kernel bug; “nobody has tried to break it”;
@@ -575,11 +551,11 @@ export default function Sandlock() {
         </div>
         <p className="meta mt-5 max-w-prose">
           Related on this site: how the same system{" "}
-          <Link href="/lab/headroom/" className="text-signal underline underline-offset-4">
+          <Link href="/lab/headroom/" className="text-exec-deep underline underline-offset-4">
             pressure-tests a quantitative claim
           </Link>{" "}
           when reproduction <em>is</em> feasible, and{" "}
-          <Link href="/methodology/" className="text-signal underline underline-offset-4">
+          <Link href="/methodology/" className="text-exec-deep underline underline-offset-4">
             what happens when its own rules fail
           </Link>.
         </p>

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Section } from "@/components/Chrome";
 import { Stat } from "@/components/Evidence";
 import { Reveal } from "@/components/Reveal";
+import { AttentionConstruction, IdentityStates } from "@/components/SignalViz";
 import { research } from "@/lib/research";
 
 export const metadata: Metadata = {
@@ -27,8 +28,8 @@ const CHANNEL_NOTES: Record<string, { label: string; role: string; state: string
 
 function pctBar(pct: number) {
   return (
-    <div className="mt-2 h-2 overflow-hidden rounded-full bg-lineSoft" role="presentation">
-      <div className="h-full rounded-full bg-signalDim" style={{ width: `${pct}%` }} />
+    <div className="mt-2 h-2 overflow-hidden rounded-full bg-paper-soft ring-1 ring-paper-line" role="presentation">
+      <div className="h-full rounded-full bg-exec" style={{ width: `${pct}%` }} />
     </div>
   );
 }
@@ -41,28 +42,28 @@ export default function Signals() {
     <>
       <Section eyebrow="Inputs" title="What actually feeds DAY ZERO"
         lead="The honest description is GitHub-led discovery with multi-modal evidence — not “multi-channel sourcing”. One channel discovers; the others corroborate. Overstating that would be exactly the kind of claim this project exists to test.">
-        <div className="grid gap-px overflow-hidden rounded border border-line bg-line md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-px overflow-hidden rounded border border-paper-line bg-paper-line md:grid-cols-2 lg:grid-cols-3">
           {order.map((id) => {
             const ch = sig.channels.find((c) => c.channel === id);
             const meta = CHANNEL_NOTES[id];
             if (!ch || !meta) return null;
             const live = String(meta.state).startsWith("LIVE");
             return (
-              <div key={id} className="bg-surface p-5">
+              <div key={id} className="bg-paper-card p-5">
                 <div className="flex items-baseline justify-between gap-3">
                   <h3 className="h3">{meta.label}</h3>
                   <span className={`mono text-[10px] uppercase tracking-widest ${
-                    live ? "text-signal" : "text-faint"}`}>
+                    live ? "text-exec-deep" : "text-ink-faint"}`}>
                     {live ? "● " : "○ "}{meta.state}
                   </span>
                 </div>
                 <p className="meta mt-2 text-[13px]">{meta.role}</p>
                 {ch.evidence_records > 0 ? (
-                  <p className="mono mt-3 text-[11.5px] text-faint">
+                  <p className="mono mt-3 text-[11.5px] text-ink-faint">
                     {ch.evidence_records.toLocaleString()} evidence records · {ch.raw_records} artifacts
                   </p>
                 ) : ch.formation_signals > 0 ? (
-                  <p className="mono mt-3 text-[11.5px] text-faint">
+                  <p className="mono mt-3 text-[11.5px] text-ink-faint">
                     {ch.formation_signals} formation signals
                   </p>
                 ) : null}
@@ -74,7 +75,7 @@ export default function Signals() {
           GitHub: {gh.api_requests?.toLocaleString()} API requests, {gh.raw_records}{" "}
           repositories, {gh.evidence_records.toLocaleString()} evidence records, at an API
           cost of $0. The scale numbers on the{" "}
-          <Link href="/methodology/" className="text-signal underline underline-offset-4">
+          <Link href="/methodology/" className="text-exec-deep underline underline-offset-4">
             methodology page
           </Link>{" "}
           all trace back to these channels.
@@ -95,9 +96,19 @@ export default function Signals() {
             label="Bio @handles" note="deliberately NOT counted as X identities" />
         </div>
 
-        <div className="mt-6 grid gap-4 lg:grid-cols-2">
+        <div className="mt-6">
+          <IdentityStates
+            total={ident.total_identities}
+            mergeable={ident.mergeable_identities}
+            mergeablePct={ident.mergeable_pct}
+            xLinkable={ident.x_linkable_count}
+            xPct={ident.x_linkable_pct}
+          />
+        </div>
+
+        <div className="mt-4 grid gap-4 lg:grid-cols-2">
           <Reveal>
-            <div className="panel p-5">
+            <div className="panel h-full p-5">
               <p className="eyebrow">Resolution states</p>
               <div className="mt-3 grid gap-2.5">
                 {([
@@ -110,8 +121,8 @@ export default function Signals() {
                   return (
                     <div key={state}>
                       <div className="flex items-baseline justify-between gap-3">
-                        <span className="mono text-[11.5px] text-dim">{state}</span>
-                        <span className="mono text-[12px] text-text">{n}</span>
+                        <span className="mono text-[11.5px] text-ink-dim">{state}</span>
+                        <span className="mono text-[12px] text-ink">{n}</span>
                       </div>
                       {pctBar((n / ident.total_identities) * 100)}
                       <p className="meta mt-1 text-[12px]">{desc}</p>
@@ -126,11 +137,11 @@ export default function Signals() {
               <p className="eyebrow">The revised conclusion</p>
               <p className="body mt-3 text-[14.5px]">
                 General identity resolution is <em>not</em> the bottleneck any more:{" "}
-                <span className="mono text-text">{ident.mergeable_pct.toFixed(2)}%</span> of
+                <span className="mono text-ink">{ident.mergeable_pct.toFixed(2)}%</span> of
                 live identities are mergeable under rules that forbid fuzzy matching.
-                What remains broken is <strong className="text-text">X-specific identity
+                What remains broken is <strong className="text-ink">X-specific identity
                 linkage</strong>: exactly{" "}
-                <span className="mono text-text">{ident.x_linkable_count}</span> identity in{" "}
+                <span className="mono text-ink">{ident.x_linkable_count}</span> identity in{" "}
                 {ident.total_identities} could be verifiably linked to an X account.
               </p>
               <p className="body mt-3 text-[14.5px]">
@@ -154,15 +165,15 @@ export default function Signals() {
           <div className="panel p-5">
             <div className="flex items-baseline justify-between">
               <p className="eyebrow">Repositories with a project domain</p>
-              <span className="mono text-lg text-text">{dom.with_a_project_domain_pct.toFixed(2)}%</span>
+              <span className="mono text-lg text-ink">{dom.with_a_project_domain_pct.toFixed(2)}%</span>
             </div>
             {pctBar(dom.with_a_project_domain_pct)}
             <div className="mt-5 flex items-baseline justify-between">
               <p className="eyebrow">Domain adds a distinct formation event</p>
-              <span className="mono text-lg text-signal">{dom.domain_adds_distinct_pct.toFixed(2)}%</span>
+              <span className="mono text-lg text-exec-deep">{dom.domain_adds_distinct_pct.toFixed(2)}%</span>
             </div>
             {pctBar(dom.domain_adds_distinct_pct)}
-            <p className="mono mt-4 text-[11.5px] text-faint">
+            <p className="mono mt-4 text-[11.5px] text-ink-faint">
               {dom.with_a_project_domain_pct}% presence → {dom.domain_adds_distinct_pct}% independent signal,
               measured on {dom.repositories_measured} repositories
             </p>
@@ -180,17 +191,24 @@ export default function Signals() {
       {/* ── ATTENTION VS CONSTRUCTION ────────────────────────────────────── */}
       <Section eyebrow="The core separation" title="Attention and construction are different axes"
         lead="Stars measure attention. Commits by the people who own the work measure construction. Across the universe the ratio between them spans four orders of magnitude — which is why attention is barred from every surfacing decision.">
-        <div className="grid gap-4 lg:grid-cols-2">
+        <Reveal>
+          <AttentionConstruction
+            high={sig.attentionVsConstruction.high}
+            low={sig.attentionVsConstruction.low}
+          />
+        </Reveal>
+
+        <div className="mt-4 grid gap-4 lg:grid-cols-2">
           <div className="panel overflow-hidden">
-            <p className="eyebrow border-b border-line px-5 py-3">
+            <p className="eyebrow border-b border-paper-line px-5 py-3">
               High attention · low construction
             </p>
             <ul>
               {sig.attentionVsConstruction.high.slice(0, 4).map((row) => (
-                <li key={row.repo} className="border-b border-lineSoft px-5 py-3 last:border-b-0">
+                <li key={row.repo} className="border-b border-paper-line px-5 py-3 last:border-b-0">
                   <div className="flex flex-wrap items-baseline justify-between gap-x-3">
-                    <span className="mono break-all text-[12.5px] text-text">{row.repo}</span>
-                    <span className="mono text-[11.5px] text-faint">
+                    <span className="mono break-all text-[12.5px] text-ink">{row.repo}</span>
+                    <span className="mono text-[11.5px] text-ink-faint">
                       {row.stars.toLocaleString()}★ · {row.top_contributions} commits
                     </span>
                   </div>
@@ -202,19 +220,19 @@ export default function Signals() {
             </ul>
           </div>
           <div className="panel overflow-hidden">
-            <p className="eyebrow border-b border-line px-5 py-3">
+            <p className="eyebrow border-b border-paper-line px-5 py-3">
               High construction · low attention
             </p>
             <ul>
               {sig.attentionVsConstruction.low.slice(0, 4).map((row) => (
-                <li key={row.repo} className="border-b border-lineSoft px-5 py-3 last:border-b-0">
+                <li key={row.repo} className="border-b border-paper-line px-5 py-3 last:border-b-0">
                   <div className="flex flex-wrap items-baseline justify-between gap-x-3">
-                    <span className="mono break-all text-[12.5px] text-text">{row.repo}</span>
-                    <span className="mono text-[11.5px] text-faint">
+                    <span className="mono break-all text-[12.5px] text-ink">{row.repo}</span>
+                    <span className="mono text-[11.5px] text-ink-faint">
                       {row.stars.toLocaleString()}★ · {row.top_contributions.toLocaleString()} commits
                     </span>
                   </div>
-                  <p className="mono mt-1 text-[11px] text-signal">
+                  <p className="mono mt-1 text-[11px] text-exec-deep">
                     {row.stars_per_commit?.toLocaleString()} stars per commit
                   </p>
                 </li>
@@ -232,12 +250,12 @@ export default function Signals() {
 
       {/* ── ACCEPTED WORK UNIT ───────────────────────────────────────────── */}
       <Section eyebrow="Output unit" title="What the funnel produces">
-        <div className="panel-raised max-w-prose border-l-4 border-l-signalDim p-6">
-          <p className="mono text-[12px] uppercase tracking-widest text-faint">INTRO_READY_AWU</p>
+        <div className="panel-raised max-w-prose border-l-4 border-l-exec p-6">
+          <p className="mono text-[12px] uppercase tracking-widest text-ink-faint">INTRO_READY_AWU</p>
           <p className="body mt-2 text-[15px]">
             One builder or team lead that survives evidence review and is genuinely worth
             spending relationship capital on. The current count is{" "}
-            <span className="mono text-text">{research.scale.introReadyAwu}</span> — from{" "}
+            <span className="mono text-ink">{research.scale.introReadyAwu}</span> — from{" "}
             {research.scale.repositories} repositories, {research.scale.evidence.toLocaleString()}{" "}
             evidence records and {research.scale.sources} registered sources.
           </p>
@@ -245,7 +263,7 @@ export default function Signals() {
             Three leads is the honest number, not a vanity metric: no introduction has been
             made, and the count measures review survival, not conversions. The full records
             are on{" "}
-            <Link href="/current-3/" className="text-signal underline underline-offset-4">
+            <Link href="/current-3/" className="text-exec-deep underline underline-offset-4">
               Current&nbsp;3
             </Link>.
           </p>
