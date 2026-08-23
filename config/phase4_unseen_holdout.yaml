@@ -1,0 +1,180 @@
+# PHASE 4 UNSEEN V2 VALIDATION COHORT
+#
+# FROZEN BEFORE ANY PRE-CUTOFF EVIDENCE WAS RETRIEVED.
+#
+# Selection is deterministic: SHA256(v2_frozen_hash + ':' + case_id), sorted ascending,
+# first 12. Only 9 cases were eligible, so all 9 are used. No case was chosen by hand,
+# and no case was swapped out after inspecting whether the system could find it.
+#
+# NOTHING IN THIS FILE DESCRIBES A LATER OUTCOME. No traction, no acquisition, no
+# current status, no post-cutoff financing. Only what was needed to establish
+# eligibility: company, founder/team where public, Array relationship, and a cutoff.
+v2_frozen_hash: "435dfb8a568d8f07124125b08566cc9ced48f4d17ef76064978905968287f434"
+selection_method: "sha256(v2_frozen_hash + ':' + case_id) ascending, take first 12"
+target_cohort_size: 12
+eligible_count: 9
+selected_count: 9
+cutoff_rule: >-
+  The day before the earliest financing announcement with an exact, verifiable public
+  date in which Array's relationship is publicly established. A case whose announcement
+  date could not be established is excluded as CUTOFF_DATE_UNRESOLVED, never because it
+  looked difficult.
+permitted_source_types: [github_repo, github_org, github_commits, github_releases,
+  package_registry, arxiv_paper, project_site, company_site, mailing_list, press]
+cases:
+  - case_id: U07
+    company: "Tumble"
+    founder_or_team: "UNKNOWN"
+    announcement_date: "2022-10-05"
+    cutoff_date: "2022-10-04"
+    selection_hash: "3726c361ddd47fd9c1648435a03997b1101d4f627efe94dce0ddf505deb149d4"
+    eligibility_basis: >-
+      $7M seed announced 2022-10-05 (Business Wire); carried on Array Insights
+  - case_id: U03
+    company: "Wabi"
+    founder_or_team: "Eugenia Kuyda"
+    announcement_date: "2025-11-05"
+    cutoff_date: "2025-11-04"
+    selection_hash: "472e903bb8bb3dc61e7c158de00f8451800b9582c14b463792bdbdc0bcdb46a6"
+    eligibility_basis: >-
+      $20M pre-seed announced 2025-11-05 (TechCrunch, carried on Array Insights); Shruti Gandhi named among investors
+  - case_id: U09
+    company: "Zingly.ai"
+    founder_or_team: "UNKNOWN"
+    announcement_date: "2025-07-21"
+    cutoff_date: "2025-07-20"
+    selection_hash: "5d1a3ff0df9bdcfda4f34cad679983212fba803be6e3421b27d19ef28422dc97"
+    eligibility_basis: >-
+      $1.55M seed announced 2025-07-21; carried on Array Insights
+  - case_id: U06
+    company: "ORO"
+    founder_or_team: "UNKNOWN"
+    announcement_date: "2022-11-03"
+    cutoff_date: "2022-11-02"
+    selection_hash: "71138aa150179a005b158d0a13f2c3d656065c92a2d29064bdd1b373a8e54723"
+    eligibility_basis: >-
+      $25M Series A announced 2022-11-03 (Business Wire); carried on Array Insights
+  - case_id: U01
+    company: "Perspective AI"
+    founder_or_team: "Guy Nirpaz"
+    announcement_date: "2025-01-30"
+    cutoff_date: "2025-01-29"
+    selection_hash: "a40c54c44173b15f9ac7c0221decf39c2b94411102ddebdc9e059bf4f26ff01a"
+    eligibility_basis: >-
+      $4M seed announced 2025-01-30 (Business Wire); Array named in the round
+  - case_id: U05
+    company: "Capsule"
+    founder_or_team: "UNKNOWN"
+    announcement_date: "2021-01-14"
+    cutoff_date: "2021-01-13"
+    selection_hash: "ca49d31d1ea1746c5595a285ccac3f4dac8ac55b6c8dd91f6fe209c02e81dd0b"
+    eligibility_basis: >-
+      $2M seed announced 2021-01-14 (TechCrunch); Array named
+  - case_id: U02
+    company: "CandorIQ"
+    founder_or_team: "UNKNOWN"
+    announcement_date: "2025-07-22"
+    cutoff_date: "2025-07-21"
+    selection_hash: "dcbc7dc9e869eb04adb2c4d1800890e143cec224042a840b85df7c85202142d7"
+    eligibility_basis: >-
+      $4.8M seed announced 2025-07-22; carried on Array Insights
+  - case_id: U08
+    company: "Blumira"
+    founder_or_team: "UNKNOWN"
+    announcement_date: "2021-08-18"
+    cutoff_date: "2021-08-17"
+    selection_hash: "f48a43b1faf93c4a45a61d7ef062e89bc4bfd9b160b8e424d6ae4a5e4d50490e"
+    eligibility_basis: >-
+      $10.3M Series A announced 2021-08-18 (TechCrunch); Array named as participating investor
+  - case_id: U04
+    company: "MokSa.ai"
+    founder_or_team: "UNKNOWN"
+    announcement_date: "2024-04-22"
+    cutoff_date: "2024-04-21"
+    selection_hash: "f5eda48d9d485d108aa2d18f4ecbe2377b8e8123afba676e2835a87c02edf094"
+    eligibility_basis: >-
+      $1.5M pre-seed announced 2024-04-22 (Business Insider); carried on Array Insights
+
+excluded_from_eligibility:
+  - company: "Runable"
+    reason: CUTOFF_DATE_UNRESOLVED
+    note: >-
+      Array named as an investor but no exact announcement date established
+  - company: "Precanto"
+    reason: CUTOFF_DATE_UNRESOLVED
+    note: >-
+      no dated financing announcement found
+  - company: "Hotdata"
+    reason: CUTOFF_DATE_UNRESOLVED
+    note: >-
+      no dated financing announcement found
+  - company: "FinanceOps"
+    reason: CUTOFF_DATE_UNRESOLVED
+    note: >-
+      no dated financing announcement found
+  - company: "Blaze"
+    reason: CUTOFF_DATE_UNRESOLVED
+    note: >-
+      Array-linked Blaze is a distinct entity from Blaze.tech; no dated round established
+  - company: "Cast"
+    reason: ENTITY_AMBIGUOUS
+    note: >-
+      Array's 'Cast' is described as account-management/CS; distinct from Cast AI (Kubernetes). Array relationship to the dated entity not established
+  - company: "AnswersAI"
+    reason: CUTOFF_DATE_UNRESOLVED
+    note: >-
+      no dated financing announcement found
+  - company: "Sotto"
+    reason: CUTOFF_DATE_UNRESOLVED
+    note: >-
+      no dated financing announcement found
+  - company: "Blendid"
+    reason: CUTOFF_DATE_UNRESOLVED
+    note: >-
+      no dated financing announcement found
+  - company: "Retina Robotics"
+    reason: CUTOFF_DATE_UNRESOLVED
+    note: >-
+      no dated financing announcement found
+  - company: "Agency (Elias Torres)"
+    reason: CUTOFF_DATE_UNRESOLVED
+    note: >-
+      Klaviyo acquisition 2026; no exact date and no financing announcement established
+  - company: "Simility"
+    reason: NO_FINANCING_ANNOUNCEMENT
+    note: >-
+      acquisition date only (PayPal 2018-06); no dated financing round with Array established
+  - company: "Passage AI"
+    reason: NO_FINANCING_ANNOUNCEMENT
+    note: >-
+      acquisition date only (ServiceNow 2020-01)
+  - company: "Art19"
+    reason: NO_FINANCING_ANNOUNCEMENT
+    note: >-
+      acquisition date only (Amazon 2021-06)
+  - company: "Managed by Q"
+    reason: NO_FINANCING_ANNOUNCEMENT
+    note: >-
+      acquisition date only (WeWork 2019-04)
+  - company: "Xwing"
+    reason: NO_FINANCING_ANNOUNCEMENT
+    note: >-
+      acquisition of a division only (Joby 2024-06)
+  - company: "PrecisionGx"
+    reason: NO_FINANCING_ANNOUNCEMENT
+    note: >-
+      acquisition date only (TREND 2023-10)
+
+# The original 10-case v1 holdout. Excluded by construction: v2 was designed
+# after seeing v1 fail on these, so they are not out-of-sample.
+originals_excluded:
+  - "Eventual (Daft)"
+  - "Sapiom"
+  - "HappyRobot"
+  - "Flamingo"
+  - "Meibel"
+  - "Integral"
+  - "Mozart Data"
+  - "ZecOps"
+  - "Era Software"
+  - "Wokelo"
