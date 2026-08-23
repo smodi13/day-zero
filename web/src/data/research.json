@@ -1,0 +1,1896 @@
+{
+  "commits": {
+    "commit_a": "75b4311ad9ce540e7f36f8d2ec927623f7f419f0",
+    "commit_b": "74c4627402d6e3dcf60d28bab09d165d2e781174",
+    "commit_c": "2056d35910cad745c58bf8ac784e299da301aedc",
+    "commit_d": "e8e3c64f56437bdac70db1957e841ac4d9d9fdbc",
+    "commit_e": "b5664d42d5981ba7a46dbd89723ed2e4a5886d07",
+    "commit_f": "63cfcefdb54ce9d95b57e0e9a3b54be3988f2516",
+    "commit_g": "51e28101e0e1480daf59fb9678384b20d9c94353",
+    "phase1": "5049772e748dc7e21df2bc67e5832e277b105721"
+  },
+  "current3": [
+    {
+      "analystOverride": true,
+      "arrayRelevance": "Agent execution isolation. Array's own AI coworker runs \"in its own filesystem sandbox with isolated execution\", and the April 2026 security post argues agents move data through syscalls where existing tooling cannot see them.",
+      "artifact": "github.com/multikernel/sandlock (Rust, Apache-2.0) + arXiv:2605.26298",
+      "builder": "Cong Wang and the Multikernel Technologies team (8 human contributors on sandlock)",
+      "channels": [
+        "github",
+        "research",
+        "web"
+      ],
+      "commercialQuestion": "Multikernel now sells three products (Private Cloud, Sandbox, LiveUpdate). Is the agent sandbox a wedge into the cloud-OS business, or the business itself? Those imply different buyers and different funding paths.",
+      "formationEvidence": "GitHub org Multikernel Technologies, Inc. created 2025-03-08 (F-02, F-06); multikernel.io and sandlock.io (F-01); commercial product page and demo booking (F-07). No public financing round was found in the sources reviewed.",
+      "formationState": "BUILDING",
+      "mustVerify": "Whether a priced round has closed; team size; whether sandlock is the commercial focus or a research artifact beside the cloud-OS product.",
+      "project": "multikernel/sandlock — process-based AI agent sandbox for Linux, no container",
+      "signals": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-08",
+        "B-09",
+        "C-03",
+        "D-01",
+        "D-05",
+        "F-01",
+        "F-02",
+        "F-06",
+        "V-02",
+        "V-03"
+      ],
+      "strongestNegative": "The company is already selling. This is closer to the late edge of Day 0 than Phase 1 assumed, and a round may exist that is simply not public.",
+      "strongestPositive": "Four independent channels spanning 17 months (org registry, company domain, LKML, arXiv), plus a paper co-authored with the AgentSight author — a cross-link between two independently-surfaced Phase 1 leads.",
+      "subject": "multikernel/sandlock",
+      "systemState": "WATCH",
+      "technicalDepth": "Kernel-level isolation using unprivileged Linux primitives, from a maintainer of the Linux networking traffic-control subsystem. Systems depth OBSERVED; technical difficulty remains UNKNOWN until the escape surface is tested.",
+      "technicalQuestion": "Sandlock claims confinement using unprivileged Linux primitives. What is the actual escape surface compared with a microVM boundary, and what does the paper's threat model deliberately exclude?",
+      "whyMissed": "358 stars on the sandbox repo; the founder has 72 GitHub followers, no blog field and no X-native presence; the strongest corroborating evidence sits on LKML and arXiv. No institutional financing was identified in the public sources reviewed, so no funding database would surface it.",
+      "whyNow": "807 owner commits, pushed the day of review; sandlock.io registered 2026-08-08; an arXiv paper published 2026-05-25; and a company products page that now lists \"Multikernel Sandbox (AI agent sandboxing runtime)\" as a commercial product."
+    },
+    {
+      "analystOverride": false,
+      "arrayRelevance": "Objective verification and failure recovery — the two LoopOps components Shruti's July 2026 post names as missing (completion gates, escalation queues).",
+      "artifact": "github.com/sipyourdrink-ltd/bernstein (Python, Apache-2.0)",
+      "builder": "Alex Chernysh (solo; Sip Your Drink Ltd)",
+      "channels": [
+        "github",
+        "web"
+      ],
+      "commercialQuestion": "A one-person studio with 3,669 commits and a registered company. Is Bernstein the product, or infrastructure for a product? And who is the first buyer — platform teams, or individual engineers?",
+      "formationEvidence": "F-01 bernstein.run; F-02 org 2026-03-28; F-06 'Ltd' in the registered org name.",
+      "formationState": "FORMING",
+      "mustVerify": "Whether anyone runs Bernstein in production; whether the determinism claim holds under tool failure; whether the founder intends a company or a tool.",
+      "project": "bernstein — deterministic orchestrator for CLI coding agents",
+      "signals": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-02",
+        "D-04",
+        "D-05",
+        "D-06",
+        "F-01",
+        "F-02",
+        "F-06",
+        "V-02",
+        "V-03"
+      ],
+      "strongestNegative": "Studio of one. No co-founder, no external contributor above 37 commits, and deterministic orchestration is a crowded idea even if this implementation is not.",
+      "strongestPositive": "The highest construction-to-attention ratio in the eligible set, with a registered company behind it.",
+      "subject": "sipyourdrink-ltd/bernstein",
+      "systemState": "INTRO_READY",
+      "technicalDepth": "Removing the model from the coordination loop is an architectural stance, not a wrapper: it converts an LLM-orchestration problem into a scheduling problem. Depth markers OBSERVED across D-02/D-04/D-05/D-06; difficulty UNKNOWN until read.",
+      "technicalQuestion": "\"No model in the coordination loop\" is the whole claim. Where exactly does determinism break — tool output ordering, retries, or agent nondeterminism — and what does the orchestrator do when a sub-agent returns something unparseable?",
+      "whyMissed": "960 stars against 3,669 commits. A one-person studio with no press, no accelerator and no financing identified in the public sources reviewed.",
+      "whyNow": "3,669 commits since 2026-03-22, pushed the day of review; bernstein.run live; a registered UK company (F-06) created eight days after the repo."
+    },
+    {
+      "analystOverride": false,
+      "arrayRelevance": "\"Vibe coding security\" — securing production code written by agents — is one of the four categories Array's April 2026 security post says it is ACTIVELY SEEKING.",
+      "artifact": "github.com/scanaislop/aislop (TypeScript, MIT)",
+      "builder": "Kenny Olawuwo (software/security engineer) + 5 contributors",
+      "channels": [
+        "github",
+        "web"
+      ],
+      "commercialQuestion": "Is the buyer the platform team that owns the CI gate, or the security team that owns the risk? The pricing and the wedge differ.",
+      "formationEvidence": "F-01 scanaislop.com; F-02 org created 2026-04-19.",
+      "formationState": "FORMING",
+      "mustVerify": "Whether the detection is agent-specific or generic; whether any team has it in a CI gate; who the second engineer is.",
+      "project": "aislop — code-quality and security gate for AI-authored code",
+      "signals": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-02",
+        "D-05",
+        "D-06",
+        "F-01",
+        "F-02",
+        "V-02"
+      ],
+      "strongestNegative": "Lowest technical-depth confidence of the three. A code-quality gate is the easiest thing on this list for an incumbent linter vendor to absorb.",
+      "strongestPositive": "Sits on a category Array has publicly stated it wants and cannot find.",
+      "subject": "scanaislop/aislop",
+      "systemState": "INTRO_READY",
+      "technicalDepth": "Security and compiler-adjacent markers OBSERVED (D-02, D-05, D-06). Difficulty UNKNOWN: the honest question is whether this is real analysis or rule packaging.",
+      "technicalQuestion": "Detecting \"dead code, unsafe casts, swallowed errors\" is classic static analysis. What is genuinely different about agent-authored code that a tuned existing linter would miss, and is that difference measurable?",
+      "whyMissed": "572 stars. No financing identified in the public sources reviewed, and the category is described in Array's own writing as unfilled.",
+      "whyNow": "319 owner commits since 2026-03-06, pushed 2026-08-22; org created 2026-04-19; scanaislop.com live."
+    }
+  ],
+  "generatedFrom": "outputs/** + experiments/headroom/datasets/manifest.json + research/sandlock/source_audit.md",
+  "hashes": {
+    "experimentDataset": "c16472c28c06194bfc0ffcf57c0acc77363847866835014e6a19b4680f3622bf",
+    "experimentProtocol": "0c8aa36e13d554177bf18a57ba263f2fe5c678ea53929c6caa6b778b8469eaf0",
+    "v1Frozen": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+    "v2Rules": "435dfb8a568d8f07124125b08566cc9ced48f4d17ef76064978905968287f434"
+  },
+  "headroom": {
+    "categories": {
+      "agent_context": {
+        "minifyOnlyVsRaw": {
+          "max": 42.7,
+          "median": 8.69,
+          "min": 0.0,
+          "n": 11,
+          "p25": 0.49,
+          "p75": 12.14
+        },
+        "retention": 1.0,
+        "vsMinified": {
+          "max": 51.97,
+          "median": -8.67,
+          "min": -13.81,
+          "n": 11,
+          "p25": -10.57,
+          "p75": -0.11
+        },
+        "vsRaw": {
+          "max": 72.48,
+          "median": 0.0,
+          "min": 0.0,
+          "n": 11,
+          "p25": 0.0,
+          "p75": 28.94
+        }
+      },
+      "coding_context": {
+        "minifyOnlyVsRaw": {
+          "max": 9.41,
+          "median": 7.4,
+          "min": 0.82,
+          "n": 12,
+          "p25": 3.54,
+          "p75": 8.69
+        },
+        "retention": 1.0,
+        "vsMinified": {
+          "max": -0.83,
+          "median": -8.0,
+          "min": -10.38,
+          "n": 12,
+          "p25": -9.52,
+          "p75": -3.68
+        },
+        "vsRaw": {
+          "max": 0.0,
+          "median": 0.0,
+          "min": 0.0,
+          "n": 12,
+          "p25": 0.0,
+          "p75": 0.0
+        }
+      },
+      "structured_json": {
+        "minifyOnlyVsRaw": {
+          "max": 43.83,
+          "median": 30.84,
+          "min": 23.9,
+          "n": 12,
+          "p25": 28.45,
+          "p75": 33.98
+        },
+        "retention": 1.0,
+        "vsMinified": {
+          "max": 86.85,
+          "median": 28.41,
+          "min": -4.9,
+          "n": 12,
+          "p25": 14.25,
+          "p75": 80.16
+        },
+        "vsRaw": {
+          "max": 92.47,
+          "median": 46.3,
+          "min": 28.45,
+          "n": 12,
+          "p25": 39.0,
+          "p75": 86.19
+        }
+      }
+    },
+    "claims": {
+      "CLAIM-A": {
+        "supported": true,
+        "threshold": "> 0% vs raw (structured_json)",
+        "value": 46.3
+      },
+      "CLAIM-B": {
+        "supported": true,
+        "threshold": ">= 25.0% vs minified",
+        "value": 28.41
+      },
+      "CLAIM-C": {
+        "supported": true,
+        "threshold": ">= 0.95 probe retention",
+        "value": 1.0
+      },
+      "CLAIM-D": {
+        "supported": false,
+        "threshold": "60.0-95.0% vs raw",
+        "value": 46.3
+      },
+      "CLAIM-E": {
+        "supported": false,
+        "threshold": ">= 15.0% vs raw",
+        "value": 0.0
+      }
+    },
+    "dataset": {
+      "baselines": [
+        "RAW",
+        "MINIFIED",
+        "COMPACT_JSON",
+        "GZIP_B64"
+      ],
+      "categories": {
+        "agent_context": 11,
+        "coding_context": 12,
+        "structured_json": 12
+      },
+      "primaryBaseline": "MINIFIED",
+      "primaryTokenizer": "o200k_base",
+      "sampleCount": 35,
+      "tokenizers": [
+        "o200k_base",
+        "cl100k_base"
+      ],
+      "totalBytes": 1573042
+    },
+    "environment": {
+      "gpu": false,
+      "headroom_ai": "0.36.5",
+      "machine": "arm64",
+      "paid_api_calls": 0,
+      "platform": "macOS-26.3-arm64-arm-64bit-Mach-O",
+      "python": "3.14.3",
+      "tiktoken": "0.14.0"
+    },
+    "errors": 0,
+    "failed": [
+      "CLAIM-D",
+      "CLAIM-E"
+    ],
+    "headline": {
+      "agent_context_vs_raw_median_pct": 0.0,
+      "coding_context_vs_raw_median_pct": 0.0,
+      "probe_retention_rate": 1.0,
+      "structured_json_vs_minified_median_pct": 28.41,
+      "structured_json_vs_raw_median_pct": 46.3
+    },
+    "retention": 1.0,
+    "samples": [
+      {
+        "category": "agent_context",
+        "gzipVsRaw": 88.23,
+        "headroom": 9310,
+        "id": "agent_api_pages",
+        "minified": 8180,
+        "raw": 13911,
+        "retention": 1.0,
+        "vsCompact": -13.81,
+        "vsMinified": -13.81,
+        "vsRaw": 33.07
+      },
+      {
+        "category": "agent_context",
+        "gzipVsRaw": 29.43,
+        "headroom": 1106,
+        "id": "agent_cli_diagnostics",
+        "minified": 1006,
+        "raw": 1145,
+        "retention": 1.0,
+        "vsCompact": null,
+        "vsMinified": -9.94,
+        "vsRaw": 3.41
+      },
+      {
+        "category": "agent_context",
+        "gzipVsRaw": -30.01,
+        "headroom": 3922,
+        "id": "agent_git_log",
+        "minified": 3547,
+        "raw": 3922,
+        "retention": 1.0,
+        "vsCompact": null,
+        "vsMinified": -10.57,
+        "vsRaw": 0.0
+      },
+      {
+        "category": "agent_context",
+        "gzipVsRaw": -55.88,
+        "headroom": 204,
+        "id": "agent_git_log_oneline",
+        "minified": 203,
+        "raw": 204,
+        "retention": 1.0,
+        "vsCompact": null,
+        "vsMinified": -0.49,
+        "vsRaw": 0.0
+      },
+      {
+        "category": "agent_context",
+        "gzipVsRaw": -4.08,
+        "headroom": 882,
+        "id": "agent_git_ls_files",
+        "minified": 881,
+        "raw": 882,
+        "retention": 1.0,
+        "vsCompact": null,
+        "vsMinified": -0.11,
+        "vsRaw": 0.0
+      },
+      {
+        "category": "agent_context",
+        "gzipVsRaw": 80.17,
+        "headroom": 8840,
+        "id": "agent_log_needle",
+        "minified": 12440,
+        "raw": 12440,
+        "retention": 1.0,
+        "vsCompact": null,
+        "vsMinified": 28.94,
+        "vsRaw": 28.94
+      },
+      {
+        "category": "agent_context",
+        "gzipVsRaw": 67.19,
+        "headroom": 4428,
+        "id": "agent_ls_recursive",
+        "minified": 4043,
+        "raw": 4428,
+        "retention": 1.0,
+        "vsCompact": null,
+        "vsMinified": -9.52,
+        "vsRaw": 0.0
+      },
+      {
+        "category": "agent_context",
+        "gzipVsRaw": 6.99,
+        "headroom": 1087,
+        "id": "agent_pip_list",
+        "minified": 982,
+        "raw": 1087,
+        "retention": 1.0,
+        "vsCompact": null,
+        "vsMinified": -10.69,
+        "vsRaw": 0.0
+      },
+      {
+        "category": "agent_context",
+        "gzipVsRaw": -20.86,
+        "headroom": 326,
+        "id": "agent_pytest_verbose",
+        "minified": 300,
+        "raw": 326,
+        "retention": 1.0,
+        "vsCompact": null,
+        "vsMinified": -8.67,
+        "vsRaw": 0.0
+      },
+      {
+        "category": "agent_context",
+        "gzipVsRaw": 82.05,
+        "headroom": 1803,
+        "id": "agent_trace_needle",
+        "minified": 3754,
+        "raw": 6552,
+        "retention": 1.0,
+        "vsCompact": 51.97,
+        "vsMinified": 51.97,
+        "vsRaw": 72.48
+      },
+      {
+        "category": "agent_context",
+        "gzipVsRaw": 64.46,
+        "headroom": 3748,
+        "id": "agent_traceback_needle",
+        "minified": 3508,
+        "raw": 3748,
+        "retention": 1.0,
+        "vsCompact": null,
+        "vsMinified": -6.84,
+        "vsRaw": 0.0
+      },
+      {
+        "category": "coding_context",
+        "gzipVsRaw": -44.15,
+        "headroom": 4134,
+        "id": "code_eunomia_bpf_agentsight_readme_md",
+        "minified": 4100,
+        "raw": 4134,
+        "retention": 1.0,
+        "vsCompact": null,
+        "vsMinified": -0.83,
+        "vsRaw": 0.0
+      },
+      {
+        "category": "coding_context",
+        "gzipVsRaw": 31.41,
+        "headroom": 70516,
+        "id": "code_eventual_inc_daft_daft_dataframe_dataframe_py",
+        "minified": 63974,
+        "raw": 70516,
+        "retention": 1.0,
+        "vsCompact": null,
+        "vsMinified": -10.23,
+        "vsRaw": 0.0
+      },
+      {
+        "category": "coding_context",
+        "gzipVsRaw": -8.71,
+        "headroom": 2743,
+        "id": "code_eventual_inc_daft_src_daft_core_src_series_mod_rs",
+        "minified": 2485,
+        "raw": 2743,
+        "retention": 1.0,
+        "vsCompact": null,
+        "vsMinified": -10.38,
+        "vsRaw": 0.0
+      },
+      {
+        "category": "coding_context",
+        "gzipVsRaw": -81.61,
+        "headroom": 1158,
+        "id": "code_git_show_stat",
+        "minified": 1069,
+        "raw": 1158,
+        "retention": 1.0,
+        "vsCompact": null,
+        "vsMinified": -8.33,
+        "vsRaw": 0.0
+      },
+      {
+        "category": "coding_context",
+        "gzipVsRaw": -21.49,
+        "headroom": 8761,
+        "id": "code_multikernel_sandlock_readme_md",
+        "minified": 8498,
+        "raw": 8761,
+        "retention": 1.0,
+        "vsCompact": null,
+        "vsMinified": -3.09,
+        "vsRaw": 0.0
+      },
+      {
+        "category": "coding_context",
+        "gzipVsRaw": -3.21,
+        "headroom": 6233,
+        "id": "code_self_build",
+        "minified": 5779,
+        "raw": 6233,
+        "retention": 1.0,
+        "vsCompact": null,
+        "vsMinified": -7.86,
+        "vsRaw": 0.0
+      },
+      {
+        "category": "coding_context",
+        "gzipVsRaw": -10.73,
+        "headroom": 2441,
+        "id": "code_self_db",
+        "minified": 2223,
+        "raw": 2441,
+        "retention": 1.0,
+        "vsCompact": null,
+        "vsMinified": -9.81,
+        "vsRaw": 0.0
+      },
+      {
+        "category": "coding_context",
+        "gzipVsRaw": -40.75,
+        "headroom": 1529,
+        "id": "code_self_holdout",
+        "minified": 1414,
+        "raw": 1529,
+        "retention": 1.0,
+        "vsCompact": null,
+        "vsMinified": -8.13,
+        "vsRaw": 0.0
+      },
+      {
+        "category": "coding_context",
+        "gzipVsRaw": -33.46,
+        "headroom": 1533,
+        "id": "code_self_review",
+        "minified": 1411,
+        "raw": 1533,
+        "retention": 1.0,
+        "vsCompact": null,
+        "vsMinified": -8.65,
+        "vsRaw": 0.0
+      },
+      {
+        "category": "coding_context",
+        "gzipVsRaw": -17.36,
+        "headroom": 3837,
+        "id": "code_self_signals",
+        "minified": 3621,
+        "raw": 3837,
+        "retention": 1.0,
+        "vsCompact": null,
+        "vsMinified": -5.97,
+        "vsRaw": 0.0
+      },
+      {
+        "category": "coding_context",
+        "gzipVsRaw": -26.32,
+        "headroom": 969,
+        "id": "code_self_test_review_rules",
+        "minified": 919,
+        "raw": 969,
+        "retention": 1.0,
+        "vsCompact": null,
+        "vsMinified": -5.44,
+        "vsRaw": 0.0
+      },
+      {
+        "category": "coding_context",
+        "gzipVsRaw": -34.61,
+        "headroom": 3560,
+        "id": "code_uccl_project_uccl_readme_md",
+        "minified": 3466,
+        "raw": 3560,
+        "retention": 1.0,
+        "vsCompact": null,
+        "vsMinified": -2.71,
+        "vsRaw": 0.0
+      },
+      {
+        "category": "structured_json",
+        "gzipVsRaw": 63.86,
+        "headroom": 1603,
+        "id": "json_contributors",
+        "minified": 11953,
+        "raw": 21281,
+        "retention": 1.0,
+        "vsCompact": 86.59,
+        "vsMinified": 86.59,
+        "vsRaw": 92.47
+      },
+      {
+        "category": "structured_json",
+        "gzipVsRaw": 53.72,
+        "headroom": 1225,
+        "id": "json_out_attention_vs_construction",
+        "minified": 2386,
+        "raw": 3639,
+        "retention": 1.0,
+        "vsCompact": 48.66,
+        "vsMinified": 48.66,
+        "vsRaw": 66.34
+      },
+      {
+        "category": "structured_json",
+        "gzipVsRaw": 62.72,
+        "headroom": 45220,
+        "id": "json_out_graph",
+        "minified": 61988,
+        "raw": 83774,
+        "retention": 1.0,
+        "vsCompact": 27.05,
+        "vsMinified": 27.05,
+        "vsRaw": 46.02
+      },
+      {
+        "category": "structured_json",
+        "gzipVsRaw": 39.42,
+        "headroom": 795,
+        "id": "json_out_holdout_results",
+        "minified": 930,
+        "raw": 1352,
+        "retention": 1.0,
+        "vsCompact": 14.52,
+        "vsMinified": 14.52,
+        "vsRaw": 41.2
+      },
+      {
+        "category": "structured_json",
+        "gzipVsRaw": 32.39,
+        "headroom": 975,
+        "id": "json_out_negative_controls",
+        "minified": 1194,
+        "raw": 1695,
+        "retention": 1.0,
+        "vsCompact": 18.34,
+        "vsMinified": 18.34,
+        "vsRaw": 42.48
+      },
+      {
+        "category": "structured_json",
+        "gzipVsRaw": 85.76,
+        "headroom": 19068,
+        "id": "json_out_review_queue",
+        "minified": 18178,
+        "raw": 26649,
+        "retention": 1.0,
+        "vsCompact": -4.9,
+        "vsMinified": -4.9,
+        "vsRaw": 28.45
+      },
+      {
+        "category": "structured_json",
+        "gzipVsRaw": 76.86,
+        "headroom": 68948,
+        "id": "json_out_signals",
+        "minified": 98190,
+        "raw": 129035,
+        "retention": 1.0,
+        "vsCompact": 29.78,
+        "vsMinified": 29.78,
+        "vsRaw": 46.57
+      },
+      {
+        "category": "structured_json",
+        "gzipVsRaw": 48.63,
+        "headroom": 453,
+        "id": "json_out_source_yield",
+        "minified": 453,
+        "raw": 691,
+        "retention": 1.0,
+        "vsCompact": 0.0,
+        "vsMinified": 0.0,
+        "vsRaw": 34.44
+      },
+      {
+        "category": "structured_json",
+        "gzipVsRaw": 24.6,
+        "headroom": 1704,
+        "id": "json_papers",
+        "minified": 1985,
+        "raw": 2760,
+        "retention": 1.0,
+        "vsCompact": 14.16,
+        "vsMinified": 14.16,
+        "vsRaw": 38.26
+      },
+      {
+        "category": "structured_json",
+        "gzipVsRaw": 41.51,
+        "headroom": 3643,
+        "id": "json_repos_40",
+        "minified": 10290,
+        "raw": 14774,
+        "retention": 1.0,
+        "vsCompact": 64.6,
+        "vsMinified": 64.6,
+        "vsRaw": 75.34
+      },
+      {
+        "category": "structured_json",
+        "gzipVsRaw": 46.55,
+        "headroom": 3781,
+        "id": "json_repos_all",
+        "minified": 25794,
+        "raw": 37094,
+        "retention": 1.0,
+        "vsCompact": 85.34,
+        "vsMinified": 85.34,
+        "vsRaw": 89.81
+      },
+      {
+        "category": "structured_json",
+        "gzipVsRaw": 45.6,
+        "headroom": 1188,
+        "id": "json_users_120",
+        "minified": 9036,
+        "raw": 13414,
+        "retention": 1.0,
+        "vsCompact": 86.85,
+        "vsMinified": 86.85,
+        "vsRaw": 91.14
+      }
+    ],
+    "sourceClaims": [
+      {
+        "id": "CLAIM-SRC-A",
+        "source": "GitHub repository description",
+        "text": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server."
+      },
+      {
+        "id": "CLAIM-SRC-B",
+        "source": "README.md, branch main",
+        "text": "60–95% fewer tokens (for JSON data), 15-20% fewer tokens (for coding agents)"
+      }
+    ],
+    "supplementary": [
+      {
+        "conclusion": "FALSIFIED. Every message was routed to a protected class. Multi-turn framing does not change the result.",
+        "hypothesis": "The 0% coding result is an artifact of presenting a single recent tool output; real savings come from compressing OLDER conversation turns.",
+        "id": "SUPP-1",
+        "method": "Six-file multi-turn coding session (read_file tool calls interleaved with assistant turns), headroom.compress(model_limit=200000).",
+        "result": {
+          "reduction_pct": 0.0,
+          "tokens_after": 16803,
+          "tokens_before": 16803,
+          "transforms": [
+            "router:protected:user_message",
+            "router:protected:analysis_context x4",
+            "router:protected:recent_code"
+          ]
+        }
+      },
+      {
+        "conclusion": "FALSIFIED. Tight context pressure produced no additional compression.",
+        "hypothesis": "Context pressure triggers compression that a large model_limit does not.",
+        "id": "SUPP-2",
+        "method": "Same session with model_limit=20000 against 16,803 tokens of content.",
+        "result": {
+          "reduction_pct": 0.0,
+          "tokens_after": 16803,
+          "tokens_before": 16803
+        }
+      },
+      {
+        "conclusion": "FALSIFIED for the library path. The extra installs, but the router still protects recent code.",
+        "hypothesis": "Code compression requires the optional [code] extra, which the base install omits.",
+        "id": "SUPP-3",
+        "method": "pip install 'headroom-ai[code]', then re-run a single source-file tool output.",
+        "result": {
+          "reduction_pct": 0.0,
+          "tokens_after": 6270,
+          "tokens_before": 6270,
+          "transforms": [
+            "router:protected:user_message",
+            "router:protected:recent_code"
+          ]
+        }
+      }
+    ],
+    "supported": [
+      "CLAIM-A",
+      "CLAIM-B",
+      "CLAIM-C"
+    ],
+    "untested": [
+      "headroom proxy (--port) path",
+      "headroom wrap <agent> path, which also installs Serena semantic code navigation",
+      "MCP server path",
+      "Kompress-v2-base prose model (HuggingFace download; 8 GB RAM machine)",
+      "cross-agent memory and `headroom learn`",
+      "sessions substantially longer than 17k tokens"
+    ],
+    "verdict": "PARTIALLY_REPRODUCED"
+  },
+  "introQueue": {
+    "contactedAnyone": false,
+    "count": 3,
+    "current3Emitted": true
+  },
+  "methodology": {
+    "negativeControls": {
+      "v1": {
+        "CORRECTLY_REJECTED": 3,
+        "COVERED_BY_UNIT_TEST": 5,
+        "REJECTED_FOR_A_DIFFERENT_REASON": 4
+      },
+      "v2Controls": [
+        {
+          "control_id": "NC-1",
+          "event_count": 2,
+          "failed_checks": [
+            "distinct_modalities",
+            "distinct_events",
+            "includes_formation_like",
+            "temporal_spread"
+          ],
+          "modalities": [
+            "CONSTRUCTION"
+          ],
+          "rejected_facts": [],
+          "subject": "0xSero/turboquant",
+          "v1_state": "DROP",
+          "v2_converged": false,
+          "v2_result": "STILL_REJECTED"
+        },
+        {
+          "control_id": "NC-3",
+          "event_count": 2,
+          "failed_checks": [
+            "distinct_modalities",
+            "distinct_events",
+            "temporal_spread"
+          ],
+          "modalities": [
+            "CONSTRUCTION",
+            "FORMATION"
+          ],
+          "rejected_facts": [],
+          "subject": "zerobootdev/zeroboot",
+          "v1_state": "DROP",
+          "v2_converged": false,
+          "v2_result": "STILL_REJECTED"
+        },
+        {
+          "control_id": "NC-3b",
+          "event_count": 2,
+          "failed_checks": [
+            "distinct_modalities",
+            "distinct_events",
+            "includes_formation_like",
+            "temporal_spread"
+          ],
+          "modalities": [
+            "CONSTRUCTION"
+          ],
+          "rejected_facts": [],
+          "subject": "dipampaul17/KVSplit",
+          "v1_state": "DROP",
+          "v2_converged": false,
+          "v2_result": "STILL_REJECTED"
+        },
+        {
+          "control_id": "NC-4",
+          "event_count": 3,
+          "failed_checks": [
+            "distinct_modalities"
+          ],
+          "modalities": [
+            "CONSTRUCTION",
+            "FORMATION"
+          ],
+          "rejected_facts": [],
+          "subject": "scrya-com/rotorquant",
+          "v1_state": "DROP",
+          "v2_converged": false,
+          "v2_result": "STILL_REJECTED"
+        },
+        {
+          "control_id": "NC-5",
+          "event_count": 3,
+          "failed_checks": [
+            "distinct_modalities",
+            "includes_formation_like"
+          ],
+          "modalities": [
+            "CONSTRUCTION",
+            "IDENTITY"
+          ],
+          "rejected_facts": [
+            "EXTERNAL_VALIDATION from a non-third-party surface: self-published to PyPI"
+          ],
+          "subject": "RyanCodrai/turbovec",
+          "v1_state": "WATCH",
+          "v2_converged": false,
+          "v2_result": "STILL_REJECTED"
+        },
+        {
+          "control_id": "NC-7",
+          "event_count": 3,
+          "failed_checks": [
+            "temporal_spread"
+          ],
+          "modalities": [
+            "CONSTRUCTION",
+            "IDENTITY",
+            "RESEARCH"
+          ],
+          "rejected_facts": [],
+          "subject": "FutureMLS-Lab/OSCAR",
+          "v1_state": "WATCH",
+          "v2_converged": false,
+          "v2_result": "STILL_REJECTED"
+        }
+      ],
+      "v2Regressions": 0
+    },
+    "unseen": {
+      "cases": [
+        {
+          "case_id": "U07",
+          "checks": {},
+          "company": "Tumble",
+          "cutoff_date": "2022-10-04",
+          "event_count": 0,
+          "evidence_count": 0,
+          "modalities": [],
+          "reason": "no verifiable pre-cutoff evidence: no GitHub organisation could be linked to the company under v2 identity rules (name-only matches may not merge)",
+          "span_days": 0,
+          "verdict": "UNKNOWN"
+        },
+        {
+          "case_id": "U03",
+          "checks": {},
+          "company": "Wabi",
+          "cutoff_date": "2025-11-04",
+          "event_count": 0,
+          "evidence_count": 0,
+          "modalities": [],
+          "reason": "no verifiable pre-cutoff evidence: no GitHub organisation could be linked to the company under v2 identity rules (name-only matches may not merge)",
+          "span_days": 0,
+          "verdict": "UNKNOWN"
+        },
+        {
+          "case_id": "U09",
+          "checks": {},
+          "company": "Zingly.ai",
+          "cutoff_date": "2025-07-20",
+          "event_count": 0,
+          "evidence_count": 0,
+          "modalities": [],
+          "reason": "no verifiable pre-cutoff evidence: no GitHub organisation could be linked to the company under v2 identity rules (name-only matches may not merge)",
+          "span_days": 0,
+          "verdict": "UNKNOWN"
+        },
+        {
+          "case_id": "U06",
+          "checks": {},
+          "company": "ORO",
+          "cutoff_date": "2022-11-02",
+          "event_count": 0,
+          "evidence_count": 0,
+          "modalities": [],
+          "reason": "no verifiable pre-cutoff evidence: no GitHub organisation could be linked to the company under v2 identity rules (name-only matches may not merge)",
+          "span_days": 0,
+          "verdict": "UNKNOWN"
+        },
+        {
+          "case_id": "U01",
+          "checks": {
+            "distinct_events": true,
+            "distinct_modalities": true,
+            "includes_construction": true,
+            "includes_formation_like": true,
+            "temporal_spread": true
+          },
+          "company": "Perspective AI",
+          "cutoff_date": "2025-01-29",
+          "event_count": 5,
+          "evidence_count": 5,
+          "modalities": [
+            "COLLABORATION",
+            "CONSTRUCTION",
+            "FORMATION",
+            "IDENTITY"
+          ],
+          "reason": "all convergence checks satisfied",
+          "span_days": 384,
+          "verdict": "PASS"
+        },
+        {
+          "case_id": "U05",
+          "checks": {},
+          "company": "Capsule",
+          "cutoff_date": "2021-01-13",
+          "event_count": 0,
+          "evidence_count": 0,
+          "modalities": [],
+          "reason": "no verifiable pre-cutoff evidence: no GitHub organisation could be linked to the company under v2 identity rules (name-only matches may not merge)",
+          "span_days": 0,
+          "verdict": "UNKNOWN"
+        },
+        {
+          "case_id": "U02",
+          "checks": {},
+          "company": "CandorIQ",
+          "cutoff_date": "2025-07-21",
+          "event_count": 0,
+          "evidence_count": 0,
+          "modalities": [],
+          "reason": "no verifiable pre-cutoff evidence: no GitHub organisation could be linked to the company under v2 identity rules (name-only matches may not merge)",
+          "span_days": 0,
+          "verdict": "UNKNOWN"
+        },
+        {
+          "case_id": "U08",
+          "checks": {
+            "distinct_events": true,
+            "distinct_modalities": true,
+            "includes_construction": true,
+            "includes_formation_like": true,
+            "temporal_spread": true
+          },
+          "company": "Blumira",
+          "cutoff_date": "2021-08-17",
+          "event_count": 7,
+          "evidence_count": 7,
+          "modalities": [
+            "COLLABORATION",
+            "CONSTRUCTION",
+            "FORMATION",
+            "IDENTITY"
+          ],
+          "reason": "all convergence checks satisfied",
+          "span_days": 426,
+          "verdict": "PASS"
+        },
+        {
+          "case_id": "U04",
+          "checks": {
+            "distinct_events": false,
+            "distinct_modalities": false,
+            "includes_construction": false,
+            "includes_formation_like": true,
+            "temporal_spread": false
+          },
+          "company": "MokSa.ai",
+          "cutoff_date": "2024-04-21",
+          "event_count": 1,
+          "evidence_count": 1,
+          "modalities": [
+            "FORMATION"
+          ],
+          "reason": "failed: distinct_modalities, distinct_events, includes_construction, temporal_spread",
+          "span_days": 0,
+          "verdict": "MISS"
+        }
+      ],
+      "cohortSize": 9,
+      "eligible": 9,
+      "freezeCommit": "63cfcefdb54ce9d95b57e0e9a3b54be3988f2516",
+      "label": "UNSEEN V2 DESIGN VALIDATION — out-of-sample with respect to v2 RULE DEVELOPMENT. NOT investment accuracy, alpha, precision, recall or win rate. Every case is a known Array portfolio company, so hindsight bias remains.",
+      "noStatistic": "Nine known-outcome cases cannot produce an accuracy, precision, recall or win-rate statistic, and none is reported.",
+      "tally": {
+        "MISS": 1,
+        "PASS": 2,
+        "UNKNOWN": 6
+      }
+    },
+    "v1": {
+      "hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "label": "FROZEN v1 — original 10-case holdout",
+      "tally": {
+        "MISS": 4,
+        "PARTIAL": 2,
+        "UNKNOWN": 4
+      }
+    },
+    "v2Exploratory": {
+      "cases": [
+        {
+          "case_id": "B1",
+          "changed": true,
+          "checks": {
+            "distinct_events": true,
+            "distinct_modalities": true,
+            "includes_construction": true,
+            "includes_formation_like": true,
+            "temporal_spread": true
+          },
+          "company": "Eventual (Daft)",
+          "cutoff_date": "2024-09-30",
+          "event_count": 6,
+          "modalities": [
+            "COLLABORATION",
+            "CONSTRUCTION",
+            "FORMATION",
+            "IDENTITY"
+          ],
+          "span_days": 909,
+          "v1_verdict": "PARTIAL",
+          "v2_verdict": "PASS"
+        },
+        {
+          "case_id": "B2",
+          "changed": true,
+          "checks": {
+            "distinct_events": true,
+            "distinct_modalities": true,
+            "includes_construction": true,
+            "includes_formation_like": true,
+            "temporal_spread": true
+          },
+          "company": "Sapiom",
+          "cutoff_date": "2026-02-04",
+          "event_count": 4,
+          "modalities": [
+            "CONSTRUCTION",
+            "FORMATION",
+            "IDENTITY"
+          ],
+          "span_days": 144,
+          "v1_verdict": "PARTIAL",
+          "v2_verdict": "PASS"
+        },
+        {
+          "case_id": "B3",
+          "changed": true,
+          "checks": {
+            "distinct_events": false,
+            "distinct_modalities": false,
+            "includes_construction": true,
+            "includes_formation_like": true,
+            "temporal_spread": false
+          },
+          "company": "HappyRobot",
+          "cutoff_date": "2024-12-03",
+          "event_count": 2,
+          "modalities": [
+            "CONSTRUCTION",
+            "FORMATION"
+          ],
+          "span_days": 0,
+          "v1_verdict": "MISS",
+          "v2_verdict": "PARTIAL"
+        },
+        {
+          "case_id": "B4",
+          "changed": false,
+          "company": "Flamingo",
+          "cutoff_date": "2025-10-27",
+          "reason": "no recoverable pre-cutoff evidence assembled",
+          "v1_verdict": "UNKNOWN",
+          "v2_verdict": "UNKNOWN"
+        },
+        {
+          "case_id": "B5",
+          "changed": false,
+          "company": "Meibel",
+          "cutoff_date": "2025-05-27",
+          "reason": "no recoverable pre-cutoff evidence assembled",
+          "v1_verdict": "UNKNOWN",
+          "v2_verdict": "UNKNOWN"
+        },
+        {
+          "case_id": "B6",
+          "changed": false,
+          "company": "Integral",
+          "cutoff_date": "2023-09-04",
+          "reason": "no recoverable pre-cutoff evidence assembled",
+          "v1_verdict": "UNKNOWN",
+          "v2_verdict": "UNKNOWN"
+        },
+        {
+          "case_id": "B7",
+          "changed": false,
+          "checks": {
+            "distinct_events": false,
+            "distinct_modalities": false,
+            "includes_construction": false,
+            "includes_formation_like": false,
+            "temporal_spread": false
+          },
+          "company": "Mozart Data",
+          "cutoff_date": "2020-11-10",
+          "event_count": 0,
+          "modalities": [],
+          "span_days": 0,
+          "v1_verdict": "MISS",
+          "v2_verdict": "MISS"
+        },
+        {
+          "case_id": "B8",
+          "changed": false,
+          "checks": {
+            "distinct_events": false,
+            "distinct_modalities": false,
+            "includes_construction": false,
+            "includes_formation_like": true,
+            "temporal_spread": false
+          },
+          "company": "ZecOps",
+          "cutoff_date": "2020-01-01",
+          "event_count": 1,
+          "modalities": [
+            "FORMATION"
+          ],
+          "span_days": 0,
+          "v1_verdict": "MISS",
+          "v2_verdict": "MISS"
+        },
+        {
+          "case_id": "B9",
+          "changed": false,
+          "checks": {
+            "distinct_events": false,
+            "distinct_modalities": false,
+            "includes_construction": false,
+            "includes_formation_like": false,
+            "temporal_spread": false
+          },
+          "company": "Era Software",
+          "cutoff_date": "2021-10-05",
+          "event_count": 0,
+          "modalities": [],
+          "span_days": 0,
+          "v1_verdict": "MISS",
+          "v2_verdict": "MISS"
+        },
+        {
+          "case_id": "B10",
+          "changed": false,
+          "company": "Wokelo",
+          "cutoff_date": "2024-10-08",
+          "reason": "no recoverable pre-cutoff evidence assembled",
+          "v1_verdict": "UNKNOWN",
+          "v2_verdict": "UNKNOWN"
+        }
+      ],
+      "label": "POST-HOC EXPLORATORY",
+      "tally": {
+        "MISS": 3,
+        "PARTIAL": 1,
+        "PASS": 2,
+        "UNKNOWN": 4
+      },
+      "v1Tally": {
+        "MISS": 4,
+        "PARTIAL": 2,
+        "UNKNOWN": 4
+      }
+    }
+  },
+  "sandlock": {
+    "agentsight": {
+      "established": "paper co-authorship on arXiv:2605.26298 (Cong Wang, Yusheng Zheng); 49 code-search references to sandlock inside the eunomia-bpf org including workload reproduction notes",
+      "not_established": "any organisational, employment, equity or corporate relationship - none found and none inferred",
+      "sourcing_consequence": "Phase 2 counted Multikernel and AgentSight as two independent leads. They share an author, so they are one intellectual cluster as evidence. v2 must not double-count them."
+    },
+    "attention": {
+      "forks": 38,
+      "note": "descriptive only; never a surfacing input",
+      "open_issues": 19,
+      "stars": 358
+    },
+    "biggestRisk": "No evidence of any adversarial contact: no audit, no bounty, no published escape attempt.",
+    "claims": [
+      {
+        "claim": "Startup overhead ~5 ms",
+        "id": "C1",
+        "note": "Project's own benchmark; not reproduced here (needs Linux 6.12; test machine is macOS/M1)",
+        "source": "S3 README, S5 paper, S7 comparison",
+        "status": "OBSERVED_AS_CLAIM",
+        "verified_independently": false
+      },
+      {
+        "claim": "Runs Redis at bare-metal throughput, within measurement noise",
+        "id": "C2",
+        "source": "S5 paper abstract",
+        "status": "OBSERVED_AS_CLAIM",
+        "verified_independently": false
+      },
+      {
+        "claim": "No root, no cgroups, no containers, no hypervisor",
+        "id": "C3",
+        "note": "Consistent with the code read: Landlock+seccomp only, no namespace setup path found",
+        "source": "S3, S6",
+        "status": "OBSERVED",
+        "verified_independently": false
+      },
+      {
+        "claim": "Landlock enforces filesystem, TCP ports and IPC scoping",
+        "id": "C4",
+        "source": "S16 landlock.rs uses LANDLOCK_RULE_PATH_BENEATH, LANDLOCK_RULE_NET_PORT, LANDLOCK_SCOPE_SIGNAL, LANDLOCK_SCOPE_ABSTRACT_UNIX_SOCKET",
+        "status": "OBSERVED",
+        "verified_independently": true
+      },
+      {
+        "claim": "seccomp user notification handles runtime decisions and virtualised effects",
+        "id": "C5",
+        "source": "S2: seccomp/notif.rs 131KB, cow/seccomp.rs 319KB, procfs.rs 50KB",
+        "status": "OBSERVED",
+        "verified_independently": true
+      },
+      {
+        "claim": "Fail-closed by default; refuses to start when a required protection is unavailable",
+        "id": "C6",
+        "source": "S4 protection opt-out section",
+        "status": "OBSERVED",
+        "verified_independently": false
+      },
+      {
+        "claim": "Credential never enters the child's address space",
+        "id": "C7",
+        "note": "credential.rs (39KB) exists; behaviour not dynamically tested",
+        "source": "S6, S3",
+        "status": "OBSERVED_AS_CLAIM",
+        "verified_independently": false
+      },
+      {
+        "claim": "Kernel vulnerabilities are out of scope",
+        "id": "C8",
+        "note": "Stated by the project itself, in bold",
+        "source": "S6 security page, verbatim",
+        "status": "OBSERVED",
+        "verified_independently": true
+      },
+      {
+        "claim": "Landlock rules are kernel-evaluated and TOCTOU-immune",
+        "id": "C9",
+        "source": "S4",
+        "status": "OBSERVED_AS_CLAIM",
+        "verified_independently": false
+      },
+      {
+        "claim": "Requires Linux 6.12+ (Landlock ABI v6) for the default posture",
+        "id": "C10",
+        "source": "S3 requirements table",
+        "status": "OBSERVED",
+        "verified_independently": false
+      },
+      {
+        "claim": "Public institutional financing exists",
+        "id": "C11",
+        "note": "No public financing identified in the sources reviewed. This is NOT a claim of bootstrapping.",
+        "source": "searches of company site, project site, repo, web",
+        "status": "NOT_FOUND",
+        "verified_independently": false
+      },
+      {
+        "claim": "Independent security audit exists",
+        "id": "C12",
+        "source": "repo, site, web searches",
+        "status": "NOT_FOUND",
+        "verified_independently": false
+      },
+      {
+        "claim": "Named customers or revenue",
+        "id": "C13",
+        "source": "no pricing page, no logos, no case studies found",
+        "status": "UNKNOWN",
+        "verified_independently": false
+      }
+    ],
+    "companyStatus": {
+      "customers": "UNKNOWN",
+      "entity": "Multikernel Technologies, Inc.",
+      "github_org_created": "2025-03-08",
+      "open_core": true,
+      "pricing": "UNKNOWN",
+      "products": [
+        "Sandbox HTTP API",
+        "Sandbox Scheduler"
+      ],
+      "public_institutional_financing": "NONE_IDENTIFIED_IN_SOURCES_REVIEWED",
+      "team_size": "UNKNOWN"
+    },
+    "competitors": [
+      {
+        "escape_requires": "VMM or KVM bug after guest compromise",
+        "filesystem": "block-level",
+        "isolation_boundary": "hardware virtualisation, separate guest kernel",
+        "kernel": "separate",
+        "name": "Firecracker microVM",
+        "root_required": true,
+        "sandlock_difference": "no image, no root, ~20x faster start, plus HTTP-level egress policy a VM cannot express",
+        "security_ceiling": "highest",
+        "source": "S7 + analyst",
+        "startup": "~100 ms"
+      },
+      {
+        "escape_requires": "Sentry bug or a host bug reachable through it",
+        "filesystem": "gofer",
+        "isolation_boundary": "userspace kernel (Sentry) services every syscall",
+        "kernel": "reimplemented in userspace",
+        "name": "gVisor",
+        "root_required": "varies",
+        "sandlock_difference": "host kernel stays in the syscall path; native performance and full compatibility, wider escape surface",
+        "security_ceiling": "high",
+        "source": "S7 + analyst",
+        "startup": "moderate"
+      },
+      {
+        "escape_requires": "kernel LPE or misconfiguration",
+        "filesystem": "overlay",
+        "isolation_boundary": "namespaces",
+        "kernel": "shared",
+        "name": "Containers (namespaces + cgroups)",
+        "root_required": "yes, or user-ns + /etc/subuid",
+        "sandlock_difference": "access-control ruleset rather than a constructed namespace; no image; HTTP ACL; CoW rollback",
+        "security_ceiling": "comparable or lower",
+        "source": "S7 + analyst",
+        "startup": "~200 ms"
+      },
+      {
+        "escape_requires": "kernel LPE or namespace misconfiguration",
+        "filesystem": "bind mounts",
+        "isolation_boundary": "constructed namespaces",
+        "kernel": "shared",
+        "name": "bubblewrap / firejail",
+        "root_required": "user namespaces",
+        "sandlock_difference": "no user-namespace requirement; destination-IP and HTTP rules; credential injection; transactional writes",
+        "security_ceiling": "comparable",
+        "source": "S7 + analyst",
+        "startup": "fast"
+      },
+      {
+        "escape_requires": "kernel LPE",
+        "isolation_boundary": "identical primitives",
+        "kernel": "shared",
+        "name": "Raw Landlock + seccomp",
+        "root_required": false,
+        "sandlock_difference": "the supervisor, the CoW engine, the HTTP layer, the protection-posture model and the distribution - i.e. every hard part",
+        "security_ceiling": "identical",
+        "source": "analyst",
+        "startup": "fast"
+      },
+      {
+        "isolation_boundary": "control plane above a sandbox",
+        "kernel": "delegates",
+        "name": "OpenShell (NVIDIA)",
+        "root_required": "depends on backend",
+        "sandlock_difference": "OpenShell requires Docker/Podman/microVM/K8s underneath; sandlock is the confinement itself. They compose rather than compete",
+        "security_ceiling": "inherits backend",
+        "source": "S7",
+        "startup": "n/a"
+      }
+    ],
+    "construction": {
+      "architectures": [
+        "x86_64",
+        "aarch64",
+        "riscv64"
+      ],
+      "human_contributors": 8,
+      "languages": {
+        "C": 125532,
+        "Go": 75477,
+        "Python": 503404,
+        "Rust": 3321536,
+        "Shell": 22560
+      },
+      "releases": [
+        "v0.8.1 2026-05-27",
+        "v0.8.2 2026-05-31",
+        "v0.8.3 2026-06-08",
+        "v0.8.4 2026-06-30",
+        "v0.8.5 2026-07-20",
+        "v0.8.6 2026-08-08"
+      ],
+      "top_contributions": 807,
+      "weekly_commits_last_12": [
+        73,
+        58,
+        31,
+        35,
+        46,
+        31,
+        40,
+        89,
+        64,
+        41,
+        19,
+        10
+      ]
+    },
+    "defensibility": {
+      "not_a_moat": [
+        "Landlock and seccomp are public kernel features",
+        "startup speed alone",
+        "star count"
+      ],
+      "potential": [
+        "agent-specific policy layer: HTTP ACL, credential injection, deterministic execution",
+        "accumulated hardening if adversarial contact occurs",
+        "scheduler + checkpoint/restore if density becomes the axis"
+      ],
+      "proven": [
+        "kernel-subsystem-maintainer expertise applied to a userspace product",
+        "a working seccomp-user-notification policy engine with CoW transactional semantics"
+      ]
+    },
+    "financingStatusCode": "NONE_IDENTIFIED_IN_SOURCES_REVIEWED",
+    "financingWording": "No public institutional financing identified in the reviewed sources.",
+    "guard": {
+      "basis": "The artifact is verifiable independent of Array's thesis: 3.3MB Rust, a kernel maintainer's record, a paper, an OCI shim and three SDKs. The mechanism was not chosen to match anyone's vocabulary.",
+      "caveat": "Array relevance still depends on the security thesis being right about BUYERS, not just about threats.",
+      "passed": true
+    },
+    "recommendation": "ADVANCE_TO_FOUNDER_CONVERSATION",
+    "recommendationVocabulary": [
+      "ADVANCE_TO_FOUNDER_CONVERSATION",
+      "WATCH",
+      "PASS"
+    ],
+    "sources": [
+      {
+        "establishes": "Rust, Apache-2.0, created 2026-03-13, pushed 2026-08-23, 358 stars, 38 forks, 19 open issues, 4.4 MB. Topics: `landlock`, `seccomp`, `sandboxing`, `rust`, `ai-agents`, `promptinjection`, `faas`, `linux`",
+        "id": "S1",
+        "source": "github.com/multikernel/sandlock (GitHub API)",
+        "type": "primary artifact"
+      },
+      {
+        "establishes": "Module layout and file sizes; the code inventory in `architecture.md`",
+        "id": "S2",
+        "source": "Repository tree (git/trees/main?recursive=1)",
+        "type": "primary artifact"
+      },
+      {
+        "establishes": "Mechanism claims, comparison table, kernel requirements, CLI surface",
+        "id": "S3",
+        "source": "README.md (817 lines)",
+        "type": "primary artifact"
+      },
+      {
+        "establishes": "Every policy field, defaults, protection opt-out semantics, behavioural notes",
+        "id": "S4",
+        "source": "docs/sandbox-reference.md (540 lines)",
+        "type": "primary artifact"
+      },
+      {
+        "establishes": "Architecture thesis, performance claims (~5 ms startup, Redis at bare-metal throughput)",
+        "id": "S5",
+        "source": "arXiv:2605.26298 — *Sandlock: Confining AI Agent Code with Unprivileged Linux Primitives*, 2026-05-25, Cong Wang and Yusheng Zheng",
+        "type": "research paper"
+      },
+      {
+        "establishes": "The project's own threat model: trust tiers, in-scope and out-of-scope attacks",
+        "id": "S6",
+        "source": "sandlock.io/security.html (site source, multikernel/sandlock.io)",
+        "type": "official statement"
+      },
+      {
+        "establishes": "Self-comparison to containers, Firecracker, gVisor, bubblewrap/firejail, OpenShell",
+        "id": "S7",
+        "source": "sandlock.io/comparison.html",
+        "type": "official statement"
+      },
+      {
+        "establishes": "Two named commercial products; \"What is open, what is licensed\"; Multikernel Technologies, Inc., San Jose",
+        "id": "S8",
+        "source": "sandlock.io navigation + footer",
+        "type": "official statement"
+      },
+      {
+        "establishes": "8 human contributors: congwang-mk 807, dzerik 173, ghazariann 71, sachin2605 20, solarhell 5, apollo13 1, mrsimpson 1, gokwok 1",
+        "id": "S9",
+        "source": "GitHub contributors API",
+        "type": "primary artifact"
+      },
+      {
+        "establishes": "Commits/week, last 12 weeks: 73, 58, 31, 35, 46, 31, 40, 89, 64, 41, 19, 10",
+        "id": "S10",
+        "source": "GitHub participation stats",
+        "type": "primary artifact"
+      },
+      {
+        "establishes": "v0.8.1 (2026-05-27) → v0.8.6 (2026-08-08); roughly monthly cadence",
+        "id": "S11",
+        "source": "GitHub releases API",
+        "type": "primary artifact"
+      },
+      {
+        "establishes": "Active PR review (PR #192, \"riscv64 review blockers\"), multi-architecture work (x86_64, aarch64, riscv64)",
+        "id": "S12",
+        "source": "Recent commit log",
+        "type": "primary artifact"
+      },
+      {
+        "establishes": "16 repositories; the project graph in `architecture.md` §7",
+        "id": "S13",
+        "source": "orgs/multikernel/repos",
+        "type": "primary artifact"
+      },
+      {
+        "establishes": "Cong Wang as Founder & CEO; three named products",
+        "id": "S14",
+        "source": "multikernel.io/about.html",
+        "type": "official statement"
+      },
+      {
+        "establishes": "Rust 3,321,536 · Python 503,404 · C 125,532 · Go 75,477 · Shell 22,560",
+        "id": "S15",
+        "source": "GitHub languages API",
+        "type": "primary artifact"
+      },
+      {
+        "establishes": "Landlock ruleset construction; ABI gating; access-mask computation",
+        "id": "S16",
+        "source": "crates/sandlock-core/src/landlock.rs (881 lines, read)",
+        "type": "primary artifact"
+      },
+      {
+        "establishes": "49 hits; AgentSight-org repos referencing sandlock in docs/drafts",
+        "id": "S17",
+        "source": "search/code?q=sandlock+org:eunomia-bpf",
+        "type": "primary artifact"
+      },
+      {
+        "establishes": "Independent, dated snapshot of the same artifact taken before this diligence began",
+        "id": "S18",
+        "source": "Phase 2 collection (data/collected/github_repos.json)",
+        "type": "secondary"
+      },
+      {
+        "establishes": "The lead's system state and analyst override at the research date",
+        "id": "S19",
+        "source": "Phase 2 outputs/intro_queue.json",
+        "type": "secondary"
+      }
+    ]
+  },
+  "scale": {
+    "evidence": 1586,
+    "identities": 487,
+    "introReadyAwu": 3,
+    "relationships": 579,
+    "repositories": 102,
+    "sources": 273
+  },
+  "signals": {
+    "attentionVsConstruction": {
+      "high": [
+        {
+          "days_since_push": 13,
+          "forks": 8372,
+          "human_contributors": 10,
+          "longevity_days": 297,
+          "repo": "ComposioHQ/awesome-claude-skills",
+          "stars": 73056,
+          "stars_per_commit": 1922.5,
+          "top_contributions": 38,
+          "total_contributions": 58
+        },
+        {
+          "days_since_push": 149,
+          "forks": 194,
+          "human_contributors": 1,
+          "longevity_days": 2,
+          "repo": "0xSero/turboquant",
+          "stars": 1735,
+          "stars_per_commit": 867.5,
+          "top_contributions": 2,
+          "total_contributions": 2
+        },
+        {
+          "days_since_push": 1,
+          "forks": 4847,
+          "human_contributors": 9,
+          "longevity_days": 212,
+          "repo": "rtk-ai/rtk",
+          "stars": 77106,
+          "stars_per_commit": 145.5,
+          "top_contributions": 530,
+          "total_contributions": 1132
+        },
+        {
+          "days_since_push": 227,
+          "forks": 30,
+          "human_contributors": 1,
+          "longevity_days": 1,
+          "repo": "lasso-security/claude-hooks",
+          "stars": 262,
+          "stars_per_commit": 131.0,
+          "top_contributions": 2,
+          "total_contributions": 2
+        },
+        {
+          "days_since_push": 8,
+          "forks": 2832,
+          "human_contributors": 10,
+          "longevity_days": 425,
+          "repo": "NirDiamant/agents-towards-production",
+          "stars": 21323,
+          "stars_per_commit": 127.7,
+          "top_contributions": 167,
+          "total_contributions": 201
+        },
+        {
+          "days_since_push": 35,
+          "forks": 15,
+          "human_contributors": 1,
+          "longevity_days": 17,
+          "repo": "Brain0-ai/brain0",
+          "stars": 367,
+          "stars_per_commit": 122.3,
+          "top_contributions": 3,
+          "total_contributions": 3
+        }
+      ],
+      "low": [
+        {
+          "days_since_push": 6,
+          "forks": 73,
+          "human_contributors": 10,
+          "longevity_days": 507,
+          "repo": "OpenIntegrationEngine/engine",
+          "stars": 216,
+          "stars_per_commit": 0.1,
+          "top_contributions": 1489,
+          "total_contributions": 2745
+        },
+        {
+          "days_since_push": 4,
+          "forks": 10,
+          "human_contributors": 2,
+          "longevity_days": 145,
+          "repo": "dredozubov/hazmat",
+          "stars": 160,
+          "stars_per_commit": 0.1,
+          "top_contributions": 1268,
+          "total_contributions": 1269
+        },
+        {
+          "days_since_push": 0,
+          "forks": 33,
+          "human_contributors": 6,
+          "longevity_days": 231,
+          "repo": "rustledger/rustledger",
+          "stars": 374,
+          "stars_per_commit": 0.1,
+          "top_contributions": 2733,
+          "total_contributions": 2762
+        },
+        {
+          "days_since_push": 0,
+          "forks": 65,
+          "human_contributors": 8,
+          "longevity_days": 191,
+          "repo": "vivekchand/clawmetry",
+          "stars": 399,
+          "stars_per_commit": 0.1,
+          "top_contributions": 3112,
+          "total_contributions": 3148
+        },
+        {
+          "days_since_push": 1,
+          "forks": 6,
+          "human_contributors": 2,
+          "longevity_days": 318,
+          "repo": "multikernel/kerf",
+          "stars": 30,
+          "stars_per_commit": 0.2,
+          "top_contributions": 156,
+          "total_contributions": 163
+        },
+        {
+          "days_since_push": 0,
+          "forks": 20,
+          "human_contributors": 4,
+          "longevity_days": 238,
+          "repo": "FootprintAI/Containarium",
+          "stars": 273,
+          "stars_per_commit": 0.3,
+          "top_contributions": 989,
+          "total_contributions": 1280
+        }
+      ],
+      "note": "Descriptive divergence only. High construction is not a claim about investment quality, and low attention is not a claim about obscurity."
+    },
+    "channels": [
+      {
+        "channel": "events",
+        "duplicates_suppressed": 0,
+        "estimated_cost_usd": "0",
+        "evidence_records": 0,
+        "formation_signals": 0,
+        "raw_records": 0,
+        "resolved_identities": 0,
+        "stale_signals": 0,
+        "technical_artifacts": 0,
+        "unique_subjects": 0,
+        "unresolved_identities": 0
+      },
+      {
+        "api_requests": 1259,
+        "channel": "github",
+        "duplicates_suppressed": 0,
+        "estimated_cost_usd": "0.000000",
+        "evidence_records": 1580,
+        "formation_signals": 98,
+        "raw_records": 102,
+        "resolved_identities": 110,
+        "stale_signals": 45,
+        "technical_artifacts": 102,
+        "unique_subjects": 102,
+        "unresolved_identities": 37
+      },
+      {
+        "channel": "hackathon",
+        "duplicates_suppressed": 0,
+        "estimated_cost_usd": "0",
+        "evidence_records": 0,
+        "formation_signals": 0,
+        "note": "manual only by robots policy; no automated adapter exists",
+        "raw_records": 0,
+        "resolved_identities": 0,
+        "stale_signals": 0,
+        "technical_artifacts": 0,
+        "unique_subjects": 0,
+        "unresolved_identities": 0
+      },
+      {
+        "api_requests": 12,
+        "channel": "research",
+        "duplicates_suppressed": 0,
+        "estimated_cost_usd": "0.000000",
+        "evidence_records": 6,
+        "formation_signals": 0,
+        "raw_records": 6,
+        "resolved_identities": 0,
+        "stale_signals": 0,
+        "technical_artifacts": 0,
+        "unique_subjects": 6,
+        "unresolved_identities": 0
+      },
+      {
+        "channel": "web",
+        "duplicates_suppressed": 0,
+        "estimated_cost_usd": "0",
+        "evidence_records": 0,
+        "formation_signals": 73,
+        "raw_records": 0,
+        "resolved_identities": 0,
+        "stale_signals": 18,
+        "technical_artifacts": 0,
+        "unique_subjects": 0,
+        "unresolved_identities": 0
+      },
+      {
+        "channel": "x",
+        "duplicates_suppressed": 0,
+        "estimated_cost_usd": "0",
+        "evidence_records": 0,
+        "formation_signals": 0,
+        "note": "X ingestion is off by default and no credentials were present",
+        "raw_records": 0,
+        "resolved_identities": 0,
+        "stale_signals": 0,
+        "technical_artifacts": 0,
+        "unique_subjects": 0,
+        "unresolved_identities": 0
+      }
+    ],
+    "domain": {
+      "distinct_domains": 72,
+      "docs_sites": 3,
+      "domain_adds_a_distinct_formation_event": 33,
+      "domain_adds_distinct_pct": 32.35,
+      "formation_from_github_only": 17,
+      "interpretation": "A project domain is present on most repositories (70.59%), but it adds a DISTINCT formation event on only 32.35% of them - because in the other cases the GitHub organisation has already supplied one and the two describe the same decision. Domains earn their own event where an organisation has no domain of its own, or where the project domain differs from the company domain, which is a second and separate decision.",
+      "methods_excluded": [
+        "whois_enrichment",
+        "domain_registrant_lookup",
+        "reverse_whois",
+        "dns_history_broker_data"
+      ],
+      "orgs_linking_a_domain": 48,
+      "product_domains": 69,
+      "repositories_measured": 102,
+      "with_a_project_domain": 72,
+      "with_a_project_domain_pct": 70.59
+    },
+    "identity": {
+      "context": {
+        "identities_with_a_personal_or_project_site": 102,
+        "identities_with_an_at_handle_in_bio": 28,
+        "why_at_handles_are_not_counted": "On GitHub a bare @handle in a bio is overwhelmingly a GitHub organisation handle, not an X account. Treating them as X accounts would be the fuzzy matching v2 forbids."
+      },
+      "mergeable_identities": 166,
+      "mergeable_pct": 62.17,
+      "methods_excluded": [
+        "data_brokers",
+        "people_search_sites",
+        "private_email_databases",
+        "guessed_username_matching",
+        "arbitrary_x_username_search",
+        "facial_recognition",
+        "location_inference"
+      ],
+      "no_private_identifiers_exported": true,
+      "states": {
+        "POSSIBLE_MATCH": 60,
+        "STRONG_ARTIFACT_MATCH": 57,
+        "UNRESOLVED": 41,
+        "VERIFIED_CROSS_LINK": 109
+      },
+      "total_identities": 267,
+      "universe": "Phase 2 live collected identities (unchanged)",
+      "x_linkable_count": 1,
+      "x_linkable_pct": 0.37
+    }
+  }
+}

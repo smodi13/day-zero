@@ -49,3 +49,8 @@ data/*.db.tmp
 
 # --- Phase 3: experiment venv ---
 experiments/headroom/.venv/
+
+# --- Phase 4B: frontend build artifacts ---
+web/out/
+web/.next/
+*.tsbuildinfo
