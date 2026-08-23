@@ -43,9 +43,11 @@ def _candidate_from_repo(conn: sqlite3.Connection, full_name: str,
     status = conn.execute("SELECT * FROM status_checks WHERE subject_label=?",
                           (full_name,)).fetchone()
     from .signals import themes_for
+    builder_login = principal_builder(conn, rid)
     return Candidate(
-        key=full_name, person_label=row["owner_login"], repo=repo, signals=sigs,
-        identity_confidence=_identity_confidence(conn, row["owner_login"]),
+        key=full_name, person_label=builder_login or row["owner_login"], repo=repo,
+        signals=sigs,
+        identity_confidence=_identity_confidence(conn, builder_login),
         owner_scope=scope, formation_state=(st["state"] if st else "UNKNOWN"),
         themes=themes_for(repo), analyst_review=None,
         status_check=dict(status) if status else None,
@@ -53,7 +55,27 @@ def _candidate_from_repo(conn: sqlite3.Connection, full_name: str,
     )
 
 
-def _identity_confidence(conn: sqlite3.Connection, login: str) -> str:
+def principal_builder(conn: sqlite3.Connection, repo_id: str) -> Optional[str]:
+    """The identified human who principally built the artifact.
+
+    IMPLEMENTATION BUG FIX (post-freeze, documented in research/phase2_report.md):
+    this previously resolved the REPOSITORY OWNER, which for an org-owned repo is the
+    organization, not a person. The frozen rule is about whether the AUTHOR's identity
+    is resolvable, so the correct subject is the top human contributor. No frozen rule
+    file was edited; the combined rules hash is unchanged.
+    """
+    row = conn.execute(
+        "SELECT i.handle FROM relationships r"
+        " JOIN identities i ON i.identity_id = r.from_id"
+        " WHERE r.to_id=? AND r.kind IN ('MAINTAINS','CONTRIBUTED_TO')"
+        "   AND i.channel='github'"
+        " ORDER BY (r.kind='MAINTAINS') DESC, i.handle LIMIT 1", (repo_id,)).fetchone()
+    return row["handle"] if row else None
+
+
+def _identity_confidence(conn: sqlite3.Connection, login: Optional[str]) -> str:
+    if not login:
+        return "low"
     row = conn.execute(
         "SELECT b.identity_confidence c FROM builders b JOIN identities i"
         " ON i.person_id=b.person_id WHERE i.channel='github' AND i.handle=?",

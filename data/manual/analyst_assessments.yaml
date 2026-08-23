@@ -1,9 +1,263 @@
-# Analyst-authored technical dimensions and review questions.
+# ANALYST REVIEW — human judgement, recorded separately from system eligibility.
 #
-# These are HUMAN judgements. They supersede rule-derived values for the same
-# dimension and are labelled assessed_by: analyst. An LLM may never write here.
+# `analyst_state` is an OVERRIDE of the system state and always carries the original
+# system state, a reason, and the evidence. Two of the overrides below correct a KNOWN
+# MODEL GAP (person-level formation signals are not joined to repository candidates,
+# and identity confidence is computed only from GitHub profile fields). That gap is a
+# rule/model design weakness discovered after the freeze; it is documented in
+# research/phase2_report.md and NOT patched retroactively.
 #
-# Populated during the Phase 2B analyst review (after the rule freeze). Empty at
-# freeze time by design: analyst judgement is an input to selection, never to the
-# eligibility rules themselves.
-records: []
+# Attention (star counts) is barred from SYSTEM logic. The analyst uses public
+# visibility only to answer a different question — "is this already obvious?" — which
+# is a required Intro Queue field, not a ranking input.
+records:
+  # ---------------------------------------------------------------- promoted --
+  - subject: "multikernel/sandlock"
+    analyst_state: INTRO_READY
+    analyst_rank: 1
+    override_reason: >-
+      System state WATCH / IDENTITY_UNRESOLVED. The automated identity check reads only
+      GitHub profile fields, and Cong Wang publishes no `blog` value, so it resolved to
+      medium. His identity is in fact resolvable to ER-1 standard by artifact
+      cross-reference.
+    override_evidence: >-
+      multikernel.io/about.html names Cong Wang as Founder & CEO with a described kernel
+      record; arXiv:2605.26298 "Sandlock: Confining AI Agent Code with Unprivileged Linux
+      Primitives" lists Cong Wang as an author; the GitHub account congwang-mk is the top
+      contributor to multikernel/sandlock with 807 commits.
+    technical_question: >-
+      Sandlock claims confinement using unprivileged Linux primitives. What is the actual
+      escape surface compared with a microVM boundary, and what does the paper's threat
+      model deliberately exclude?
+    commercial_or_formation_question: >-
+      Multikernel now sells three products (Private Cloud, Sandbox, LiveUpdate). Is the
+      agent sandbox a wedge into the cloud-OS business, or the business itself? Those
+      imply different buyers and different funding paths.
+    card:
+      builder_or_team: "Cong Wang and the Multikernel Technologies team (8 human contributors on sandlock)"
+      project: "multikernel/sandlock — process-based AI agent sandbox for Linux, no container"
+      why_now: >-
+        807 owner commits, pushed the day of review; sandlock.io registered 2026-08-08;
+        an arXiv paper published 2026-05-25; and a company products page that now lists
+        "Multikernel Sandbox (AI agent sandboxing runtime)" as a commercial product.
+      technical_artifact: "github.com/multikernel/sandlock (Rust, Apache-2.0) + arXiv:2605.26298"
+      technical_depth: >-
+        Kernel-level isolation using unprivileged Linux primitives, from a maintainer of
+        the Linux networking traffic-control subsystem. Systems depth OBSERVED; technical
+        difficulty remains UNKNOWN until the escape surface is tested.
+      formation_evidence: >-
+        GitHub org Multikernel Technologies, Inc. created 2025-03-08 (F-02, F-06);
+        multikernel.io and sandlock.io (F-01); commercial product page and demo booking
+        (F-07). No public financing round was found in the sources reviewed.
+      array_relevance: >-
+        Agent execution isolation. Array's own AI coworker runs "in its own filesystem
+        sandbox with isolated execution", and the April 2026 security post argues agents
+        move data through syscalls where existing tooling cannot see them.
+      why_company_first_sourcing_may_miss_it: >-
+        358 stars on the sandbox repo; the founder has 72 GitHub followers, no blog field
+        and no X-native presence; the strongest corroborating evidence sits on LKML and
+        arXiv. No institutional financing was identified in the public sources reviewed,
+        so no funding database would surface it.
+      strongest_positive: >-
+        Four independent channels spanning 17 months (org registry, company domain, LKML,
+        arXiv), plus a paper co-authored with the AgentSight author — a cross-link between
+        two independently-surfaced Phase 1 leads.
+      strongest_negative: >-
+        The company is already selling. This is closer to the late edge of Day 0 than
+        Phase 1 assumed, and a round may exist that is simply not public.
+      what_must_be_verified_before_introduction: >-
+        Whether a priced round has closed; team size; whether sandlock is the commercial
+        focus or a research artifact beside the cloud-OS product.
+
+  - subject: "sipyourdrink-ltd/bernstein"
+    analyst_state: INTRO_READY
+    analyst_rank: 2
+    technical_question: >-
+      "No model in the coordination loop" is the whole claim. Where exactly does
+      determinism break — tool output ordering, retries, or agent nondeterminism — and
+      what does the orchestrator do when a sub-agent returns something unparseable?
+    commercial_or_formation_question: >-
+      A one-person studio with 3,669 commits and a registered company. Is Bernstein the
+      product, or infrastructure for a product? And who is the first buyer — platform
+      teams, or individual engineers?
+    card:
+      builder_or_team: "Alex Chernysh (solo; Sip Your Drink Ltd)"
+      project: "bernstein — deterministic orchestrator for CLI coding agents"
+      why_now: >-
+        3,669 commits since 2026-03-22, pushed the day of review; bernstein.run live; a
+        registered UK company (F-06) created eight days after the repo.
+      technical_artifact: "github.com/sipyourdrink-ltd/bernstein (Python, Apache-2.0)"
+      technical_depth: >-
+        Removing the model from the coordination loop is an architectural stance, not a
+        wrapper: it converts an LLM-orchestration problem into a scheduling problem.
+        Depth markers OBSERVED across D-02/D-04/D-05/D-06; difficulty UNKNOWN until read.
+      formation_evidence: "F-01 bernstein.run; F-02 org 2026-03-28; F-06 'Ltd' in the registered org name."
+      array_relevance: >-
+        Objective verification and failure recovery — the two LoopOps components Shruti's
+        July 2026 post names as missing (completion gates, escalation queues).
+      why_company_first_sourcing_may_miss_it: >-
+        960 stars against 3,669 commits. A one-person studio with no press, no accelerator
+        and no financing identified in the public sources reviewed.
+      strongest_positive: "The highest construction-to-attention ratio in the eligible set, with a registered company behind it."
+      strongest_negative: >-
+        Studio of one. No co-founder, no external contributor above 37 commits, and
+        deterministic orchestration is a crowded idea even if this implementation is not.
+      what_must_be_verified_before_introduction: >-
+        Whether anyone runs Bernstein in production; whether the determinism claim holds
+        under tool failure; whether the founder intends a company or a tool.
+
+  - subject: "scanaislop/aislop"
+    analyst_state: INTRO_READY
+    analyst_rank: 3
+    technical_question: >-
+      Detecting "dead code, unsafe casts, swallowed errors" is classic static analysis.
+      What is genuinely different about agent-authored code that a tuned existing linter
+      would miss, and is that difference measurable?
+    commercial_or_formation_question: >-
+      Is the buyer the platform team that owns the CI gate, or the security team that
+      owns the risk? The pricing and the wedge differ.
+    card:
+      builder_or_team: "Kenny Olawuwo (software/security engineer) + 5 contributors"
+      project: "aislop — code-quality and security gate for AI-authored code"
+      why_now: "319 owner commits since 2026-03-06, pushed 2026-08-22; org created 2026-04-19; scanaislop.com live."
+      technical_artifact: "github.com/scanaislop/aislop (TypeScript, MIT)"
+      technical_depth: >-
+        Security and compiler-adjacent markers OBSERVED (D-02, D-05, D-06). Difficulty
+        UNKNOWN: the honest question is whether this is real analysis or rule packaging.
+      formation_evidence: "F-01 scanaislop.com; F-02 org created 2026-04-19."
+      array_relevance: >-
+        "Vibe coding security" — securing production code written by agents — is one of
+        the four categories Array's April 2026 security post says it is ACTIVELY SEEKING.
+      why_company_first_sourcing_may_miss_it: >-
+        572 stars. No financing identified in the public sources reviewed, and the
+        category is described in Array's own writing as unfilled.
+      strongest_positive: "Sits on a category Array has publicly stated it wants and cannot find."
+      strongest_negative: >-
+        Lowest technical-depth confidence of the three. A code-quality gate is the
+        easiest thing on this list for an incumbent linter vendor to absorb.
+      what_must_be_verified_before_introduction: >-
+        Whether the detection is agent-specific or generic; whether any team has it in a
+        CI gate; who the second engineer is.
+
+  # ------------------------------------------------------------- not promoted --
+  - subject: "h5i-dev/h5i"
+    analyst_state: WATCH
+    override_reason: >-
+      System state REVIEW (eligible). Held back by analyst judgement, not by a rule.
+    override_evidence: >-
+      Hideaki Takahashi is a Columbia PhD student publishing security/crypto/ML research.
+      The artifact is strong (Rust, 363 commits, pushed daily) but there is no evidence
+      distinguishing a research prototype from an intended company, and the h5i org has
+      five repos with no commercial surface.
+    why_interesting: "Rust per-agent disposable sandboxes over a Git-backed message bus; unusual architecture, active daily."
+    why_not_intro_ready: "No evidence of commercial intent; a PhD artifact and a company look identical at this stage."
+    next_signal_to_watch: "A co-founder joining, a pricing or docs surface, or the author stating an intent to build."
+
+  - subject: "vivekchand/clawmetry"
+    analyst_state: WATCH
+    override_reason: "System WATCH / NO_FORMATION_EVIDENCE. Analyst agrees with WATCH, for a different and stronger reason."
+    override_evidence: >-
+      Formation evidence does exist in reality (clawmetry.com + a first-person "Building
+      ClawMetry" bio) but the model attaches F-03 to the person and F-01 to the repo and
+      never joins them. Even correcting for that, the analyst holds at WATCH: 3,112 of
+      3,142 human commits are the founder's, no contributor exceeds 17 commits, and the
+      universe contains at least three near-identical agent-cost tools.
+    why_interesting: "Highest construction-to-attention ratio found in Phase 1 (3,112 commits / 399 stars); governance framing, not just observability."
+    why_not_intro_ready: "Solo; no team; category now visibly crowded (codeburn, agentacct, clawmetry all do adjacent work)."
+    next_signal_to_watch: "A second sustained contributor, a named third-party user, or an enforcement (not reporting) capability."
+
+  - subject: "getagentseal/codeburn"
+    analyst_state: WATCH
+    override_reason: "Downgraded by the THEMATIC MIRRORING GUARD."
+    override_evidence: >-
+      Asked directly: would CodeBurn be interesting if Array had never published the
+      Accepted Work Unit argument? The artifact is a local cost-accounting reader over
+      37 agents' log formats — useful, L2 integration depth, npx-distributed. Its
+      apparent distinctiveness in Phase 1 came substantially from vocabulary resonance
+      with Array's own July 2026 post. The universe contains at least two other tools
+      doing the same job (mikehasa/agentacct, vivekchand/clawmetry), which is the
+      clearest evidence that the idea is not scarce.
+    why_interesting: "Explicit founder statement, real distribution (npx), three named projects."
+    why_not_intro_ready: "Depth is integration-level; category is crowded; founder attention is split across CodeBurn, Eywa and AgentSeal."
+    next_signal_to_watch: "Convergence onto one project, or an enterprise-side buyer rather than an individual-engineer tool."
+
+  - subject: "linnix-os/linnix"
+    analyst_state: WATCH
+    override_reason: "The Phase 1 concern was never answered."
+    override_evidence: >-
+      The open question was "why is this not simply cheaper Datadog". Nothing in the
+      public artifact answers it: 174 owner commits, no license (NOASSERTION, which also
+      caps reproducibility), a one-repo org, and a description that states eBPF plus AI
+      incident detection without a stated architectural or cost difference.
+    why_interesting: "Rust + eBPF systems work by a builder with 10 followers; org created three months before the repo, which signals deliberate intent."
+    why_not_intro_ready: "Differentiation question unanswered from public evidence; no licence; single contributor."
+    next_signal_to_watch: "A published architecture or benchmark versus an existing agent, or a licence that permits evaluation."
+
+  - subject: "spinningfactory/kloak"
+    analyst_state: WATCH
+    override_reason: "Distinctness versus Array's existing exposure is unresolved — but NOT penalised for the adjacency itself."
+    override_evidence: >-
+      Sapiom (Array-led pre-seed) enforces budgets and permissions before execution.
+      kloak describes zero-trust for agent run environments in C under AGPL-3.0, with 209
+      owner commits and an org created 2024-01-08 (two years before the project). The
+      adjacency is informative rather than disqualifying: it tells us Array already
+      believes the layer matters. What is missing is a public statement of what kloak
+      does that Sapiom does not.
+    why_interesting: "One of only three artifacts in the universe aimed at Array's stated 'agent identity and authority' mandate, by an identified distributed-systems engineer."
+    why_not_intro_ready: "No public differentiation from an existing portfolio position; no founder statement; 261 stars with no external contributor above 4 commits."
+    next_signal_to_watch: "A design document stating the enforcement point (per-syscall vs per-request), or a co-founder."
+
+  - subject: "Graphify-Labs/graphify"
+    analyst_state: WATCH
+    override_reason: "System REVIEW (eligible). Rejected by the 'why non-obvious' requirement."
+    override_evidence: "109,638 stars and 2,015 founder followers. A fund does not need a system to tell it this exists."
+    why_interesting: "Deterministic AST-based code knowledge graphs with an explicit 'no vector store' stance."
+    why_not_intro_ready: "Already obvious. Intro Queue rule requires a falsifiable answer to 'why is this not visible', and there isn't one."
+    next_signal_to_watch: "n/a — track as a landscape anchor."
+
+  - subject: "MemPalace/mempalace"
+    analyst_state: WATCH
+    override_reason: "System REVIEW (eligible). Rejected on evidence quality."
+    override_evidence: >-
+      "The best-benchmarked open-source AI memory system" with no baseline, no numbers
+      and no published harness — the exact unfalsifiable-claim shape of negative control
+      NC-4, at 58,564 stars. The top contributor's public affiliation is a blockchain
+      infrastructure company, and the corporate surface is a linktree.
+    why_interesting: "Very large adoption signal in a category Array names (Theme 7)."
+    why_not_intro_ready: "Superlative performance claim with nothing measurable behind it; already highly visible."
+    next_signal_to_watch: "A published benchmark harness that a third party can run."
+
+  - subject: "headroomlabs-ai/headroom"
+    analyst_state: WATCH
+    override_reason: "System REVIEW (eligible). Retained as the Phase 3 reproduction target rather than as an intro."
+    override_evidence: >-
+      67,228 stars; the claim "20% fewer tokens for coding agents, 60-95% fewer for JSON,
+      same answers" is the most falsifiable statement in the universe and remains EXP-1.
+      The lead contributor's GitHub company field reads "Netflix, Inc.", which is context
+      only and is explicitly NOT read as a departure signal.
+    why_interesting: "The best reproduction target found; directly on Array Theme 3."
+    why_not_intro_ready: "Already highly visible; and the right first action is to test the claim, not to request an introduction."
+    next_signal_to_watch: "EXP-1 result."
+
+  - subject: "rtk-ai/rtk"
+    analyst_state: WATCH
+    override_reason: "System REVIEW (eligible). Rejected on 'why non-obvious'."
+    override_evidence: >-
+      77,106 stars. A genuine finding surfaced during review: the org's second
+      contributor publishes an explicit first-person founder statement ("Founder & CEO
+      @rtk-ai"), so this is a real, named team — but it is not a discovery.
+    why_interesting: "Named founder, real multi-person team, 60-90% token-reduction claim (EXP-2)."
+    why_not_intro_ready: "Already obvious at this level of adoption; 1,998 open issues is itself a diligence question."
+    next_signal_to_watch: "EXP-2 result; whether the issue backlog is being resolved."
+
+  - subject: "framerslab/agentos"
+    analyst_state: WATCH
+    override_reason: "System REVIEW (eligible). Held on category crowding and a registry misclassification found during review."
+    override_evidence: >-
+      Owner scope resolved to research_group because the org name contains "Lab", but
+      Frame (Framers Lab, Inc.) self-describes as an AI infrastructure company. That is a
+      registry false positive worth recording. On the merits: a TypeScript agent framework
+      with 1,735 solo commits sits in the most crowded category in the landscape.
+    why_interesting: "Incorporated company, long-running org (2024-10-08), single very productive engineer."
+    why_not_intro_ready: "Agent frameworks are the most crowded and least differentiated category surveyed."
+    next_signal_to_watch: "A narrowing from 'framework' to a specific execution or accountability primitive."

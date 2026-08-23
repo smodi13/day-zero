@@ -1,0 +1,2810 @@
+{
+  "as_of": "2026-08-23",
+  "count": 63,
+  "records": [
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "low",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-09",
+        "D-06",
+        "F-01",
+        "M-04",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "7df-lab/devo",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_verification"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "cross_source_convergence",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "low",
+      "next_signal_to_watch": "",
+      "notes": "single-channel evidence",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "D-05",
+        "F-02",
+        "V-03"
+      ],
+      "subject": "AI45Lab/AgentDoG",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_verification",
+        "security"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; cross_source_convergence; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github"
+      ],
+      "failed_requirements": [
+        "cross_source_convergence",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "high",
+      "next_signal_to_watch": "",
+      "notes": "single-channel evidence",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "identity_resolved",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "D-05",
+        "D-08",
+        "F-02"
+      ],
+      "subject": "Brain0-ai/brain0",
+      "system_drop_reason": "NO_FORMATION_EVIDENCE",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_memory_context",
+        "agent_observability",
+        "agent_verification",
+        "security"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "cross_source_convergence; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "cross_source_convergence",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "low",
+      "next_signal_to_watch": "",
+      "notes": "single-channel evidence",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-09",
+        "D-03",
+        "F-02",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "Compresr-ai/Context-Gateway",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_memory_context",
+        "agent_verification"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; cross_source_convergence; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "medium",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-09",
+        "D-04",
+        "D-09",
+        "F-01",
+        "F-02",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "Eventual-Inc/Daft",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "data_infra"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "high",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "identity_resolved",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-05",
+        "D-06",
+        "D-08",
+        "F-01",
+        "F-02",
+        "M-04",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "FailproofAI/failproofai",
+      "system_drop_reason": "NO_FORMATION_EVIDENCE",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_identity_authority",
+        "agent_observability"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "research",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "COLLABORATING",
+      "identity_confidence": "low",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "research_group",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-08",
+        "C-03",
+        "D-07",
+        "F-01"
+      ],
+      "subject": "FutureMLS-Lab/OSCAR",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "inference_infra"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "analyst_override": {
+        "analyst_rank": null,
+        "analyst_state": "WATCH",
+        "evidence": "109,638 stars and 2,015 founder followers. A fund does not need a system to tell it this exists.",
+        "original_system_state": "REVIEW",
+        "reason": "System REVIEW (eligible). Rejected by the 'why non-obvious' requirement."
+      },
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "FORMING",
+      "identity_confidence": "high",
+      "next_signal_to_watch": "n/a — track as a landscape anchor.",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "identity_resolved",
+        "cross_source_convergence",
+        "formation_or_commercial_evidence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-02",
+        "D-06",
+        "D-09",
+        "F-01",
+        "F-02",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "Graphify-Labs/graphify",
+      "system_drop_reason": null,
+      "system_state": "REVIEW",
+      "themes": [
+        "agent_memory_context",
+        "agent_verification"
+      ],
+      "why_interesting": "Deterministic AST-based code knowledge graphs with an explicit 'no vector store' stance.",
+      "why_not_intro_ready": "Already obvious. Intro Queue rule requires a falsifiable answer to 'why is this not visible', and there isn't one."
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "low",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "formation_or_commercial_evidence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-09",
+        "D-01",
+        "D-05",
+        "F-01",
+        "M-03",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "Karib0u/rustinel",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_execution_isolation",
+        "security"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; technical_question; commercial_or_formation_question"
+    },
+    {
+      "analyst_override": {
+        "analyst_rank": null,
+        "analyst_state": "WATCH",
+        "evidence": "\"The best-benchmarked open-source AI memory system\" with no baseline, no numbers and no published harness — the exact unfalsifiable-claim shape of negative control NC-4, at 58,564 stars. The top contributor's public affiliation is a blockchain infrastructure company, and the corporate surface is a linktree.",
+        "original_system_state": "REVIEW",
+        "reason": "System REVIEW (eligible). Rejected on evidence quality."
+      },
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "FORMING",
+      "identity_confidence": "high",
+      "next_signal_to_watch": "A published benchmark harness that a third party can run.",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "identity_resolved",
+        "cross_source_convergence",
+        "formation_or_commercial_evidence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-05",
+        "D-08",
+        "F-01",
+        "F-02",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "MemPalace/mempalace",
+      "system_drop_reason": null,
+      "system_state": "REVIEW",
+      "themes": [
+        "agent_memory_context"
+      ],
+      "why_interesting": "Very large adoption signal in a category Array names (Theme 7).",
+      "why_not_intro_ready": "Superlative performance claim with nothing measurable behind it; already highly visible."
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "low",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-08",
+        "F-01",
+        "F-02",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "MemTensor/MemOS",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_economics",
+        "agent_memory_context",
+        "agent_verification"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "medium",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-06",
+        "D-09",
+        "D-10",
+        "F-01",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "OpenIntegrationEngine/engine",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_execution_isolation"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "high",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "identity_resolved",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-02",
+        "F-01",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "OthmanAdi/planning-with-files",
+      "system_drop_reason": "NO_FORMATION_EVIDENCE",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_memory_context",
+        "agent_verification",
+        "security"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "high",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "identity_resolved",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-05",
+        "D-06",
+        "F-01",
+        "F-02",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "PrismorSec/prismor",
+      "system_drop_reason": "NO_FORMATION_EVIDENCE",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_identity_authority",
+        "security"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "medium",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-03",
+        "B-09",
+        "D-07",
+        "D-09",
+        "F-01"
+      ],
+      "subject": "RyanCodrai/turbovec",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "data_infra"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "medium",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-02",
+        "D-05",
+        "D-06",
+        "D-08",
+        "F-01",
+        "F-02",
+        "V-02"
+      ],
+      "subject": "SponsioLabs/Sponsio",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_verification"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "low",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-08",
+        "F-01",
+        "F-02",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "Tracer-Cloud/opensre",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_observability"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "research"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "COLLABORATING",
+      "identity_confidence": "low",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-08",
+        "C-03",
+        "D-03",
+        "D-07",
+        "V-03"
+      ],
+      "subject": "WeianMao/triattention",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_memory_context",
+        "inference_infra"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "medium",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-02",
+        "F-01",
+        "F-02",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "a5c-ai/babysitter",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_verification"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "medium",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-05",
+        "D-06",
+        "F-01",
+        "F-02",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "agentcontrol/agent-control",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_identity_authority"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "high",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "identity_resolved",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-09",
+        "D-01",
+        "D-05",
+        "D-06",
+        "F-01",
+        "F-02",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "boxlite-ai/boxlite",
+      "system_drop_reason": "NO_FORMATION_EVIDENCE",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_execution_isolation"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "high",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "identity_resolved",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-09",
+        "D-01",
+        "D-05",
+        "D-06",
+        "F-01",
+        "F-02",
+        "V-02"
+      ],
+      "subject": "cicd-sensor/cicd-sensor",
+      "system_drop_reason": "NO_FORMATION_EVIDENCE",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_execution_isolation",
+        "security"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "research",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "low",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-03",
+        "B-08",
+        "C-03",
+        "D-08",
+        "F-01",
+        "F-02"
+      ],
+      "subject": "claw-eval/claw-eval",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_verification"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "high",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "identity_resolved",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-02",
+        "D-05",
+        "D-06",
+        "F-01",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "clay-good/OpenLore",
+      "system_drop_reason": "NO_FORMATION_EVIDENCE",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_memory_context",
+        "agent_verification"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "medium",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-05",
+        "D-08",
+        "F-01",
+        "F-02",
+        "M-04",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "cuga-project/cuga-agent",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_identity_authority"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "low",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "D-01",
+        "D-04",
+        "D-08",
+        "F-01",
+        "V-02"
+      ],
+      "subject": "databufflabs/databuff",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_observability"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "cross_source_convergence",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "medium",
+      "next_signal_to_watch": "",
+      "notes": "single-channel evidence",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-09",
+        "D-01",
+        "F-02",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "deeplethe/forkd",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_execution_isolation"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; cross_source_convergence; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "high",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "identity_resolved",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-09",
+        "D-01",
+        "F-01",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "domcyrus/rustnet",
+      "system_drop_reason": "NO_FORMATION_EVIDENCE",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_execution_isolation",
+        "agent_observability"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github"
+      ],
+      "failed_requirements": [
+        "cross_source_convergence",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "high",
+      "next_signal_to_watch": "",
+      "notes": "single-channel evidence",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "identity_resolved",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-09",
+        "D-01",
+        "D-05",
+        "D-08",
+        "V-02"
+      ],
+      "subject": "dredozubov/hazmat",
+      "system_drop_reason": "NO_FORMATION_EVIDENCE",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_execution_isolation",
+        "agent_verification"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "cross_source_convergence; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "medium",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-05",
+        "F-01",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "eugene1g/agent-safehouse",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_execution_isolation"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "analyst_override": {
+        "analyst_rank": null,
+        "analyst_state": "WATCH",
+        "evidence": "Owner scope resolved to research_group because the org name contains \"Lab\", but Frame (Framers Lab, Inc.) self-describes as an AI infrastructure company. That is a registry false positive worth recording. On the merits: a TypeScript agent framework with 1,735 solo commits sits in the most crowded category in the landscape.",
+        "original_system_state": "REVIEW",
+        "reason": "System REVIEW (eligible). Held on category crowding and a registry misclassification found during review."
+      },
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "high",
+      "next_signal_to_watch": "A narrowing from 'framework' to a specific execution or accountability primitive.",
+      "notes": "",
+      "owner_scope": "research_group",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "identity_resolved",
+        "cross_source_convergence",
+        "formation_or_commercial_evidence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-05",
+        "D-06",
+        "F-01",
+        "M-03",
+        "V-02"
+      ],
+      "subject": "framerslab/agentos",
+      "system_drop_reason": null,
+      "system_state": "REVIEW",
+      "themes": [
+        "agent_memory_context"
+      ],
+      "why_interesting": "Incorporated company, long-running org (2024-10-08), single very productive engineer.",
+      "why_not_intro_ready": "Agent frameworks are the most crowded and least differentiated category surveyed."
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "low",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-03",
+        "D-05",
+        "D-07",
+        "D-08",
+        "F-01",
+        "F-02",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "future-agi/future-agi",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_verification",
+        "inference_infra"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "FORMING",
+      "identity_confidence": "medium",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "formation_or_commercial_evidence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-06",
+        "F-01",
+        "F-02",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "gastownhall/beads",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_memory_context"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "FORMING",
+      "identity_confidence": "medium",
+      "next_signal_to_watch": "Convergence onto one project, or an enterprise-side buyer rather than an individual-engineer tool.",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "formation_or_commercial_evidence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-08",
+        "F-01",
+        "F-02",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "getagentseal/codeburn",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_economics"
+      ],
+      "why_interesting": "Explicit founder statement, real distribution (npx), three named projects.",
+      "why_not_intro_ready": "Depth is integration-level; category is crowded; founder attention is split across CodeBurn, Eywa and AgentSeal."
+    },
+    {
+      "analyst_override": {
+        "analyst_rank": null,
+        "analyst_state": "WATCH",
+        "evidence": "Hideaki Takahashi is a Columbia PhD student publishing security/crypto/ML research. The artifact is strong (Rust, 363 commits, pushed daily) but there is no evidence distinguishing a research prototype from an intended company, and the h5i org has five repos with no commercial surface.",
+        "original_system_state": "REVIEW",
+        "reason": "System state REVIEW (eligible). Held back by analyst judgement, not by a rule."
+      },
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "FORMING",
+      "identity_confidence": "high",
+      "next_signal_to_watch": "A co-founder joining, a pricing or docs surface, or the author stating an intent to build.",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "identity_resolved",
+        "cross_source_convergence",
+        "formation_or_commercial_evidence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-09",
+        "D-01",
+        "D-04",
+        "D-05",
+        "D-08",
+        "F-01",
+        "F-02",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "h5i-dev/h5i",
+      "system_drop_reason": null,
+      "system_state": "REVIEW",
+      "themes": [
+        "agent_execution_isolation"
+      ],
+      "why_interesting": "Rust per-agent disposable sandboxes over a Git-backed message bus; unusual architecture, active daily.",
+      "why_not_intro_ready": "No evidence of commercial intent; a PhD artifact and a company look identical at this stage."
+    },
+    {
+      "analyst_override": {
+        "analyst_rank": null,
+        "analyst_state": "WATCH",
+        "evidence": "67,228 stars; the claim \"20% fewer tokens for coding agents, 60-95% fewer for JSON, same answers\" is the most falsifiable statement in the universe and remains EXP-1. The lead contributor's GitHub company field reads \"Netflix, Inc.\", which is context only and is explicitly NOT read as a departure signal.",
+        "original_system_state": "REVIEW",
+        "reason": "System REVIEW (eligible). Retained as the Phase 3 reproduction target rather than as an intro."
+      },
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "FORMING",
+      "identity_confidence": "high",
+      "next_signal_to_watch": "EXP-1 result.",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "identity_resolved",
+        "cross_source_convergence",
+        "formation_or_commercial_evidence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-05",
+        "D-03",
+        "D-06",
+        "F-01",
+        "F-02",
+        "M-03",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "headroomlabs-ai/headroom",
+      "system_drop_reason": null,
+      "system_state": "REVIEW",
+      "themes": [
+        "agent_economics",
+        "agent_memory_context"
+      ],
+      "why_interesting": "The best reproduction target found; directly on Array Theme 3.",
+      "why_not_intro_ready": "Already highly visible; and the right first action is to test the claim, not to request an introduction."
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "medium",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-05",
+        "F-01",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "kenryu42/cc-safety-net",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_verification"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github"
+      ],
+      "failed_requirements": [
+        "cross_source_convergence",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "high",
+      "next_signal_to_watch": "A published architecture or benchmark versus an existing agent, or a licence that permits evaluation.",
+      "notes": "single-channel evidence",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "identity_resolved",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-01",
+        "D-05",
+        "D-08",
+        "F-02",
+        "V-02"
+      ],
+      "subject": "linnix-os/linnix",
+      "system_drop_reason": "NO_FORMATION_EVIDENCE",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_execution_isolation",
+        "agent_observability",
+        "security"
+      ],
+      "why_interesting": "Rust + eBPF systems work by a builder with 10 followers; org created three months before the repo, which signals deliberate intent.",
+      "why_not_intro_ready": "Differentiation question unanswered from public evidence; no licence; single contributor."
+    },
+    {
+      "channels": [
+        "github"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "cross_source_convergence",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "low",
+      "next_signal_to_watch": "",
+      "notes": "single-channel evidence",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "D-08",
+        "V-02"
+      ],
+      "subject": "mikehasa/agentacct",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_economics",
+        "agent_observability",
+        "agent_verification"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; cross_source_convergence; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "high",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "identity_resolved",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-05",
+        "D-03",
+        "F-01",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "mksglu/context-mode",
+      "system_drop_reason": "NO_FORMATION_EVIDENCE",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_execution_isolation",
+        "agent_memory_context"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "cross_source_convergence",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "medium",
+      "next_signal_to_watch": "",
+      "notes": "single-channel evidence",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-09",
+        "D-01",
+        "F-02",
+        "F-06"
+      ],
+      "subject": "multikernel/daxfs",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_execution_isolation",
+        "agent_memory_context",
+        "agent_verification"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; cross_source_convergence; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "cross_source_convergence",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "medium",
+      "next_signal_to_watch": "",
+      "notes": "single-channel evidence",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-09",
+        "D-01",
+        "D-06",
+        "F-02",
+        "F-06",
+        "V-02"
+      ],
+      "subject": "multikernel/kernelscript",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_execution_isolation",
+        "security"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; cross_source_convergence; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "cross_source_convergence",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "low",
+      "next_signal_to_watch": "",
+      "notes": "single-channel evidence",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-09",
+        "D-01",
+        "F-02",
+        "F-06"
+      ],
+      "subject": "multikernel/linux",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_execution_isolation"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; cross_source_convergence; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github"
+      ],
+      "failed_requirements": [
+        "cross_source_convergence",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "high",
+      "next_signal_to_watch": "",
+      "notes": "single-channel evidence",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "identity_resolved",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-03",
+        "D-06",
+        "D-07",
+        "F-02",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "ovg-project/kvcached",
+      "system_drop_reason": "NO_FORMATION_EVIDENCE",
+      "system_state": "WATCH",
+      "themes": [
+        "inference_infra"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "cross_source_convergence; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "FORMING",
+      "identity_confidence": "medium",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "formation_or_commercial_evidence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-09",
+        "D-01",
+        "D-07",
+        "F-01",
+        "F-02",
+        "V-03"
+      ],
+      "subject": "pegainfer-project/pegainfer",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "inference_infra"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github"
+      ],
+      "failed_requirements": [
+        "cross_source_convergence",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "high",
+      "next_signal_to_watch": "",
+      "notes": "single-channel evidence",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "identity_resolved",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-09",
+        "D-10",
+        "V-02"
+      ],
+      "subject": "pgr0ss/pgledger",
+      "system_drop_reason": "NO_FORMATION_EVIDENCE",
+      "system_state": "WATCH",
+      "themes": [
+        "fintech_infra"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "cross_source_convergence; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "high",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "identity_resolved",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-03",
+        "D-01",
+        "D-05",
+        "D-06",
+        "D-08",
+        "F-01",
+        "F-02",
+        "F-06",
+        "V-03"
+      ],
+      "subject": "qpoint-io/qtap",
+      "system_drop_reason": "NO_FORMATION_EVIDENCE",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_execution_isolation",
+        "agent_memory_context",
+        "security"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "medium",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-08",
+        "F-01",
+        "V-02"
+      ],
+      "subject": "rajudandigam/agent-inspect",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_observability"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "medium",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-05",
+        "D-08",
+        "F-01",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "rohitg00/agentmemory",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_memory_context"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "analyst_override": {
+        "analyst_rank": null,
+        "analyst_state": "WATCH",
+        "evidence": "77,106 stars. A genuine finding surfaced during review: the org's second contributor publishes an explicit first-person founder statement (\"Founder & CEO @rtk-ai\"), so this is a real, named team — but it is not a discovery.",
+        "original_system_state": "REVIEW",
+        "reason": "System REVIEW (eligible). Rejected on 'why non-obvious'."
+      },
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "FORMING",
+      "identity_confidence": "high",
+      "next_signal_to_watch": "EXP-2 result; whether the issue backlog is being resolved.",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "identity_resolved",
+        "cross_source_convergence",
+        "formation_or_commercial_evidence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-09",
+        "D-02",
+        "D-03",
+        "F-01",
+        "F-02",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "rtk-ai/rtk",
+      "system_drop_reason": null,
+      "system_state": "REVIEW",
+      "themes": [
+        "agent_economics"
+      ],
+      "why_interesting": "Named founder, real multi-person team, 60-90% token-reduction claim (EXP-2).",
+      "why_not_intro_ready": "Already obvious at this level of adoption; 1,998 open issues is itself a diligence question."
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "medium",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-09",
+        "D-06",
+        "D-08",
+        "F-01",
+        "F-02",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "runta-dev/clawshell",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_identity_authority"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "high",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "identity_resolved",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-09",
+        "D-10",
+        "F-01",
+        "F-02",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "rustledger/rustledger",
+      "system_drop_reason": "NO_FORMATION_EVIDENCE",
+      "system_state": "WATCH",
+      "themes": [
+        "fintech_infra"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "medium",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "D-05",
+        "D-06",
+        "D-08",
+        "F-01",
+        "F-02",
+        "V-03"
+      ],
+      "subject": "secureagentics/Adrian",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_identity_authority",
+        "agent_observability",
+        "security"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "high",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "identity_resolved",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-05",
+        "D-02",
+        "D-03",
+        "D-06",
+        "D-07",
+        "D-08",
+        "F-01",
+        "F-02",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "shepherd-agents/shepherd",
+      "system_drop_reason": "NO_FORMATION_EVIDENCE",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_execution_isolation",
+        "agent_observability",
+        "inference_infra"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "FORMING",
+      "identity_confidence": "medium",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "formation_or_commercial_evidence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-09",
+        "D-07",
+        "F-01",
+        "F-02",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "smg-project/smg",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_economics",
+        "agent_verification",
+        "inference_infra"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "medium",
+      "next_signal_to_watch": "A design document stating the enforcement point (per-syscall vs per-request), or a co-founder.",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-01",
+        "D-05",
+        "F-01",
+        "F-02",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "spinningfactory/kloak",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_identity_authority",
+        "security"
+      ],
+      "why_interesting": "One of only three artifacts in the universe aimed at Array's stated 'agent identity and authority' mandate, by an identified distributed-systems engineer.",
+      "why_not_intro_ready": "No public differentiation from an existing portfolio position; no founder statement; 261 stars with no external contributor above 4 commits."
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "medium",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-05",
+        "F-01",
+        "F-02",
+        "V-02"
+      ],
+      "subject": "statewright/statewright",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_verification"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "low",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-09",
+        "D-06",
+        "F-01",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "t8y2/dbx",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "data_infra"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "medium",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-03",
+        "D-06",
+        "D-09",
+        "D-10",
+        "F-01",
+        "F-02",
+        "V-03"
+      ],
+      "subject": "thetahealth/mirobody",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "data_infra",
+        "health_infra"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "FORMING",
+      "identity_confidence": "low",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "formation_or_commercial_evidence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-05",
+        "F-01",
+        "F-02",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "thunder-id/thunderid",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_identity_authority"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "research",
+        "web"
+      ],
+      "failed_requirements": [
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "COLLABORATING",
+      "identity_confidence": "high",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "identity_resolved",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-08",
+        "C-03",
+        "D-01",
+        "D-03",
+        "D-04",
+        "D-07",
+        "F-01",
+        "F-02",
+        "V-03"
+      ],
+      "subject": "uccl-project/uccl",
+      "system_drop_reason": "NO_FORMATION_EVIDENCE",
+      "system_state": "WATCH",
+      "themes": [
+        "inference_infra"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "high",
+      "next_signal_to_watch": "A second sustained contributor, a named third-party user, or an enforcement (not reporting) capability.",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "identity_resolved",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "D-06",
+        "D-08",
+        "F-01",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "vivekchand/clawmetry",
+      "system_drop_reason": "NO_FORMATION_EVIDENCE",
+      "system_state": "WATCH",
+      "themes": [
+        "agent_economics",
+        "agent_identity_authority",
+        "agent_observability"
+      ],
+      "why_interesting": "Highest construction-to-attention ratio found in Phase 1 (3,112 commits / 399 stars); governance framing, not just observability.",
+      "why_not_intro_ready": "Solo; no team; category now visibly crowded (codeburn, agentacct, clawmetry all do adjacent work)."
+    },
+    {
+      "channels": [
+        "github",
+        "web"
+      ],
+      "failed_requirements": [
+        "identity_resolved",
+        "formation_or_commercial_evidence",
+        "technical_question",
+        "commercial_or_formation_question"
+      ],
+      "formation_state": "BUILDING",
+      "identity_confidence": "medium",
+      "next_signal_to_watch": "",
+      "notes": "",
+      "owner_scope": "unregistered",
+      "passed_requirements": [
+        "real_artifact",
+        "technical_depth_signal",
+        "current_signal",
+        "cross_source_convergence",
+        "array_relevant_theme"
+      ],
+      "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+      "signal_types": [
+        "B-01",
+        "B-02",
+        "B-03",
+        "B-05",
+        "D-03",
+        "D-06",
+        "D-07",
+        "F-01",
+        "V-02",
+        "V-03"
+      ],
+      "subject": "youssofal/MTPLX",
+      "system_drop_reason": "IDENTITY_UNRESOLVED",
+      "system_state": "WATCH",
+      "themes": [
+        "inference_infra"
+      ],
+      "why_interesting": "",
+      "why_not_intro_ready": "identity_resolved; formation_or_commercial_evidence; technical_question; commercial_or_formation_question"
+    }
+  ]
+}

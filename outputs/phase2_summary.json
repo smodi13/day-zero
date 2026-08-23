@@ -1,0 +1,93 @@
+{
+  "as_of": "2026-08-23",
+  "channels_live": [
+    "github",
+    "research",
+    "web"
+  ],
+  "channels_off": {
+    "events": "manual only",
+    "hackathon": "manual only by robots policy",
+    "x": "off by default, fail-closed, no credentials"
+  },
+  "commit_a": "75b4311ad9ce540e7f36f8d2ec927623f7f419f0",
+  "contacted_anyone": false,
+  "cost": {
+    "actual_usd": "UNKNOWN",
+    "by_source": {
+      "arxiv": {
+        "actual_cost_usd": "UNKNOWN",
+        "estimated_cost_usd": "0.000000",
+        "requests": 12
+      },
+      "github": {
+        "actual_cost_usd": "UNKNOWN",
+        "estimated_cost_usd": "0.000000",
+        "requests": 1259
+      }
+    },
+    "human_review_minutes": "NOT_MEASURED",
+    "total_estimated_usd": "0.000000"
+  },
+  "current_3": [
+    "multikernel/sandlock",
+    "sipyourdrink-ltd/bernstein",
+    "scanaislop/aislop"
+  ],
+  "engine_version": "0.2.0",
+  "frozen_rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+  "funnel": {
+    "dropped": 36,
+    "identities_resolved": 267,
+    "intro_ready_awu": 3,
+    "repositories_collected": 102,
+    "system_review_candidates": 8,
+    "watchlist": 63
+  },
+  "holdout": {
+    "naming": "HISTORICAL_HOLDOUT (design validation, not investment performance)",
+    "prereg": {
+      "MISS": 3,
+      "PARTIAL": 2,
+      "PASS": 3,
+      "UNKNOWN": 2
+    },
+    "tally": {
+      "MISS": 4,
+      "PARTIAL": 2,
+      "UNKNOWN": 4
+    }
+  },
+  "negative_controls": {
+    "incorrectly_promoted": 0,
+    "tally": {
+      "CORRECTLY_REJECTED": 3,
+      "COVERED_BY_UNIT_TEST": 5,
+      "REJECTED_FOR_A_DIFFERENT_REASON": 4
+    }
+  },
+  "review_tally": {
+    "DROP": 36,
+    "REVIEW": 8,
+    "WATCH": 58
+  },
+  "universe": {
+    "builders": 267,
+    "commercialization_signals": 9,
+    "events": 0,
+    "evidence": 1586,
+    "formation_signals": 171,
+    "formation_state_rows": 134,
+    "hackathons": 0,
+    "identities": 487,
+    "organizations": 66,
+    "papers": 6,
+    "relationships": 579,
+    "repositories": 102,
+    "social_signals": 0,
+    "sources": 273,
+    "status_checks": 3,
+    "technical_assessments": 918,
+    "technical_signals": 648
+  }
+}

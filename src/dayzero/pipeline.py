@@ -76,7 +76,9 @@ def evaluate_universe(conn: sqlite3.Connection, as_of: date) -> list[dict[str, A
             "channels": sorted(cand.channels_present),
             "rules_hash": manifest["combined_hash"],
         }
-        if ar and ar.get("analyst_state"):
+        # An "override" exists only when the analyst DIFFERS from the system. Agreeing
+        # with the system is not an override and is not recorded as one.
+        if ar and ar.get("analyst_state") and ar["analyst_state"] != d.state:
             rec["analyst_override"] = {
                 "original_system_state": d.state,
                 "analyst_state": ar["analyst_state"],
@@ -132,6 +134,8 @@ def run_intro_queue(args: argparse.Namespace) -> int:
         a = analyst.get(r["subject"], {})
         r["analyst_rank"] = a.get("analyst_rank", 999)
         r["card"] = a.get("card", {})
+        r["technical_question"] = a.get("technical_question", "")
+        r["commercial_or_formation_question"] = a.get("commercial_or_formation_question", "")
     for r in watch:
         a = analyst.get(r["subject"], {})
         r["why_interesting"] = a.get("why_interesting", "")
@@ -154,6 +158,8 @@ def run_intro_queue(args: argparse.Namespace) -> int:
                                   "records": sorted(watch, key=lambda r: r["subject"])})
     write_text("intro_queue.md", render_intro_queue_md(payload))
     write_text("watchlist.md", render_watchlist_md(watch))
+    from .cards import render as render_cards
+    write_text("analyst_cards.md", render_cards(payload, {}, {}))
     print(json.dumps({"intro_ready": len(intro), "watch": len(watch),
                       "current_3": len(c3)}, indent=2))
     return 0

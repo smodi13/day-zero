@@ -1,0 +1,159 @@
+# AS-OF EVIDENCE PACKETS.
+#
+# Every item is dated by WHEN THE UNDERLYING FACT EXISTED, not when it was retrieved.
+# `artifact_available_at_cutoff` records whether the artifact itself was publicly
+# available at the cutoff: a 2026 retrieval of a 2022 commit is legitimate; a 2025
+# article describing that 2022 event is not automatically valid evidence for what an
+# investor could have known in 2023.
+#
+# NO post-cutoff information appears here. Outcomes live in outcomes.yaml.
+# Where nothing is listed for a case, nothing recoverable was found — that is a
+# result, not an omission.
+cases:
+  B1:
+    - claim_type: org_created
+      claim_class: formation
+      observed_claim: "GitHub organization Eventual-Inc created 2022-02-03"
+      evidence_date: "2022-02-03"
+      source_type: github_org
+      source_url: "https://github.com/Eventual-Inc"
+      artifact_available_at_cutoff: true
+      evidence_status: OBSERVED
+    - claim_type: repo_created
+      claim_class: construction
+      observed_claim: "Eventual-Inc/Daft created 2022-04-25; Rust; Apache-2.0"
+      evidence_date: "2022-04-25"
+      source_type: github_repo
+      source_url: "https://github.com/Eventual-Inc/Daft"
+      artifact_available_at_cutoff: true
+      evidence_status: OBSERVED
+    - claim_type: sustained_construction
+      claim_class: construction
+      observed_claim: "commits through 2022 by Jay Chia, Sammy Sidhu, xcharleslin, Jeev B, Charles; 100+ commits and 15 distinct human authors before the cutoff"
+      evidence_date: "2022-12-30"
+      source_type: github_commits
+      source_url: "https://github.com/Eventual-Inc/Daft/commits"
+      artifact_available_at_cutoff: true
+      evidence_status: OBSERVED
+    - claim_type: release_cadence
+      claim_class: construction
+      observed_claim: "7 tagged releases published before the cutoff; earliest 2024-07-31"
+      evidence_date: "2024-07-31"
+      source_type: github_releases
+      source_url: "https://github.com/Eventual-Inc/Daft/releases"
+      artifact_available_at_cutoff: true
+      evidence_status: OBSERVED
+    - claim_type: technical_depth
+      claim_class: technical_depth
+      observed_claim: "distributed query/data engine implemented in Rust — D-06 (query engine) and D-09 (novel data infrastructure) markers with a systems language"
+      evidence_date: "2022-04-25"
+      source_type: github_repo
+      source_url: "https://github.com/Eventual-Inc/Daft"
+      artifact_available_at_cutoff: true
+      evidence_status: OBSERVED
+    - claim_type: identity
+      claim_class: identity
+      observed_claim: "named human committers resolvable from commit metadata: Sammy Sidhu, Jay Chia"
+      evidence_date: "2022-12-30"
+      source_type: github_commits
+      source_url: "https://github.com/Eventual-Inc/Daft/commits"
+      artifact_available_at_cutoff: true
+      evidence_status: OBSERVED
+    - claim_type: thesis_area
+      claim_class: technical_depth
+      observed_claim: "data infrastructure — a named Array investment area"
+      evidence_date: "2022-04-25"
+      source_type: github_repo
+      source_url: "https://github.com/Eventual-Inc/Daft"
+      artifact_available_at_cutoff: true
+      evidence_status: OBSERVED
+
+  B2:
+    - claim_type: org_created
+      claim_class: formation
+      observed_claim: "GitHub organization `sapiom` created 2025-09-08; org blog resolves to https://www.sapiom.ai (domain cross-reference, ER-1)"
+      evidence_date: "2025-09-08"
+      source_type: github_org
+      source_url: "https://github.com/sapiom"
+      artifact_available_at_cutoff: true
+      evidence_status: OBSERVED
+    - claim_type: repo_created
+      claim_class: construction
+      observed_claim: "sapiom/sapiom-js created 2025-11-11; TypeScript; MIT; 14 commits before the cutoff by Alec McCormick, David Witwer, David Zhang"
+      evidence_date: "2025-11-11"
+      source_type: github_repo
+      source_url: "https://github.com/sapiom/sapiom-js"
+      artifact_available_at_cutoff: true
+      evidence_status: OBSERVED
+    - claim_type: repo_created
+      claim_class: construction
+      observed_claim: "sapiom/skills created 2026-01-30 — 'Agent skills for Sapiom: instant access to paid services for AI agents'"
+      evidence_date: "2026-01-30"
+      source_type: github_repo
+      source_url: "https://github.com/sapiom/skills"
+      artifact_available_at_cutoff: true
+      evidence_status: OBSERVED
+    - claim_type: thesis_area
+      claim_class: technical_depth
+      observed_claim: "agent access to paid services — agent economics / authority, a named Array theme"
+      evidence_date: "2026-01-30"
+      source_type: github_repo
+      source_url: "https://github.com/sapiom/skills"
+      artifact_available_at_cutoff: true
+      evidence_status: OBSERVED
+    - claim_type: identity
+      claim_class: identity
+      observed_claim: "named human committers resolvable from commit metadata"
+      evidence_date: "2025-11-11"
+      source_type: github_commits
+      source_url: "https://github.com/sapiom/sapiom-js/commits"
+      artifact_available_at_cutoff: true
+      evidence_status: OBSERVED
+
+  B3:
+    - claim_type: accelerator_participation
+      claim_class: formation
+      observed_claim: "Y Combinator Summer 2023 public company page for HappyRobot"
+      evidence_date: "2023-09-01"
+      source_type: hackathon_official
+      source_url: "https://www.ycombinator.com/companies/happyrobot"
+      artifact_available_at_cutoff: true
+      evidence_status: OBSERVED
+    - claim_type: thesis_area
+      claim_class: technical_depth
+      observed_claim: "AI agents automating freight-broker calls, email and paperwork — vertical AI / enterprise, a named Array area"
+      evidence_date: "2023-09-01"
+      source_type: company_site
+      source_url: "https://www.ycombinator.com/companies/happyrobot"
+      artifact_available_at_cutoff: true
+      evidence_status: OBSERVED
+
+  B7:
+    - claim_type: no_precutoff_github_presence
+      claim_class: construction
+      observed_claim: "GitHub organization MozartData was created 2021-04-03, five months AFTER the cutoff; no public code artifact existed at the cutoff"
+      evidence_date: "2021-04-03"
+      source_type: github_org
+      source_url: "https://github.com/MozartData"
+      artifact_available_at_cutoff: false
+      evidence_status: OBSERVED
+
+  B8:
+    - claim_type: org_created
+      claim_class: formation
+      observed_claim: "GitHub organization ZecOps created 2017-08-15; zero public repositories, so no code artifact is available"
+      evidence_date: "2017-08-15"
+      source_type: github_org
+      source_url: "https://github.com/ZecOps"
+      artifact_available_at_cutoff: true
+      evidence_status: OBSERVED
+
+  B9:
+    - claim_type: no_precutoff_github_presence
+      claim_class: construction
+      observed_claim: "GitHub organization ERA-Software was created 2023-11-30, two years AFTER the cutoff"
+      evidence_date: "2023-11-30"
+      source_type: github_org
+      source_url: "https://github.com/ERA-Software"
+      artifact_available_at_cutoff: false
+      evidence_status: OBSERVED
