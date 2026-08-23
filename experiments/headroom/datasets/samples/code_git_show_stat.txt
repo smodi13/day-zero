@@ -1,0 +1,80 @@
+commit 74c4627402d6e3dcf60d28bab09d165d2e781174
+Author: Sahil Modi <195584415+smodi13@users.noreply.github.com>
+Date:   Sun Aug 23 07:54:24 2026 -0700
+
+    Run frozen sourcing validation and build founder intro queue
+    
+    Phase 2B. Everything here was produced AFTER the rules were frozen in 75b4311.
+    The frozen combined hash is unchanged: ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c
+    
+    Historical holdout — 0 PASS, 2 PARTIAL, 4 MISS, 4 UNKNOWN
+    - Pre-registered expectation was 3/2/3/2. The system did WORSE than its own
+      published prediction, and the rules were not changed afterwards.
+    - B1 (Eventual/Daft) reached only PARTIAL. It had 2.5 years of pre-cutoff
+      multi-contributor Rust systems work, and failed the convergence rule because
+      every source was GitHub. The rule that prevents single-channel false positives
+      also blocks the strongest true positive in the cohort. RULE DESIGN WEAKNESS —
+      documented, not patched.
+    - B2 (Sapiom) beat its pre-registration: its org and two repos were genuinely
+      recoverable before the cutoff. B3 and B8 fell short of theirs.
+    - Five of ten cases produced zero recoverable public evidence. Companies that do
+      not build in public are structurally invisible to this method.
+    
+    Negative controls — 0 incorrectly promoted
+    - All 7 live controls rejected; 3 for the predicted reason, 4 for another.
+    - NC-5 (frontier-lab engineer, 16k stars, no formation evidence) did not promote,
+      but was stopped by IDENTITY_UNRESOLVED rather than by the formation guard the
+      control was written to test. Reported precisely rather than claimed as a win.
+    
+    Intro Queue — 3 leads, CURRENT 3 emitted, nobody contacted
+    - multikernel/sandlock, sipyourdrink-ltd/bernstein, scanaislop/aislop.
+    - All three sit in Agent Execution & Accountability, from three different
+      sub-themes, which is convergent rather than thesis-fitted.
+    - All three Phase 1 Weekly 3 leads fell out of system eligibility. One returned
+      by a documented analyst override; CodeBurn was downgraded by the thematic
+      mirroring guard; ClawMetry weakened on team and category crowding.
+    
+    Multikernel artifact correction
+    - Phase 1 anchored on kernelscript. The org has 16 repos including sandlock
+      (807 commits, pushed daily, arXiv:2605.26298, a named commercial product).
+    - That paper is co-authored by Cong Wang and Yusheng Zheng, linking two Phase 1
+      leads that had been treated as independent.
+    - No public financing was found; status recorded as launched, not funded.
+    
+    X — 0 records, $0, and a decisive finding
+    - The guard refused at the first precondition and would have refused again on
+      stale pricing. More important: 1 of 267 collected identities publishes a
+      linkable X account, so X evidence could not be joined to 99.6% of the universe
+      without the name-similarity merge that ER-2 forbids.
+    
+    One implementation bug fixed, zero rule changes
+    - Identity resolution read the repository OWNER (often an organization) instead
+      of the principal human builder. The frozen rule asks about the author. Fixed;
+      frozen hash verified unchanged before and after.
+    
+    178 offline tests pass, including 15 new outcome tests asserting that every
+    evaluation used the frozen hash and that no holdout evidence postdates its cutoff.
+    
+    Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+    Claude-Session: https://claude.ai/code/session_01DitrVVDKsL6RJR5RLXn49M
+
+ data/holdout/evidence.yaml           |  159 ++
+ data/manual/analyst_assessments.yaml |  268 ++-
+ outputs/analyst_cards.md             |  128 ++
+ outputs/holdout_report.md            |   44 +
+ outputs/holdout_results.json         |  174 ++
+ outputs/intro_queue.json             |  387 ++++
+ outputs/intro_queue.md               |   68 +
+ outputs/negative_controls.json       |  198 ++
+ outputs/negative_controls.md         |   26 +
+ outputs/phase2_summary.json          |   93 +
+ outputs/review_queue.json            | 3831 ++++++++++++++++++++++++++++++++++
+ outputs/watchlist.json               | 2810 +++++++++++++++++++++++++
+ outputs/watchlist.md                 |   69 +
+ research/phase2_report.md            |  518 +++++
+ research/x_integration_phase2.md     |  107 +
+ src/dayzero/cards.py                 |   91 +
+ src/dayzero/negative_controls.py     |   28 +-
+ src/dayzero/pipeline.py              |    8 +-
+ tests/test_outcomes.py               |  129 ++
+ 19 files changed, 9125 insertions(+), 11 deletions(-)

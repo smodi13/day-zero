@@ -1,0 +1,157 @@
+config:
+total 104
+-rw-r--r--  1 sahilmodi  staff  1411 Aug 22 23:47 career_signal_classes.yaml
+-rw-r--r--  1 sahilmodi  staff   854 Aug 22 23:47 evidence_types.yaml
+drwxr-xr-x  3 sahilmodi  staff    96 Aug 23 08:01 experiments
+-rw-r--r--  1 sahilmodi  staff   873 Aug 22 23:47 formation_states.yaml
+-rw-r--r--  1 sahilmodi  staff  3319 Aug 23 07:28 holdout_manifest.yaml
+-rw-r--r--  1 sahilmodi  staff  1408 Aug 22 23:47 holdout_rules.yaml
+-rw-r--r--  1 sahilmodi  staff   968 Aug 22 23:47 intro_queue_rules.yaml
+-rw-r--r--  1 sahilmodi  staff  1848 Aug 22 23:47 negative_control_rules.yaml
+-rw-r--r--  1 sahilmodi  staff   686 Aug 22 23:47 review_states.yaml
+-rw-r--r--  1 sahilmodi  staff  4526 Aug 22 23:47 signal_types.yaml
+-rw-r--r--  1 sahilmodi  staff  2057 Aug 22 23:47 source_quality.yaml
+-rw-r--r--  1 sahilmodi  staff  2589 Aug 22 23:47 source_types.yaml
+-rw-r--r--  1 sahilmodi  staff  1314 Aug 22 23:47 technical_dimensions.yaml
+drwxr-xr-x  2 sahilmodi  staff    64 Aug 23 08:01 v2
+
+config/experiments:
+total 16
+-rw-r--r--  1 sahilmodi  staff  8012 Aug 23 08:01 headroom_v1.yaml
+
+config/v2:
+total 0
+
+src:
+total 0
+drwxr-xr-x  29 sahilmodi  staff  928 Aug 23 07:50 dayzero
+
+src/dayzero:
+total 368
+-rw-r--r--   1 sahilmodi  staff    160 Aug 22 23:48 __init__.py
+-rw-r--r--   1 sahilmodi  staff   6007 Aug 23 07:33 __main__.py
+drwxr-xr-x  27 sahilmodi  staff    864 Aug 23 07:50 __pycache__
+-rw-r--r--   1 sahilmodi  staff    228 Aug 22 23:49 _dates.py
+drwxr-xr-x   8 sahilmodi  staff    256 Aug 23 07:26 adapters
+-rw-r--r--   1 sahilmodi  staff  28181 Aug 23 07:40 build.py
+-rw-r--r--   1 sahilmodi  staff   4057 Aug 23 07:50 cards.py
+-rw-r--r--   1 sahilmodi  staff   2905 Aug 22 23:51 collect.py
+-rw-r--r--   1 sahilmodi  staff   2118 Aug 22 23:49 config.py
+-rw-r--r--   1 sahilmodi  staff   2537 Aug 22 23:49 cost.py
+-rw-r--r--   1 sahilmodi  staff  11322 Aug 22 23:56 db.py
+-rw-r--r--   1 sahilmodi  staff   6464 Aug 23 07:31 diagnostics.py
+-rw-r--r--   1 sahilmodi  staff   7244 Aug 23 07:33 export.py
+-rw-r--r--   1 sahilmodi  staff   4007 Aug 23 00:25 formation.py
+-rw-r--r--   1 sahilmodi  staff   3221 Aug 23 07:31 freeze.py
+-rw-r--r--   1 sahilmodi  staff   6255 Aug 23 07:32 holdout.py
+-rw-r--r--   1 sahilmodi  staff   1755 Aug 22 23:48 ids.py
+-rw-r--r--   1 sahilmodi  staff   1952 Aug 22 23:48 money.py
+-rw-r--r--   1 sahilmodi  staff   6301 Aug 23 07:44 negative_controls.py
+-rw-r--r--   1 sahilmodi  staff   9162 Aug 23 07:50 pipeline.py
+-rw-r--r--   1 sahilmodi  staff   3792 Aug 23 00:02 registry.py
+-rw-r--r--   1 sahilmodi  staff   5509 Aug 23 00:22 resolve.py
+-rw-r--r--   1 sahilmodi  staff   6542 Aug 23 00:27 review.py
+-rw-r--r--   1 sahilmodi  staff  15855 Aug 23 07:39 signals.py
+-rw-r--r--   1 sahilmodi  staff   6102 Aug 23 00:25 technical.py
+-rw-r--r--   1 sahilmodi  staff   2241 Aug 22 23:48 timeutil.py
+-rw-r--r--   1 sahilmodi  staff   2132 Aug 22 23:48 urlutil.py
+
+src/dayzero/__pycache__:
+total 560
+-rw-r--r--  1 sahilmodi  staff    330 Aug 22 23:48 __init__.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff  11640 Aug 23 07:34 __main__.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff    709 Aug 22 23:49 _dates.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff  39386 Aug 23 07:40 build.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff   6245 Aug 23 07:50 cards.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff   4566 Aug 22 23:51 collect.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff   4528 Aug 22 23:51 config.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff   4958 Aug 22 23:51 cost.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff  12627 Aug 22 23:56 db.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff   9290 Aug 23 07:32 diagnostics.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff  12173 Aug 23 07:34 export.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff   7775 Aug 23 00:25 formation.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff   6198 Aug 23 07:31 freeze.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff  10285 Aug 23 07:32 holdout.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff   5866 Aug 22 23:48 ids.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff   3458 Aug 22 23:48 money.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff   7975 Aug 23 07:44 negative_controls.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff  14622 Aug 23 07:50 pipeline.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff   5828 Aug 23 00:02 registry.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff   8476 Aug 23 00:22 resolve.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff  10057 Aug 23 00:27 review.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff  21084 Aug 23 07:39 signals.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff   8925 Aug 23 00:25 technical.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff   5498 Aug 22 23:48 timeutil.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff   4171 Aug 22 23:48 urlutil.cpython-314.pyc
+
+src/dayzero/adapters:
+total 56
+-rw-r--r--  1 sahilmodi  staff   141 Aug 22 23:49 __init__.py
+drwxr-xr-x  7 sahilmodi  staff   224 Aug 23 07:26 __pycache__
+-rw-r--r--  1 sahilmodi  staff  2458 Aug 23 07:26 arxiv.py
+-rw-r--r--  1 sahilmodi  staff  7634 Aug 22 23:49 github.py
+-rw-r--r--  1 sahilmodi  staff  2051 Aug 23 07:26 manual.py
+-rw-r--r--  1 sahilmodi  staff  4460 Aug 23 07:26 x.py
+
+src/dayzero/adapters/__pycache__:
+total 80
+-rw-r--r--  1 sahilmodi  staff    308 Aug 22 23:49 __init__.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff   5327 Aug 23 07:26 arxiv.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff  14861 Aug 22 23:49 github.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff   3588 Aug 23 07:26 manual.cpython-314.pyc
+-rw-r--r--  1 sahilmodi  staff   6884 Aug 23 07:26 x.cpython-314.pyc
+
+tests:
+total 208
+drwxr-xr-x  26 sahilmodi  staff   832 Aug 23 07:49 __pycache__
+-rw-r--r--   1 sahilmodi  staff   735 Aug 23 07:35 conftest.py
+-rw-r--r--   1 sahilmodi  staff  2277 Aug 23 07:40 test_ai_separation.py
+-rw-r--r--   1 sahilmodi  staff  2573 Aug 23 07:37 test_attention_vs_construction.py
+-rw-r--r--   1 sahilmodi  staff  2931 Aug 23 07:36 test_career_class.py
+-rw-r--r--   1 sahilmodi  staff  1976 Aug 23 07:40 test_cost.py
+-rw-r--r--   1 sahilmodi  staff  1904 Aug 23 07:38 test_data_access_policy.py
+-rw-r--r--   1 sahilmodi  staff  2354 Aug 23 07:40 test_determinism.py
+-rw-r--r--   1 sahilmodi  staff  3043 Aug 23 07:36 test_entity_resolution.py
+-rw-r--r--   1 sahilmodi  staff  2949 Aug 23 07:36 test_evidence.py
+-rw-r--r--   1 sahilmodi  staff  2151 Aug 23 07:40 test_exports_and_config.py
+-rw-r--r--   1 sahilmodi  staff  3162 Aug 23 07:36 test_formation.py
+-rw-r--r--   1 sahilmodi  staff  2797 Aug 23 07:37 test_holdout_guard.py
+-rw-r--r--   1 sahilmodi  staff  1290 Aug 23 07:34 test_idempotency.py
+-rw-r--r--   1 sahilmodi  staff  1522 Aug 23 07:37 test_negative_control_guard.py
+-rw-r--r--   1 sahilmodi  staff  1996 Aug 23 07:34 test_no_score.py
+-rw-r--r--   1 sahilmodi  staff  4603 Aug 23 07:49 test_outcomes.py
+-rw-r--r--   1 sahilmodi  staff  2626 Aug 23 07:38 test_privacy.py
+-rw-r--r--   1 sahilmodi  staff  3069 Aug 23 07:39 test_regression_phase1.py
+-rw-r--r--   1 sahilmodi  staff  3880 Aug 23 07:39 test_review_rules.py
+-rw-r--r--   1 sahilmodi  staff  2042 Aug 23 07:34 test_schema.py
+-rw-r--r--   1 sahilmodi  staff  2951 Aug 23 07:38 test_security.py
+-rw-r--r--   1 sahilmodi  staff  2163 Aug 23 07:40 test_source_lineage.py
+-rw-r--r--   1 sahilmodi  staff  1553 Aug 23 07:37 test_time.py
+-rw-r--r--   1 sahilmodi  staff  4111 Aug 23 07:36 test_x_adapter.py
+
+tests/__pycache__:
+total 648
+-rw-r--r--  1 sahilmodi  staff   2124 Aug 23 07:35 conftest.cpython-314-pytest-9.1.1.pyc
+-rw-r--r--  1 sahilmodi  staff   9234 Aug 23 07:40 test_ai_separation.cpython-314-pytest-9.1.1.pyc
+-rw-r--r--  1 sahilmodi  staff  11922 Aug 23 07:37 test_attention_vs_construction.cpython-314-pytest-9.1.1.pyc
+-rw-r--r--  1 sahilmodi  staff  10639 Aug 23 07:36 test_career_class.cpython-314-pytest-9.1.1.pyc
+-rw-r--r--  1 sahilmodi  staff  11668 Aug 23 07:40 test_cost.cpython-314-pytest-9.1.1.pyc
+-rw-r--r--  1 sahilmodi  staff   9508 Aug 23 07:38 test_data_access_policy.cpython-314-pytest-9.1.1.pyc
+-rw-r--r--  1 sahilmodi  staff  24354 Aug 23 07:40 test_determinism.cpython-314-pytest-9.1.1.pyc
+-rw-r--r--  1 sahilmodi  staff  18191 Aug 23 07:36 test_entity_resolution.cpython-314-pytest-9.1.1.pyc
+-rw-r--r--  1 sahilmodi  staff  15277 Aug 23 07:36 test_evidence.cpython-314-pytest-9.1.1.pyc
+-rw-r--r--  1 sahilmodi  staff  12421 Aug 23 07:40 test_exports_and_config.cpython-314-pytest-9.1.1.pyc
+-rw-r--r--  1 sahilmodi  staff  15735 Aug 23 07:36 test_formation.cpython-314-pytest-9.1.1.pyc
+-rw-r--r--  1 sahilmodi  staff  14854 Aug 23 07:37 test_holdout_guard.cpython-314-pytest-9.1.1.pyc
+-rw-r--r--  1 sahilmodi  staff   8510 Aug 23 07:34 test_idempotency.cpython-314-pytest-9.1.1.pyc
+-rw-r--r--  1 sahilmodi  staff   5305 Aug 23 07:37 test_negative_control_guard.cpython-314-pytest-9.1.1.pyc
+-rw-r--r--  1 sahilmodi  staff   7921 Aug 23 07:34 test_no_score.cpython-314-pytest-9.1.1.pyc
+-rw-r--r--  1 sahilmodi  staff  21800 Aug 23 07:49 test_outcomes.cpython-314-pytest-9.1.1.pyc
+-rw-r--r--  1 sahilmodi  staff  10600 Aug 23 07:38 test_privacy.cpython-314-pytest-9.1.1.pyc
+-rw-r--r--  1 sahilmodi  staff   9766 Aug 23 07:39 test_regression_phase1.cpython-314-pytest-9.1.1.pyc
+-rw-r--r--  1 sahilmodi  staff  15976 Aug 23 07:39 test_review_rules.cpython-314-pytest-9.1.1.pyc
+-rw-r--r--  1 sahilmodi  staff   6397 Aug 23 07:34 test_schema.cpython-314-pytest-9.1.1.pyc
+-rw-r--r--  1 sahilmodi  staff   9853 Aug 23 07:38 test_security.cpython-314-pytest-9.1.1.pyc
+-rw-r--r--  1 sahilmodi  staff   6918 Aug 23 07:40 test_source_lineage.cpython-314-pytest-9.1.1.pyc
+-rw-r--r--  1 sahilmodi  staff   7954 Aug 23 07:37 test_time.cpython-314-pytest-9.1.1.pyc
+-rw-r--r--  1 sahilmodi  staff  23282 Aug 23 07:36 test_x_adapter.cpython-314-pytest-9.1.1.pyc

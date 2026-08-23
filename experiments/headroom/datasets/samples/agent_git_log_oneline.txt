@@ -1,0 +1,4 @@
+74c4627402d6e3dcf60d28bab09d165d2e781174 2026-08-23 07:54:24 -0700 Run frozen sourcing validation and build founder intro queue
+75b4311ad9ce540e7f36f8d2ec927623f7f419f0 2026-08-23 07:41:48 -0700 Build DAY ZERO sourcing engine and freeze evaluation rules
+0a04d5ed48b4b088411aa50b9c35040e54a43666 2026-08-22 23:41:35 -0700 Record the Phase 1 commit hash in the report
+5049772e748dc7e21df2bc67e5832e277b105721 2026-08-22 23:41:25 -0700 Phase 1: research, ontology, evidence model, and initial builder universe

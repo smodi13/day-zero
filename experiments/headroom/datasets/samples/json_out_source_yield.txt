@@ -1,0 +1,86 @@
+{
+  "channels": [
+    {
+      "channel": "events",
+      "duplicates_suppressed": 0,
+      "estimated_cost_usd": "0",
+      "evidence_records": 0,
+      "formation_signals": 0,
+      "raw_records": 0,
+      "resolved_identities": 0,
+      "stale_signals": 0,
+      "technical_artifacts": 0,
+      "unique_subjects": 0,
+      "unresolved_identities": 0
+    },
+    {
+      "api_requests": 1259,
+      "channel": "github",
+      "duplicates_suppressed": 0,
+      "estimated_cost_usd": "0.000000",
+      "evidence_records": 1580,
+      "formation_signals": 98,
+      "raw_records": 102,
+      "resolved_identities": 110,
+      "stale_signals": 45,
+      "technical_artifacts": 102,
+      "unique_subjects": 102,
+      "unresolved_identities": 37
+    },
+    {
+      "channel": "hackathon",
+      "duplicates_suppressed": 0,
+      "estimated_cost_usd": "0",
+      "evidence_records": 0,
+      "formation_signals": 0,
+      "note": "manual only by robots policy; no automated adapter exists",
+      "raw_records": 0,
+      "resolved_identities": 0,
+      "stale_signals": 0,
+      "technical_artifacts": 0,
+      "unique_subjects": 0,
+      "unresolved_identities": 0
+    },
+    {
+      "api_requests": 12,
+      "channel": "research",
+      "duplicates_suppressed": 0,
+      "estimated_cost_usd": "0.000000",
+      "evidence_records": 6,
+      "formation_signals": 0,
+      "raw_records": 6,
+      "resolved_identities": 0,
+      "stale_signals": 0,
+      "technical_artifacts": 0,
+      "unique_subjects": 6,
+      "unresolved_identities": 0
+    },
+    {
+      "channel": "web",
+      "duplicates_suppressed": 0,
+      "estimated_cost_usd": "0",
+      "evidence_records": 0,
+      "formation_signals": 73,
+      "raw_records": 0,
+      "resolved_identities": 0,
+      "stale_signals": 18,
+      "technical_artifacts": 0,
+      "unique_subjects": 0,
+      "unresolved_identities": 0
+    },
+    {
+      "channel": "x",
+      "duplicates_suppressed": 0,
+      "estimated_cost_usd": "0",
+      "evidence_records": 0,
+      "formation_signals": 0,
+      "note": "X ingestion is off by default and no credentials were present",
+      "raw_records": 0,
+      "resolved_identities": 0,
+      "stale_signals": 0,
+      "technical_artifacts": 0,
+      "unique_subjects": 0,
+      "unresolved_identities": 0
+    }
+  ]
+}

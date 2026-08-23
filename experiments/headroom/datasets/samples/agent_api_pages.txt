@@ -1,0 +1,2174 @@
+{
+  "pages": [
+    {
+      "page": 0,
+      "items": [
+        {
+          "sku": "SKU-00-000",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-00-001",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-00-002",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-00-003",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-00-004",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-00-005",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-00-006",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-00-007",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-00-008",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-00-009",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-00-010",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-00-011",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-00-012",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-00-013",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-00-014",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-00-015",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-00-016",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-00-017",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-00-018",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-00-019",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-00-020",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-00-021",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-00-022",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-00-023",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-00-024",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        }
+      ]
+    },
+    {
+      "page": 1,
+      "items": [
+        {
+          "sku": "SKU-01-000",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-01-001",
+          "qty": 1,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-01-002",
+          "qty": 2,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-01-003",
+          "qty": 3,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-01-004",
+          "qty": 4,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-01-005",
+          "qty": 5,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-01-006",
+          "qty": 6,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-01-007",
+          "qty": 7,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-01-008",
+          "qty": 8,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-01-009",
+          "qty": 9,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-01-010",
+          "qty": 10,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-01-011",
+          "qty": 11,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-01-012",
+          "qty": 12,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-01-013",
+          "qty": 13,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-01-014",
+          "qty": 14,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-01-015",
+          "qty": 15,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-01-016",
+          "qty": 16,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-01-017",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-01-018",
+          "qty": 1,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-01-019",
+          "qty": 2,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-01-020",
+          "qty": 3,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-01-021",
+          "qty": 4,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-01-022",
+          "qty": 5,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-01-023",
+          "qty": 6,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-01-024",
+          "qty": 7,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "items": [
+        {
+          "sku": "SKU-02-000",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-02-001",
+          "qty": 2,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-02-002",
+          "qty": 4,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-02-003",
+          "qty": 6,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-02-004",
+          "qty": 8,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-02-005",
+          "qty": 10,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-02-006",
+          "qty": 12,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-02-007",
+          "qty": 14,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-02-008",
+          "qty": 16,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-02-009",
+          "qty": 1,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-02-010",
+          "qty": 3,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-02-011",
+          "qty": 5,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-02-012",
+          "qty": 7,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-02-013",
+          "qty": 9,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-02-014",
+          "qty": 11,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-02-015",
+          "qty": 13,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-02-016",
+          "qty": 15,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-02-017",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-02-018",
+          "qty": 2,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-02-019",
+          "qty": 4,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-02-020",
+          "qty": 6,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-02-021",
+          "qty": 8,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-02-022",
+          "qty": 10,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-02-023",
+          "qty": 12,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-02-024",
+          "qty": 14,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "items": [
+        {
+          "sku": "SKU-03-000",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-03-001",
+          "qty": 3,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-03-002",
+          "qty": 6,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-03-003",
+          "qty": 9,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-03-004",
+          "qty": 12,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-03-005",
+          "qty": 15,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-03-006",
+          "qty": 1,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-03-007",
+          "qty": 4,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-03-008",
+          "qty": 7,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-03-009",
+          "qty": 10,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-03-010",
+          "qty": 13,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-03-011",
+          "qty": 16,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-03-012",
+          "qty": 2,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-03-013",
+          "qty": 5,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-03-014",
+          "qty": 8,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-03-015",
+          "qty": 11,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-03-016",
+          "qty": 14,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-03-017",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-03-018",
+          "qty": 3,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-03-019",
+          "qty": 6,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-03-020",
+          "qty": 9,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-03-021",
+          "qty": 12,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-03-022",
+          "qty": 15,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-03-023",
+          "qty": 1,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-03-024",
+          "qty": 4,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "items": [
+        {
+          "sku": "SKU-04-000",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-04-001",
+          "qty": 4,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-04-002",
+          "qty": 8,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-04-003",
+          "qty": 12,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-04-004",
+          "qty": 16,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-04-005",
+          "qty": 3,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-04-006",
+          "qty": 7,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-04-007",
+          "qty": 11,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-04-008",
+          "qty": 15,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-04-009",
+          "qty": 2,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-04-010",
+          "qty": 6,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-04-011",
+          "qty": 10,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-04-012",
+          "qty": 14,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-04-013",
+          "qty": 1,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-04-014",
+          "qty": 5,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-04-015",
+          "qty": 9,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-04-016",
+          "qty": 13,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-04-017",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-04-018",
+          "qty": 4,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-04-019",
+          "qty": 8,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-04-020",
+          "qty": 12,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-04-021",
+          "qty": 16,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-04-022",
+          "qty": 3,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-04-023",
+          "qty": 7,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-04-024",
+          "qty": 11,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "items": [
+        {
+          "sku": "SKU-05-000",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-05-001",
+          "qty": 5,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-05-002",
+          "qty": 10,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-05-003",
+          "qty": 15,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-05-004",
+          "qty": 3,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-05-005",
+          "qty": 8,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-05-006",
+          "qty": 13,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-05-007",
+          "qty": 1,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-05-008",
+          "qty": 6,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-05-009",
+          "qty": 11,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-05-010",
+          "qty": 16,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-05-011",
+          "qty": 4,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-05-012",
+          "qty": 9,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-05-013",
+          "qty": 14,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-05-014",
+          "qty": 2,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-05-015",
+          "qty": 7,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-05-016",
+          "qty": 12,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-05-017",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-05-018",
+          "qty": 5,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-05-019",
+          "qty": 10,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-05-020",
+          "qty": 15,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-05-021",
+          "qty": 3,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-05-022",
+          "qty": 8,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-05-023",
+          "qty": 13,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-05-024",
+          "qty": 1,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "items": [
+        {
+          "sku": "SKU-06-000",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-06-001",
+          "qty": 6,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-06-002",
+          "qty": 12,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-06-003",
+          "qty": 1,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-06-004",
+          "qty": 7,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-06-005",
+          "qty": 13,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-06-006",
+          "qty": 2,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-06-007",
+          "qty": 8,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-06-008",
+          "qty": 14,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-06-009",
+          "qty": 3,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-06-010",
+          "qty": 9,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-06-011",
+          "qty": 15,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-06-012",
+          "qty": 4,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-06-013",
+          "qty": 10,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-06-014",
+          "qty": 16,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-06-015",
+          "qty": 5,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-06-016",
+          "qty": 11,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-06-017",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-06-018",
+          "qty": 6,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-06-019",
+          "qty": 12,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-06-020",
+          "qty": 1,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-06-021",
+          "qty": 7,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-06-022",
+          "qty": 13,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-06-023",
+          "qty": 2,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-06-024",
+          "qty": 8,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "items": [
+        {
+          "sku": "SKU-07-000",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-07-001",
+          "qty": 7,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-07-002",
+          "qty": 14,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-07-003",
+          "qty": 4,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-07-004",
+          "qty": 11,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-07-005",
+          "qty": 1,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-07-006",
+          "qty": 8,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-07-007",
+          "qty": 15,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-07-008",
+          "qty": 5,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-07-009",
+          "qty": 12,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-07-010",
+          "qty": 2,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-07-011",
+          "qty": 9,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-07-012",
+          "qty": 16,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-07-013",
+          "qty": 6,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-07-014",
+          "qty": 13,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-07-015",
+          "qty": 3,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-07-016",
+          "qty": 10,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-07-017",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-07-018",
+          "qty": 7,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-07-019",
+          "qty": 14,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-07-020",
+          "qty": 4,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-07-021",
+          "qty": 11,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-07-022",
+          "qty": 1,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-07-023",
+          "qty": 8,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-07-024",
+          "qty": 15,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "items": [
+        {
+          "sku": "SKU-08-000",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-08-001",
+          "qty": 8,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-08-002",
+          "qty": 16,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-08-003",
+          "qty": 7,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-08-004",
+          "qty": 15,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-08-005",
+          "qty": 6,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-08-006",
+          "qty": 14,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-08-007",
+          "qty": 5,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-08-008",
+          "qty": 13,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-08-009",
+          "qty": 4,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-08-010",
+          "qty": 12,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-08-011",
+          "qty": 3,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-08-012",
+          "qty": 11,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-08-013",
+          "qty": 2,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-08-014",
+          "qty": 10,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-08-015",
+          "qty": 1,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-08-016",
+          "qty": 9,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-08-017",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-08-018",
+          "qty": 8,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-08-019",
+          "qty": 16,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-08-020",
+          "qty": 7,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-08-021",
+          "qty": 15,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-08-022",
+          "qty": 6,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-08-023",
+          "qty": 14,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-08-024",
+          "qty": 5,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "items": [
+        {
+          "sku": "SKU-09-000",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-09-001",
+          "qty": 9,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-09-002",
+          "qty": 1,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-09-003",
+          "qty": 10,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-09-004",
+          "qty": 2,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-09-005",
+          "qty": 11,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-09-006",
+          "qty": 3,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-09-007",
+          "qty": 12,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-09-008",
+          "qty": 4,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-09-009",
+          "qty": 13,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-09-010",
+          "qty": 5,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-09-011",
+          "qty": 14,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-09-012",
+          "qty": 6,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-09-013",
+          "qty": 15,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-09-014",
+          "qty": 7,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-09-015",
+          "qty": 16,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-09-016",
+          "qty": 8,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-09-017",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-09-018",
+          "qty": 9,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-09-019",
+          "qty": 1,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-09-020",
+          "qty": 10,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-09-021",
+          "qty": 2,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-09-022",
+          "qty": 11,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-09-023",
+          "qty": 3,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-09-024",
+          "qty": 12,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "items": [
+        {
+          "sku": "SKU-10-000",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-10-001",
+          "qty": 10,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-10-002",
+          "qty": 3,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-10-003",
+          "qty": 13,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-10-004",
+          "qty": 6,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-10-005",
+          "qty": 16,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-10-006",
+          "qty": 9,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-10-007",
+          "qty": 2,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-10-008",
+          "qty": 12,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-10-009",
+          "qty": 5,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-10-010",
+          "qty": 15,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-10-011",
+          "qty": 8,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-10-012",
+          "qty": 1,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-10-013",
+          "qty": 11,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-10-014",
+          "qty": 4,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-10-015",
+          "qty": 14,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-10-016",
+          "qty": 7,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-10-017",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-10-018",
+          "qty": 10,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-10-019",
+          "qty": 3,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-10-020",
+          "qty": 13,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-10-021",
+          "qty": 6,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-10-022",
+          "qty": 16,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-10-023",
+          "qty": 9,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-10-024",
+          "qty": 2,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "items": [
+        {
+          "sku": "SKU-11-000",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-11-001",
+          "qty": 11,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-11-002",
+          "qty": 5,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-11-003",
+          "qty": 16,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-11-004",
+          "qty": 10,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-11-005",
+          "qty": 4,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-11-006",
+          "qty": 15,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-11-007",
+          "qty": 9,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-11-008",
+          "qty": 3,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-11-009",
+          "qty": 14,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-11-010",
+          "qty": 8,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-11-011",
+          "qty": 2,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-11-012",
+          "qty": 13,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-11-013",
+          "qty": 7,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-11-014",
+          "qty": 1,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-11-015",
+          "qty": 12,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-11-016",
+          "qty": 6,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-11-017",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-11-018",
+          "qty": 11,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-11-019",
+          "qty": 5,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-11-020",
+          "qty": 16,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-11-021",
+          "qty": 10,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-11-022",
+          "qty": 4,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-11-023",
+          "qty": 15,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-11-024",
+          "qty": 9,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "items": [
+        {
+          "sku": "SKU-12-000",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-12-001",
+          "qty": 12,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-12-002",
+          "qty": 7,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-12-003",
+          "qty": 2,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-12-004",
+          "qty": 14,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-12-005",
+          "qty": 9,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-12-006",
+          "qty": 4,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-12-007",
+          "qty": 16,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-12-008",
+          "qty": 11,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-12-009",
+          "qty": 6,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-12-010",
+          "qty": 1,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-12-011",
+          "qty": 13,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-12-012",
+          "qty": 8,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-12-013",
+          "qty": 3,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-12-014",
+          "qty": 15,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-12-015",
+          "qty": 10,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-12-016",
+          "qty": 5,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-12-017",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-12-018",
+          "qty": 12,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-12-019",
+          "qty": 7,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-12-020",
+          "qty": 2,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-12-021",
+          "qty": 14,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-12-022",
+          "qty": 9,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-12-023",
+          "qty": 4,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-12-024",
+          "qty": 16,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        }
+      ]
+    },
+    {
+      "page": 13,
+      "items": [
+        {
+          "sku": "SKU-13-000",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-13-001",
+          "qty": 13,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-13-002",
+          "qty": 9,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-13-003",
+          "qty": 5,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-13-004",
+          "qty": 1,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-13-005",
+          "qty": 14,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-13-006",
+          "qty": 10,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-13-007",
+          "qty": 6,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-13-008",
+          "qty": 2,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-13-009",
+          "qty": 15,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-13-010",
+          "qty": 11,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-13-011",
+          "qty": 7,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-13-012",
+          "qty": 3,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-13-013",
+          "qty": 16,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-13-014",
+          "qty": 12,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-13-015",
+          "qty": 8,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-13-016",
+          "qty": 4,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-13-017",
+          "qty": 0,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-13-018",
+          "qty": 13,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-13-019",
+          "qty": 9,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-13-020",
+          "qty": 5,
+          "warehouse": "EU-1",
+          "status": "backorder"
+        },
+        {
+          "sku": "SKU-13-021",
+          "qty": 1,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-13-022",
+          "qty": 14,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-13-023",
+          "qty": 10,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        },
+        {
+          "sku": "SKU-13-024",
+          "qty": 6,
+          "warehouse": "EU-1",
+          "status": "in_stock"
+        }
+      ]
+    }
+  ]
+}

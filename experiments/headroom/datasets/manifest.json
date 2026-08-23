@@ -1,0 +1,648 @@
+{
+  "categories": {
+    "agent_context": 11,
+    "coding_context": 12,
+    "structured_json": 12
+  },
+  "experiment_id": "EXP-1",
+  "manifest_sha256": "c16472c28c06194bfc0ffcf57c0acc77363847866835014e6a19b4680f3622bf",
+  "sample_count": 35,
+  "samples": [
+    {
+      "bytes": 47875,
+      "category": "agent_context",
+      "format": "json_pretty",
+      "path": "experiments/headroom/datasets/samples/agent_api_pages.txt",
+      "probes": [
+        "SKU-13-024",
+        "backorder",
+        "EU-1"
+      ],
+      "provenance": {
+        "generator": "build_datasets.py",
+        "kind": "synthetic",
+        "public": true
+      },
+      "sample_id": "agent_api_pages",
+      "sha256": "a3ed3d3e979d774f3a6d5bdeff78b1bf5c9052cd592d425cd74afec9eac01f42"
+    },
+    {
+      "bytes": 4001,
+      "category": "agent_context",
+      "format": "tool_output",
+      "path": "experiments/headroom/datasets/samples/agent_cli_diagnostics.txt",
+      "probes": [
+        "{",
+        "        \"days_since_push"
+      ],
+      "provenance": {
+        "command": "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3 -m dayzero diagnostics",
+        "kind": "self_produced",
+        "public": true
+      },
+      "sample_id": "agent_cli_diagnostics",
+      "sha256": "4508750320b1f4026abd9a18f4308532524c0d9f4283f9d1623e4a6a3160edad"
+    },
+    {
+      "bytes": 15931,
+      "category": "agent_context",
+      "format": "tool_output",
+      "path": "experiments/headroom/datasets/samples/agent_git_log.txt",
+      "probes": [
+        "commit 74c4627402d6e3dcf",
+        " 28 files changed, 4593 "
+      ],
+      "provenance": {
+        "command": "git log --stat -8",
+        "kind": "self_produced",
+        "public": true
+      },
+      "sample_id": "agent_git_log",
+      "sha256": "fc547ae346ca1bb5df07f2bc3ce4ee3062c71f77b51b2b0db35b7b94fa5408e3"
+    },
+    {
+      "bytes": 507,
+      "category": "agent_context",
+      "format": "tool_output",
+      "path": "experiments/headroom/datasets/samples/agent_git_log_oneline.txt",
+      "probes": [
+        "74c4627402d6e3dcf60d28ba",
+        "5049772e748dc7e21df2bc67"
+      ],
+      "provenance": {
+        "command": "git log --format=%H %ad %s --date=iso -40",
+        "kind": "self_produced",
+        "public": true
+      },
+      "sample_id": "agent_git_log_oneline",
+      "sha256": "aa3855318dd429d01485c6895288687e4bb9e650dd3dd288cc3c1c68c466c69c"
+    },
+    {
+      "bytes": 3540,
+      "category": "agent_context",
+      "format": "tool_output",
+      "path": "experiments/headroom/datasets/samples/agent_git_ls_files.txt",
+      "probes": [
+        ".gitignore",
+        "tests/test_x_adapter.py"
+      ],
+      "provenance": {
+        "command": "git ls-files",
+        "kind": "self_produced",
+        "public": true
+      },
+      "sample_id": "agent_git_ls_files",
+      "sha256": "2a0d4a35bd1822c612de2c96268847cf7e26c37519d5f318f323e2dfbf849e1c"
+    },
+    {
+      "bytes": 31709,
+      "category": "agent_context",
+      "format": "log",
+      "path": "experiments/headroom/datasets/samples/agent_log_needle.txt",
+      "probes": [
+        "ENOSPC-4711",
+        "FATAL",
+        "req-1399"
+      ],
+      "provenance": {
+        "generator": "build_datasets.py",
+        "kind": "synthetic",
+        "public": true
+      },
+      "sample_id": "agent_log_needle",
+      "sha256": "b0ea33cc8753ce8ce7edcc1246f8dbeee1ccbb30f408d7f2ab061f8cfb655e03"
+    },
+    {
+      "bytes": 9788,
+      "category": "agent_context",
+      "format": "tool_output",
+      "path": "experiments/headroom/datasets/samples/agent_ls_recursive.txt",
+      "probes": [
+        "config:",
+        "-rw-r--r--  1 sahilmodi "
+      ],
+      "provenance": {
+        "command": "ls -lR src tests config",
+        "kind": "self_produced",
+        "public": true
+      },
+      "sample_id": "agent_ls_recursive",
+      "sha256": "0efbcb221e398e9d2cc57eef07150c71f1fda0fc6faf6ac6b1a32f5c46ed0cb8"
+    },
+    {
+      "bytes": 3459,
+      "category": "agent_context",
+      "format": "tool_output",
+      "path": "experiments/headroom/datasets/samples/agent_pip_list.txt",
+      "probes": [
+        "Package                 ",
+        "yfinance                "
+      ],
+      "provenance": {
+        "command": "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3 -m pip list",
+        "kind": "self_produced",
+        "public": true
+      },
+      "sample_id": "agent_pip_list",
+      "sha256": "668f1946b92f1dfe47c83eaffd03f9d3eb15ec9b26f713a061b41faf0d1f724f"
+    },
+    {
+      "bytes": 2024,
+      "category": "agent_context",
+      "format": "tool_output",
+      "path": "experiments/headroom/datasets/samples/agent_pytest_verbose.txt",
+      "probes": [
+        "passed",
+        "test_time",
+        "test_x_adapter"
+      ],
+      "provenance": {
+        "command": "pytest tests/ -v",
+        "kind": "self_produced",
+        "public": true
+      },
+      "sample_id": "agent_pytest_verbose",
+      "sha256": "f40455d56e49978a581218faf9cb36c32224b737d136d4ed297efa0d210d502c"
+    },
+    {
+      "bytes": 21157,
+      "category": "agent_context",
+      "format": "json_pretty",
+      "path": "experiments/headroom/datasets/samples/agent_trace_needle.txt",
+      "probes": [
+        "PermissionError: /etc/shadow",
+        "r-9931",
+        "src/mod_89.py"
+      ],
+      "provenance": {
+        "generator": "build_datasets.py",
+        "kind": "synthetic",
+        "public": true
+      },
+      "sample_id": "agent_trace_needle",
+      "sha256": "daa3c8851cf72ded557c341bbd2eab6104007e6b4603706561cef729852795e2"
+    },
+    {
+      "bytes": 12311,
+      "category": "agent_context",
+      "format": "log",
+      "path": "experiments/headroom/datasets/samples/agent_traceback_needle.txt",
+      "probes": [
+        "BATCH_7788",
+        "tenant=acme-eu-west",
+        "handler_119.py"
+      ],
+      "provenance": {
+        "generator": "build_datasets.py",
+        "kind": "synthetic",
+        "public": true
+      },
+      "sample_id": "agent_traceback_needle",
+      "sha256": "bfce030c9c18efce14b33e0c10578d217d83ed0d6c867a9cef926655c308b010"
+    },
+    {
+      "bytes": 17070,
+      "category": "coding_context",
+      "format": "source_file",
+      "path": "experiments/headroom/datasets/samples/code_eunomia_bpf_agentsight_readme_md.txt",
+      "probes": [
+        "# AgentSight: System-wide AI a"
+      ],
+      "provenance": {
+        "kind": "public_repo_file",
+        "license": "MIT",
+        "path": "README.md",
+        "public": true,
+        "repo": "eunomia-bpf/agentsight"
+      },
+      "sample_id": "code_eunomia_bpf_agentsight_readme_md",
+      "sha256": "e6c6688d67b67ff48a72585d6f6961a27a84b834b0d8dd276daa64f05fc92b9a"
+    },
+    {
+      "bytes": 296712,
+      "category": "coding_context",
+      "format": "source_file",
+      "path": "experiments/headroom/datasets/samples/code_eventual_inc_daft_daft_dataframe_dataframe_py.txt",
+      "probes": [
+        "to_logical_plan_builder",
+        "_create_delta_metadata_param",
+        "_configure_deltalake_storage_options"
+      ],
+      "provenance": {
+        "kind": "public_repo_file",
+        "license": "Apache-2.0",
+        "path": "daft/dataframe/dataframe.py",
+        "public": true,
+        "repo": "Eventual-Inc/Daft"
+      },
+      "sample_id": "code_eventual_inc_daft_daft_dataframe_dataframe_py",
+      "sha256": "af04637f05bffa36946fc96ffcee4e62a51945dd5de540b5641604fb009e3413"
+    },
+    {
+      "bytes": 11016,
+      "category": "coding_context",
+      "format": "source_file",
+      "path": "experiments/headroom/datasets/samples/code_eventual_inc_daft_src_daft_core_src_series_mod_rs.txt",
+      "probes": [
+        "Series",
+        "PartialEq",
+        "eq"
+      ],
+      "provenance": {
+        "kind": "public_repo_file",
+        "license": "Apache-2.0",
+        "path": "src/daft-core/src/series/mod.rs",
+        "public": true,
+        "repo": "Eventual-Inc/Daft"
+      },
+      "sample_id": "code_eventual_inc_daft_src_daft_core_src_series_mod_rs",
+      "sha256": "67348b42b5a258d5fdeccfe60ee863164484d9487c6aecd1b93bb739f40ea7d1"
+    },
+    {
+      "bytes": 4598,
+      "category": "coding_context",
+      "format": "diff",
+      "path": "experiments/headroom/datasets/samples/code_git_show_stat.txt",
+      "probes": [
+        "74c4627"
+      ],
+      "provenance": {
+        "command": "git show --stat 74c4627",
+        "kind": "self_produced",
+        "public": true
+      },
+      "sample_id": "code_git_show_stat",
+      "sha256": "7c13fb0a11849227fc7e8e13e490f26becd3fc22d6ba30e3315a3b68e415ea5a"
+    },
+    {
+      "bytes": 32101,
+      "category": "coding_context",
+      "format": "source_file",
+      "path": "experiments/headroom/datasets/samples/code_multikernel_sandlock_readme_md.txt",
+      "probes": [
+        "on_event",
+        "init",
+        "work"
+      ],
+      "provenance": {
+        "kind": "public_repo_file",
+        "license": "Apache-2.0",
+        "path": "README.md",
+        "public": true,
+        "repo": "multikernel/sandlock"
+      },
+      "sample_id": "code_multikernel_sandlock_readme_md",
+      "sha256": "56079f76ef8dd71da38297d3d0f3f1dda1af9a211113e49423a9f6b09b4de5ca"
+    },
+    {
+      "bytes": 28181,
+      "category": "coding_context",
+      "format": "source_file",
+      "path": "experiments/headroom/datasets/samples/code_self_build.txt",
+      "probes": [
+        "_load",
+        "_latest_collection_timestamp",
+        "_manual"
+      ],
+      "provenance": {
+        "file": "src/dayzero/build.py",
+        "kind": "self_produced",
+        "public": true
+      },
+      "sample_id": "code_self_build",
+      "sha256": "d8c65632fda008961dc6636a29ecc7b9038d75050892ee221624d2a7fcdde3c1"
+    },
+    {
+      "bytes": 11322,
+      "category": "coding_context",
+      "format": "source_file",
+      "path": "experiments/headroom/datasets/samples/code_self_db.txt",
+      "probes": [
+        "connect",
+        "reset",
+        "all_column_names"
+      ],
+      "provenance": {
+        "file": "src/dayzero/db.py",
+        "kind": "self_produced",
+        "public": true
+      },
+      "sample_id": "code_self_db",
+      "sha256": "6f88eaddf4a51db6ae70a8209d2c415ce155bd5c2b6aa3823caae0e41a88c924"
+    },
+    {
+      "bytes": 6255,
+      "category": "coding_context",
+      "format": "source_file",
+      "path": "experiments/headroom/datasets/samples/code_self_holdout.txt",
+      "probes": [
+        "load_cases",
+        "load_evidence_file",
+        "enforce_cutoff"
+      ],
+      "provenance": {
+        "file": "src/dayzero/holdout.py",
+        "kind": "self_produced",
+        "public": true
+      },
+      "sample_id": "code_self_holdout",
+      "sha256": "ef7b571366e8fc8d64ee7f778ead94a314473d0d39c7c456429b367b0886f239"
+    },
+    {
+      "bytes": 6542,
+      "category": "coding_context",
+      "format": "source_file",
+      "path": "experiments/headroom/datasets/samples/code_self_review.txt",
+      "probes": [
+        "_has",
+        "_abandoned",
+        "evaluate"
+      ],
+      "provenance": {
+        "file": "src/dayzero/review.py",
+        "kind": "self_produced",
+        "public": true
+      },
+      "sample_id": "code_self_review",
+      "sha256": "29f71605cc1ce82ea6a6f6b1c054463892f1c6d254d1676fdb63d3f51c8186b3"
+    },
+    {
+      "bytes": 15855,
+      "category": "coding_context",
+      "format": "source_file",
+      "path": "experiments/headroom/datasets/samples/code_self_signals.txt",
+      "probes": [
+        "_text",
+        "themes_for",
+        "within_array_areas"
+      ],
+      "provenance": {
+        "file": "src/dayzero/signals.py",
+        "kind": "self_produced",
+        "public": true
+      },
+      "sample_id": "code_self_signals",
+      "sha256": "aef7acce519104dae793466c92581f43b35440a755a96c241f6da391173f8123"
+    },
+    {
+      "bytes": 3880,
+      "category": "coding_context",
+      "format": "source_file",
+      "path": "experiments/headroom/datasets/samples/code_self_test_review_rules.txt",
+      "probes": [
+        "base_signals",
+        "cand",
+        "test_baseline_candidate_is_intro_ready"
+      ],
+      "provenance": {
+        "file": "tests/test_review_rules.py",
+        "kind": "self_produced",
+        "public": true
+      },
+      "sample_id": "code_self_test_review_rules",
+      "sha256": "f11347d4d9bc8b3d6918ac894c4046be76e0dc3ac5348fc7a6347404e68f1557"
+    },
+    {
+      "bytes": 12314,
+      "category": "coding_context",
+      "format": "source_file",
+      "path": "experiments/headroom/datasets/samples/code_uccl_project_uccl_readme_md.txt",
+      "probes": [
+        "<div align=\"center\">"
+      ],
+      "provenance": {
+        "kind": "public_repo_file",
+        "license": "Apache-2.0",
+        "path": "README.md",
+        "public": true,
+        "repo": "uccl-project/uccl"
+      },
+      "sample_id": "code_uccl_project_uccl_readme_md",
+      "sha256": "8f7b5aba8c16345188335af37e00ff9bbd6cefd8b52ac8489e21093997ea2488"
+    },
+    {
+      "bytes": 65439,
+      "category": "structured_json",
+      "format": "json_pretty",
+      "path": "experiments/headroom/datasets/samples/json_contributors.txt",
+      "probes": [
+        "zerobootdev/zeroboot",
+        "0xSero/turboquant"
+      ],
+      "provenance": {
+        "collected_in": "phase2",
+        "file": "data/collected/*.json",
+        "kind": "github_api_response",
+        "public": true
+      },
+      "sample_id": "json_contributors",
+      "sha256": "d76a161839f7c2381560e206d9daa1ae6ecba76fd9bc04999bd0cd754d5a11dc"
+    },
+    {
+      "bytes": 11377,
+      "category": "structured_json",
+      "format": "json_pretty",
+      "path": "experiments/headroom/datasets/samples/json_out_attention_vs_construction.txt",
+      "probes": [
+        "multikernel/daxfs",
+        "alibaba/anolisa",
+        "repos_measured"
+      ],
+      "provenance": {
+        "file": "outputs/attention_vs_construction.json",
+        "kind": "dayzero_canonical_output",
+        "public": true,
+        "self_produced": true
+      },
+      "sample_id": "json_out_attention_vs_construction",
+      "sha256": "975692a941fbfec6235c19c923f26f3e72e045fbf34660a835b2c1612ffd9213"
+    },
+    {
+      "bytes": 222393,
+      "category": "structured_json",
+      "format": "json_pretty",
+      "path": "experiments/headroom/datasets/samples/json_out_graph.txt",
+      "probes": [
+        "agentcontrol/agent-control",
+        "rtk-ai/rtk",
+        "PrismorSec/prismor"
+      ],
+      "provenance": {
+        "file": "outputs/graph.json",
+        "kind": "dayzero_canonical_output",
+        "public": true,
+        "self_produced": true
+      },
+      "sample_id": "json_out_graph",
+      "sha256": "2defbecec4dd44896e0676fe0e27d70e0b7704f73d8f7db6e52fe20db7bd0a54"
+    },
+    {
+      "bytes": 4890,
+      "category": "structured_json",
+      "format": "json_pretty",
+      "path": "experiments/headroom/datasets/samples/json_out_holdout_results.txt",
+      "probes": [
+        "manifest_created_at",
+        "naming",
+        "rules_hash"
+      ],
+      "provenance": {
+        "file": "outputs/holdout_results.json",
+        "kind": "dayzero_canonical_output",
+        "public": true,
+        "self_produced": true
+      },
+      "sample_id": "json_out_holdout_results",
+      "sha256": "0cafe12a86d9c550edaf0c637c02df6dac4f5c287080b646ce7baf3ff1d7ff45"
+    },
+    {
+      "bytes": 6421,
+      "category": "structured_json",
+      "format": "json_pretty",
+      "path": "experiments/headroom/datasets/samples/json_out_negative_controls.txt",
+      "probes": [
+        "FutureMLS-Lab/OSCAR",
+        "OUTSIDE_THESIS",
+        "rules_hash"
+      ],
+      "provenance": {
+        "file": "outputs/negative_controls.json",
+        "kind": "dayzero_canonical_output",
+        "public": true,
+        "self_produced": true
+      },
+      "sample_id": "json_out_negative_controls",
+      "sha256": "ccce393dbaec67be9a38101475f45eb817af85333cf1bcb668c5c22e55581e5d"
+    },
+    {
+      "bytes": 96182,
+      "category": "structured_json",
+      "format": "json_pretty",
+      "path": "experiments/headroom/datasets/samples/json_out_review_queue.txt",
+      "probes": [
+        "wso2/fhir-mcp-server",
+        "youssofal/MTPLX",
+        "zerobootdev/zeroboot"
+      ],
+      "provenance": {
+        "file": "outputs/review_queue.json",
+        "kind": "dayzero_canonical_output",
+        "public": true,
+        "self_produced": true
+      },
+      "sample_id": "json_out_review_queue",
+      "sha256": "b3b241f76386682615555b6bb4dcbbc72b5995bd74b370ba2e8ab051d099609b"
+    },
+    {
+      "bytes": 346647,
+      "category": "structured_json",
+      "format": "json_pretty",
+      "path": "experiments/headroom/datasets/samples/json_out_signals.txt",
+      "probes": [
+        "2026-03-23",
+        "2026-05-14",
+        "2026-07-18"
+      ],
+      "provenance": {
+        "file": "outputs/signals.json",
+        "kind": "dayzero_canonical_output",
+        "public": true,
+        "self_produced": true
+      },
+      "sample_id": "json_out_signals",
+      "sha256": "79e0702a008f3176cb3f03f7a0cd8f179be98313fe13a6ee5568e0f04a8a7da6"
+    },
+    {
+      "bytes": 2304,
+      "category": "structured_json",
+      "format": "json_pretty",
+      "path": "experiments/headroom/datasets/samples/json_out_source_yield.txt",
+      "probes": [
+        "0.000000",
+        "hackathon",
+        "research"
+      ],
+      "provenance": {
+        "file": "outputs/source_yield.json",
+        "kind": "dayzero_canonical_output",
+        "public": true,
+        "self_produced": true
+      },
+      "sample_id": "json_out_source_yield",
+      "sha256": "bd5ca4ed6137549603987293074bd84ccd81952eda8562e2ea4450bb06e21b5e"
+    },
+    {
+      "bytes": 9429,
+      "category": "structured_json",
+      "format": "json_pretty",
+      "path": "experiments/headroom/datasets/samples/json_papers.txt",
+      "probes": [
+        "uccl-project/uccl#2",
+        "AI45Lab/AgentDoG"
+      ],
+      "provenance": {
+        "collected_in": "phase2",
+        "file": "data/collected/*.json",
+        "kind": "github_api_response",
+        "public": true
+      },
+      "sample_id": "json_papers",
+      "sha256": "88d565f21b4d83d91575226998e5eeac6b64cc79834a666fe70af1502d02bb8b"
+    },
+    {
+      "bytes": 48564,
+      "category": "structured_json",
+      "format": "json_pretty",
+      "path": "experiments/headroom/datasets/samples/json_repos_40.txt",
+      "probes": [
+        "dipampaul17/KVSplit",
+        "0xSero/turboquant"
+      ],
+      "provenance": {
+        "collected_in": "phase2",
+        "file": "data/collected/*.json",
+        "kind": "github_api_response",
+        "public": true
+      },
+      "sample_id": "json_repos_40",
+      "sha256": "942fc6c7913b20adb1870f4e5eca1ffbb78352b0c19c54d053291820ef0e16c8"
+    },
+    {
+      "bytes": 120685,
+      "category": "structured_json",
+      "format": "json_pretty",
+      "path": "experiments/headroom/datasets/samples/json_repos_all.txt",
+      "probes": [
+        "zerobootdev/zeroboot",
+        "0xSero/turboquant"
+      ],
+      "provenance": {
+        "collected_in": "phase2",
+        "file": "data/collected/*.json",
+        "kind": "github_api_response",
+        "public": true
+      },
+      "sample_id": "json_repos_all",
+      "sha256": "eac90a3ad08c8556b017b0c726f7e28048ba115545ef01e6f9da07e9fc3d306a"
+    },
+    {
+      "bytes": 40563,
+      "category": "structured_json",
+      "format": "json_pretty",
+      "path": "experiments/headroom/datasets/samples/json_users_120.txt",
+      "probes": [
+        "domcyrus",
+        "0xSero"
+      ],
+      "provenance": {
+        "collected_in": "phase2",
+        "file": "data/collected/*.json",
+        "kind": "github_api_response",
+        "public": true
+      },
+      "sample_id": "json_users_120",
+      "sha256": "5c2716f2e53f44a74523f6aa4f6ab231229153522e8bb0bb91ebcade1dacbbda"
+    }
+  ],
+  "total_bytes": 1573042
+}

@@ -46,3 +46,6 @@ browser-profiles/
 data/day_zero.db
 data/_scratch.db
 data/*.db.tmp
+
+# --- Phase 3: experiment venv ---
+experiments/headroom/.venv/

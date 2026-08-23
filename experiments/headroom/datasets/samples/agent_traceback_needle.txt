@@ -1,0 +1,242 @@
+Traceback (most recent call last):
+  File "/app/service/handler_0.py", line 40, in dispatch_0
+    return self._route(request, ctx_0)
+  File "/app/service/handler_1.py", line 41, in dispatch_1
+    return self._route(request, ctx_1)
+  File "/app/service/handler_2.py", line 42, in dispatch_2
+    return self._route(request, ctx_2)
+  File "/app/service/handler_3.py", line 43, in dispatch_3
+    return self._route(request, ctx_3)
+  File "/app/service/handler_4.py", line 44, in dispatch_4
+    return self._route(request, ctx_4)
+  File "/app/service/handler_5.py", line 45, in dispatch_5
+    return self._route(request, ctx_5)
+  File "/app/service/handler_6.py", line 46, in dispatch_6
+    return self._route(request, ctx_6)
+  File "/app/service/handler_7.py", line 47, in dispatch_7
+    return self._route(request, ctx_7)
+  File "/app/service/handler_8.py", line 48, in dispatch_8
+    return self._route(request, ctx_8)
+  File "/app/service/handler_9.py", line 49, in dispatch_9
+    return self._route(request, ctx_9)
+  File "/app/service/handler_10.py", line 50, in dispatch_10
+    return self._route(request, ctx_10)
+  File "/app/service/handler_11.py", line 51, in dispatch_11
+    return self._route(request, ctx_11)
+  File "/app/service/handler_12.py", line 52, in dispatch_12
+    return self._route(request, ctx_12)
+  File "/app/service/handler_13.py", line 53, in dispatch_13
+    return self._route(request, ctx_13)
+  File "/app/service/handler_14.py", line 54, in dispatch_14
+    return self._route(request, ctx_14)
+  File "/app/service/handler_15.py", line 55, in dispatch_15
+    return self._route(request, ctx_15)
+  File "/app/service/handler_16.py", line 56, in dispatch_16
+    return self._route(request, ctx_16)
+  File "/app/service/handler_17.py", line 57, in dispatch_17
+    return self._route(request, ctx_17)
+  File "/app/service/handler_18.py", line 58, in dispatch_18
+    return self._route(request, ctx_18)
+  File "/app/service/handler_19.py", line 59, in dispatch_19
+    return self._route(request, ctx_19)
+  File "/app/service/handler_20.py", line 60, in dispatch_20
+    return self._route(request, ctx_20)
+  File "/app/service/handler_21.py", line 61, in dispatch_21
+    return self._route(request, ctx_21)
+  File "/app/service/handler_22.py", line 62, in dispatch_22
+    return self._route(request, ctx_22)
+  File "/app/service/handler_23.py", line 63, in dispatch_23
+    return self._route(request, ctx_23)
+  File "/app/service/handler_24.py", line 64, in dispatch_24
+    return self._route(request, ctx_24)
+  File "/app/service/handler_25.py", line 65, in dispatch_25
+    return self._route(request, ctx_25)
+  File "/app/service/handler_26.py", line 66, in dispatch_26
+    return self._route(request, ctx_26)
+  File "/app/service/handler_27.py", line 67, in dispatch_27
+    return self._route(request, ctx_27)
+  File "/app/service/handler_28.py", line 68, in dispatch_28
+    return self._route(request, ctx_28)
+  File "/app/service/handler_29.py", line 69, in dispatch_29
+    return self._route(request, ctx_29)
+  File "/app/service/handler_30.py", line 70, in dispatch_30
+    return self._route(request, ctx_30)
+  File "/app/service/handler_31.py", line 71, in dispatch_31
+    return self._route(request, ctx_31)
+  File "/app/service/handler_32.py", line 72, in dispatch_32
+    return self._route(request, ctx_32)
+  File "/app/service/handler_33.py", line 73, in dispatch_33
+    return self._route(request, ctx_33)
+  File "/app/service/handler_34.py", line 74, in dispatch_34
+    return self._route(request, ctx_34)
+  File "/app/service/handler_35.py", line 75, in dispatch_35
+    return self._route(request, ctx_35)
+  File "/app/service/handler_36.py", line 76, in dispatch_36
+    return self._route(request, ctx_36)
+  File "/app/service/handler_37.py", line 77, in dispatch_37
+    return self._route(request, ctx_37)
+  File "/app/service/handler_38.py", line 78, in dispatch_38
+    return self._route(request, ctx_38)
+  File "/app/service/handler_39.py", line 79, in dispatch_39
+    return self._route(request, ctx_39)
+  File "/app/service/handler_40.py", line 80, in dispatch_40
+    return self._route(request, ctx_40)
+  File "/app/service/handler_41.py", line 81, in dispatch_41
+    return self._route(request, ctx_41)
+  File "/app/service/handler_42.py", line 82, in dispatch_42
+    return self._route(request, ctx_42)
+  File "/app/service/handler_43.py", line 83, in dispatch_43
+    return self._route(request, ctx_43)
+  File "/app/service/handler_44.py", line 84, in dispatch_44
+    return self._route(request, ctx_44)
+  File "/app/service/handler_45.py", line 85, in dispatch_45
+    return self._route(request, ctx_45)
+  File "/app/service/handler_46.py", line 86, in dispatch_46
+    return self._route(request, ctx_46)
+  File "/app/service/handler_47.py", line 87, in dispatch_47
+    return self._route(request, ctx_47)
+  File "/app/service/handler_48.py", line 88, in dispatch_48
+    return self._route(request, ctx_48)
+  File "/app/service/handler_49.py", line 89, in dispatch_49
+    return self._route(request, ctx_49)
+  File "/app/service/handler_50.py", line 90, in dispatch_50
+    return self._route(request, ctx_50)
+  File "/app/service/handler_51.py", line 91, in dispatch_51
+    return self._route(request, ctx_51)
+  File "/app/service/handler_52.py", line 92, in dispatch_52
+    return self._route(request, ctx_52)
+  File "/app/service/handler_53.py", line 93, in dispatch_53
+    return self._route(request, ctx_53)
+  File "/app/service/handler_54.py", line 94, in dispatch_54
+    return self._route(request, ctx_54)
+  File "/app/service/handler_55.py", line 95, in dispatch_55
+    return self._route(request, ctx_55)
+  File "/app/service/handler_56.py", line 96, in dispatch_56
+    return self._route(request, ctx_56)
+  File "/app/service/handler_57.py", line 97, in dispatch_57
+    return self._route(request, ctx_57)
+  File "/app/service/handler_58.py", line 98, in dispatch_58
+    return self._route(request, ctx_58)
+  File "/app/service/handler_59.py", line 99, in dispatch_59
+    return self._route(request, ctx_59)
+  File "/app/service/handler_60.py", line 100, in dispatch_60
+    return self._route(request, ctx_60)
+  File "/app/service/handler_61.py", line 101, in dispatch_61
+    return self._route(request, ctx_61)
+  File "/app/service/handler_62.py", line 102, in dispatch_62
+    return self._route(request, ctx_62)
+  File "/app/service/handler_63.py", line 103, in dispatch_63
+    return self._route(request, ctx_63)
+  File "/app/service/handler_64.py", line 104, in dispatch_64
+    return self._route(request, ctx_64)
+  File "/app/service/handler_65.py", line 105, in dispatch_65
+    return self._route(request, ctx_65)
+  File "/app/service/handler_66.py", line 106, in dispatch_66
+    return self._route(request, ctx_66)
+  File "/app/service/handler_67.py", line 107, in dispatch_67
+    return self._route(request, ctx_67)
+  File "/app/service/handler_68.py", line 108, in dispatch_68
+    return self._route(request, ctx_68)
+  File "/app/service/handler_69.py", line 109, in dispatch_69
+    return self._route(request, ctx_69)
+  File "/app/service/handler_70.py", line 110, in dispatch_70
+    return self._route(request, ctx_70)
+  File "/app/service/handler_71.py", line 111, in dispatch_71
+    return self._route(request, ctx_71)
+  File "/app/service/handler_72.py", line 112, in dispatch_72
+    return self._route(request, ctx_72)
+  File "/app/service/handler_73.py", line 113, in dispatch_73
+    return self._route(request, ctx_73)
+  File "/app/service/handler_74.py", line 114, in dispatch_74
+    return self._route(request, ctx_74)
+  File "/app/service/handler_75.py", line 115, in dispatch_75
+    return self._route(request, ctx_75)
+  File "/app/service/handler_76.py", line 116, in dispatch_76
+    return self._route(request, ctx_76)
+  File "/app/service/handler_77.py", line 117, in dispatch_77
+    return self._route(request, ctx_77)
+  File "/app/service/handler_78.py", line 118, in dispatch_78
+    return self._route(request, ctx_78)
+  File "/app/service/handler_79.py", line 119, in dispatch_79
+    return self._route(request, ctx_79)
+  File "/app/service/handler_80.py", line 120, in dispatch_80
+    return self._route(request, ctx_80)
+  File "/app/service/handler_81.py", line 121, in dispatch_81
+    return self._route(request, ctx_81)
+  File "/app/service/handler_82.py", line 122, in dispatch_82
+    return self._route(request, ctx_82)
+  File "/app/service/handler_83.py", line 123, in dispatch_83
+    return self._route(request, ctx_83)
+  File "/app/service/handler_84.py", line 124, in dispatch_84
+    return self._route(request, ctx_84)
+  File "/app/service/handler_85.py", line 125, in dispatch_85
+    return self._route(request, ctx_85)
+  File "/app/service/handler_86.py", line 126, in dispatch_86
+    return self._route(request, ctx_86)
+  File "/app/service/handler_87.py", line 127, in dispatch_87
+    return self._route(request, ctx_87)
+  File "/app/service/handler_88.py", line 128, in dispatch_88
+    return self._route(request, ctx_88)
+  File "/app/service/handler_89.py", line 129, in dispatch_89
+    return self._route(request, ctx_89)
+  File "/app/service/handler_90.py", line 130, in dispatch_90
+    return self._route(request, ctx_90)
+  File "/app/service/handler_91.py", line 131, in dispatch_91
+    return self._route(request, ctx_91)
+  File "/app/service/handler_92.py", line 132, in dispatch_92
+    return self._route(request, ctx_92)
+  File "/app/service/handler_93.py", line 133, in dispatch_93
+    return self._route(request, ctx_93)
+  File "/app/service/handler_94.py", line 134, in dispatch_94
+    return self._route(request, ctx_94)
+  File "/app/service/handler_95.py", line 135, in dispatch_95
+    return self._route(request, ctx_95)
+  File "/app/service/handler_96.py", line 136, in dispatch_96
+    return self._route(request, ctx_96)
+  File "/app/service/handler_97.py", line 137, in dispatch_97
+    return self._route(request, ctx_97)
+  File "/app/service/handler_98.py", line 138, in dispatch_98
+    return self._route(request, ctx_98)
+  File "/app/service/handler_99.py", line 139, in dispatch_99
+    return self._route(request, ctx_99)
+  File "/app/service/handler_100.py", line 140, in dispatch_100
+    return self._route(request, ctx_100)
+  File "/app/service/handler_101.py", line 141, in dispatch_101
+    return self._route(request, ctx_101)
+  File "/app/service/handler_102.py", line 142, in dispatch_102
+    return self._route(request, ctx_102)
+  File "/app/service/handler_103.py", line 143, in dispatch_103
+    return self._route(request, ctx_103)
+  File "/app/service/handler_104.py", line 144, in dispatch_104
+    return self._route(request, ctx_104)
+  File "/app/service/handler_105.py", line 145, in dispatch_105
+    return self._route(request, ctx_105)
+  File "/app/service/handler_106.py", line 146, in dispatch_106
+    return self._route(request, ctx_106)
+  File "/app/service/handler_107.py", line 147, in dispatch_107
+    return self._route(request, ctx_107)
+  File "/app/service/handler_108.py", line 148, in dispatch_108
+    return self._route(request, ctx_108)
+  File "/app/service/handler_109.py", line 149, in dispatch_109
+    return self._route(request, ctx_109)
+  File "/app/service/handler_110.py", line 150, in dispatch_110
+    return self._route(request, ctx_110)
+  File "/app/service/handler_111.py", line 151, in dispatch_111
+    return self._route(request, ctx_111)
+  File "/app/service/handler_112.py", line 152, in dispatch_112
+    return self._route(request, ctx_112)
+  File "/app/service/handler_113.py", line 153, in dispatch_113
+    return self._route(request, ctx_113)
+  File "/app/service/handler_114.py", line 154, in dispatch_114
+    return self._route(request, ctx_114)
+  File "/app/service/handler_115.py", line 155, in dispatch_115
+    return self._route(request, ctx_115)
+  File "/app/service/handler_116.py", line 156, in dispatch_116
+    return self._route(request, ctx_116)
+  File "/app/service/handler_117.py", line 157, in dispatch_117
+    return self._route(request, ctx_117)
+  File "/app/service/handler_118.py", line 158, in dispatch_118
+    return self._route(request, ctx_118)
+  File "/app/service/handler_119.py", line 159, in dispatch_119
+    return self._route(request, ctx_119)
+ValueError: unroutable request kind=BATCH_7788 tenant=acme-eu-west

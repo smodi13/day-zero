@@ -1,0 +1,178 @@
+# EXP-1 — headroom context-compression reproduction.
+# PRE-REGISTERED. Frozen before any result is generated (COMMIT C).
+#
+# Hashed into outputs/phase3/headroom_summary.json. Editing this file after results
+# exist invalidates the run, and the test suite checks the hash.
+version: 1
+experiment_id: EXP-1
+target:
+  project: headroom
+  repo: headroomlabs-ai/headroom
+  package: headroom-ai
+  package_version: "0.36.5"
+  license: Apache-2.0
+
+# ---------------------------------------------------------------- the claims --
+# Recorded VERBATIM from two published surfaces that do not agree with each other.
+claims:
+  - id: CLAIM-SRC-A
+    text: "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server."
+    source: "GitHub repository description, headroomlabs-ai/headroom"
+    accessed_at: "2026-08-23"
+  - id: CLAIM-SRC-B
+    text: "60–95% fewer tokens (for JSON data), 15-20% fewer tokens (for coding agents) · library · proxy · MCP · content-aware compressors · local-first · reversible"
+    source: "README.md, headroomlabs-ai/headroom, default branch main"
+    accessed_at: "2026-08-23"
+  - id: CLAIM-SRC-C
+    text: "Same answers, fraction of the tokens."
+    source: "README.md body"
+    accessed_at: "2026-08-23"
+
+# The published claim decomposed into independently testable components.
+# Success on one NEVER implies success on another.
+testable_claims:
+  CLAIM-A:
+    statement: "headroom reduces token count relative to the raw input"
+    applies_to: [structured_json, coding_context, agent_context]
+  CLAIM-B:
+    statement: "the reduction exceeds what a trivial whitespace/minification transform achieves"
+    applies_to: [structured_json]
+    note: >-
+      This is the decisive component. Pretty-printed JSON is mostly whitespace, so a
+      headline measured against pretty JSON can be large without the compressor doing
+      anything interesting.
+  CLAIM-C:
+    statement: "task-relevant information survives compression ('same answers')"
+    applies_to: [structured_json, coding_context, agent_context]
+  CLAIM-D:
+    statement: "the JSON reduction reaches 60-95%"
+    applies_to: [structured_json]
+  CLAIM-E:
+    statement: "the coding-agent reduction reaches 15-20%"
+    applies_to: [coding_context]
+
+# --------------------------------------------------------------- what we run --
+# TWO entry points, because the published claim spans both a product and a component.
+# Discovered during protocol design and recorded here BEFORE results:
+#   * `compress()` protects `user` role messages and routes tool outputs.
+#   * `SmartCrusher.crush()` is the JSON component and exposes `lossless_only`.
+paths:
+  PATH-A:
+    entry_point: "headroom.compress(messages, model_limit=200000)"
+    description: "Public library API on realistic agent message sequences (tool outputs)."
+  PATH-B:
+    entry_point: "headroom.SmartCrusher().crush(content, query='', lossless_only=<bool>)"
+    description: "JSON component API on raw content, both lossy-default and strict-lossless."
+
+# ----------------------------------------------------------------- baselines --
+baselines:
+  - id: RAW
+    description: "Input exactly as produced by the source tool (pretty-printed where that is the tool's native output)."
+  - id: MINIFIED
+    description: "Trivial whitespace removal. JSON: json.dumps(separators=(',',':')). Text: collapse runs of spaces/blank lines."
+  - id: COMPACT_JSON
+    description: "Standard compact JSON (identical to MINIFIED for JSON; recorded separately so the JSON case is explicit)."
+  - id: GZIP_B64
+    description: >-
+      gzip then base64. NOT a serious alternative for LLM input, included as a control
+      that shows why byte-level compression is the wrong frame for token counting.
+  - id: HEADROOM
+    description: "The system under test."
+primary_comparison: "HEADROOM vs MINIFIED"
+
+# ---------------------------------------------------------------- tokenizers --
+# The claim is stated without naming a tokenizer, so it is tested on more than one.
+tokenizers:
+  - id: o200k_base
+    library: tiktoken
+    note: "GPT-4o / o-series family."
+  - id: cl100k_base
+    library: tiktoken
+    note: "GPT-4 / GPT-3.5 family; also headroom's own default counting family."
+report_per_tokenizer: true
+
+# ------------------------------------------------------------------ datasets --
+# Fixed before measurement. Manifest with per-sample SHA-256 is committed.
+dataset:
+  manifest: experiments/headroom/datasets/manifest.json
+  categories:
+    structured_json:
+      description: "Real public API responses and tool output in JSON."
+      min_samples: 12
+    coding_context:
+      description: "Source files, diffs and repository context."
+      min_samples: 10
+    agent_context:
+      description: "Tool traces, test output, logs, structured state."
+      min_samples: 10
+  provenance_required: true
+  exclusions:
+    - private data
+    - anything behind authentication
+    - anything under a prohibiting robots policy
+    - personal data of any kind
+
+# ------------------------------------------------------------ quality test C --
+# "Same answers" is NOT judged by the compression system, and NOT judged by an LLM.
+# It is measured as objective information preservation against ground-truth probes
+# defined with each sample before compression runs.
+quality_test:
+  method: exact_value_retention
+  description: >-
+    Each sample carries 3-6 ground-truth probes: exact strings or values that a
+    downstream task would need (an error code, a specific field value, the last item
+    in a list, a function name, a numeric total). After compression the probe must
+    still be present and unambiguously recoverable from the compressed context.
+  scoring: "probe retained = 1, probe lost = 0; reported as retention rate per sample and per category"
+  stated_limitation: >-
+    Presence is necessary but not sufficient: a model might still fail to USE a
+    retained value, and a lost value might still be recoverable through headroom's CCR
+    retrieval tool at the cost of an extra round trip. This test measures information
+    preservation in the delivered context, which is the part that is free, objective
+    and deterministic. It is NOT a full end-to-end task-accuracy benchmark, and the
+    report must say so.
+  llm_calls: 0
+  paid_resources: false
+
+# ----------------------------------------------------------------- metrics ----
+metrics:
+  - token_reduction_vs_raw
+  - token_reduction_vs_minified
+  - token_reduction_vs_compact_json
+  - probe_retention_rate
+  - probe_retention_delta_vs_minified
+  - transformation_error_rate
+  - compression_time_ms
+  - per_category_breakdown
+  - per_tokenizer_breakdown
+report:
+  distributions: [median, p25, p75, min, max, n]
+  forbid_single_combined_score: true
+
+# ------------------------------------------------------- pre-registered verdicts --
+# Thresholds fixed now. They are NOT moved after results are seen.
+verdicts:
+  REPRODUCED:
+    conditions:
+      - "median token_reduction_vs_minified >= 25% on structured_json"
+      - "median token_reduction_vs_raw within the published 60-95% band on structured_json"
+      - "median token_reduction_vs_raw >= 15% on coding_context"
+      - "probe_retention_rate >= 0.95 overall"
+  PARTIALLY_REPRODUCED:
+    conditions:
+      - "at least one testable claim (A-E) is supported at its threshold"
+      - "at least one testable claim fails at its threshold"
+  NOT_REPRODUCED:
+    conditions:
+      - "median token_reduction_vs_minified < 5% on structured_json"
+      - "OR probe_retention_rate < 0.80"
+  INCONCLUSIVE:
+    conditions:
+      - "the software could not be run as documented"
+      - "OR fewer than the minimum samples per category were obtainable"
+thresholds:
+  structured_json_vs_minified_median_pct: 25.0
+  structured_json_vs_raw_band_pct: [60.0, 95.0]
+  coding_context_vs_raw_median_pct: 15.0
+  probe_retention_pass: 0.95
+  probe_retention_fail: 0.80

@@ -1,0 +1,174 @@
+{
+  "cases": [
+    {
+      "case_id": "B1",
+      "channels": [
+        "github"
+      ],
+      "company": "Eventual (Daft)",
+      "criteria": {
+        "author_identity_resolvable": true,
+        "build_signal_present": true,
+        "cross_source_convergence": false,
+        "no_disqualifier": true,
+        "technical_depth_signal_present": true,
+        "within_array_areas": true
+      },
+      "cutoff_date": "2024-09-30",
+      "evidence_count": 7,
+      "note": "",
+      "prereg_expected_verdict": "PASS",
+      "verdict": "PARTIAL"
+    },
+    {
+      "case_id": "B2",
+      "channels": [
+        "github"
+      ],
+      "company": "Sapiom",
+      "criteria": {
+        "author_identity_resolvable": true,
+        "build_signal_present": true,
+        "cross_source_convergence": false,
+        "no_disqualifier": true,
+        "technical_depth_signal_present": true,
+        "within_array_areas": true
+      },
+      "cutoff_date": "2026-02-04",
+      "evidence_count": 5,
+      "note": "",
+      "prereg_expected_verdict": "UNKNOWN",
+      "verdict": "PARTIAL"
+    },
+    {
+      "case_id": "B3",
+      "channels": [
+        "company_site",
+        "hackathon_official"
+      ],
+      "company": "HappyRobot",
+      "criteria": {
+        "author_identity_resolvable": false,
+        "build_signal_present": false,
+        "cross_source_convergence": false,
+        "no_disqualifier": true,
+        "technical_depth_signal_present": true,
+        "within_array_areas": true
+      },
+      "cutoff_date": "2024-12-03",
+      "evidence_count": 2,
+      "note": "",
+      "prereg_expected_verdict": "PASS",
+      "verdict": "MISS"
+    },
+    {
+      "case_id": "B4",
+      "channels": [],
+      "company": "Flamingo",
+      "criteria": {},
+      "cutoff_date": "2025-10-27",
+      "evidence_count": 0,
+      "note": "no recoverable pre-cutoff public evidence assembled",
+      "prereg_expected_verdict": "PARTIAL",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "case_id": "B5",
+      "channels": [],
+      "company": "Meibel",
+      "criteria": {},
+      "cutoff_date": "2025-05-27",
+      "evidence_count": 0,
+      "note": "no recoverable pre-cutoff public evidence assembled",
+      "prereg_expected_verdict": "UNKNOWN",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "case_id": "B6",
+      "channels": [],
+      "company": "Integral",
+      "criteria": {},
+      "cutoff_date": "2023-09-04",
+      "evidence_count": 0,
+      "note": "no recoverable pre-cutoff public evidence assembled",
+      "prereg_expected_verdict": "PARTIAL",
+      "verdict": "UNKNOWN"
+    },
+    {
+      "case_id": "B7",
+      "channels": [],
+      "company": "Mozart Data",
+      "criteria": {
+        "author_identity_resolvable": false,
+        "build_signal_present": false,
+        "cross_source_convergence": false,
+        "no_disqualifier": true,
+        "technical_depth_signal_present": false,
+        "within_array_areas": false
+      },
+      "cutoff_date": "2020-11-10",
+      "evidence_count": 0,
+      "note": "",
+      "prereg_expected_verdict": "MISS",
+      "verdict": "MISS"
+    },
+    {
+      "case_id": "B8",
+      "channels": [
+        "github"
+      ],
+      "company": "ZecOps",
+      "criteria": {
+        "author_identity_resolvable": false,
+        "build_signal_present": false,
+        "cross_source_convergence": false,
+        "no_disqualifier": true,
+        "technical_depth_signal_present": false,
+        "within_array_areas": false
+      },
+      "cutoff_date": "2020-01-01",
+      "evidence_count": 1,
+      "note": "",
+      "prereg_expected_verdict": "PASS",
+      "verdict": "MISS"
+    },
+    {
+      "case_id": "B9",
+      "channels": [],
+      "company": "Era Software",
+      "criteria": {
+        "author_identity_resolvable": false,
+        "build_signal_present": false,
+        "cross_source_convergence": false,
+        "no_disqualifier": true,
+        "technical_depth_signal_present": false,
+        "within_array_areas": false
+      },
+      "cutoff_date": "2021-10-05",
+      "evidence_count": 0,
+      "note": "",
+      "prereg_expected_verdict": "MISS",
+      "verdict": "MISS"
+    },
+    {
+      "case_id": "B10",
+      "channels": [],
+      "company": "Wokelo",
+      "criteria": {},
+      "cutoff_date": "2024-10-08",
+      "evidence_count": 0,
+      "note": "no recoverable pre-cutoff public evidence assembled",
+      "prereg_expected_verdict": "MISS",
+      "verdict": "UNKNOWN"
+    }
+  ],
+  "interpretation_caveat": "The cohort is known to consist of Array portfolio companies. No accuracy or performance statistic is available from ten known cases.",
+  "manifest_created_at": "2026-08-23T14:41:16.927766Z",
+  "naming": "HISTORICAL_HOLDOUT (design validation, not investment performance)",
+  "rules_hash": "ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c",
+  "tally": {
+    "MISS": 4,
+    "PARTIAL": 2,
+    "UNKNOWN": 4
+  }
+}

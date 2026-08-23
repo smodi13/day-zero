@@ -1,0 +1,359 @@
+{
+  "AI45Lab/AgentDoG": {
+    "query_phrase": "AgentDoG",
+    "results": [
+      {
+        "arxiv_id": "2601.18491v2",
+        "authors": [
+          "Dongrui Liu",
+          "Qihan Ren",
+          "Chen Qian",
+          "Shuai Shao",
+          "Yuejin Xie",
+          "Yu Li",
+          "Zhonghao Yang",
+          "Haoyu Luo",
+          "Peng Wang",
+          "Qingyu Liu",
+          "Binxin Hu",
+          "Ling Tang",
+          "Jilin Mei",
+          "Dadi Guo",
+          "Leitao Yuan",
+          "Junyao Yang",
+          "Guanxu Chen",
+          "Qihao Lin",
+          "Yi Yu",
+          "Bo Zhang",
+          "Jiaxuan Guo",
+          "Jie Zhang",
+          "Wenqi Shao",
+          "Huiqi Deng",
+          "Zhiheng Xi",
+          "Wenjie Wang",
+          "Wenxuan Wang",
+          "Wen Shen",
+          "Zhikai Chen",
+          "Haoyu Xie",
+          "Jialing Tao",
+          "Juntao Dai",
+          "Jiaming Ji",
+          "Zhongjie Ba",
+          "Linfeng Zhang",
+          "Yong Liu",
+          "Quanshi Zhang",
+          "Lei Zhu",
+          "Zhihua Wei",
+          "Hui Xue",
+          "Chaochao Lu",
+          "Jing Shao",
+          "Xia Hu"
+        ],
+        "published_at": "2026-01-26",
+        "title": "AgentDoG: A Diagnostic Guardrail Framework for AI Agent Safety and Security",
+        "url": "http://arxiv.org/abs/2601.18491v2"
+      },
+      {
+        "arxiv_id": "2605.29801v1",
+        "authors": [
+          "Dongrui Liu",
+          "Yu Li",
+          "Zhonghao Yang",
+          "Peng Wang",
+          "Guanxu Chen",
+          "Yuejin Xie",
+          "Qinghua Mao",
+          "Wanying Qu",
+          "Yanxu Zhu",
+          "Tianyi Zhou",
+          "Leitao Yuan",
+          "Zhijie Zheng",
+          "Qihao Lin",
+          "Yimin Wang",
+          "Haoyu Luo",
+          "Shuai Shao",
+          "Chen Qian",
+          "Qingyu Liu",
+          "Ling Tang",
+          "Ruiyang Qin",
+          "Qihan Ren",
+          "Junxiao Yang",
+          "Kun Wang",
+          "Zhiheng Xi",
+          "Linfeng Zhang",
+          "Ranjie Duan",
+          "Bo Zhang",
+          "Wenjie Wang",
+          "Wen Shen",
+          "Qiaosheng Zhang",
+          "Yan Teng",
+          "Chaochao Lu",
+          "Rui Mei",
+          "Man Li",
+          "Jialing Tao",
+          "Xi Lin",
+          "Tianhang Zheng",
+          "Yong Liu",
+          "Quanshi Zhang",
+          "Lei Zhu",
+          "Xingjun Ma",
+          "Junhua Liu",
+          "Hui Xue",
+          "Xiaoxiang Zuo",
+          "Xiangnan He",
+          "Chao Shen",
+          "Xianglong Liu",
+          "Minlie Huang",
+          "Jing Shao",
+          "Xia Hu"
+        ],
+        "published_at": "2026-05-28",
+        "title": "AgentDoG 1.5: A Lightweight and Scalable Alignment Framework for AI Agent Safety and Security",
+        "url": "http://arxiv.org/abs/2605.29801v1"
+      }
+    ]
+  },
+  "FutureMLS-Lab/OSCAR": {
+    "query_phrase": "OSCAR: Offline Spectral Covariance-Aware Rotation",
+    "results": [
+      {
+        "arxiv_id": "2605.17757v1",
+        "authors": [
+          "Zhongzhu Zhou",
+          "Donglin Zhuang",
+          "Jisen Li",
+          "Ziyan Chen",
+          "Shuaiwen Leon Song",
+          "Ben Athiwaratkun",
+          "Xiaoxia Wu"
+        ],
+        "published_at": "2026-05-18",
+        "title": "OSCAR: Offline Spectral Covariance-Aware Rotation for 2-bit KV Cache Quantization",
+        "url": "http://arxiv.org/abs/2605.17757v1"
+      }
+    ]
+  },
+  "WeianMao/triattention": {
+    "query_phrase": "TriAttention",
+    "results": [
+      {
+        "arxiv_id": "2607.13051v1",
+        "authors": [
+          "Amarnath Mukherjee"
+        ],
+        "published_at": "2026-07-01",
+        "title": "Precomputing the Future-Offset Average in TriAttention",
+        "url": "http://arxiv.org/abs/2607.13051v1"
+      },
+      {
+        "arxiv_id": "2604.04921v1",
+        "authors": [
+          "Weian Mao",
+          "Xi Lin",
+          "Wei Huang",
+          "Yuxin Xie",
+          "Tianfu Fu",
+          "Bohan Zhuang",
+          "Song Han",
+          "Yukang Chen"
+        ],
+        "published_at": "2026-04-06",
+        "title": "TriAttention: Efficient Long Reasoning with Trigonometric KV Compression",
+        "url": "http://arxiv.org/abs/2604.04921v1"
+      }
+    ]
+  },
+  "claw-eval/claw-eval": {
+    "query_phrase": "Claw-Eval",
+    "results": [
+      {
+        "arxiv_id": "2604.06132v3",
+        "authors": [
+          "Bowen Ye",
+          "Rang Li",
+          "Qibin Yang",
+          "Yuanxin Liu",
+          "Linli Yao",
+          "Hanglong Lv",
+          "Zhihui Xie",
+          "Chenxin An",
+          "Lei Li",
+          "Lingpeng Kong",
+          "Qi Liu",
+          "Zhifang Sui",
+          "Tong Yang"
+        ],
+        "published_at": "2026-04-07",
+        "title": "Claw-Eval: Towards Trustworthy Evaluation of Autonomous Agents",
+        "url": "http://arxiv.org/abs/2604.06132v3"
+      },
+      {
+        "arxiv_id": "2604.28139v2",
+        "authors": [
+          "Chenxin Li",
+          "Zhengyang Tang",
+          "Mingxin Huang",
+          "Yunlong Lin",
+          "Shijue Huang",
+          "Shengyuan Liu",
+          "Bowen Ye",
+          "Rang Li",
+          "Lei Li",
+          "Benyou Wang",
+          "Yixuan Yuan"
+        ],
+        "published_at": "2026-04-30",
+        "title": "Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows",
+        "url": "http://arxiv.org/abs/2604.28139v2"
+      }
+    ]
+  },
+  "eunomia-bpf/agentsight": {
+    "query_phrase": "AgentSight",
+    "results": [
+      {
+        "arxiv_id": "2508.02736v2",
+        "authors": [
+          "Yusheng Zheng",
+          "Yanpeng Hu",
+          "Tong Yu",
+          "Andi Quinn"
+        ],
+        "published_at": "2025-08-02",
+        "title": "AgentSight: System-Level Observability for AI Agents Using eBPF",
+        "url": "http://arxiv.org/abs/2508.02736v2"
+      }
+    ]
+  },
+  "multikernel/sandlock": {
+    "query_phrase": "sandlock",
+    "results": [
+      {
+        "arxiv_id": "2605.26298v1",
+        "authors": [
+          "Cong Wang",
+          "Yusheng Zheng"
+        ],
+        "published_at": "2026-05-25",
+        "title": "Sandlock: Confining AI Agent Code with Unprivileged Linux Primitives",
+        "url": "http://arxiv.org/abs/2605.26298v1"
+      }
+    ]
+  },
+  "ovg-project/kvcached": {
+    "query_phrase": "kvcached",
+    "results": [
+      {
+        "arxiv_id": "2506.02634v5",
+        "authors": [
+          "Jiahao Wang",
+          "Jinbo Han",
+          "Xingda Wei",
+          "Sijie Shen",
+          "Dingyan Zhang",
+          "Chenguang Fang",
+          "Rong Chen",
+          "Wenyuan Yu",
+          "Haibo Chen"
+        ],
+        "published_at": "2025-06-03",
+        "title": "KVCache Cache in the Wild: Characterizing and Optimizing KVCache Cache at a Large Cloud Provider",
+        "url": "http://arxiv.org/abs/2506.02634v5"
+      },
+      {
+        "arxiv_id": "2407.12820v2",
+        "authors": [
+          "Hailin Zhang",
+          "Xiaodong Ji",
+          "Yilin Chen",
+          "Fangcheng Fu",
+          "Xupeng Miao",
+          "Xiaonan Nie",
+          "Weipeng Chen",
+          "Bin Cui"
+        ],
+        "published_at": "2024-07-01",
+        "title": "PQCache: Product Quantization-based KVCache for Long Context LLM Inference",
+        "url": "http://arxiv.org/abs/2407.12820v2"
+      },
+      {
+        "arxiv_id": "2606.31519v1",
+        "authors": [
+          "Wenhao Li",
+          "Jinhao Dong",
+          "Hailin Zhang",
+          "Wenhang Shi",
+          "Wei Lu",
+          "Xiaoyong Du"
+        ],
+        "published_at": "2026-06-30",
+        "title": "RaBitQCache: Rotated Binary Quantization for KVCache in Long Context LLM Inference",
+        "url": "http://arxiv.org/abs/2606.31519v1"
+      },
+      {
+        "arxiv_id": "2407.00079v4",
+        "authors": [
+          "Ruoyu Qin",
+          "Zheming Li",
+          "Weiran He",
+          "Mingxing Zhang",
+          "Yongwei Wu",
+          "Weimin Zheng",
+          "Xinran Xu"
+        ],
+        "published_at": "2024-06-24",
+        "title": "Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving",
+        "url": "http://arxiv.org/abs/2407.00079v4"
+      }
+    ]
+  },
+  "uccl-project/uccl": {
+    "query_phrase": "UCCL-EP",
+    "results": [
+      {
+        "arxiv_id": "2512.19849v2",
+        "authors": [
+          "Ziming Mao",
+          "Yihan Zhang",
+          "Chihan Cui",
+          "Zhen Huang",
+          "Kaichao You",
+          "Zhongjie Chen",
+          "Zhiying Xu",
+          "Zhenyu Gu",
+          "Scott Shenker",
+          "Costin Raiciu",
+          "Yang Zhou",
+          "Ion Stoica"
+        ],
+        "published_at": "2025-12-22",
+        "title": "UCCL-EP: Portable Expert-Parallel Communication",
+        "url": "http://arxiv.org/abs/2512.19849v2"
+      }
+    ]
+  },
+  "uccl-project/uccl#2": {
+    "query_phrase": "UCCL-Zip",
+    "results": [
+      {
+        "arxiv_id": "2604.17172v2",
+        "authors": [
+          "Shuang Ma",
+          "Chon Lam Lao",
+          "Zhiying Xu",
+          "Zhuang Wang",
+          "Ziming Mao",
+          "Delong Meng",
+          "Jia Zhen",
+          "Jun Wu",
+          "Ion Stoica",
+          "Yida Wang",
+          "Yang Zhou"
+        ],
+        "published_at": "2026-04-19",
+        "title": "UCCL-Zip: Lossless Compression Supercharged GPU Communication",
+        "url": "http://arxiv.org/abs/2604.17172v2"
+      }
+    ]
+  }
+}

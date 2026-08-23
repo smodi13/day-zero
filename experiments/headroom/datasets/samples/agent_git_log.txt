@@ -1,0 +1,296 @@
+commit 74c4627402d6e3dcf60d28bab09d165d2e781174
+Author: Sahil Modi <195584415+smodi13@users.noreply.github.com>
+Date:   Sun Aug 23 07:54:24 2026 -0700
+
+    Run frozen sourcing validation and build founder intro queue
+    
+    Phase 2B. Everything here was produced AFTER the rules were frozen in 75b4311.
+    The frozen combined hash is unchanged: ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c
+    
+    Historical holdout — 0 PASS, 2 PARTIAL, 4 MISS, 4 UNKNOWN
+    - Pre-registered expectation was 3/2/3/2. The system did WORSE than its own
+      published prediction, and the rules were not changed afterwards.
+    - B1 (Eventual/Daft) reached only PARTIAL. It had 2.5 years of pre-cutoff
+      multi-contributor Rust systems work, and failed the convergence rule because
+      every source was GitHub. The rule that prevents single-channel false positives
+      also blocks the strongest true positive in the cohort. RULE DESIGN WEAKNESS —
+      documented, not patched.
+    - B2 (Sapiom) beat its pre-registration: its org and two repos were genuinely
+      recoverable before the cutoff. B3 and B8 fell short of theirs.
+    - Five of ten cases produced zero recoverable public evidence. Companies that do
+      not build in public are structurally invisible to this method.
+    
+    Negative controls — 0 incorrectly promoted
+    - All 7 live controls rejected; 3 for the predicted reason, 4 for another.
+    - NC-5 (frontier-lab engineer, 16k stars, no formation evidence) did not promote,
+      but was stopped by IDENTITY_UNRESOLVED rather than by the formation guard the
+      control was written to test. Reported precisely rather than claimed as a win.
+    
+    Intro Queue — 3 leads, CURRENT 3 emitted, nobody contacted
+    - multikernel/sandlock, sipyourdrink-ltd/bernstein, scanaislop/aislop.
+    - All three sit in Agent Execution & Accountability, from three different
+      sub-themes, which is convergent rather than thesis-fitted.
+    - All three Phase 1 Weekly 3 leads fell out of system eligibility. One returned
+      by a documented analyst override; CodeBurn was downgraded by the thematic
+      mirroring guard; ClawMetry weakened on team and category crowding.
+    
+    Multikernel artifact correction
+    - Phase 1 anchored on kernelscript. The org has 16 repos including sandlock
+      (807 commits, pushed daily, arXiv:2605.26298, a named commercial product).
+    - That paper is co-authored by Cong Wang and Yusheng Zheng, linking two Phase 1
+      leads that had been treated as independent.
+    - No public financing was found; status recorded as launched, not funded.
+    
+    X — 0 records, $0, and a decisive finding
+    - The guard refused at the first precondition and would have refused again on
+      stale pricing. More important: 1 of 267 collected identities publishes a
+      linkable X account, so X evidence could not be joined to 99.6% of the universe
+      without the name-similarity merge that ER-2 forbids.
+    
+    One implementation bug fixed, zero rule changes
+    - Identity resolution read the repository OWNER (often an organization) instead
+      of the principal human builder. The frozen rule asks about the author. Fixed;
+      frozen hash verified unchanged before and after.
+    
+    178 offline tests pass, including 15 new outcome tests asserting that every
+    evaluation used the frozen hash and that no holdout evidence postdates its cutoff.
+    
+    Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+    Claude-Session: https://claude.ai/code/session_01DitrVVDKsL6RJR5RLXn49M
+
+ data/holdout/evidence.yaml           |  159 ++
+ data/manual/analyst_assessments.yaml |  268 ++-
+ outputs/analyst_cards.md             |  128 ++
+ outputs/holdout_report.md            |   44 +
+ outputs/holdout_results.json         |  174 ++
+ outputs/intro_queue.json             |  387 ++++
+ outputs/intro_queue.md               |   68 +
+ outputs/negative_controls.json       |  198 ++
+ outputs/negative_controls.md         |   26 +
+ outputs/phase2_summary.json          |   93 +
+ outputs/review_queue.json            | 3831 ++++++++++++++++++++++++++++++++++
+ outputs/watchlist.json               | 2810 +++++++++++++++++++++++++
+ outputs/watchlist.md                 |   69 +
+ research/phase2_report.md            |  518 +++++
+ research/x_integration_phase2.md     |  107 +
+ src/dayzero/cards.py                 |   91 +
+ src/dayzero/negative_controls.py     |   28 +-
+ src/dayzero/pipeline.py              |    8 +-
+ tests/test_outcomes.py               |  129 ++
+ 19 files changed, 9125 insertions(+), 11 deletions(-)
+
+commit 75b4311ad9ce540e7f36f8d2ec927623f7f419f0
+Author: Sahil Modi <195584415+smodi13@users.noreply.github.com>
+Date:   Sun Aug 23 07:41:48 2026 -0700
+
+    Build DAY ZERO sourcing engine and freeze evaluation rules
+    
+    Phase 2A. Engine, data pipeline, tests, and the methodology freeze. No historical
+    holdout decision, no negative-control verdict, and no intro queue exists at this
+    commit — that is the point of the two-commit structure.
+    
+    Engine
+    - 11 ontology config files: the Phase 1 prose turned into machine-readable rules
+    - 35-table normalized SQLite schema; attention and construction live in SEPARATE
+      tables so they can never be silently combined; no score column exists anywhere
+    - deterministic ids; aware-UTC-only time handling; exact-Decimal cost ledger
+    - conservative entity resolution (ER-1 accepts four evidence kinds; ER-2 forbids
+      name/employer/topic similarity); Agency and Eventual collisions are fixtures
+    - signal derivation for BUILD / DEPTH / COLLABORATION / FORMATION / VELOCITY /
+      COMMERCIALIZATION; formation-state HISTORY, not a collapsed current value
+    - nine independent technical dimensions with no total; technical_difficulty is
+      deliberately always UNKNOWN from metadata
+    - adapters: GitHub (network collector split from offline parser), arXiv (exact
+      title-phrase + exact author-overlap linking), X (off by default, fail-closed),
+      manual (no automated Devpost path exists, by robots policy)
+    
+    Phase 1 findings carried into the design
+    - career_signal_class is OPTIONAL and evidence-backed; UNCLASSIFIED is valid and
+      is the majority result; the eligibility rules cannot read it at all
+    - attention metrics are barred from surfacing logic, asserted by AST-level tests
+    - GitHub organization creation date is a first-class formation signal
+    - a coordinated same-day multi-surface launch counts as ONE channel
+    
+    Data
+    - 102 repositories, 267 identities, 66 organizations, 6 author-verified papers
+    - 1,586 evidence rows, 579 relationships, 828 derived signals
+    - 661 free API requests, $0 logged, actual cost recorded as UNKNOWN not invented
+    
+    Freeze
+    - outputs/frozen_rules_manifest.json pins nine rule files by parsed-content hash
+    - combined hash ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c
+    - holdout / negative-controls / review / intro-queue FAIL CLOSED on drift
+    
+    163 offline tests pass. No network access is required to run them.
+    
+    Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+    Claude-Session: https://claude.ai/code/session_01DitrVVDKsL6RJR5RLXn49M
+
+ .gitignore                              |     5 +
+ config/.gitkeep                         |     0
+ config/career_signal_classes.yaml       |    37 +
+ config/evidence_types.yaml              |    25 +
+ config/formation_states.yaml            |    19 +
+ config/holdout_manifest.yaml            |    94 +
+ config/holdout_rules.yaml               |    38 +
+ config/intro_queue_rules.yaml           |    26 +
+ config/negative_control_rules.yaml      |    20 +
+ config/review_states.yaml               |    19 +
+ config/signal_types.yaml                |    78 +
+ config/source_quality.yaml              |    60 +
+ config/source_types.yaml                |    27 +
+ config/technical_dimensions.yaml        |    25 +
+ data/collected/arxiv_papers.json        |   359 +
+ data/collected/collection_errors.json   |    34 +
+ data/collected/collection_failures.json |     9 +
+ data/collected/github_contributors.json |  3675 ++++++++++
+ data/collected/github_orgs.json         |   794 +++
+ data/collected/github_releases.json     |  6564 ++++++++++++++++++
+ data/collected/github_repos.json        |  4406 ++++++++++++
+ data/collected/github_users.json        |  3740 ++++++++++
+ data/cost_ledger.jsonl                  |     4 +
+ data/holdout/outcomes.yaml              |    13 +
+ data/manual/analyst_assessments.yaml    |     9 +
+ data/manual/events.yaml                 |     7 +
+ data/manual/hackathons.yaml             |    11 +
+ data/manual/status_checks.yaml          |    27 +
+ data/manual/x_signals.yaml              |    15 +
+ outputs/attention_vs_construction.json  |   448 ++
+ outputs/build_summary.json              |    40 +
+ outputs/builders.json                   |  2672 ++++++++
+ outputs/cost_ledger.json                |    65 +
+ outputs/frozen_rules_manifest.json      |     1 +
+ outputs/graph.json                      |  8001 ++++++++++++++++++++++
+ outputs/projects.json                   |  2858 ++++++++
+ outputs/signals.json                    | 11018 ++++++++++++++++++++++++++++++
+ outputs/source_yield.json               |    86 +
+ pyproject.toml                          |    22 +
+ src/.gitkeep                            |     0
+ src/dayzero/__init__.py                 |     5 +
+ src/dayzero/__main__.py                 |   169 +
+ src/dayzero/_dates.py                   |     9 +
+ src/dayzero/adapters/__init__.py        |     2 +
+ src/dayzero/adapters/arxiv.py           |    71 +
+ src/dayzero/adapters/github.py          |   193 +
+ src/dayzero/adapters/manual.py          |    61 +
+ src/dayzero/adapters/x.py               |   115 +
+ src/dayzero/build.py                    |   532 ++
+ src/dayzero/collect.py                  |    70 +
+ src/dayzero/config.py                   |    73 +
+ src/dayzero/cost.py                     |    76 +
+ src/dayzero/db.py                       |   278 +
+ src/dayzero/diagnostics.py              |   131 +
+ src/dayzero/export.py                   |   174 +
+ src/dayzero/formation.py                |   111 +
+ src/dayzero/freeze.py                   |    88 +
+ src/dayzero/holdout.py                  |   170 +
+ src/dayzero/ids.py                      |    61 +
+ src/dayzero/money.py                    |    54 +
+ src/dayzero/negative_controls.py        |   115 +
+ src/dayzero/pipeline.py                 |   209 +
+ src/dayzero/registry.py                 |    90 +
+ src/dayzero/resolve.py                  |   133 +
+ src/dayzero/review.py                   |   176 +
+ src/dayzero/signals.py                  |   303 +
+ src/dayzero/technical.py                |   120 +
+ src/dayzero/timeutil.py                 |    64 +
+ src/dayzero/urlutil.py                  |    55 +
+ tests/conftest.py                       |    31 +
+ tests/test_ai_separation.py             |    58 +
+ tests/test_attention_vs_construction.py |    66 +
+ tests/test_career_class.py              |    65 +
+ tests/test_cost.py                      |    62 +
+ tests/test_data_access_policy.py        |    47 +
+ tests/test_determinism.py               |    57 +
+ tests/test_entity_resolution.py         |    72 +
+ tests/test_evidence.py                  |    72 +
+ tests/test_exports_and_config.py        |    64 +
+ tests/test_formation.py                 |    73 +
+ tests/test_holdout_guard.py             |    72 +
+ tests/test_idempotency.py               |    42 +
+ tests/test_negative_control_guard.py    |    40 +
+ tests/test_no_score.py                  |    51 +
+ tests/test_privacy.py                   |    65 +
+ tests/test_regression_phase1.py         |    82 +
+ tests/test_review_rules.py              |    99 +
+ tests/test_schema.py                    |    58 +
+ tests/test_security.py                  |    78 +
+ tests/test_source_lineage.py            |    46 +
+ tests/test_time.py                      |    44 +
+ tests/test_x_adapter.py                 |    99 +
+ 92 files changed, 50502 insertions(+)
+
+commit 0a04d5ed48b4b088411aa50b9c35040e54a43666
+Author: Sahil Modi <195584415+smodi13@users.noreply.github.com>
+Date:   Sat Aug 22 23:41:35 2026 -0700
+
+    Record the Phase 1 commit hash in the report
+    
+    Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+    Claude-Session: https://claude.ai/code/session_01DitrVVDKsL6RJR5RLXn49M
+
+ research/phase1_report.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 5049772e748dc7e21df2bc67e5832e277b105721
+Author: Sahil Modi <195584415+smodi13@users.noreply.github.com>
+Date:   Sat Aug 22 23:41:25 2026 -0700
+
+    Phase 1: research, ontology, evidence model, and initial builder universe
+    
+    DAY ZERO — Founder Formation & Technical Diligence Engine.
+    Phase 1 is research and design only: no pipeline, no database, no frontend,
+    no deployment, no outreach.
+    
+    Contents:
+    - Array Ventures strategy + portfolio map, every figure traced to a public source
+    - Read-only audit of the prior X sourcing engine (~/headline-x-sourcing),
+      with explicit reuse / do-not-reuse decisions
+    - Frozen v1.0 signal ontology (7 families), person-artifact graph, formation
+      states, and a 9-dimension technical-quality framework with no total score
+    - Weekly 3 and Accepted Work Unit definitions, the latter adopted from Array's
+      own published metric
+    - Data source universe with live-verified rate limits and access policies
+    - Backtest methodology: 10-company cohort, frozen cutoffs, pre-registered
+      expected outcomes (3 PASS / 2 PARTIAL / 3 MISS / 2 UNKNOWN)
+    - 11 negative controls, every one a real verified artifact
+    - Reproduction lab: 5 candidate experiments, 1 primary, scoped to real hardware
+    - 45 real builders verified against the GitHub and arXiv APIs on 2026-08-22
+    - 3 cross-source convergent signal sets; provisional Weekly 3 (no contact made)
+    - Data ethics, source quality tiers, data model, SF ecosystem module
+    - 50-row traceable source registry
+    
+    No fabricated data. Unknowns are recorded as UNKNOWN.
+    
+    Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+    Claude-Session: https://claude.ai/code/session_01DitrVVDKsL6RJR5RLXn49M
+
+ .gitignore                              |  43 +++
+ README.md                               | 182 ++++++++++
+ config/.gitkeep                         |   0
+ research/accepted_work_unit.md          |  92 +++++
+ research/agent_infrastructure_thesis.md | 171 +++++++++
+ research/array_portfolio_map.md         | 164 +++++++++
+ research/array_strategy.md              | 330 ++++++++++++++++++
+ research/backtest_methodology.md        | 166 +++++++++
+ research/cross_source_signals.md        | 131 +++++++
+ research/data_ethics.md                 |  95 +++++
+ research/data_model.md                  | 161 +++++++++
+ research/data_sources.md                | 107 ++++++
+ research/entity_graph.md                | 155 +++++++++
+ research/existing_x_engine_audit.md     | 310 +++++++++++++++++
+ research/formation_framework.md         | 125 +++++++
+ research/initial_builders.csv           |  46 +++
+ research/initial_builders.md            | 506 +++++++++++++++++++++++++++
+ research/negative_controls.md           | 216 ++++++++++++
+ research/phase1_report.md               | 596 ++++++++++++++++++++++++++++++++
+ research/reproduction_lab.md            | 199 +++++++++++
+ research/sf_ecosystem.md                |  94 +++++
+ research/signal_ontology.md             | 215 ++++++++++++
+ research/source_quality.md              |  92 +++++
+ research/technical_quality_framework.md | 143 ++++++++
+ research/weekly3_framework.md           |  80 +++++
+ research/x_channel.md                   | 123 +++++++
+ sources/source_registry.csv             |  51 +++
+ src/.gitkeep                            |   0
+ 28 files changed, 4593 insertions(+)

@@ -1,0 +1,140 @@
+{
+  "summary": {
+    "repositories": 102,
+    "builders": 267,
+    "identities": 487,
+    "organizations": 66,
+    "papers": 6,
+    "sources": 273,
+    "evidence": 1586,
+    "relationships": 579,
+    "technical_signals": 648,
+    "formation_signals": 171,
+    "commercialization_signals": 9,
+    "technical_assessments": 918,
+    "formation_state_rows": 134,
+    "social_signals": 0,
+    "hackathons": 0,
+    "events": 0,
+    "status_checks": 3
+  },
+  "source_yield": {
+    "channels": [
+      {
+        "channel": "events",
+        "raw_records": 0,
+        "evidence_records": 0,
+        "unique_subjects": 0,
+        "resolved_identities": 0,
+        "unresolved_identities": 0,
+        "technical_artifacts": 0,
+        "formation_signals": 0,
+        "stale_signals": 0,
+        "duplicates_suppressed": 0,
+        "estimated_cost_usd": "0"
+      },
+      {
+        "channel": "github",
+        "raw_records": 102,
+        "evidence_records": 1580,
+        "unique_subjects": 102,
+        "resolved_identities": 110,
+        "unresolved_identities": 37,
+        "technical_artifacts": 102,
+        "formation_signals": 98,
+        "stale_signals": 45,
+        "duplicates_suppressed": 0,
+        "estimated_cost_usd": "0.000000",
+        "api_requests": 1259
+      },
+      {
+        "channel": "hackathon",
+        "raw_records": 0,
+        "evidence_records": 0,
+        "unique_subjects": 0,
+        "resolved_identities": 0,
+        "unresolved_identities": 0,
+        "technical_artifacts": 0,
+        "formation_signals": 0,
+        "stale_signals": 0,
+        "duplicates_suppressed": 0,
+        "estimated_cost_usd": "0",
+        "note": "manual only by robots policy; no automated adapter exists"
+      },
+      {
+        "channel": "research",
+        "raw_records": 6,
+        "evidence_records": 6,
+        "unique_subjects": 6,
+        "resolved_identities": 0,
+        "unresolved_identities": 0,
+        "technical_artifacts": 0,
+        "formation_signals": 0,
+        "stale_signals": 0,
+        "duplicates_suppressed": 0,
+        "estimated_cost_usd": "0.000000",
+        "api_requests": 12
+      },
+      {
+        "channel": "web",
+        "raw_records": 0,
+        "evidence_records": 0,
+        "unique_subjects": 0,
+        "resolved_identities": 0,
+        "unresolved_identities": 0,
+        "technical_artifacts": 0,
+        "formation_signals": 73,
+        "stale_signals": 18,
+        "duplicates_suppressed": 0,
+        "estimated_cost_usd": "0"
+      },
+      {
+        "channel": "x",
+        "raw_records": 0,
+        "evidence_records": 0,
+        "unique_subjects": 0,
+        "resolved_identities": 0,
+        "unresolved_identities": 0,
+        "technical_artifacts": 0,
+        "formation_signals": 0,
+        "stale_signals": 0,
+        "duplicates_suppressed": 0,
+        "estimated_cost_usd": "0",
+        "note": "X ingestion is off by default and no credentials were present"
+      }
+    ]
+  },
+  "attention_vs_construction": {
+    "note": "Descriptive divergence only. High construction is not a claim about investment quality, and low attention is not a claim about obscurity.",
+    "high_attention_low_construction": [
+      {
+        "repo": "ComposioHQ/awesome-claude-skills",
+        "stars": 73056,
+        "forks": 8372,
+        "top_contributions": 38,
+        "total_contributions": 58,
+        "longevity_days": 297,
+        "days_since_push": 13,
+        "human_contributors": 10,
+        "stars_per_commit": 1922.5
+      },
+      {
+        "repo": "0xSero/turboquant",
+        "stars": 1735,
+        "forks": 194,
+        "top_contributions": 2,
+        "total_contributions": 2,
+        "longevity_days": 2,
+        "days_since_push": 149,
+        "human_contributors": 1,
+        "stars_per_commit": 867.5
+      },
+      {
+        "repo": "rtk-ai/rtk",
+        "stars": 77106,
+        "forks": 4847,
+        "top_contributions": 530,
+        "total_contributions": 1132,
+        "longevity_days": 212,
+        "days_since_push": 1,
+     

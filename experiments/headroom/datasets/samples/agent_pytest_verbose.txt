@@ -1,0 +1,28 @@
+============================= test session starts ==============================
+collected 178 items
+
+tests/test_ai_separation.py .......                                      [  3%]
+tests/test_attention_vs_construction.py ......                           [  7%]
+tests/test_career_class.py .......                                       [ 11%]
+tests/test_cost.py .........                                             [ 16%]
+tests/test_data_access_policy.py ......                                  [ 19%]
+tests/test_determinism.py .......                                        [ 23%]
+tests/test_entity_resolution.py ...........                              [ 29%]
+tests/test_evidence.py ..........                                        [ 35%]
+tests/test_exports_and_config.py .........                               [ 40%]
+tests/test_formation.py .........                                        [ 45%]
+tests/test_holdout_guard.py ........                                     [ 50%]
+tests/test_idempotency.py ......                                         [ 53%]
+tests/test_negative_control_guard.py ....                                [ 55%]
+tests/test_no_score.py .....                                             [ 58%]
+tests/test_outcomes.py ...............                                   [ 66%]
+tests/test_privacy.py .......                                            [ 70%]
+tests/test_regression_phase1.py ......                                   [ 74%]
+tests/test_review_rules.py ............                                  [ 80%]
+tests/test_schema.py ......                                              [ 84%]
+tests/test_security.py .....                                             [ 87%]
+tests/test_source_lineage.py ......                                      [ 90%]
+tests/test_time.py ......                                                [ 93%]
+tests/test_x_adapter.py ...........                                      [100%]
+
+============================= 178 passed in 2.18s ==============================
