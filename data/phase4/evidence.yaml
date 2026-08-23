@@ -1,0 +1,80 @@
+# PHASE 4 UNSEEN COHORT — AS-OF EVIDENCE PACKETS.
+#
+# Retrieved AFTER the cohort was frozen in commit 63cfcefdb54ce9d95b57e0e9a3b54be3988f2516.
+# Every item is dated by when the underlying fact existed. Nothing post-cutoff appears.
+#
+# Entity resolution follows v2 identity rules unchanged: an organisation is only accepted
+# as belonging to a company when a first-party link verifies it (ER-1). A name-only match
+# is POSSIBLE_MATCH and its artifacts may NOT be used as evidence. Several cases below
+# resolve to UNKNOWN for exactly that reason, and that is the rule working, not a gap.
+cases:
+  U08:   # Blumira — cutoff 2021-08-17
+    - {claim_type: org_created, claim_class: formation, evidence_date: "2020-05-27",
+       source_type: github_org, source_url: "https://github.com/Blumira",
+       artifact_available_at_cutoff: true, evidence_status: OBSERVED,
+       observed_claim: "GitHub org Blumira created 2020-05-27; blog field resolves to blumira.com (ER-1 domain cross-link)"}
+    - {claim_type: identity, claim_class: identity, evidence_date: "2020-05-27",
+       source_type: github_org, source_url: "https://github.com/Blumira",
+       artifact_available_at_cutoff: true, evidence_status: OBSERVED,
+       observed_claim: "org links the company domain, closing the domain-to-code loop"}
+    - {claim_type: repo_created, claim_class: construction, evidence_date: "2020-05-27",
+       source_type: github_repo, source_url: "https://github.com/Blumira/Logmira",
+       artifact_available_at_cutoff: true, evidence_status: OBSERVED,
+       observed_claim: "Logmira created 2020-05-27, MIT; 26 commits before the cutoff"}
+    - {claim_type: repo_created, claim_class: construction, evidence_date: "2020-09-11",
+       source_type: github_repo, source_url: "https://github.com/Blumira/Flowmira",
+       artifact_available_at_cutoff: true, evidence_status: OBSERVED,
+       observed_claim: "Flowmira created 2020-09-11, MIT; 27 commits before the cutoff"}
+    - {claim_type: sustained_construction, claim_class: construction, evidence_date: "2021-02-05",
+       source_type: github_commits, source_url: "https://github.com/Blumira/Kerberoast-Detection",
+       artifact_available_at_cutoff: true, evidence_status: OBSERVED,
+       observed_claim: "Kerberoast-Detection created 2021-02-05, PowerShell, Apache-2.0; 13 commits from 5 distinct authors before the cutoff"}
+    - {claim_type: repo_created, claim_class: construction, evidence_date: "2021-07-27",
+       source_type: github_repo, source_url: "https://github.com/Blumira/blumira-osquery-config",
+       artifact_available_at_cutoff: true, evidence_status: OBSERVED,
+       observed_claim: "blumira-osquery-config created 2021-07-27, Shell; 16 commits before the cutoff"}
+    - {claim_type: collaboration, claim_class: collaboration, evidence_date: "2020-09-11",
+       source_type: github_commits, source_url: "https://github.com/Blumira/Flowmira/commits",
+       artifact_available_at_cutoff: true, evidence_status: OBSERVED,
+       observed_claim: "7 distinct commit authors on Flowmira before the cutoff, including named humans"}
+
+  U01:   # Perspective AI — cutoff 2025-01-29
+    - {claim_type: org_created, claim_class: formation, evidence_date: "2024-01-02",
+       source_type: github_org, source_url: "https://github.com/Perspective-AI",
+       artifact_available_at_cutoff: true, evidence_status: OBSERVED,
+       observed_claim: "GitHub org Perspective-AI created 2024-01-02; blog field resolves to getperspective.ai (HTTP 200, ER-1 domain cross-link)"}
+    - {claim_type: identity, claim_class: identity, evidence_date: "2024-08-07",
+       source_type: github_commits, source_url: "https://github.com/Perspective-AI/content/commits",
+       artifact_available_at_cutoff: true, evidence_status: OBSERVED,
+       observed_claim: "commit author 'Guy Nirpaz' matches the publicly named founder (exact full name, second independent artifact)"}
+    - {claim_type: repo_created, claim_class: construction, evidence_date: "2024-08-07",
+       source_type: github_repo, source_url: "https://github.com/Perspective-AI/content",
+       artifact_available_at_cutoff: true, evidence_status: OBSERVED,
+       observed_claim: "content repo created 2024-08-07; SCSS; no licence; described as the community repository for Perspective (getperspective.ai)"}
+    - {claim_type: sustained_construction, claim_class: construction, evidence_date: "2025-01-20",
+       source_type: github_commits, source_url: "https://github.com/Perspective-AI/content/commits",
+       artifact_available_at_cutoff: true, evidence_status: OBSERVED,
+       observed_claim: "100 commits before the cutoff from 3 distinct authors: Guy Nirpaz, Nate Richardson, originalnate"}
+    - {claim_type: collaboration, claim_class: collaboration, evidence_date: "2025-01-20",
+       source_type: github_commits, source_url: "https://github.com/Perspective-AI/content/commits",
+       artifact_available_at_cutoff: true, evidence_status: OBSERVED,
+       observed_claim: "3 distinct human commit authors before the cutoff"}
+
+  U04:   # MokSa.ai — cutoff 2024-04-21
+    - {claim_type: org_created, claim_class: formation, evidence_date: "2021-09-29",
+       source_type: github_org, source_url: "https://github.com/moksa-ai",
+       artifact_available_at_cutoff: true, evidence_status: OBSERVED,
+       observed_claim: "GitHub org moksa-ai created 2021-09-29; name 'mokSa.ai'; blog resolves to moksa.ai (ER-1 domain cross-link)"}
+    # Its only repository was created 2025-01-20, AFTER the cutoff, so it contributes nothing.
+
+# No verifiable pre-cutoff evidence was assembled for:
+#   U02 CandorIQ  — org `candoriq` is a NAME-ONLY match: no name field, no blog, three
+#                   unlabelled QA repos. POSSIBLE_MATCH under v2 identity rules, which may
+#                   not merge, so its artifacts cannot be used.
+#   U03 Wabi      — org `wabi` created 2019-11-13 with zero repos and no first-party link;
+#                   predates the company. Not verifiable.
+#   U05 Capsule   — org `capsule` created 2011-03-10; no first-party link. Not verifiable.
+#   U06 ORO       — `Orolabs` (2020-11-18) and `oro-labs` (2022-05-19) both have zero repos
+#                   and no first-party link. Not verifiable.
+#   U07 Tumble    — `tumble-inc` created 2012 with a different domain. Not verifiable.
+#   U09 Zingly    — `ZinglyAI` created 2021-07-13 with zero repos and no first-party link.

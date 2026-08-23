@@ -1,0 +1,19 @@
+{
+  "distinct_domains": 72,
+  "docs_sites": 3,
+  "domain_adds_a_distinct_formation_event": 33,
+  "domain_adds_distinct_pct": 32.35,
+  "formation_from_github_only": 17,
+  "interpretation": "A project domain is present on most repositories (70.59%), but it adds a DISTINCT formation event on only 32.35% of them - because in the other cases the GitHub organisation has already supplied one and the two describe the same decision. Domains earn their own event where an organisation has no domain of its own, or where the project domain differs from the company domain, which is a second and separate decision.",
+  "methods_excluded": [
+    "whois_enrichment",
+    "domain_registrant_lookup",
+    "reverse_whois",
+    "dns_history_broker_data"
+  ],
+  "orgs_linking_a_domain": 48,
+  "product_domains": 69,
+  "repositories_measured": 102,
+  "with_a_project_domain": 72,
+  "with_a_project_domain_pct": 70.59
+}

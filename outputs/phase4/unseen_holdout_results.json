@@ -1,0 +1,167 @@
+{
+  "cases": [
+    {
+      "case_id": "U07",
+      "checks": {},
+      "company": "Tumble",
+      "cutoff_date": "2022-10-04",
+      "event_count": 0,
+      "evidence_count": 0,
+      "modalities": [],
+      "reason": "no verifiable pre-cutoff evidence: no GitHub organisation could be linked to the company under v2 identity rules (name-only matches may not merge)",
+      "span_days": 0,
+      "verdict": "UNKNOWN"
+    },
+    {
+      "case_id": "U03",
+      "checks": {},
+      "company": "Wabi",
+      "cutoff_date": "2025-11-04",
+      "event_count": 0,
+      "evidence_count": 0,
+      "modalities": [],
+      "reason": "no verifiable pre-cutoff evidence: no GitHub organisation could be linked to the company under v2 identity rules (name-only matches may not merge)",
+      "span_days": 0,
+      "verdict": "UNKNOWN"
+    },
+    {
+      "case_id": "U09",
+      "checks": {},
+      "company": "Zingly.ai",
+      "cutoff_date": "2025-07-20",
+      "event_count": 0,
+      "evidence_count": 0,
+      "modalities": [],
+      "reason": "no verifiable pre-cutoff evidence: no GitHub organisation could be linked to the company under v2 identity rules (name-only matches may not merge)",
+      "span_days": 0,
+      "verdict": "UNKNOWN"
+    },
+    {
+      "case_id": "U06",
+      "checks": {},
+      "company": "ORO",
+      "cutoff_date": "2022-11-02",
+      "event_count": 0,
+      "evidence_count": 0,
+      "modalities": [],
+      "reason": "no verifiable pre-cutoff evidence: no GitHub organisation could be linked to the company under v2 identity rules (name-only matches may not merge)",
+      "span_days": 0,
+      "verdict": "UNKNOWN"
+    },
+    {
+      "case_id": "U01",
+      "checks": {
+        "distinct_events": true,
+        "distinct_modalities": true,
+        "includes_construction": true,
+        "includes_formation_like": true,
+        "temporal_spread": true
+      },
+      "company": "Perspective AI",
+      "cutoff_date": "2025-01-29",
+      "event_count": 5,
+      "evidence_count": 5,
+      "modalities": [
+        "COLLABORATION",
+        "CONSTRUCTION",
+        "FORMATION",
+        "IDENTITY"
+      ],
+      "reason": "all convergence checks satisfied",
+      "span_days": 384,
+      "verdict": "PASS"
+    },
+    {
+      "case_id": "U05",
+      "checks": {},
+      "company": "Capsule",
+      "cutoff_date": "2021-01-13",
+      "event_count": 0,
+      "evidence_count": 0,
+      "modalities": [],
+      "reason": "no verifiable pre-cutoff evidence: no GitHub organisation could be linked to the company under v2 identity rules (name-only matches may not merge)",
+      "span_days": 0,
+      "verdict": "UNKNOWN"
+    },
+    {
+      "case_id": "U02",
+      "checks": {},
+      "company": "CandorIQ",
+      "cutoff_date": "2025-07-21",
+      "event_count": 0,
+      "evidence_count": 0,
+      "modalities": [],
+      "reason": "no verifiable pre-cutoff evidence: no GitHub organisation could be linked to the company under v2 identity rules (name-only matches may not merge)",
+      "span_days": 0,
+      "verdict": "UNKNOWN"
+    },
+    {
+      "case_id": "U08",
+      "checks": {
+        "distinct_events": true,
+        "distinct_modalities": true,
+        "includes_construction": true,
+        "includes_formation_like": true,
+        "temporal_spread": true
+      },
+      "company": "Blumira",
+      "cutoff_date": "2021-08-17",
+      "event_count": 7,
+      "evidence_count": 7,
+      "modalities": [
+        "COLLABORATION",
+        "CONSTRUCTION",
+        "FORMATION",
+        "IDENTITY"
+      ],
+      "reason": "all convergence checks satisfied",
+      "span_days": 426,
+      "verdict": "PASS"
+    },
+    {
+      "case_id": "U04",
+      "checks": {
+        "distinct_events": false,
+        "distinct_modalities": false,
+        "includes_construction": false,
+        "includes_formation_like": true,
+        "temporal_spread": false
+      },
+      "company": "MokSa.ai",
+      "cutoff_date": "2024-04-21",
+      "event_count": 1,
+      "evidence_count": 1,
+      "modalities": [
+        "FORMATION"
+      ],
+      "reason": "failed: distinct_modalities, distinct_events, includes_construction, temporal_spread",
+      "span_days": 0,
+      "verdict": "MISS"
+    }
+  ],
+  "cohort_freeze_commit": "63cfcefdb54ce9d95b57e0e9a3b54be3988f2516",
+  "cohort_size": 9,
+  "eligible_count": 9,
+  "for_comparison_only": {
+    "note": "Different cohorts. These are NOT comparable as scores \u2014 the original ten were infrastructure-heavy, these nine are application-heavy.",
+    "v1_original_holdout": {
+      "MISS": 4,
+      "PARTIAL": 2,
+      "UNKNOWN": 4
+    },
+    "v2_post_hoc_rerun_same_cohort": {
+      "MISS": 3,
+      "PARTIAL": 1,
+      "PASS": 2,
+      "UNKNOWN": 4
+    }
+  },
+  "label": "UNSEEN V2 DESIGN VALIDATION \u2014 out-of-sample with respect to v2 RULE DEVELOPMENT. NOT investment accuracy, alpha, precision, recall or win rate. Every case is a known Array portfolio company, so hindsight bias remains.",
+  "no_statistic_claim": "Nine known-outcome cases cannot produce an accuracy, precision, recall or win-rate statistic, and none is reported.",
+  "tally": {
+    "MISS": 1,
+    "PASS": 2,
+    "UNKNOWN": 6
+  },
+  "v2_rules_hash": "435dfb8a568d8f07124125b08566cc9ced48f4d17ef76064978905968287f434"
+}

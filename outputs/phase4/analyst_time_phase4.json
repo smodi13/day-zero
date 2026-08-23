@@ -1,0 +1,20 @@
+{
+  "AUTOMATED_RUNTIME": {
+    "description": "Wall-clock time of scripted pipeline steps executed in this phase.",
+    "measured": true,
+    "note": "Machine time, not human time. Reported separately and never conflated."
+  },
+  "HUMAN_ANALYST_ACTIVE_TIME": {
+    "fabricated": false,
+    "value": "NOT_MEASURED",
+    "why": "No human ran the review timer during Phase 4. Claude Code wall-clock time is NOT human analyst time and is never labelled as such. The AnalystTimer built in Phase 3 is available and tested; it produces a number only when a human actually starts and stops it."
+  },
+  "TOOL_RUNTIME": {
+    "description": "Time spent inside external tools (GitHub API, curl, pytest, next build).",
+    "measured": "partially",
+    "note": "Captured incidentally in command output; not aggregated into a single figure."
+  },
+  "backfilled_earlier_phases": false,
+  "minutes_per_intro_ready_awu": null,
+  "phase": "phase4"
+}

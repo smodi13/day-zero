@@ -1,0 +1,29 @@
+{
+  "context": {
+    "identities_with_a_personal_or_project_site": 102,
+    "identities_with_an_at_handle_in_bio": 28,
+    "why_at_handles_are_not_counted": "On GitHub a bare @handle in a bio is overwhelmingly a GitHub organisation handle, not an X account. Treating them as X accounts would be the fuzzy matching v2 forbids."
+  },
+  "mergeable_identities": 166,
+  "mergeable_pct": 62.17,
+  "methods_excluded": [
+    "data_brokers",
+    "people_search_sites",
+    "private_email_databases",
+    "guessed_username_matching",
+    "arbitrary_x_username_search",
+    "facial_recognition",
+    "location_inference"
+  ],
+  "no_private_identifiers_exported": true,
+  "states": {
+    "POSSIBLE_MATCH": 60,
+    "STRONG_ARTIFACT_MATCH": 57,
+    "UNRESOLVED": 41,
+    "VERIFIED_CROSS_LINK": 109
+  },
+  "total_identities": 267,
+  "universe": "Phase 2 live collected identities (unchanged)",
+  "x_linkable_count": 1,
+  "x_linkable_pct": 0.37
+}
