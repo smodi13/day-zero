@@ -2,7 +2,7 @@
 
 ### Founder Formation & Technical Diligence Engine
 
-**Live Demo:** https://day-zero.vercel.app
+**Live Demo:** https://day-zero-engine.vercel.app
 **GitHub:** https://github.com/smodi13/day-zero
 
 **Status: live, published, and application-ready.**

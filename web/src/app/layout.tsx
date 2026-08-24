@@ -5,7 +5,7 @@ import { Footer, Nav } from "@/components/Chrome";
 /* Set NEXT_PUBLIC_SITE_URL at build time so absolute OG/canonical URLs resolve.
    Falls back to the production alias rather than localhost, since a stale
    localhost URL in a social card is worse than a slightly wrong one. */
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://day-zero.vercel.app";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://day-zero-engine.vercel.app";
 
 /* Indexing is environment-gated rather than hard-coded: preview and local
    builds stay out of search results, production is discoverable. */
