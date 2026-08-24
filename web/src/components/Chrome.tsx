@@ -68,11 +68,16 @@ export function Footer() {
         <p className="eyebrow">Independence</p>
         <p className="meta mt-2 max-w-prose">{DISCLAIMER}</p>
         <p className="meta mt-4 max-w-prose">
-          Local research build. Not published, not deployed, and no person or company
-          named here has been contacted about it.
+          No person or company named here has been contacted about this research, and no
+          introduction has been made.
         </p>
-        <div className="mono mt-6 text-ink-faint">
-          DAY ZERO · Founder Formation &amp; Technical Diligence Engine
+        <div className="mono mt-6 flex flex-wrap items-center gap-x-3 gap-y-1 text-ink-faint">
+          <span>DAY ZERO · Founder Formation &amp; Technical Diligence Engine</span>
+          <span aria-hidden="true">·</span>
+          <a href="https://github.com/smodi13/day-zero"
+             className="underline decoration-paper-line underline-offset-4 transition-colors hover:text-exec-deep hover:decoration-exec/40">
+            Source on GitHub
+          </a>
         </div>
       </div>
     </footer>

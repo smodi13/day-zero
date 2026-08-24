@@ -2,10 +2,22 @@
 
 ### Founder Formation & Technical Diligence Engine
 
-> ## 🚧 WORK IN PROGRESS — LOCAL / NOT YET PUBLISHED
-> Phases 1–4 are complete locally: research, live sourcing, technical reproduction,
-> deep diligence, unseen validation, and a static public research interface.
-> **Nothing is deployed, no public repository exists, and no outreach has occurred.**
+**Live Demo:** https://day-zero.vercel.app
+**GitHub:** https://github.com/smodi13/day-zero
+
+**Status: live, published, and application-ready.**
+
+Phases 1–4 are complete: research, live sourcing, technical reproduction, deep
+diligence, unseen validation, and a static public research interface. No person or
+company named in this research has been contacted about it, and no introduction has
+been made.
+
+> **A note on this repository's history.** Raw GitHub profile caches collected during
+> Phase 2 were removed from the entire Git history before first publication, because
+> redistributing bulk third-party profile data would have contradicted this project's
+> own privacy rules. Commit IDs therefore differ from the private working repository;
+> commit *ordering* and every freeze-before-result boundary are preserved. Full
+> account: [`research/prepublication_privacy_audit.md`](research/prepublication_privacy_audit.md).
 
 ---
 
@@ -62,6 +74,13 @@ quantile vs raw, with three pre-registered rescue attempts falsified. Probe rete
 1.0000, zero transformation errors. The headline finding: **the baseline is part of the
 claim.**
 
+One of the 35 inputs is withheld from this repository for third-party privacy — it is a
+slice of a raw GitHub profile cache. The original result stands unchanged; a 34-sample
+[public-subset sensitivity check](research/headroom_public_subset_sensitivity.md) returns
+the same verdict, the same claim outcomes, and medians within 1.4 pp (in the *less*
+flattering direction). Its metadata and original hash are published at
+[`experiments/headroom/datasets/withheld/`](experiments/headroom/datasets/withheld/json_users_120.md).
+
 ## v1 Failure
 
 The first frozen rule set scored the 10-case historical holdout at
@@ -112,11 +131,23 @@ policy, and the handles are not exposed anywhere.
 
 ## Privacy
 
-DAY ZERO researches **what people build**, not people. No emails, phones, addresses,
-precise locations, employment inference, data brokers, people-search sites, facial
-recognition, WHOIS registrant lookups, or guessed username matching. The public export
-is scanned for forbidden fields at build time and again by tests. The full person
-universe never reaches the frontend. Full rules: `research/data_ethics.md`.
+DAY ZERO researches **what people build**, not people. No emails, phone numbers or
+precise personal locations reach the public interface or this repository, and the
+project uses no data brokers, people-search sites, facial recognition, WHOIS registrant
+lookups, guessed username matching or inferred employment changes.
+
+The public repository additionally excludes **bulk raw profile caches**: reading a public
+profile once for research and republishing hundreds of them as a downloadable file are
+different acts, and only the first is what this project does. Those caches were removed
+from the entire Git history before first publication
+([`research/prepublication_privacy_audit.md`](research/prepublication_privacy_audit.md));
+the collection code, schemas, aggregate outputs and tests remain
+([`data/collected/README.md`](data/collected/README.md)).
+
+Enforcement is layered: the export refuses forbidden fields at build time, frontend tests
+check the built site, and `tests/test_public_history_privacy.py` scans **every reachable
+Git object** — not just `HEAD` — for profile caches, contact addresses, secrets and
+personal paths. Full rules: `research/data_ethics.md`.
 
 ## AI Disclosure
 
@@ -160,10 +191,26 @@ into a component; drift is caught by tests that compare built HTML against the e
 ## Reproduction
 
 ```bash
-python3 -m pytest                       # 320 tests
+python3 -m pytest                       # 275 pass, 54 skip in this repository
 python3 scripts/build_frontend_data.py  # deterministic export (run twice → identical)
-cd web && npm install && npm run build  # static site in web/out/
+cd web && npm ci && npm run build       # static site in web/out/
 ```
+
+Three distinct things get called "reproducible", so they are separated here:
+
+- **Code reproducibility** — the frozen rule manifests, the pre-registered protocol, the
+  collection code and the full test suite are public, and the export regenerates
+  byte-identically.
+- **Public-data reproducibility** — the sourcing validations rerun against the frozen
+  rules; 34 of the reproduction's 35 inputs ship here, one is withheld (above).
+- **Original-run traceability** — every recorded measurement, hash and commit is
+  published, so the original run is auditable even where it cannot be re-executed
+  byte-for-byte.
+
+The 54 skipped tests are the database-backed suite: rebuilding the research database
+needs the raw collection caches, which are withheld
+([`data/collected/README.md`](data/collected/README.md)). They run in the private working
+repository. Everything not requiring those caches runs here.
 
 The commit history is the audit trail: rules and cohorts are hashed and committed before
 the results they govern exist. Key hashes surface on `/methodology`.

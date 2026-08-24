@@ -139,11 +139,18 @@ def test_no_bulk_person_caches_in_history(blobs):
     assert not bad, f"bulk person cache: {bad}"
 
 
-def test_no_binary_or_oversized_blobs(blobs):
+# Image assets the site legitimately ships. Anything else binary is unexpected in a
+# repository that is otherwise entirely text, and worth failing on: stray binaries
+# are how databases, archives and browser state get published by accident.
+ALLOWED_BINARY_SUFFIXES = (".png", ".jpg", ".jpeg", ".webp", ".ico", ".woff", ".woff2")
+
+
+def test_no_unexpected_binary_or_oversized_blobs(blobs):
     heavy = [(p, len(raw)) for _, p, raw in blobs if len(raw) > 2_000_000]
-    binary = [p for _, p, raw in blobs if b"\x00" in raw[:2048]]
+    binary = [p for _, p, raw in blobs
+              if b"\x00" in raw[:2048] and not p.lower().endswith(ALLOWED_BINARY_SUFFIXES)]
     assert not heavy, f"oversized blobs: {heavy}"
-    assert not binary, f"binary blobs: {binary}"
+    assert not binary, f"unexpected binary blobs: {binary}"
 
 
 def test_privacy_disclosures_are_published():
