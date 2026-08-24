@@ -1,6 +1,6 @@
 # PHASE 4 UNSEEN COHORT — AS-OF EVIDENCE PACKETS.
 #
-# Retrieved AFTER the cohort was frozen in commit 63cfcefdb54ce9d95b57e0e9a3b54be3988f2516.
+# Retrieved AFTER the cohort was frozen in commit 662392ab2e9e2eeec6549e08b2819d65aa03d4d8.
 # Every item is dated by when the underlying fact existed. Nothing post-cutoff appears.
 #
 # Entity resolution follows v2 identity rules unchanged: an organisation is only accepted

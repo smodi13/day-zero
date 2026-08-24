@@ -3,9 +3,9 @@
 **Phase 4A: unseen v2 validation + identity/domain audits. Phase 4B: public research
 interface.** Local only — not deployed, not published, nobody contacted.
 
-Commits: F = `63cfcefdb54ce9d95b57e0e9a3b54be3988f2516` (cohort freeze) ·
-G = `51e28101e0e1480daf59fb9678384b20d9c94353` (unseen validation + audits) ·
-H = `7eb69b3d02a09c844cd62d29aaedfffc49a400ec` (public research interface).
+Commits: F = `662392ab2e9e2eeec6549e08b2819d65aa03d4d8` (cohort freeze) ·
+G = `302e5f76aef90952f26aec95c8aa4d431db0ef1f` (unseen validation + audits) ·
+H = `051ed8132fe3c400af0815868e0c05a750e53a04` (public research interface).
 
 ---
 
@@ -226,7 +226,7 @@ attempted per the no-vanity rule.
 
 ## Research Freeze
 
-`git diff 51e2810 -- outputs research/sandlock research/*.md src config data sources
+`git diff 302e5f7 -- outputs research/sandlock research/*.md src config data sources
 experiments` = **empty**. Phase 4A results, unseen cohort, v2 hash, historical results,
 Headroom experiment, Sandlock recommendation, Current 3 eligibility, source counts and
 the identity audit are bit-identical to COMMIT G. The export script reads canonical

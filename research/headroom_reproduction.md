@@ -2,7 +2,7 @@
 
 **Verdict: PARTIALLY REPRODUCED.**
 
-Protocol pre-registered in commit `2056d35910cad745c58bf8ac784e299da301aedc`, before any
+Protocol pre-registered in commit `636f4992ddd72a9b8dcaef9107765befc3e0b750`, before any
 measurement. Thresholds were not moved after results were seen.
 
 | | |

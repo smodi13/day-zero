@@ -10,7 +10,7 @@
     "hackathon": "manual only by robots policy",
     "x": "off by default, fail-closed, no credentials"
   },
-  "commit_a": "75b4311ad9ce540e7f36f8d2ec927623f7f419f0",
+  "commit_a": "498dabe71a13eea12450ae24a2b8a2094632b338",
   "contacted_anyone": false,
   "cost": {
     "actual_usd": "UNKNOWN",

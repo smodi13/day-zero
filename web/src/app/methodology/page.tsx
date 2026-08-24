@@ -7,7 +7,7 @@ import { Timeline } from "@/components/Timeline";
 import { research } from "@/lib/research";
 
 export const metadata: Metadata = {
-  title: "Methodology — DAY ZERO",
+  title: "Methodology",
   description:
     "The full rule evolution: frozen v1, its failure, the v2 repair, an unseen validation " +
     "cohort — and the new weakness that cohort exposed. Nothing was patched after the fact.",
@@ -245,6 +245,24 @@ export default function Methodology() {
             <Hash label="v2 rules (frozen before v2 rerun and Phase 4)" value={r.hashes.v2Rules} />
             <Hash label="unseen cohort freeze commit" value={m.unseen.freezeCommit} />
           </div>
+        </div>
+
+        <div className="panel mt-4 border-l-2 border-l-claim p-5">
+          <p className="eyebrow">Why these commit IDs are not the original ones</p>
+          <p className="body mt-2 max-w-prose text-[14px]">
+            Before first publication, the repository&rsquo;s history was privacy-scrubbed
+            to remove raw third-party profile caches that had been committed during
+            collection. Git object IDs therefore changed, and the hashes shown here are
+            the post-scrub equivalents.
+          </p>
+          <p className="meta mt-3 max-w-prose">
+            What did not change: the commit <em>ordering</em>, every freeze-before-result
+            boundary, and every rule, threshold and result the ordering governs. No
+            finding was altered — the rewrite removed data, not conclusions, and it
+            happened before any public repository existed. The full account, including
+            what was found and what was deliberately left byte-identical, is in{" "}
+            <span className="mono">research/prepublication_privacy_audit.md</span>.
+          </p>
         </div>
       </Section>
 

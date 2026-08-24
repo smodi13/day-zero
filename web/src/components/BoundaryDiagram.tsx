@@ -151,10 +151,6 @@ export function BoundaryDiagram() {
                   <span className="mono text-[11px] uppercase tracking-wider">
                     ▚ {row.mechanism} ▞
                   </span>
-                  {!reduced && (
-                    <span aria-hidden="true"
-                          className="dz-boundary-scan pointer-events-none absolute inset-y-0 left-0 w-16" />
-                  )}
                 </div>
               );
             }

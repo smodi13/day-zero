@@ -5,11 +5,11 @@
     "status": "INSTRUMENTED_AND_TESTED_READY_FROM_PHASE_4"
   },
   "commits": {
-    "phase1": "5049772e748dc7e21df2bc67e5832e277b105721",
-    "phase2_A": "75b4311ad9ce540e7f36f8d2ec927623f7f419f0",
-    "phase2_B": "74c4627402d6e3dcf60d28bab09d165d2e781174",
-    "protocol_commit_C": "2056d35910cad745c58bf8ac784e299da301aedc",
-    "v2_rule_commit_D": "e8e3c64f56437bdac70db1957e841ac4d9d9fdbc"
+    "phase1": "c4f958c3b90ff803de343ff61981c45b87be70c7",
+    "phase2_A": "498dabe71a13eea12450ae24a2b8a2094632b338",
+    "phase2_B": "425c46b031b94f14a6f682110709afd06f2021a7",
+    "protocol_commit_C": "636f4992ddd72a9b8dcaef9107765befc3e0b750",
+    "v2_rule_commit_D": "f35afa1a5f09bb9014306038b8a2efd4de3f52cd"
   },
   "contacted_anyone": false,
   "deployed": false,

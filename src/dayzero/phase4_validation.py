@@ -90,7 +90,7 @@ def run() -> dict[str, Any]:
     payload = {
         "label": LABEL,
         "v2_rules_hash": v2_hash(),
-        "cohort_freeze_commit": "63cfcefdb54ce9d95b57e0e9a3b54be3988f2516",
+        "cohort_freeze_commit": "662392ab2e9e2eeec6549e08b2819d65aa03d4d8",
         "cohort_size": len(manifest["cases"]),
         "eligible_count": manifest["eligible_count"],
         "tally": tally,

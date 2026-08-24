@@ -8,7 +8,7 @@ import { Reveal } from "@/components/Reveal";
 import { research } from "@/lib/research";
 
 export const metadata: Metadata = {
-  title: "Token compression reproduction — DAY ZERO",
+  title: "Token compression reproduction",
   description:
     "A pre-registered reproduction of headroom-ai's published token-compression claims " +
     "against real baselines, on 35 samples the author did not choose.",
@@ -93,6 +93,28 @@ export default function Headroom() {
         <div className="mono mt-4 grid gap-1.5 text-[12px]">
           <Hash label="protocol sha256" value={research.hashes.experimentProtocol} />
           <Hash label="dataset manifest sha256" value={research.hashes.experimentDataset} />
+        </div>
+
+        <div className="panel mt-5 border-l-2 border-l-claim p-5">
+          <p className="eyebrow">One input is withheld from the public repository</p>
+          <p className="body mt-2 max-w-prose text-[14px]">
+            The run used all {hr.dataset.sampleCount} samples and its results are reported
+            unchanged. Thirty-four of them ship in the public repository; one
+            structured-JSON sample is a slice of a raw GitHub profile cache carrying
+            names, locations, bios and contact fields, and redistributing it in bulk would
+            break this project&rsquo;s own privacy rules. Its metadata and original SHA-256
+            are published in its place.
+          </p>
+          <p className="meta mt-3 max-w-prose">
+            Re-running the pre-registered analysis on the 34 distributable samples returns
+            the same verdict, the same claim outcomes, the same{" "}
+            <span className="mono">0.00%</span> coding and agent results and the same{" "}
+            <span className="mono">1.0000</span> retention; the structured-JSON medians
+            move by −0.28&nbsp;pp against raw and −1.36&nbsp;pp against minified — a
+            slightly <em>less</em> flattering picture, not a more flattering one, because
+            the withheld sample was highly compressible and its removal trims the best
+            case.
+          </p>
         </div>
       </Section>
 

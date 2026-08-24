@@ -1,7 +1,7 @@
 # Phase 2: From Public Signal to Founder Intro Queue
 
 **Date:** 2026-08-23 · **Engine:** dayzero 0.2.0
-**Freeze commit (A):** `75b4311ad9ce540e7f36f8d2ec927623f7f419f0`
+**Freeze commit (A):** `498dabe71a13eea12450ae24a2b8a2094632b338`
 **Frozen rules hash:** `ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c`
 
 ---

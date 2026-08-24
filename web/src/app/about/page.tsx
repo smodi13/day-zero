@@ -4,7 +4,7 @@ import { Section } from "@/components/Chrome";
 import { research, DISCLAIMER } from "@/lib/research";
 
 export const metadata: Metadata = {
-  title: "About — DAY ZERO",
+  title: "About",
   description:
     "Why DAY ZERO exists, what it does not claim, its privacy principles, " +
     "AI disclosure, independence disclaimer, and how to reproduce it.",
@@ -36,10 +36,11 @@ export default function About() {
         <ul className="grid gap-px overflow-hidden rounded border border-paper-line bg-paper-line sm:grid-cols-2">
           {[
             ["Professional artifacts only", "The project analyses repositories, papers, project domains and organisation records — what people build in public. It does not profile people."],
-            ["No private identifiers", "No emails, no phone numbers, no precise locations, no personal biography. The export pipeline refuses to emit those fields, and tests enforce it."],
+            ["No private identifiers", "No emails, no phone numbers and no precise personal locations reach the public interface or the public repository. The export pipeline refuses to emit those fields, and tests enforce it at both the export and the full-Git-history level."],
             ["No inferred employment changes", "Nobody is inferred to be leaving a job from silence, inactivity, a deleted post or a bio edit. Only explicit first-person public statements count."],
             ["No enrichment brokers", "No data brokers, people-search sites, facial recognition, WHOIS registrant lookups, or guessed username matching — excluded by written policy, not by omission."],
             ["A small public surface", "The full research universe (267 identities, 102 repositories, 1,586 evidence records) never reaches this site. Only the material needed for the analyses shown here is exported, and a build test verifies the rest stayed home."],
+            ["Raw caches are not redistributed", "Reading a public profile once for research and republishing hundreds of them as a downloadable file are different acts. The raw GitHub profile caches were removed from the entire public Git history before first publication; the collection code, schemas and aggregate outputs remain. The rewrite is documented rather than quietly performed."],
             ["Descriptive, not judgmental", "Attention metrics appear only as description. No person on this site is scored, ranked or labelled a good or bad founder."],
           ].map(([t, d]) => (
             <li key={t} className="bg-paper-card p-5">
@@ -104,11 +105,19 @@ export default function About() {
           <div className="panel p-5">
             <p className="eyebrow">Reproduction</p>
             <p className="meta mt-3 text-[13px]">
-              The repository contains the frozen rule manifests (hashed), the pre-registered
-              experiment protocol, the dataset manifest, all validation outputs, and the
-              test suite that guards them. The Headroom experiment reruns from its
-              committed protocol; the sourcing validations rerun against the frozen rules;
-              the export regenerates deterministically. The commit hashes on the{" "}
+              Three different things get called &ldquo;reproducible&rdquo;, so they are
+              separated here. <strong className="text-ink">Code reproducibility:</strong>{" "}
+              the frozen rule manifests, the pre-registered protocol, the collection code
+              and the test suite are all public, and the export regenerates
+              deterministically. <strong className="text-ink">Public-data
+              reproducibility:</strong> the sourcing validations rerun against the frozen
+              rules, and 34 of the reproduction&rsquo;s 35 inputs ship in the repository —
+              one profile-derived sample is withheld for third-party privacy, with a
+              34-sample sensitivity check reported separately.{" "}
+              <strong className="text-ink">Original-run traceability:</strong> every
+              recorded measurement, hash and commit is published, so the original run can
+              be audited even where it cannot be re-executed byte-for-byte. The commit
+              hashes on the{" "}
               <Link href="/methodology/" className="text-exec-deep underline underline-offset-4">
                 methodology page
               </Link>{" "}

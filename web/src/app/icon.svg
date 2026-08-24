@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32"
+     role="img" aria-label="DAY ZERO">
+  <!-- Graphite tile with a single signal descending through a verification gate:
+       the SOURCE -> VERIFY step of the pipeline, reduced to the two marks that
+       still read at 16px. Bright execution green is used because the mid-tone
+       accent loses contrast against the dark tile at favicon size. -->
+  <rect width="32" height="32" rx="7" fill="#14171B"/>
+  <!-- source node -->
+  <circle cx="16" cy="9" r="3.4" fill="#7CB518"/>
+  <!-- trace into the gate -->
+  <path d="M16 13.4 V17.6" stroke="#7CB518" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- verification gate -->
+  <rect x="6.5" y="18.6" width="19" height="6.4" rx="2.2"
+        fill="none" stroke="#7CB518" stroke-width="2.2"/>
+</svg>

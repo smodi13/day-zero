@@ -1,0 +1,170 @@
+{
+  "check": "PRIVACY SENSITIVITY CHECK \u2014 public-subset",
+  "claim_outcomes_changed": false,
+  "median_deltas": {
+    "agent_context_vs_raw": {
+      "delta": 0.0,
+      "original": 0.0,
+      "public_subset": 0.0
+    },
+    "coding_context_vs_raw": {
+      "delta": 0.0,
+      "original": 0.0,
+      "public_subset": 0.0
+    },
+    "structured_json_vs_minified": {
+      "delta": -1.36,
+      "original": 28.41,
+      "public_subset": 27.05
+    },
+    "structured_json_vs_raw": {
+      "delta": -0.28,
+      "original": 46.3,
+      "public_subset": 46.02
+    }
+  },
+  "not_a_replacement_experiment": true,
+  "original": {
+    "agent_context_vs_raw": {
+      "max": 72.48,
+      "median": 0.0,
+      "min": 0.0,
+      "n": 11,
+      "p25": 0.0,
+      "p75": 28.94
+    },
+    "claims": {
+      "CLAIM-A": {
+        "supported": true,
+        "value": 46.3
+      },
+      "CLAIM-B": {
+        "supported": true,
+        "value": 28.41
+      },
+      "CLAIM-C": {
+        "supported": true,
+        "value": 1.0
+      },
+      "CLAIM-D": {
+        "supported": false,
+        "value": 46.3
+      },
+      "CLAIM-E": {
+        "supported": false,
+        "value": 0.0
+      }
+    },
+    "claims_failed": [
+      "CLAIM-D",
+      "CLAIM-E"
+    ],
+    "claims_supported": [
+      "CLAIM-A",
+      "CLAIM-B",
+      "CLAIM-C"
+    ],
+    "coding_context_vs_raw": {
+      "max": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "n": 12,
+      "p25": 0.0,
+      "p75": 0.0
+    },
+    "label": "ORIGINAL_PREREGISTERED_35",
+    "n_samples": 35,
+    "probe_retention": 1.0,
+    "structured_json_vs_minified": {
+      "max": 86.85,
+      "median": 28.41,
+      "min": -4.9,
+      "n": 12,
+      "p25": 14.25,
+      "p75": 80.16
+    },
+    "structured_json_vs_raw": {
+      "max": 92.47,
+      "median": 46.3,
+      "min": 28.45,
+      "n": 12,
+      "p25": 39.0,
+      "p75": 86.19
+    },
+    "transformation_errors": 0,
+    "verdict": "PARTIALLY_REPRODUCED"
+  },
+  "public_subset": {
+    "agent_context_vs_raw": {
+      "max": 72.48,
+      "median": 0.0,
+      "min": 0.0,
+      "n": 11,
+      "p25": 0.0,
+      "p75": 28.94
+    },
+    "claims": {
+      "CLAIM-A": {
+        "supported": true,
+        "value": 46.02
+      },
+      "CLAIM-B": {
+        "supported": true,
+        "value": 27.05
+      },
+      "CLAIM-C": {
+        "supported": true,
+        "value": 1.0
+      },
+      "CLAIM-D": {
+        "supported": false,
+        "value": 46.02
+      },
+      "CLAIM-E": {
+        "supported": false,
+        "value": 0.0
+      }
+    },
+    "claims_failed": [
+      "CLAIM-D",
+      "CLAIM-E"
+    ],
+    "claims_supported": [
+      "CLAIM-A",
+      "CLAIM-B",
+      "CLAIM-C"
+    ],
+    "coding_context_vs_raw": {
+      "max": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "n": 12,
+      "p25": 0.0,
+      "p75": 0.0
+    },
+    "label": "PUBLIC_SUBSET_34",
+    "n_samples": 34,
+    "probe_retention": 1.0,
+    "structured_json_vs_minified": {
+      "max": 86.59,
+      "median": 27.05,
+      "min": -4.9,
+      "n": 11,
+      "p25": 14.16,
+      "p75": 64.6
+    },
+    "structured_json_vs_raw": {
+      "max": 92.47,
+      "median": 46.02,
+      "min": 28.45,
+      "n": 11,
+      "p25": 38.26,
+      "p75": 75.34
+    },
+    "transformation_errors": 0,
+    "verdict": "PARTIALLY_REPRODUCED"
+  },
+  "tokenizer": "o200k_base",
+  "verdict_changed": false,
+  "withheld_sample": "json_users_120"
+}

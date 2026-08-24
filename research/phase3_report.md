@@ -1,8 +1,8 @@
 # Phase 3: Reproduction, Diligence, and v2
 
 **Date:** 2026-08-23
-**Protocol commit (C):** `2056d35910cad745c58bf8ac784e299da301aedc`
-**v2 rule commit (D):** `e8e3c64f56437bdac70db1957e841ac4d9d9fdbc`
+**Protocol commit (C):** `636f4992ddd72a9b8dcaef9107765befc3e0b750`
+**v2 rule commit (D):** `f35afa1a5f09bb9014306038b8a2efd4de3f52cd`
 **v1 frozen hash:** `ad0b7ae00630f7948e7c4444440af7c20fed61169370e46e076cd8f575a3566c` — **unchanged**
 **v2 rule hash:** `435dfb8a568d8f07124125b08566cc9ced48f4d17ef76064978905968287f434`
 

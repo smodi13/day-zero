@@ -9,7 +9,7 @@ import { SourceLedger, SRef } from "@/components/Sources";
 import { research } from "@/lib/research";
 
 export const metadata: Metadata = {
-  title: "Sandlock — deep technical diligence — DAY ZERO",
+  title: "Sandlock — technical diligence",
   description:
     "Outside-in technical diligence on multikernel/sandlock: architecture, trust boundary, " +
     "threat model, competitive alternatives, and what public evidence cannot establish.",

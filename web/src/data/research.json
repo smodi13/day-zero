@@ -1,13 +1,13 @@
 {
   "commits": {
-    "commit_a": "75b4311ad9ce540e7f36f8d2ec927623f7f419f0",
-    "commit_b": "74c4627402d6e3dcf60d28bab09d165d2e781174",
-    "commit_c": "2056d35910cad745c58bf8ac784e299da301aedc",
-    "commit_d": "e8e3c64f56437bdac70db1957e841ac4d9d9fdbc",
-    "commit_e": "b5664d42d5981ba7a46dbd89723ed2e4a5886d07",
-    "commit_f": "63cfcefdb54ce9d95b57e0e9a3b54be3988f2516",
-    "commit_g": "51e28101e0e1480daf59fb9678384b20d9c94353",
-    "phase1": "5049772e748dc7e21df2bc67e5832e277b105721"
+    "commit_a": "498dabe71a13eea12450ae24a2b8a2094632b338",
+    "commit_b": "425c46b031b94f14a6f682110709afd06f2021a7",
+    "commit_c": "636f4992ddd72a9b8dcaef9107765befc3e0b750",
+    "commit_d": "f35afa1a5f09bb9014306038b8a2efd4de3f52cd",
+    "commit_e": "f78a41c0dd2d69e75906ab058ee24612ad17ea60",
+    "commit_f": "662392ab2e9e2eeec6549e08b2819d65aa03d4d8",
+    "commit_g": "302e5f76aef90952f26aec95c8aa4d431db0ef1f",
+    "phase1": "c4f958c3b90ff803de343ff61981c45b87be70c7"
   },
   "current3": [
     {
@@ -1040,7 +1040,7 @@
       ],
       "cohortSize": 9,
       "eligible": 9,
-      "freezeCommit": "63cfcefdb54ce9d95b57e0e9a3b54be3988f2516",
+      "freezeCommit": "662392ab2e9e2eeec6549e08b2819d65aa03d4d8",
       "label": "UNSEEN V2 DESIGN VALIDATION — out-of-sample with respect to v2 RULE DEVELOPMENT. NOT investment accuracy, alpha, precision, recall or win rate. Every case is a known Array portfolio company, so hindsight bias remains.",
       "noStatistic": "Nine known-outcome cases cannot produce an accuracy, precision, recall or win-rate statistic, and none is reported.",
       "tally": {

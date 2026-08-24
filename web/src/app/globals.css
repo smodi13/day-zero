@@ -178,19 +178,6 @@ th { text-align: left; font-weight: 600; }
   from { opacity: 0; transform: translateY(8px) scaleY(.96); }
   to   { opacity: 1; transform: none; }
 }
-/* A single pass of light across a trust boundary — it reads as the boundary
-   being tested, and stops mattering entirely if it never runs. */
-@keyframes dz-boundary-scan {
-  0%   { transform: translateX(-4rem); opacity: 0; }
-  12%  { opacity: .5; }
-  88%  { opacity: .5; }
-  100% { transform: translateX(48rem); opacity: 0; }
-}
-.dz-boundary-scan {
-  background: linear-gradient(90deg, transparent, rgba(74,122,15,.28), transparent);
-  animation: dz-boundary-scan 4.6s ease-in-out infinite;
-}
-
 /* Node activation: a ring that expands once the stage is reached. */
 @keyframes dz-ping { 0% { r: 5; opacity: .5; } 75% { r: 20; opacity: 0; } 100% { r: 20; opacity: 0; } }
 .dz-ping { animation: dz-ping 3.6s ease-out infinite; }
@@ -220,6 +207,5 @@ th { text-align: left; font-weight: 600; }
   /* The accent overlay settles ON, so the reduced-motion diagram reads as a
      completed run rather than a colourless one. */
   .dz-stage { animation: none !important; opacity: 1 !important; }
-  .dz-boundary-scan { animation: none !important; opacity: 0 !important; }
   .bar-fill { transition: none !important; }
 }

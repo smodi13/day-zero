@@ -7,7 +7,7 @@ import { AttentionConstruction, IdentityStates } from "@/components/SignalViz";
 import { research } from "@/lib/research";
 
 export const metadata: Metadata = {
-  title: "Signals — DAY ZERO",
+  title: "Signals",
   description:
     "What actually feeds DAY ZERO: GitHub-led discovery with multi-modal evidence, " +
     "an honest identity audit, and why presence is not the same as signal.",

@@ -54,3 +54,10 @@ experiments/headroom/.venv/
 web/out/
 web/.next/
 *.tsbuildinfo
+
+# --- Privacy: raw third-party profile caches are never published ---
+# Removed from all public history before first publication; see
+# research/prepublication_privacy_audit.md and data/collected/README.md.
+data/collected/github_users.json
+data/collected/github_orgs.json
+experiments/headroom/datasets/samples/json_users_120.txt

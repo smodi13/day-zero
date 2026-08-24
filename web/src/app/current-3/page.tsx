@@ -5,7 +5,7 @@ import { Reveal } from "@/components/Reveal";
 import { research, type Lead } from "@/lib/research";
 
 export const metadata: Metadata = {
-  title: "Current 3 — DAY ZERO",
+  title: "Current 3",
   description: "The three builder leads that currently survive evidence review.",
 };
 

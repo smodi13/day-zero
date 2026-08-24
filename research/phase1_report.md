@@ -494,7 +494,7 @@ initialized as an independent repo with its own `.git`, so its toplevel resolves
 `day-zero` and not to home.
 
 ### 45. Git commit hash
-`5049772e748dc7e21df2bc67e5832e277b105721` (short: `5049772`), the Phase 1 commit on `main`. Committed after this report was written, so the hash names the commit that contains it.
+`c4f958c3b90ff803de343ff61981c45b87be70c7` (short: `c4f958c`), the Phase 1 commit on `main`. Committed after this report was written, so the hash names the commit that contains it.
 
 ### 46. Anything in this project concept I think is misguided
 Five things, honestly:
