@@ -261,7 +261,7 @@ export default function Methodology() {
             finding was altered — the rewrite removed data, not conclusions, and it
             happened before any public repository existed. The full account, including
             what was found and what was deliberately left byte-identical, is in{" "}
-            <span className="mono">research/prepublication_privacy_audit.md</span>.
+            <span className="mono break-all">research/prepublication_privacy_audit.md</span>.
           </p>
         </div>
       </Section>
